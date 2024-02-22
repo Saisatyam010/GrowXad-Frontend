@@ -2,7 +2,6 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-    "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   theme: {
     extend: {
@@ -23,15 +22,7 @@ module.exports = {
         // => @media (min-width: 1536px) { ... }
         '3xl': '1920px',
       },
-      colors: {
-        purple: "#71065b",
-        darkPurple: "#39002d",
-        gray: {
-          10: "#f5f5f5",
-          50: "#989898",
-          100: "#565656",
-        },
-      },
+
       container: {
         width: {
           DEFAULT: '100%',
@@ -42,7 +33,13 @@ module.exports = {
           '2xl': '1536px',
           '3xl': '1920px',
         },
-       
+        colors: {
+          transparent: 'transparent',
+          current: 'currentColor',
+          primary: 'var(--primary-color)',
+          'purple': '#3f3cbb',
+
+        },
         padding: {
           DEFAULT: '1rem',
           sm: '1rem',

@@ -198,7 +198,7 @@ export const BenifitsForPublishers = () => {
                                                     <div className={BenifitsForPublishersStyleCSS.slide_card}></div>
                                                 </div>
                                                 <h5 className={BenifitsForPublishersStyleCSS.rs_h_text}>{card.title}</h5>
-                                                <p className={`${BenifitsForPublishersStyleCSS.rs_p_text}`}>{card.content}</p>
+                                                <p className={BenifitsForPublishersStyleCSS.rs_p_text}>{card.content}</p>
                                             </div>
                                         </div>
                                     </div>

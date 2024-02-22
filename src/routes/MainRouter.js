@@ -32,8 +32,7 @@ import AdvertisersBenefitsPage from '../main/pages/advertiserPages/AdvertisersBe
 import AdvertisersSelfServePage from '../main/pages/advertiserPages/AdvertisersSelfServePage'
 import AdvertisersSmartCpmPage from '../main/pages/advertiserPages/AdvertisersSmartCpmPage'
 import AdvertisersRtbPage from '../main/pages/advertiserPages/AdvertisersRtbPage'
-import Login from '../main/pages/Login/Login'
-import Signup from '../main/pages/Singup/Signup'
+
 
 const MainRouter = () => {
   const mainRoutes = [
@@ -225,19 +224,14 @@ const MainRouter = () => {
       component: <ReferralProgram />,
       exact: true
     },
-    {
-      path: '/Signup',
-      component: <Signup />,
-      exact: true
 
-    },
-    {
-      path: '/Login',
-      component: <Login />,
-      exact: true
 
-    },
 
+
+
+
+
+    
 
     // 
 

@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { AiOutlineRight } from "react-icons/ai";
 
-import './RtbTraffic.css'
+// import "./RtbTraffic.css";
+import rtbStyles from "./RtbTraffic.module.css";
 import { Link } from "react-router-dom";
 import Layout from "../../Layout/Layout";
 import AdvertiserWelcome from "../AdvertiserWelcome";
 const RtbTraffic = () => {
   const [startIndex, setStartIndex] = useState(0);
-
   const [iconsPerPage, setIconsPerPage] = useState(5);
 
   const icons = [
@@ -37,7 +37,6 @@ const RtbTraffic = () => {
   };
   useEffect(() => {
     const updateIconsPerPage = () => {
-
       if (window.innerWidth < 600) {
         setIconsPerPage(2);
       } else if (window.innerWidth < 1024 && window.innerWidth > 600) {
@@ -47,9 +46,7 @@ const RtbTraffic = () => {
       }
     };
 
-
     window.addEventListener("resize", updateIconsPerPage);
-
 
     updateIconsPerPage();
     return () => {
@@ -57,18 +54,17 @@ const RtbTraffic = () => {
     };
   }, []);
 
-  const visibleIcons = icons.slice(startIndex, startIndex + iconsPerPage);
+  // const visibleIcons = icons.slice(startIndex, startIndex + iconsPerPage);
   const data = {
-    heading1: 'GrowXad for Advertisers.',
-    heading2: 'Experience a Superlative Output of Your Marketing',
-    subheading: 'A game-changing advertising network for media buyers and affiliates looking for alternative traffic sources to connect their offers to highly engaged audiences.',
-    spanHeading: 'ready to engage',
-    afterSpanHeading: ' with your offers',
-    imgUrl: ' http://localhost:3000/images/rtbMainBanner.png'
-
-  }
+    heading1: "GrowXad for Advertisers.",
+    heading2: "Experience a Superlative Output of Your Marketing",
+    subheading:
+      "A game-changing advertising network for media buyers and affiliates looking for alternative traffic sources to connect their offers to highly engaged audiences.",
+    spanHeading: "ready to engage",
+    afterSpanHeading: " with your offers",
+    imgUrl: " http://localhost:3000/images/rtbMainBanner.png",
+  };
   return (
-
     <>
       <Layout>
         <div>
@@ -80,24 +76,22 @@ const RtbTraffic = () => {
             </div>
           </div>
 
-
           {/* -------------------------------------------------------------------------------------------- */}
           <Container className="mt-3">
-
-            <Row className="rk_rtb_box-2">
+            <Row className={rtbStyles.rk_rtb_box_2}>
               <Col md={8}>
                 <div className="text-center">
-                  <h2 className="rk_rtb_box-2_cont mt-5">
+                  <h2 className={`${rtbStyles.rk_rtb_box_2_cont} mt-5`}>
                     About <span style={{ color: "#71065D" }}>RTB</span>
                   </h2>
-                  <p className="rk_rtb_box-2_cont_txt">
+                  <p className={rtbStyles.rk_rtb_box_2_cont_txt}>
                     Optimize your real-time bidding with GrowX, a renowned RTB
                     ad network for advertisers and publishers. Achieve speed,
                     scale, and flexibility, connecting with your audience
                     instantly and maximizing budget efficiency through GrowX's
                     programmatic solutions.
                   </p>
-                  <p className="rk_rtb_box-2_cont_txt">
+                  <p className={rtbStyles.rk_rtb_box_2_cont_txt}>
                     Real-time bidding, a form of programmatic advertising,
                     operates as an automated auction where advertisers bid on ad
                     impressions. This streamlined process ensures instant,
@@ -108,45 +102,42 @@ const RtbTraffic = () => {
             </Row>
             <Row className="">
               <Col className="text-center" md={12}>
-                <Link to="/adveriserauthLogin" className='no-underline hover:no-underline'>
+                <Link
+                  to="/adveriserauthLogin"
+                  className="no-underline hover:no-underline"
+                >
                   <Button variant="white" className="MoreButton ">
                     Become Our Demand Partner
-
-
-
-
-
-
-
-
-
                   </Button>
                 </Link>
               </Col>
             </Row>
           </Container>
-          
-          <Container className="mt-3">
 
+          <Container className="mt-3">
             <Row className="d-flex justify-content-center mt-4 mb-4">
               <Col md={8}>
-                <div className="rk_rtb_box-3_col">
+                <div className={rtbStyles.rk_rtb_box_3_col}>
                   <div className="">
-                    <div className="rk_rtb_box-3_mview-1 ">
-                      <div className="rk_rtb_box_align">
+                    <div className={rtbStyles.rk_rtb_box_3_mview_1}>
+                      <div className={rtbStyles.rk_rtb_box_align}>
                         <img
-                          className="  rk_rtb_box-3_icon1"
+                          className={rtbStyles.rk_rtb_box_3_icon1}
                           src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/cb57682d-3247-4733-070c-a1e363363500/public"
                           style={{ width: "80px", height: "80px" }}
                         />
                       </div>
-                      <div className=" rk_rtb_box-3_mtext-2 ">
+                      <div className={rtbStyles.rk_rtb_box_3_mtext_2}>
                         <div>
-                          <h4 className=" rk_rtb_fs_mview-h ">INTEGRATION</h4>
+                          <h4 className={rtbStyles.rk_rtb_fs_mview_h}>
+                            INTEGRATION
+                          </h4>
                         </div>
                         <div className="">
                           {" "}
-                          <p className="  rk_rtb_box-3_icontxt2 rk_rtb_fs_mview-p ">
+                          <p
+                            className={` ${rtbStyles.rk_rtb_box_3_icontxt2} ${rtbStyles.rk_rtb_fs_mview_p} `}
+                          >
                             OpenRTB <br /> XML and
                             <br /> JSON feeds{" "}
                           </p>
@@ -156,21 +147,25 @@ const RtbTraffic = () => {
                   </div>
 
                   <div className="">
-                    <div className="rk_rtb_box-3_mview-1 ">
-                      <div className="rk_rtb_box_align">
+                    <div className={rtbStyles.rk_rtb_box_3_mview_1}>
+                      <div className={rtbStyles.rk_rtb_box_align}>
                         <img
-                          className="  rk_rtb_box-3_icon1"
+                          className={rtbStyles.rk_rtb_box_3_icon1}
                           src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c5d535a1-d52b-4531-6da1-ef400e21be00/public"
                           style={{ width: "80px", height: "80px" }}
                         />
                       </div>
-                      <div className=" rk_rtb_box-3_mtext-2 ">
+                      <div className={rtbStyles.rk_rtb_box_3_mtext_2}>
                         <div>
-                          <h4 className=" rk_rtb_fs_mview-h ">AD FORMATS</h4>
+                          <h4 className={rtbStyles.rk_rtb_fs_mview_h}>
+                            AD FORMATS
+                          </h4>
                         </div>
                         <div className="">
                           {" "}
-                          <p className="  rk_rtb_box-3_icontxt2 rk_rtb_fs_mview-p ">
+                          <p
+                            className={` ${rtbStyles.rk_rtb_box_3_icontxt2} ${rtbStyles.rk_rtb_fs_mview_p} `}
+                          >
                             Popundars <br /> Web Push and Native ads <br />{" "}
                             social Bar{" "}
                           </p>
@@ -180,21 +175,25 @@ const RtbTraffic = () => {
                   </div>
 
                   <div className="">
-                    <div className="rk_rtb_box-3_mview-1 ">
-                      <div className="rk_rtb_box_align">
+                    <div className={rtbStyles.rk_rtb_box_3_mview_1}>
+                      <div className={rtbStyles.rk_rtb_box_align}>
                         <img
-                          className="  rk_rtb_box-3_icon1"
+                          className={rtbStyles.rk_rtb_box_3_icon1}
                           src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/81284225-e029-4487-4d3c-bef861693800/public"
                           style={{ width: "80px", height: "80px" }}
                         />
                       </div>
-                      <div className=" rk_rtb_box-3_mtext-2 ">
+                      <div className={rtbStyles.rk_rtb_box_3_mtext_2}>
                         <div>
-                          <h4 className=" rk_rtb_fs_mview-h ">ANY TRAFFIC</h4>
+                          <h4 className={rtbStyles.rk_rtb_fs_mview_h}>
+                            ANY TRAFFIC
+                          </h4>
                         </div>
                         <div className="">
                           {" "}
-                          <p className="  rk_rtb_box-3_icontxt2 rk_rtb_fs_mview-p ">
+                          <p
+                            className={`${rtbStyles.rk_rtb_box_3_icontxt2} ${rtbStyles.rk_rtb_fs_mview_p}`}
+                          >
                             ALL GEOs <br /> Mobile & desktop <br /> Advanced
                             targeting{" "}
                           </p>
@@ -212,7 +211,7 @@ const RtbTraffic = () => {
               className="d-flex justify-content-center"
               style={{ backgroundColor: "rgb(115,3,91)" }}
             >
-              <Col className="rk_rktb_box-3_bg-1">
+              <Col className={rtbStyles.rk_rktb_box_3_bg_1}>
                 <Row className="d-flex justify-content-center ">
                   <Col md={8} className="text-white">
                     <Row className="">
@@ -222,9 +221,9 @@ const RtbTraffic = () => {
                         </h1>
                       </Col>
                     </Row>
-                    <Row className="rk_rktb_box-3_dview-only">
+                    <Row className={rtbStyles.rk_rktb_box_3_dview_only}>
                       <Col md={6} className=" ">
-                        <div className="rk_rktb_box-3_sub ">
+                        <div className={rtbStyles.rk_rktb_box_3_sub}>
                           <p className="fs-5 pt-4 pb-4">
                             <span className="pe-2">01</span> Send us your <br />{" "}
                             request
@@ -237,7 +236,9 @@ const RtbTraffic = () => {
                         </div>
                       </Col>
                       <Col md={6}>
-                        <div className="rk_rktb_box-3_sub text-center">
+                        <div
+                          className={`${rtbStyles.rk_rktb_box_3_sub} text-center`}
+                        >
                           <p className="fs-5 pt-4 pb-4">
                             <span className="pe-2">02</span>
                             Submit your documentation
@@ -252,8 +253,8 @@ const RtbTraffic = () => {
                       </Col>
                     </Row>
 
-                    <div className="rk_rktb_box-3_mview-only">
-                      <div className="rk_rktb_box-3_sub">
+                    <div className={rtbStyles.rk_rktb_box_3_mview_only}>
+                      <div className={rtbStyles.rk_rktb_box_3_sub}>
                         <p className="fs-5 p-2">
                           <span className="pe-2">01</span> Send us your <br />{" "}
                           request
@@ -264,7 +265,7 @@ const RtbTraffic = () => {
                         </p>
                       </div>
 
-                      <div className="rk_rktb_box-3_sub ">
+                      <div className={rtbStyles.rk_rktb_box_3_sub}>
                         <p className="fs-5 p-2">
                           <span className="pe-2">03</span>After integration we
                           run <br />
@@ -280,9 +281,7 @@ const RtbTraffic = () => {
                   </Col>
                 </Row>
               </Col>
-
             </Row>
-
           </Container>
           <Container>
             <Row className="">
@@ -294,17 +293,19 @@ const RtbTraffic = () => {
             </Row>
             <Row>
               <Col className="mb-4">
-                <div className=" rk_rtb_work1">
+                <div className={rtbStyles.rk_rtb_work1}>
                   <div>
                     <img
-                      className="rk_rtb_box-4_icon-4"
+                      className={rtbStyles.rk_rtb_box_4_icon_4}
                       src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/398013e8-36e5-4a66-9078-e685dfb85400/public"
                     />
                     <p className="fs-4 text-center ">
                       GrowX Ad <br /> Impression
                     </p>
                   </div>
-                  <div className="d-flex align-items-center rk_rtb_mview-hidden_cont p-2">
+                  <div
+                    className={`d-flex align-items-center ${rtbStyles.rk_rtb_mview_hidden_cont} p-2`}
+                  >
                     <svg
                       width="462"
                       height="16"
@@ -323,7 +324,7 @@ const RtbTraffic = () => {
                   <div>
                     <div>
                       <img
-                        className="rk_rtb_box-4_icon-4 P-2"
+                        className={`${rtbStyles.rk_rtb_box_4_icon_4} P-2`}
                         src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/af102706-97d5-455b-ea6e-32f82da4af00/public"
                       />
                     </div>
@@ -333,7 +334,9 @@ const RtbTraffic = () => {
                         RTB bid
                       </p>
                     </div>
-                    <div className="d-flex justify-content-center rk_rtb_box-4_width rk_rtb_mview-hidden_cont">
+                    <div
+                      className={`d-flex justify-content-center ${rtbStyles.rk_rtb_box_4_width} ${rtbStyles.rk_rtb_mview_hidden_cont}`}
+                    >
                       <svg
                         width="16"
                         height="21"
@@ -356,11 +359,11 @@ const RtbTraffic = () => {
             <Row>
               <Col
                 md={12}
-                className="d-flex justify-content-center rk_rtb_mview_comp "
+                className={`d-flex justify-content-center ${rtbStyles.rk_rtb_mview_comp}`}
               >
                 <div className="px-2 ">
                   <img
-                    className="rk_rtb_box-4_icon-4"
+                    className={rtbStyles.rk_rtb_box_4_icon_4}
                     src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/b52623a8-364e-4c19-f9e4-bdf5c7ed4d00/public"
                   />
                   <p className="fs-4 text-center ">Comparison</p>
@@ -368,10 +371,12 @@ const RtbTraffic = () => {
               </Col>
 
               <Col md={12} className="">
-                <div className="rk_rtb_work1   rk_rtb_box-4_arrow_main rk_rtb_work1 ">
+                <div
+                  className={`${rtbStyles.rk_rtb_work1}   ${rtbStyles.rk_rtb_box_4_arrow_main} ${rtbStyles.rk_rtb_work1} `}
+                >
                   <div className="px-1">
                     <img
-                      className="rk_rtb_box-4_icon-4 "
+                      className={rtbStyles.rk_rtb_box_4_icon_4}
                       src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/482acd82-09c8-4966-3793-622781531000/public"
                     />
                     <p className="fs-4 text-center ">
@@ -379,7 +384,9 @@ const RtbTraffic = () => {
                       <br /> In-house bid
                     </p>
                   </div>
-                  <div className="d-flex align-items-center rk_rtb_mview-hidden_cont px-2">
+                  <div
+                    className={`d-flex align-items-center ${rtbStyles.rk_rtb_mview_hidden_cont} px-2`}
+                  >
                     <svg
                       width="153"
                       height="2"
@@ -395,14 +402,16 @@ const RtbTraffic = () => {
                       />
                     </svg>
                   </div>
-                  <div className="px-2 rk_rtb_mview-hidden_cont">
+                  <div className={`px-2 ${rtbStyles.rk_rtb_mview_hidden_cont}`}>
                     <img
-                      className="rk_rtb_box-4_icon-4"
+                      className={rtbStyles.rk_rtb_box_4_icon_4}
                       src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/7859eb06-021c-4b25-0264-f2c731e8a700/public"
                     />
                     <p className="fs-4 text-center ">Comparison</p>
                   </div>
-                  <div className="d-flex align-items-center rk_rtb_mview-hidden_cont px-2">
+                  <div
+                    className={`d-flex align-items-center ${rtbStyles.rk_rtb_mview_hidden_cont} px-2`}
+                  >
                     <svg
                       width="153"
                       height="2"
@@ -422,16 +431,15 @@ const RtbTraffic = () => {
                   <div className="px-1">
                     <div>
                       <img
-                        className="rk_rtb_box-4_icon-4"
+                        className={rtbStyles.rk_rtb_box_4_icon_4}
                         src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c33d0589-5aa1-43c1-97c0-d45f93b72600/public"
-
                       />
                     </div>
                     <div>
                       <p className="fs-4 text-center ">Partner RTB</p>
                     </div>
                   </div>
-                  <div className="d-flex justify-content-end rk_rtb_box-4_arrow rk_rtb_mview-hidden_cont">
+                  <div className={`d-flex justify-content-end ${rtbStyles.rk_rtb_box_4_arrow} ${rtbStyles.rk_rtb_mview_hidden_cont}`}>
                     <svg
                       width="415"
                       height="42"
@@ -452,7 +460,9 @@ const RtbTraffic = () => {
             </Row>
             <Row className="">
               <Col>
-                <div className="d-flex justify-content-center rk_rtb_mview-hidden_cont ">
+                <div
+                  className={`d-flex justify-content-center ${rtbStyles.rk_rtb_mview_hidden_cont} `}
+                >
                   <svg
                     width="16"
                     height="40"
@@ -470,13 +480,15 @@ const RtbTraffic = () => {
                 </div>
               </Col>
             </Row>
-            <Row className="rk_rtb_work1 mt-2 mb-2">
+            <Row className={`${rtbStyles.rk_rtb_work1} mt-2 mb-2`}>
               <Col md={8} className="">
                 <div>
-                  <div className="rk_rtb_box-4_icon21 rk_rtb_work1 ">
+                  <div
+                    className={`${rtbStyles.rk_rtb_box_4_icon21} ${rtbStyles.rk_rtb_work1}`}
+                  >
                     <div className="px-2">
                       <img
-                        className="rk_rtb_box-4_icon-4"
+                        className={rtbStyles.rk_rtb_box_4_icon_4}
                         src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/4c992425-7ac7-47ee-4957-cbfa63592500/public"
                       />
                       <p className="fs-4 text-center ">
@@ -485,7 +497,11 @@ const RtbTraffic = () => {
                       </p>
                     </div>
 
-                    <div className="d-flex align-items-center px-2 rk_rtb_mview-hidden_cont">
+                    <div
+                      className={`d-flex align-items-center px-2 ${
+                        rtbStyles.rk_rtb_mview_hidden_cont
+                      }`}
+                    >
                       <svg
                         width="154"
                         height="16"
@@ -504,9 +520,8 @@ const RtbTraffic = () => {
                     <div className="px-2 ">
                       <div className="d-flex justify-content-center ">
                         <img
-                          className="rk_rtb_box-4_icon-4 "
+                          className={rtbStyles.rk_rtb_box_4_icon_4 }
                           src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/7505907e-f39a-4413-a145-785f8f332c00/public"
-
                         />
                       </div>
                       <div>
@@ -521,7 +536,7 @@ const RtbTraffic = () => {
             </Row>
           </Container>
           <Container>
-            <Row className="mb-5 rk_rtb_box-6_bg_main">
+            <Row className={`mb-5 ${rtbStyles.rk_rtb_box_6_bg_main}`}>
               <Col
                 md={6}
                 sm={12}
@@ -536,7 +551,7 @@ const RtbTraffic = () => {
                 </div>
                 <div className="d-flex align-items-center justify-content-end">
                   <button
-                    className=" rk_rtb_box-6_btn-icon "
+                    className={rtbStyles.rk_rtb_box_6_btn_icon}
                     style={{ backgroundColor: "#A759A6" }}
                   >
                     <AiOutlineRight />
@@ -545,7 +560,7 @@ const RtbTraffic = () => {
               </Col>
               <Col className="" md={6} sm={12} xs={12}>
                 <div>
-                  <div className="rk_rtb_box-5_pstn_div_main   d-flex justify-content-center">
+                  <div className={`${rtbStyles.rk_rtb_box_5_pstn_div_main}   d-flex justify-content-center`}>
                     <div>
                       <img
                         src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d076e71e-c41c-4d59-4578-8978367ae000/public"
@@ -556,29 +571,24 @@ const RtbTraffic = () => {
                           padding: "10px",
                           paddingRight: "20px",
                           borderRadius: "60px",
-                          marginBottom: "40px"
+                          marginBottom: "40px",
                         }}
                       />
                     </div>
-
-
                   </div>
-
                 </div>
               </Col>
             </Row>
           </Container>
-          <Container className="mt-4 rk_rtb_box-6_cont">
+          <Container className={`mt-4 ${rtbStyles.rk_rtb_box_6_cont}`}>
             <Row>
-              <Col>
-
-              </Col>
+              <Col></Col>
             </Row>
           </Container>
         </div>
       </Layout>
     </>
   );
-}
+};
 
-export default RtbTraffic
+export default RtbTraffic;

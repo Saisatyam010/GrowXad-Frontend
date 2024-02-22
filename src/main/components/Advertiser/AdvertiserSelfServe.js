@@ -171,7 +171,7 @@ export default function SelfServe() {
                             </Col>
                             <Col md={5}>
                                 <div className="ab-laptopimg ">
-                                    <img src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6aa3d87c-2cf9-4e85-060a-78bf19745000/public" width={400} />
+                                    <img src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/9b7ab646-25b1-4276-171b-1f9442a7ae00/public" width={400} />
                                 </div>
                             </Col>
                         </Row>

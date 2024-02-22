@@ -11,6 +11,7 @@ export const AdvertiserCardDataMenus = [
         namep1: 'Ad services leverage vast publisher networks for diverse audience reach.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/aeed22bc-46c9-4ed2-6fa4-70734f7c8a00/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/aeed22bc-46c9-4ed2-6fa4-70734f7c8a00/public"
+
     }
     ,
     {
@@ -18,18 +19,21 @@ export const AdvertiserCardDataMenus = [
         namep1: 'Ad services streamline campaign control with tools for optimization and tracking.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d31bcd0-dceb-4289-04a2-eb095aad5d00/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d31bcd0-dceb-4289-04a2-eb095aad5d00/public"
+
     },
     {
         nameh1: 'Self Serve',
         namep1: 'Ad services supply analytics for informed decisions, enhancing campaign performance.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/be2c0346-de0d-45ba-d2ae-84807b9b3400/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/be2c0346-de0d-45ba-d2ae-84807b9b3400/public"
+
     },
     {
         nameh1: 'Self Serve',
         namep1: 'Ad services amplify brand exposure across diverse platforms for broader awareness.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6f185979-6b0a-4dfb-96c9-7e72d32f7e00/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6f185979-6b0a-4dfb-96c9-7e72d32f7e00/public"
+
     },
     {
         nameh1: 'Self Serve',
@@ -49,7 +53,10 @@ export const AdvertiserCardDataMenus = [
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/e936365c-6b8c-40d7-92e9-4ee657282300/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/e936365c-6b8c-40d7-92e9-4ee657282300/public"
     }
+
 ]
+
+
 export const AdvertiserCardDataSmartCpmMenus = [
     {
         nameh1: 'Cpa Goal',
@@ -63,6 +70,7 @@ export const AdvertiserCardDataSmartCpmMenus = [
         namep1: 'Ad services leverage vast publisher networks for diverse audience reach.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/aeed22bc-46c9-4ed2-6fa4-70734f7c8a00/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/aeed22bc-46c9-4ed2-6fa4-70734f7c8a00/public"
+
     }
     ,
     {
@@ -70,14 +78,21 @@ export const AdvertiserCardDataSmartCpmMenus = [
         namep1: 'Ad services streamline campaign control with tools for optimization and tracking.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d31bcd0-dceb-4289-04a2-eb095aad5d00/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d31bcd0-dceb-4289-04a2-eb095aad5d00/public"
+
     },
     {
         nameh1: 'Self Serve',
         namep1: 'Ad services supply analytics for informed decisions, enhancing campaign performance.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/be2c0346-de0d-45ba-d2ae-84807b9b3400/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/be2c0346-de0d-45ba-d2ae-84807b9b3400/public"
+
     },
+
+
+
 ]
+
+
 export const smartCPM_CardData = [
     {
         nameh1: 'Cpa Goal',
@@ -91,6 +106,7 @@ export const smartCPM_CardData = [
         namep1: 'Ad services leverage vast publisher networks for diverse audience reach.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/aeed22bc-46c9-4ed2-6fa4-70734f7c8a00/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/aeed22bc-46c9-4ed2-6fa4-70734f7c8a00/public"
+
     }
     ,
     {
@@ -98,14 +114,20 @@ export const smartCPM_CardData = [
         namep1: 'Ad services streamline campaign control with tools for optimization and tracking.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d31bcd0-dceb-4289-04a2-eb095aad5d00/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d31bcd0-dceb-4289-04a2-eb095aad5d00/public"
+
     },
     {
         nameh1: 'Self Serve',
         namep1: 'Ad services supply analytics for informed decisions, enhancing campaign performance.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/be2c0346-de0d-45ba-d2ae-84807b9b3400/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/be2c0346-de0d-45ba-d2ae-84807b9b3400/public"
+
     },
+
+
+
 ]
+
 export const AdvertiserSmartCpmBusinessCardData = [
     {
         nameh1: 'Cpa Goal',
@@ -119,6 +141,7 @@ export const AdvertiserSmartCpmBusinessCardData = [
         namep1: 'Ad services leverage vast publisher networks for diverse audience reach.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/aeed22bc-46c9-4ed2-6fa4-70734f7c8a00/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/aeed22bc-46c9-4ed2-6fa4-70734f7c8a00/public"
+
     }
     ,
     {
@@ -126,11 +149,14 @@ export const AdvertiserSmartCpmBusinessCardData = [
         namep1: 'Ad services streamline campaign control with tools for optimization and tracking.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d31bcd0-dceb-4289-04a2-eb095aad5d00/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d31bcd0-dceb-4289-04a2-eb095aad5d00/public"
+
     },
     {
         nameh1: 'Self Serve',
         namep1: 'Ad services supply analytics for informed decisions, enhancing campaign performance.',
         imagepath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/be2c0346-de0d-45ba-d2ae-84807b9b3400/public",
         imagepath2: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/be2c0346-de0d-45ba-d2ae-84807b9b3400/public"
+
     },
+
 ]

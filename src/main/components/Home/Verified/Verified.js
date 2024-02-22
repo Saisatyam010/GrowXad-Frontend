@@ -13,7 +13,7 @@ const Verified = () => {
                     <Col md={12} >
                         <Row className='d-flex align-items-center' >
                             <Col md={6} >
-                                <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/5af79960-d624-47de-2ef7-c3e251ca1400/public' alt="" height="85%" width="85%" />
+                                <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/99e4efb9-a05f-4c97-78dd-e20b8c367900/public' alt="" height="85%" width="85%" />
                             </Col>
 
                             <Col md={6}>
