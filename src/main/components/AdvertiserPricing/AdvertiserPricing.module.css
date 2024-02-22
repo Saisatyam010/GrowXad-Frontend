@@ -1,0 +1,17 @@
+.webcl_theme {
+    color: var(--primary-color);
+  }
+  
+  .rk_price_bx_3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+  }
+  .rk_price_bx_3 p {
+    margin: 0;
+  }
+  
+  .rk_price_bx_3 ul {
+    padding: 0;
+    margin: 0;
+  }

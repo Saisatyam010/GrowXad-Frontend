@@ -12,7 +12,7 @@ const HeaderMenu = [
       { name: 'Benefits for Advertisers', to: "/advetisers-benfits/" },
       { name: 'Pricing Models', to: "/advetisers-pricing/" },
       { name: 'Self-Serve Platform', to: "/advetisers-selfserve/" },
-      { name: 'RTB traffic for advertisers', to: "/benifitsforpublishers" },
+      { name: 'RTB traffic for advertisers', to: "/advetisers-rtbtraffic" },
       { name: 'Smart CPM', to: "/advetisers-smartcpm" },
       { name: 'CPA Goal', to: "/advetisers-cpagoal/" },
     ]

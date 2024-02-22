@@ -12,9 +12,12 @@ const AdvertiserWelcome = (props) => {
                         <Col md={6} className='d-flex align-items-center '>
                             <Row>
                                 <Col md={12}>
-                                    <div className=''>
-                                        <h1 className={`${CPANetworkStyleCSS.dp_cpanetwork_main_heading}`}>{props.message.heading1}</h1>
-                                        <h1 className={CPANetworkStyleCSS.dp_cpanetwork_main_heading}>{props.message.heading2} {props.spanHeading} {props.afterSpanHeading}</h1>
+                                    <div >
+
+                                        <p className={`${CPANetworkStyleCSS.dp_cpanetwork_main_heading} m-0`}>{props.message.heading1}</p>
+
+                                        <p className={`${CPANetworkStyleCSS.dp_cpanetwork_main_heading} m-0`}>{props.message.heading2} {props.spanHeading} {props.afterSpanHeading}</p>
+
                                         <p className={` ${CPANetworkStyleCSS.dp_cpanetwork_main_sub_heading}`}>
                                             {props.message.subheading}
                                         </p>

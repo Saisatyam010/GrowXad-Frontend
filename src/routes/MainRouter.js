@@ -56,23 +56,26 @@ const MainRouter = () => {
       exact: true
 
     },
-    {
-      path: '/advetisers-rtb/',
-      component: <AdvertisersRtbPage />,
-      exact: true
+    // {
+    //   path: '/advetisers-rtb/',
+    //   component: <AdvertisersRtbPage />,
+    //   exact: true
 
-    },
+    // },
     {
       path: '/advetisers-cpagoal/',
       component: <AdvertisersCpaGoalPage />,
       exact: true
-
     },
     {
       path: '/advetisers-selfserve/',
       component: <AdvertisersSelfServePage />,
       exact: true
-
+    },
+    {
+      path: '/advetisers-rtbtraffic/',
+      component: <AdvertisersRtbPage />,
+      exact: true
     },
 
 
