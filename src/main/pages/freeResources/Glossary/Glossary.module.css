@@ -1,0 +1,22 @@
+.dp_glosssary_main_heading {
+    font-size: var(--section-main-heading);
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.dp_glosssary_main_heading_color {
+    font-size: var(--section-main-heading);
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+
+.dp_glosssary_heading {
+    font-size: var(--section-heading);
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+.dp_glosssary_content {
+    font-size: var(--section-content);
+    font-weight: 500;
+}

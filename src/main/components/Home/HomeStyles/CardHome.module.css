@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rs_bg_color {
+    background: linear-gradient(to right, var(--primary-color), rgb(223, 223, 225));
+}
+.rs_card_block {
+    background: black;
+    color: white;
+    height: 100%;
+    /* border-radius: 10px; */
+    transition: 0.5s ease-in-out;
+}
+.rs_card_block:hover {
+    transform: translateY(-5px);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3); */
+    /* animation: slideAnimation 2s linear infinite; */
+}
+.rs_h1 {
+    font-weight: 700;
+}
+.rs_inner {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 32px;
+}
+.rs_img {
+    align-items: center;
+    /* background: hsla(0, 0%, 100%, .2); */
+    /* background: white; */
+    /* border-radius: var(--border-radius-base); */
+    color: white;
+    height: 80px;
+    justify-content: center;
+    position: relative;
+    width: 80px;
+    /* background-color: transparent; */
+    /* mix-blend-mode: color-burn; */
+}
+.rs_h_text {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -.72px;
+    line-height: normal;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    z-index: 2;
+    border-bottom: 2px solid var(--primary-color) ;
+}
+.rs_h_card_border{
+    border-bottom:2px solid var(--primary-color);
+    width: 150px;
+    margin-top: 15px;
+    background-color:var(--primary-color) ;
+    /* display: flex; */
+    /* overflow: hidden; */
+}
+/* .rs_h_card_border:hover .slide_card {
+    animation: slideAnimation 2s linear infinite;
+} */
+.rs_p_text {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 1rem;
+    word-spacing: .5px;
+    letter-spacing: .5px;
+}
+/* .rs_card_block:hover .slide_card  {
+    animation: slideAnimation 2s linear infinite;
+} */
+/*
+@keyframes slideAnimation {
+    0% {
+      left: 0;
+      width: 2px;
+      background-color: rgb(97, 79, 79);
+    }
+    25% {
+      left: 25%;
+      width: 5px;
+      background-color: rgb(124, 80, 8);
+    }
+    50% {
+      left: 50%;
+      width: 7px;
+      background-color: rgb(124, 80, 8);
+    }
+    75% {
+      left: 5%;
+      width: 12px;
+      background-color: rgb(124, 80, 8);
+    }
+    100% {
+      left: 100%;
+      width: 15px;
+      background-color: rgb(255, 94, 0);
+    }
+  }
+  .slide_card {
+    position: relative;
+    height: 1.5px;
+    background-color: rgb(255, 255, 255);
+  } */

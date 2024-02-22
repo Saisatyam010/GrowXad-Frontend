@@ -1,0 +1,141 @@
+.dp_advbenifits_main_heading {
+    font-size: var(--section-main-heading);
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.dp_advbenifits_main_heading_color {
+    font-size: var(--section-main-heading);
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.dp_advbenifits_sub_heading {
+    font-size: var(--section-sub-heading);
+    font-weight: 400;
+}
+
+.dp_advbenifits_heading {
+    font-size: var(--section-heading);
+    font-weight: 400;
+}
+
+.dp_advbenifits_content {
+    font-size: var(--section-content);
+    font-weight: 600;
+}
+
+.sana_card {
+    height: 400px;
+    width: 100%;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: var(--border-radius-base);
+    transition: scale 0.4s, background-color 0.4s;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.sana_card:hover {
+    /* background-color: var(--primary-color); */
+    /* scale: 1.007; */
+}
+
+.sana_img {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.sana_contents {
+    padding: 0px 10px;
+    margin-left: 10px;
+    height: 120px;
+    font-weight: 300;
+    font-size: var(--section-content);
+    color: white;
+}
+
+.sana_heading {
+    padding: 0px 10px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: var(--section-heading);
+    /* height: 50px; */
+}
+
+.sana_btn_black {
+    font-weight: 600;
+    /* color: rgb(255, 255, 255); */
+    display: inline-block;
+    padding: 20px 10px 20px 5px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.sana_icon_btn {
+    /* background-color: white; */
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.sana_card_btn {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    /* color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.1s;
+}
+
+.sana_card_btn:hover .sana_icon_btn {
+    color: #71065D;
+    border: 1px solid #71065D;
+    /* animation: moveIcon 0.19s linear 6; */
+}
+
+/* @keyframes moveIcon {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-2px);
+    }
+
+    100% {
+        transform: translateX(2px);
+    }
+} */
+
+.sana_icon_btn:hover {
+    animation: bounce 0.7s linear;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateX(0);
+    }
+
+    40% {
+        transform: translateX(-5px);
+    }
+
+    70% {
+        transform: translateX(4px);
+    }
+
+    90% {
+        transform: translateX(-3px);
+    }
+}

@@ -1,0 +1,130 @@
+.dp_blog_main_heading {
+    font-size: var(--section-main-heading);
+    padding: 0px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.dp_blog_main_sub_heading {
+    font-size: var(--section-heading);
+    padding: 7px 0px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.dp_blog_cards {
+    border: 4px solid var(--light-color);
+    background-color: var(--tertiary-color);
+    border-radius: var(--border-radius-base);
+    padding: 30px;
+    min-height: 100px;
+}
+
+.dp_blog_cards:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: transform 0.8s ease;
+}
+
+
+/* .sana_DisplayBanner_card_borderwhite {
+    border: 3px solid var(--light-color);
+    background-color: var(--tertiary-color);
+    border-radius: var(--border-radius-base);
+    padding: 30px;
+    min-height: 350px;
+}
+
+.sana_DisplayBanner_card_borderwhite:hover {
+    cursor: pointer;
+    transform: translateY(-15px);
+    transition: transform 0.8s ease;
+} */
+
+.dp_blog_cards_heading {
+    font-size: var(--secondary-color);
+    font-weight: 600;
+    color: var(--primary-color);
+    text-decoration: underline;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 0px;
+}
+
+.dp_blog_cards_heading:hover {
+    color: var(--primary-color);
+    transition: 300ms;
+}
+
+
+.dp_blog_cards_icon {
+    color: var(--primary-color);
+    font-size: var(--section-content);
+    margin: 0px;
+    text-align: center;
+}
+
+
+
+.dp_blog_TrafficMonitisation_container {
+    margin: 0px;
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    min-height: 400px;
+}
+
+.dp_blog_TrafficMonitisation_Main_heading {
+    font-size: var(--section-heading);
+    color: var(--primary-color);
+    font-weight: 500;
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.dp_blog_TrafficMonitisation_heading {
+    font-size: var(--section-content);
+    color: var(--primary-color);
+    font-weight: 600;
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.dp_blog_TrafficMonitisation_date {
+    font-size: var(--section-content);
+    color: var(--secondary-color);
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.dp_blog_TrafficMonitisation_content {
+    font-size: var(--section-content);
+    color: var(--secondary-color);
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.dp_blogs_posts_stick {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px
+}
+
+.dp_blog_post_heading {
+    font-size: var(--section-heading);
+    padding: 5px 0px;
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.dp_blog_post_lists {
+    text-decoration: underline;
+    padding: 5px 0px;
+    font-size: var(--section-content);
+    margin: 0px;
+}
+
+.dp_blog_post_lists:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--primary-color);
+}

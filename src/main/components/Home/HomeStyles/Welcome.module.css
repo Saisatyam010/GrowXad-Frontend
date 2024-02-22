@@ -1,0 +1,112 @@
+.SSA_HOME_section_background {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* height: 8vh; */
+    width: 100%;
+    color: #FFFFFF;
+    /* background-color: var(--primary-color); */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.SSA_HOME_parallax {
+    background: linear-gradient(60deg, var(--primary-color), var(--secondary-color), var(--primary-color));
+    background-size: 400% 400%;
+    animation: gradientMovement 15s ease infinite;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+
+@keyframes gradientMovement {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.SSA_Btn_HOME_buytraffic {
+    border: 1px solid var(--light-color);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 17px;
+    color: var(--primary-color);
+    background-color: var(--light-color);
+}
+
+
+.SSA_Btn_HOME_buytraffic:hover {
+    border: 1px solid var(--light-color);
+    border-radius: 5px;
+    font-weight: 600;
+    color: var(--primary-color);
+    background-color: var(--light-color);
+}
+
+.SSA_HOME_21pxFont {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--light-color);
+
+}
+
+.SSA_HOME_MAIN_TEXT {
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--light-color);
+
+}
+
+.SSA_Btn_HOME_selltraffic {
+
+    border-radius: 5px;
+    font-weight: 600;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+}
+
+.SSA_Btn_HOME_selltraffic:hover {
+
+    border-radius: 5px;
+    font-weight: 600;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+
+.gradient_signup {
+    color: var(--light-color);
+    padding: 17px 24px !important;
+    /* background-color: var(--primary-color) !important; */
+    border: 1px solid white !important;
+    /* background: linear-gradient(45deg, black, purple); */
+    background-size: 400% 400%;
+    animation: gradientMovement 10s ease infinite;
+
+
+}
+
+.gradient_signup:hover {
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    /* background: linear-gradient(var(--seconary-color), var(--primary-color), var(--primary-color)); */
+    border: 1px solid white !important;
+
+
+
+
+}

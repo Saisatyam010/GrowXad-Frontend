@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ----------------------------------->> slider css <<------------------------------------- */
+.rk_blog_b2_cardslider_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.rk_blog_b2_feature {
+    font-weight: 600;
+    /* font-size: 40px; */
+    margin-bottom: 0;
+}
+.rk_grow_sl_button {
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border: 1px solid black;;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rk_grow_sl_button:hover{
+    background-color: rgba(134, 139, 139, 0.123);
+}
+.rk_img_quote{
+    color: #71065D;
+    font-size: 3rem;
+}
+/* ----------------------------------->> slider css <<------------------------------------- */
+/* Main_Page_cards.css */
+.sana_mainPage_card {
+    /* height: 460px; */
+    /* max-width: 450px; */
+    max-height: 380px;
+    min-height: 370px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: box-shadow 0.7s ease, background-color 0.8s ease;
+}
+.sana_mainPage_card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #F0F0F0;
+}
+.sana_img_quotation {
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 16px;
+    transition: opacity 0.3s ease;
+    right: 12px;
+}
+.sana_content {
+    flex: 1;
+}
+.sana_content p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.sana_main_page_card_image2 h3 {
+    font-weight: 600;
+}
+.sana_cards_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+}

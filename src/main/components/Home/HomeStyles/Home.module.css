@@ -1,0 +1,58 @@
+.MainHomePageTopContainer {
+   height: 100vh;
+   background-color: var(--light-color);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.MainHomePageHeading {
+   font-size: 60px;
+   font-weight: 600;
+   margin: 0px;
+   text-align: center;
+}
+
+.MainHomePageSubHeading {
+   font-size: 26px;
+   padding: 40px 0px;
+   font-weight: 400;
+   margin: 0px;
+   text-align: center;
+}
+
+
+
+/* .MoreButton {
+   font-size: 20px;
+   font-weight: 600;
+   padding: 10px 50px;
+   margin: 0px 20px;
+   border: none;
+   color: var(--secondary-color);
+}
+
+.MoreButton:hover {
+   background-color: var(--primary-color);
+   color: var(--tertiary-color);
+   cursor: pointer;
+} */
+
+.UpperFooterContainer {
+   background-color: rgba(238, 233, 244, 0.523);
+}
+
+.UpperFooterItems {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.UpperFooterCardsHeading {
+   margin: 0px;
+   font-size: 20px;
+   font-weight: 600;
+   padding: 10px;
+}
+
