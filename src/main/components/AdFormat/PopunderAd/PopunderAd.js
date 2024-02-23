@@ -232,7 +232,6 @@ const PopunderAd = () => {
                   <TiTick
                     className={`mb-2 p-1 ${AddStyle.TiTick_setColor}`}
                     size={24}
-                   
                     fill="white"
                   />
                   <p
