@@ -44,9 +44,6 @@ export const ReferralProgram = () => {
                                         <button className={`my-3 ${ReferralProgramStyleCSS.RegisterButton}`}>
 
                                             <div className='d-flex align-items-center justify-content-center'>
-                                                <span>
-                                                    {/* <GoRocket /> */}
-                                                </span>
                                                 <span className='px-2'>
                                                     Start Monetizing
                                                 </span>
@@ -67,7 +64,7 @@ export const ReferralProgram = () => {
                         </Row>
 
                         {/* Earn money */}
-
+                        <TbSeperator />
                         <Row>
                             <Col md={12}>
                                 <Row>
@@ -111,7 +108,7 @@ export const ReferralProgram = () => {
                         </Row>
 
                         {/* How can you attract referrals to GrowXAds??  */}
-
+                        <TbSeperator />
                         <Row>
                             <Col md={12} >
                                 <Row>

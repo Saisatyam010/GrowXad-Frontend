@@ -71,7 +71,8 @@ export const BenifitsForPublishers = () => {
 
                         {/* Monetize any type of Traffic */}
 
-                        <Row className='px-5 mx-5 mt-5'>
+                        <TbSeperator />
+                        <Row className='px-5 mx-5'>
                             <Col md={12}>
 
                                 <Row >
@@ -148,7 +149,7 @@ export const BenifitsForPublishers = () => {
                         </Row>
 
                         {/* Why Choose us */}
-
+                        <TbSeperator />
                         <Row className='d-flex justify-content-center p-1'>
                             <Col md={12}>
                                 <div className='fw-bold text-center py-5'>
