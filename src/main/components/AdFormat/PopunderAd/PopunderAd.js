@@ -33,7 +33,7 @@ const PopunderAd = () => {
         <TbSeperator />
         <div className="row">
           <div className="col-md-6">
-            <div style={{ lineHeight: "40px" }}>
+            <div>
               <span className={`${AddStyle.dp_bannerads_main_heading_color}`}>
                 Popunder Ad{" "}
               </span>
@@ -87,7 +87,6 @@ const PopunderAd = () => {
                 src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6bd7511b-3cea-4a0b-a607-900fb787f000/public"
                 alt=""
                 className="mx-0"
-                style={{ width: "70%" }}
               />
             </div>
           </div>
@@ -231,12 +230,9 @@ const PopunderAd = () => {
               return (
                 <div className="d-flex  align-items-center" key={index}>
                   <TiTick
-                    className="mb-2 p-1"
+                    className={`mb-2 p-1 ${AddStyle.TiTick_setColor}`}
                     size={24}
-                    style={{
-                      backgroundColor: "#73035b",
-                      borderRadius: "50%",
-                    }}
+                   
                     fill="white"
                   />
                   <p
@@ -303,7 +299,7 @@ const PopunderAd = () => {
               className={`${AddStyle.dp_bannerads_sub_heading} py-4 text-light m-0 text-center text-white`}
             >
               Leveraging partnerships with 28K+ direct publishers and 13K+
-              advertisers, GrowX employs AI algorithms to consistently assess
+              advertisers, GrowX employs AI algorithms to consistently assessw
               traffic quality, ensuring optimal traffic-to-offer matches.
             </p>
 
@@ -335,13 +331,6 @@ const PopunderAd = () => {
             <div className="d-flex align-tems-end justify-content-end py-2">
               <Link
                 to="/adveriserauthLogin"
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  color: "white",
-                  fontWeight: "500",
-                  textDecoration: "none",
-                }}
                 className={`"no-underline hover:no-underline" ${AddStyle.dp_bannerads_sub_heading}`}
               ></Link>
             </div>
@@ -354,13 +343,14 @@ const PopunderAd = () => {
           <div className="col-md-7">
             <h2 className="text-start font-semibold text-black">
               How to get a{" "}
-              <span style={{ color: "#71065D" }}>POPUNDER CODE</span> in minutes
-              with GrowX Self-Serve Platform
+              <span className={AddStyle.dp_bannerads_main_heading_color}>
+                POPUNDER CODE
+              </span>{" "}
+              in minutes with GrowX Self-Serve Platform
             </h2>
             {SelfServePlatform.map((item, index) => {
               return (
                 <div className="d-flex text-left" key={index}>
-                  {/* <span className='p-2' style={{ backgroundColor:'#73035b', borderRadius:'50%',color:'white',fontWeight:'500'}} >{item.num}</span>  */}
                   <p
                     className={`${AddStyle.dp_bannerads_sub_heading} m-0 pb-2`}
                   >
