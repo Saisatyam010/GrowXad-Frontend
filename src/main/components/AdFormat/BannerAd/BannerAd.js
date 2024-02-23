@@ -4,7 +4,12 @@ import { TiTick } from "react-icons/ti";
 import { FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import BannerSwitch from "./BannerSwitch";
-import { BannerAdsGoodReasons, SelfServePlatform, solutionData, sectionsData } from "../BannerAd/BannerMenu";
+import {
+  BannerAdsGoodReasons,
+  SelfServePlatform,
+  solutionData,
+  sectionsData,
+} from "../BannerAd/BannerMenu";
 
 import { Button, Col, Row } from "react-bootstrap";
 import Layout from "../../Layout/Layout";
@@ -29,15 +34,18 @@ const BannerAd = () => {
           <div className="row">
             <div className="col-md-6">
               <h1 className={`${AddStyle.dp_bannerads_main_heading} m-0`}>
-                <span className={AddStyle.sana_DisplayBanner_VoiletText}>Banner Ad </span>
+                <span className={AddStyle.sana_DisplayBanner_VoiletText}>
+                  Banner Ad{" "}
+                </span>
                 <span> — Display Banner Advertising on Your Website</span>
               </h1>
               <p className={`${AddStyle.dp_bannerads_sub_heading}  py-3 m-0`}>
-                Online Banner Ads deliver unprecedented performance to publishers.
-                Webmasters and bloggers enjoy 100% fill rates and high payouts.
-                Advertisers access reliable traffic sources and reach conscious
-                customers that are ready to buy. If it is the result you’re
-                looking for, then an online display ad is what you need.
+                Online Banner Ads deliver unprecedented performance to
+                publishers. Webmasters and bloggers enjoy 100% fill rates and
+                high payouts. Advertisers access reliable traffic sources and
+                reach conscious customers that are ready to buy. If it is the
+                result you’re looking for, then an online display ad is what you
+                need.
               </p>
               <div class="d-flex justify-content-start  align-items-center m-0 ">
                 <div className="mr-3 w-60">
@@ -76,23 +84,25 @@ const BannerAd = () => {
                   src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6bd7511b-3cea-4a0b-a607-900fb787f000/public"
                   alt=""
                   className="mx-0"
-                  style={{ width: "70%" }}
                 />
               </div>
             </div>
           </div>
         </div>
 
-
         {/*2nd section*/}
-        <div className="py-md-5 py-2" >
+        <div className="py-md-5 py-2">
           <div className="container py-5">
             <div className="row">
-              <div className={`${AddStyle.dp_bannerads_main_heading} text-center`}>
-                <h1 className='text-center font-semibold text-black'>Who benefits from  <span style={{ color: "#71065D" }}>GrowXad</span> advertising solutions</h1>
-
+              <div
+                className={`${AddStyle.dp_bannerads_main_heading} text-center`}
+              >
+                <h1 className="text-center font-semibold text-black">
+                  Who benefits from{" "}
+                  <span className={AddStyle.primary_color}>GrowXad</span>{" "}
+                  advertising solutions
+                </h1>
               </div>
-
 
               <TbSeperator />
               <TbSeperator />
@@ -107,9 +117,7 @@ const BannerAd = () => {
                       >
                         {item.title}
                       </div>
-                      <p
-                        className={` ${AddStyle.dp_bannerads_content}`}
-                      >
+                      <p className={` ${AddStyle.dp_bannerads_content}`}>
                         {item.description}
                       </p>
                     </div>
@@ -121,85 +129,92 @@ const BannerAd = () => {
         </div>
         <TbSeperator />
 
-
         {/*3rd section*/}
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
-
-            </div>
+            <div className="col-md-12"></div>
           </div>
         </div>
 
         <div className=" container-fluid">
           <div className="container py-md-5 p-3 card">
-            <div className="row">
-
-            </div>
+            <div className="row"></div>
             <div className="row">
               <div className="col-md-6 d-flex align-items-center">
                 <div>
-                  <h1 className='text-center font-semibold text-black'> Types of GrowXad  <span style={{ color: "#71065D" }}>banner ads</span>  you can get</h1>
+                  <h1 className=" font-semibold text-black">
+                    {" "}
+                    Types of GrowXad{" "}
+                    <span className={AddStyle.primary_color}>
+                      banner ads
+                    </span>{" "}
+                    you can get
+                  </h1>
 
-                  <p className={`${AddStyle.dp_bannerads_sub_heading} m-0 py-3`}>
+                  <p
+                    className={`${AddStyle.dp_bannerads_sub_heading} m-0 py-3`}
+                  >
                     Display or banner advertising is the oldest type of online
-                    advertising with proven efficiency. Banners are images or GIF
-                    files that are to be placed on publishers’ websites, mobile sites,
-                    and blogs. According to IAB, there are typical and most clickable
-                    banner ad formats for desktop and mobile devices.
+                    advertising with proven efficiency. Banners are images or
+                    GIF files that are to be placed on publishers’ websites,
+                    mobile sites, and blogs. According to IAB, there are typical
+                    and most clickable banner ad formats for desktop and mobile
+                    devices.
                   </p>
                 </div>
-                {/* <Link
-                to="/adveriserauthLogin"
-                className="no-underline hover:no-underline"
-              >
-                <button
-                  className={`${AddStyle.sana_Add_formate_btns} px-5 py-3 `}
-                >
-                  THE BANNER CODE
-                </button>
-              </Link> */}
               </div>
               <div className="col-md-6 pt-md-0 pt-lg-0 pt-3">
                 <div className="d-flex justify-content-center">
                   <img
                     src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/a39a5652-7919-473c-e64d-84b0ef212e00/public"
                     alt=""
-                  // className=""
-                  // style={{ width: "80%" }}
                   />
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+
+
+
+
+
+        
         {/*4th section*/}
         <SectionSeperator />
         <div>
           <div className="container ">
-
             <Row>
               <Col md={12}>
-
-                <h1 className='text-center font-semibold text-black'> benefits from  <span style={{ color: "#71065D" }}>GrowXad</span> advertising solutions</h1>
+                <h1 className="text-center font-semibold text-black">
+                  {" "}
+                  benefits from{" "}
+                  <span className={AddStyle.primary_color}>GrowXad</span>{" "}
+                  advertising solutions
+                </h1>
               </Col>
             </Row>
             <SectionSeperator />
 
             <Row>
               {sectionsData.map((card, index) => (
-                <div className='col-md-6 col-lg-6 mb-4'
+                <div
+                  className="col-md-6 col-lg-6 mb-4"
                   key={index} // Don't forget to add a unique key for each card
                   onMouseEnter={() => handleMouseEnter(index)}
-                  onMouseLeave={handleMouseLeave}>
+                  onMouseLeave={handleMouseLeave}
+                >
                   <div className={`${AddStyle.rs_card_block} `}>
                     <div className={AddStyle.rs_inner}>
-                      <div className={`${AddStyle.rs_img} d-flex ${AddStyle.rs_strawberry}`}>
+                      <div
+                        className={`${AddStyle.rs_img} d-flex ${AddStyle.rs_strawberry}`}
+                      >
                         <img
                           src={card.imageUrl}
-                          alt='Unique Partner Care'
-                          loading='lazy'
-                          className=''
+                          alt="Unique Partner Care"
+                          loading="lazy"
+                          className=""
                         />
                       </div>
                       <div className={`${AddStyle.rs_h_card_border} `}>
@@ -215,16 +230,11 @@ const BannerAd = () => {
           </div>
         </div>
 
-
-
-
         <SectionSeperator />
         <div className="container-fluid">
           <div className="container p-3 card">
-
             <div className="row">
               <div className="col-md-6  pt-md-0 pt-lg-0 pt-3">
-
                 <div className="d-flex justify-content-center p-4">
                   <img
                     src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/f99fd012-8759-4f86-c7e9-1532566b5a00/public"
@@ -234,23 +244,27 @@ const BannerAd = () => {
                 </div>
               </div>
               <div className="col-md-6">
-                <h1 className='text-center font-semibold text-black'>What are<span style={{ color: "#71065D" }}> banner ads</span> good for?</h1>
-
+                <h1 className="text-center font-semibold text-black">
+                  What are
+                  <span className={AddStyle.primary_color}>
+                    {" "}
+                    banner ads
+                  </span>{" "}
+                  good for?
+                </h1>
 
                 {BannerAdsGoodReasons.map((item, index) => {
                   return (
                     <div className=" ">
                       <div className="d-flex  align-items-center" key={index}>
                         <TiTick
-                          className="mb-2 p-1"
+                          className={`mb-2 p-1 ${AddStyle.TiTick_setColor}`}
                           size={24}
-                          style={{
-                            backgroundColor: "#73035b",
-                            borderRadius: "50%",
-                          }}
                           fill="white"
                         />
-                        <p className={`${AddStyle.dp_bannerads_content} pb-3 mb-0 ml-2 pt-2`}>
+                        <p
+                          className={`${AddStyle.dp_bannerads_content} pb-3 mb-0 ml-2 pt-2`}
+                        >
                           {item}
                         </p>
                       </div>
@@ -258,9 +272,6 @@ const BannerAd = () => {
                   );
                 })}
               </div>
-
-
-
             </div>
           </div>
         </div>
@@ -270,41 +281,41 @@ const BannerAd = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className='text-center font-semibold text-black'> How to put <span style={{ color: "#71065D" }}>Banners</span> on a website?</h1>
-
+              <h1 className="text-center font-semibold text-black">
+                {" "}
+                How to put{" "}
+                <span className={AddStyle.primary_color}>Banners</span> on a
+                website?
+              </h1>
             </div>
           </div>
         </div>
         <div className="container-fluid">
           <div className="container  card p-3">
-            <div className="row">
-
-            </div>
+            <div className="row"></div>
             <div className="row">
               <div className="col-md-12  pr-0">
                 <div className="">
-
                   <p className={`${AddStyle.dp_bannerads_content} pb-3 m-0`}>
                     1. Effortlessly integrate banners anywhere on your
-                    webpage—header, sidebar, footer, and more. Implement the GrowX
-                    code/script on your website or mobile page to seamlessly
-                    showcase advertisements and enhance user engagement.
+                    webpage—header, sidebar, footer, and more. Implement the
+                    GrowX code/script on your website or mobile page to
+                    seamlessly showcase advertisements and enhance user
+                    engagement.
                   </p>
                   <p className={`${AddStyle.dp_bannerads_content} pb-2 m-0`}>
                     2. First, register as a Publisher and log in. <br /> <br />
-                    3. Generate code for the needed banner size (160×300, 160×600,
-                    300×250, 320х50, 728×90, 468×60), use ADD NEW WEBSITE button
-                    and fill out the required fields. Now all you have to do is
-                    wait for approval. <br /> <br />
-                    4. Afterward, get the code from your account or the GrowX email,
-                    then copy the code and paste it to any page you like.
+                    3. Generate code for the needed banner size (160×300,
+                    160×600, 300×250, 320х50, 728×90, 468×60), use ADD NEW
+                    WEBSITE button and fill out the required fields. Now all you
+                    have to do is wait for approval. <br /> <br />
+                    4. Afterward, get the code from your account or the GrowX
+                    email, then copy the code and paste it to any page you like.
                   </p>
                 </div>
               </div>
               <div className="col-md-6 pl-md-5 pl-lg-5 pl-0">
-                <div>
-
-                </div>
+                <div></div>
               </div>
             </div>
           </div>
@@ -315,25 +326,43 @@ const BannerAd = () => {
           <div className="container bg-black p-3 rounded">
             <div className="row ">
               <div className="col-md-12 ">
-
-                <p className={`${AddStyle.dp_bannerads_main_heading} text-light m-0 text-center text-white`}>Best <span style={{ color: "#fff" }}>opportunities</span></p>
+                <p
+                  className={`${AddStyle.dp_bannerads_main_heading} text-light m-0 text-center text-white`}
+                >
+                  Best opportunities
+                </p>
                 <hr />
 
-                <p className={`${AddStyle.dp_bannerads_sub_heading} py-4 text-light m-0 text-center text-white`}>
+                <p
+                  className={`${AddStyle.dp_bannerads_sub_heading} py-4 text-light m-0 text-center text-white`}
+                >
                   Leveraging partnerships with 28K+ direct publishers and 13K+
-                  advertisers, GrowX employs AI algorithms to consistently assess
-                  traffic quality, ensuring optimal traffic-to-offer matches.
+                  advertisers, GrowX employs AI algorithms to consistently
+                  assess traffic quality, ensuring optimal traffic-to-offer
+                  matches.
                 </p>
 
                 <div className="d-flex align-items-center justify-content-center">
-                  <Link to="/adveriserauthLogin"
-                    className="no-underline hover:no-underline">
+                  <Link
+                    to="/adveriserauthLogin"
+                    className="no-underline hover:no-underline"
+                  >
                     <div className="d-flex gap-3">
-                      <div className='w-60'>
-                        <Button variant="outline" className={`${AddStyle.gradient_signup2}  px-5 mr-2 p-3 w-100 text-white`}>Get Popunder Code</Button>{' '}
+                      <div className="w-60">
+                        <Button
+                          variant="outline"
+                          className={`${AddStyle.gradient_signup2}  px-5 mr-2 p-3 w-100 text-white`}
+                        >
+                          Get Popunder Code
+                        </Button>{" "}
                       </div>
-                      <div className='w-60'>
-                        <Button variant="outline" className={`${AddStyle.gradient_signup2}  px-5 mr-2 p-3 w-100 text-white`}>Learn More</Button>{' '}
+                      <div className="w-60">
+                        <Button
+                          variant="outline"
+                          className={`${AddStyle.gradient_signup2}  px-5 mr-2 p-3 w-100 text-white`}
+                        >
+                          Learn More
+                        </Button>{" "}
                       </div>
                     </div>
                   </Link>
@@ -341,18 +370,8 @@ const BannerAd = () => {
                 <div className="d-flex align-tems-end justify-content-end py-2">
                   <Link
                     to="/adveriserauthLogin"
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      color: "white",
-                      fontWeight: "500",
-                      textDecoration: "none",
-                    }}
                     className={`"no-underline hover:no-underline" ${AddStyle.dp_bannerads_sub_heading}`}
-                  >
-
-
-                  </Link>
+                  ></Link>
                 </div>
               </div>
             </div>
@@ -365,13 +384,20 @@ const BannerAd = () => {
           <div className="container card p-3">
             <div className="row">
               <div className="col-md-7">
-                <h1 className=' font-semibold text-black'>What are <span style={{ color: "#71065D" }} className="mr-2">banner ads</span>good for?</h1>
+                <h1 className=" font-semibold text-black">
+                  What are{" "}
+                  <span className={`${AddStyle.primary_color} mr-2`}>
+                    banner ads
+                  </span>
+                  good for?
+                </h1>
                 {SelfServePlatform.map((item, index) => {
                   return (
                     <div className="d-flex text-left" key={index}>
-                      {/* <span className='p-2' style={{ backgroundColor:'#73035b', borderRadius:'50%',color:'white',fontWeight:'500'}} >{item.num}</span>  */}
-                      <p className={`${AddStyle.dp_bannerads_sub_heading} m-0 pb-2`} >
-                        {index + 1}.  {item.content}
+                      <p
+                        className={`${AddStyle.dp_bannerads_sub_heading} m-0 pb-2`}
+                      >
+                        {index + 1}. {item.content}
                       </p>
                     </div>
                   );
@@ -393,9 +419,18 @@ const BannerAd = () => {
         <SectionSeperator />
         {/*---------switch button_________*/}
         <div className="py-5">
-          <div className={`${AddStyle.dp_bannerads_main_heading} py-2 text-center`}>
-            <h1 className='text-center font-semibold text-black'> Top GrowXad services <span style={{ color: "#71065D" }} className="mr-2"> for advertisers</span>  and publishers</h1>
-
+          <div
+            className={`${AddStyle.dp_bannerads_main_heading} py-2 text-center`}
+          >
+            <h1 className="text-center font-semibold text-black">
+              {" "}
+              Top GrowXad services{" "}
+              <span className={`${AddStyle.primary_color} mr-2`}>
+                {" "}
+                for advertisers
+              </span>{" "}
+              and publishers
+            </h1>
           </div>
           <div className="">
             <BannerSwitch />

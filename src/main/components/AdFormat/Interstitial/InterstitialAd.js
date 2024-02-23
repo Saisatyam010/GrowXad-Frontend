@@ -82,7 +82,6 @@ const InterstitialAd = () => {
                   src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6bd7511b-3cea-4a0b-a607-900fb787f000/public"
                   alt=""
                   className="mx-0"
-                  style={{ width: "70%" }}
                 />
               </div>
             </div>
@@ -98,8 +97,8 @@ const InterstitialAd = () => {
               >
                 <h1 className="text-center font-semibold text-black">
                   Who benefits from{" "}
-                  <span style={{ color: "#71065D" }}>GrowXad</span> advertising
-                  solutions
+                  <span className={AddStyle.primary_color}>GrowXad</span>{" "}
+                  advertising solutions
                 </h1>
               </div>
 
@@ -144,7 +143,7 @@ const InterstitialAd = () => {
                   <h1 className="text-start font-semibold text-black">
                     {" "}
                     Types of GrowXad{" "}
-                    <span style={{ color: "#71065D" }}>
+                    <span className={AddStyle.primary_color}>
                       Interstitial ads
                     </span>{" "}
                     you can get
@@ -161,24 +160,12 @@ const InterstitialAd = () => {
                     mobile devices.
                   </p>
                 </div>
-                {/* <Link
-                to="/adveriserauthLogin"
-                className="no-underline hover:no-underline"
-              >
-                <button
-                  className={`${AddStyle.sana_Add_formate_btns} px-5 py-3 `}
-                >
-                  THE BANNER CODE
-                </button>
-              </Link> */}
               </div>
               <div className="col-md-6 pt-md-0 pt-lg-0 pt-3">
                 <div className="d-flex justify-content-center">
                   <img
                     src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/a39a5652-7919-473c-e64d-84b0ef212e00/public"
                     alt=""
-                  // className=""
-                  // style={{ width: "80%" }}
                   />
                 </div>
               </div>
@@ -194,8 +181,8 @@ const InterstitialAd = () => {
                 <h1 className="text-center font-semibold text-black">
                   {" "}
                   benefits from{" "}
-                  <span style={{ color: "#71065D" }}>GrowXad</span> advertising
-                  solutions
+                  <span className={AddStyle.primary_color}>GrowXad</span>{" "}
+                  advertising solutions
                 </h1>
               </Col>
             </Row>
@@ -250,7 +237,7 @@ const InterstitialAd = () => {
               <div className="col-md-6">
                 <h1 className="text-center font-semibold text-black">
                   What are
-                  <span style={{ color: "#71065D" }}>
+                  <span className={AddStyle.primary_color}>
                     {" "}
                     Interstitial ads
                   </span>{" "}
@@ -262,12 +249,8 @@ const InterstitialAd = () => {
                     <div className=" ">
                       <div className="d-flex  align-items-center" key={index}>
                         <TiTick
-                          className="mb-2 p-1"
+                          className={`mb-2 p-1 ${AddStyle.TiTick_setColor}`}
                           size={24}
-                          style={{
-                            backgroundColor: "#73035b",
-                            borderRadius: "50%",
-                          }}
                           fill="white"
                         />
                         <p
@@ -292,8 +275,8 @@ const InterstitialAd = () => {
               <h1 className="text-center font-semibold text-black">
                 {" "}
                 How to put{" "}
-                <span style={{ color: "#71065D" }}>Interstitial</span> on a
-                website?
+                <span className={AddStyle.primary_color}>Interstitial</span> on
+                a website?
               </h1>
             </div>
           </div>
@@ -337,7 +320,7 @@ const InterstitialAd = () => {
                 <p
                   className={`${AddStyle.dp_bannerads_main_heading} text-light m-0 text-center text-white`}
                 >
-                  Best <span style={{ color: "#fff" }}>opportunities</span>
+                  Best opportunities
                 </p>
                 <hr />
 
@@ -378,13 +361,6 @@ const InterstitialAd = () => {
                 <div className="d-flex align-tems-end justify-content-end py-2">
                   <Link
                     to="/adveriserauthLogin"
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      color: "white",
-                      fontWeight: "500",
-                      textDecoration: "none",
-                    }}
                     className={`"no-underline hover:no-underline" ${AddStyle.dp_bannerads_sub_heading}`}
                   ></Link>
                 </div>
@@ -401,7 +377,7 @@ const InterstitialAd = () => {
               <div className="col-md-7">
                 <h2 className=" font-semibold text-black mb-3">
                   How To Get{" "}
-                  <span style={{ color: "#71065D" }} className="mr-2">
+                  <span className={`${AddStyle.primary_color} mr-2 `}>
                     Interstitial Code
                   </span>
                   in minutes with GrowX Self-Serve Platform
@@ -409,7 +385,6 @@ const InterstitialAd = () => {
                 {SelfServePlatform.map((item, index) => {
                   return (
                     <div className="d-flex text-left" key={index}>
-                      {/* <span className='p-2' style={{ backgroundColor:'#73035b', borderRadius:'50%',color:'white',fontWeight:'500'}} >{item.num}</span>  */}
                       <p
                         className={`${AddStyle.dp_bannerads_sub_heading} m-0 pb-2`}
                       >
@@ -441,7 +416,7 @@ const InterstitialAd = () => {
             <h1 className="text-center font-semibold text-black">
               {" "}
               Top GrowXad services{" "}
-              <span style={{ color: "#71065D" }} className="mr-2">
+              <span className={`${AddStyle.primary_color} mr-2 `}>
                 {" "}
                 for advertisers
               </span>{" "}
