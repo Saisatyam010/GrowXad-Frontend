@@ -18,18 +18,14 @@ export const ReferralProgram = () => {
         <Layout>
             <Container fluid>
                 <Row className='d-flex justify-content-center'>
-
                     <Col md={10}>
                         {/* Image and Content */}
-
                         <Row>
                             <Col md={6} className='d-flex align-items-center'>
                                 <Row>
                                     <Col md={12}>
                                         <div className='p-2'>
-
                                             <div className='fw-bold pt-5'>
-
                                                 <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading}`}>
                                                     Join Our </span>
                                                 <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading_color}`}>
@@ -37,7 +33,6 @@ export const ReferralProgram = () => {
                                                 <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading}`}>
                                                     Today! </span>
                                             </div>
-
                                             <p className={`py-3 ${ReferralProgramStyleCSS.dp_referralprogram_sub_heading}`}>
                                                 Receive 5% of the revenue from every referral you bring in. Simply sign up and receive your exclusive referral link.
                                             </p>
@@ -54,7 +49,6 @@ export const ReferralProgram = () => {
                                                     Start Monetizing
                                                 </span>
                                             </div>
-
                                         </button>
                                     </Col>
                                 </Row>
@@ -97,8 +91,7 @@ export const ReferralProgram = () => {
                                                         <img
                                                             src={ele.imgPath}
                                                             alt=""
-                                                            style={{ minWidth: "100%", minHeight: "100%", }}
-                                                        />
+                                                            style={{ minWidth: "100%", minHeight: "100%", }} />
                                                     </Col>
 
                                                     <Col md={12} className='p-3 mt-3 text-center'>
@@ -109,12 +102,10 @@ export const ReferralProgram = () => {
                                                     </Col>
                                                 </Row>
                                             </div>
-
                                         </Col>
                                     ))}
                                 </Row>
                             </Col>
-
                         </Row>
 
                         {/* How can you attract referrals to GrowXAds??  */}
@@ -123,7 +114,6 @@ export const ReferralProgram = () => {
                             <Col md={12} >
                                 <Row>
                                     <Col md={12} className='py-4'>
-
                                         <div className='fw-bold text-center pt-5'>
                                             <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading}`}>
                                                 How can you </span>
@@ -134,27 +124,24 @@ export const ReferralProgram = () => {
                                             <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading_color}`}>
                                                 GrowXAds? </span>
                                         </div>
-
                                         <p className={`text-center ${ReferralProgramStyleCSS.dp_referralprogram_sub_heading}`}>Employ any or all of these methods to earn additional income!</p>
                                     </Col>
                                 </Row>
 
-
                                 <Row>
                                     {HowToAttractReferrals.map((card, index) => (
                                         <div className='col-md-6 col-lg-6 mb-4'
-                                            key={index} // Don't forget to add a unique key for each card
+                                            key={index}
                                             onMouseEnter={() => handleMouseEnter(index)}
                                             onMouseLeave={handleMouseLeave}>
                                             <div className={`${ReferralProgramStyleCSS.rs_card_block} `}>
                                                 <div className={ReferralProgramStyleCSS.rs_inner}>
-                                                    <div className={`${ReferralProgramStyleCSS.rs_img} d-flex ${ReferralProgramStyleCSS.rs_strawberry}`}>
+                                                    <div className={`${ReferralProgramStyleCSS.rs_img} d-flex justify-content-center `}>
                                                         <img
                                                             src={card.imgPath}
                                                             alt='Unique Partner Care'
                                                             loading='lazy'
-                                                            className=''
-                                                        />
+                                                            className='' />
                                                     </div>
                                                     <div className={`${ReferralProgramStyleCSS.rs_h_card_border} `}>
                                                         <div className={ReferralProgramStyleCSS.slide_card}></div>
@@ -167,7 +154,6 @@ export const ReferralProgram = () => {
                                     ))}
                                 </Row>
                             </Col>
-
                         </Row>
                     </Col>
                 </Row>
