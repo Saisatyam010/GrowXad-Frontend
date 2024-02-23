@@ -1,60 +1,57 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import HomePage from '../main/pages/HomePage'
-import CpaNetworks from '../main/pages/cpaNetworks/CpaNetworks'
-import BannerAd from '../main/pages/adFormatPages/BannerAds'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "../main/pages/HomePage";
+import CpaNetworks from "../main/pages/cpaNetworks/CpaNetworks";
+import BannerAd from "../main/pages/adFormatPages/BannerAds";
 
-import PopunderAd from '../main/components/AdFormat/PopunderAd/PopunderAd'
-import NativeAd from '../main/components/AdFormat/NativeAd/NativeAd'
-import InPagePushAds from '../main/pages/adFormatPages/InPagePushAds'
-import DirectLinkAd from '../main/components/AdFormat/Direct_Link/DirectLinkAd'
-import InterstitialAd from '../main/components/AdFormat/Interstitial/InterstitialAd'
-import FaqForAdvertisers from '../main/pages/faq/FaqForAdvertisersPage'
-import { FaqForPublishersPage } from '../main/pages/faq/FaqForPublishersPage'
-import { FaqForAffiliatesPage } from '../main/pages/faq/FaqForAffiliatesPage'
-import { CampaignSettingPage } from '../main/pages/faq/CampaignSettingPage'
-import { HowToStartPage } from '../main/pages/faq/HowToStartPage'
-import { StatsAndTrackingPage } from '../main/pages/faq/StatsAndTrackingPage'
-import { StatsAndPayoutPage } from '../main/pages/faq/StatsAndPayoutsPage'
-import { GetAdsCodes } from '../main/pages/faq/GetAdsCodes'
-import { Blogs } from '../main/pages/freeResources/Blogs/Blogs'
-import { TrafficMonitization } from '../main/pages/freeResources/TrafficMonitization/TrafficMonitization'
-import { CaseStudies } from '../main/pages/freeResources/CaseStudies/CaseStudies'
-import { Newsletter } from '../main/pages/freeResources/NewsLetter/Newsletter'
-import { Glossary } from '../main/pages/freeResources/Glossary/Glossary'
-import { HowToAdvertise } from '../main/pages/freeResources/HowToAdvertiseOffers/HowToAdvertise'
-import { BenifitsForPublishers } from '../main/pages/publisherPages/BenifitsForPublisher/BenifitsForPublishers'
-import { ReferralProgram } from '../main/pages/publisherPages/ReferralProgram/ReferralProgram'
+import PopunderAd from "../main/components/AdFormat/PopunderAd/PopunderAd";
+import NativeAd from "../main/components/AdFormat/NativeAd/NativeAd";
+import InPagePushAds from "../main/pages/adFormatPages/InPagePushAds";
+import DirectLinkAd from "../main/components/AdFormat/Direct_Link/DirectLinkAd";
+import InterstitialAd from "../main/components/AdFormat/Interstitial/InterstitialAd";
+import FaqForAdvertisers from "../main/pages/faq/FaqForAdvertisersPage";
+import { FaqForPublishersPage } from "../main/pages/faq/FaqForPublishersPage";
+import { FaqForAffiliatesPage } from "../main/pages/faq/FaqForAffiliatesPage";
+import { CampaignSettingPage } from "../main/pages/faq/CampaignSettingPage";
+import { HowToStartPage } from "../main/pages/faq/HowToStartPage";
+import { StatsAndTrackingPage } from "../main/pages/faq/StatsAndTrackingPage";
+import { StatsAndPayoutPage } from "../main/pages/faq/StatsAndPayoutsPage";
+import { GetAdsCodes } from "../main/pages/faq/GetAdsCodes";
+import { Blogs } from "../main/pages/freeResources/Blogs/Blogs";
+import { TrafficMonitization } from "../main/pages/freeResources/TrafficMonitization/TrafficMonitization";
+import { CaseStudies } from "../main/pages/freeResources/CaseStudies/CaseStudies";
+import { Newsletter } from "../main/pages/freeResources/NewsLetter/Newsletter";
+import { Glossary } from "../main/pages/freeResources/Glossary/Glossary";
+import { HowToAdvertise } from "../main/pages/freeResources/HowToAdvertiseOffers/HowToAdvertise";
+import { BenifitsForPublishers } from "../main/pages/publisherPages/BenifitsForPublisher/BenifitsForPublishers";
+import { ReferralProgram } from "../main/pages/publisherPages/ReferralProgram/ReferralProgram";
 
-import AdvertisersPricingPage from '../main/pages/advertiserPages/AdvertisersPricingPage'
-import AdvertisersCpaGoalPage from '../main/pages/advertiserPages/AdvertisersCpaGoalPage'
-import AdvertisersBenefitsPage from '../main/pages/advertiserPages/AdvertisersBenefitsPage'
-import AdvertisersSelfServePage from '../main/pages/advertiserPages/AdvertisersSelfServePage'
-import AdvertisersSmartCpmPage from '../main/pages/advertiserPages/AdvertisersSmartCpmPage'
-import AdvertisersRtbPage from '../main/pages/advertiserPages/AdvertisersRtbPage'
-
+import AdvertisersPricingPage from "../main/pages/advertiserPages/AdvertisersPricingPage";
+import AdvertisersCpaGoalPage from "../main/pages/advertiserPages/AdvertisersCpaGoalPage";
+import AdvertisersBenefitsPage from "../main/pages/advertiserPages/AdvertisersBenefitsPage";
+import AdvertisersSelfServePage from "../main/pages/advertiserPages/AdvertisersSelfServePage";
+import AdvertisersSmartCpmPage from "../main/pages/advertiserPages/AdvertisersSmartCpmPage";
+import AdvertisersRtbPage from "../main/pages/advertiserPages/AdvertisersRtbPage";
 
 const MainRouter = () => {
   const mainRoutes = [
-
     // Aadvertiser Pages
 
     {
-      path: '/home',
+      path: "/home",
       component: <HomePage />,
-      exact: true
+      exact: true,
     },
 
     {
-      path: '/advetisers-benfits/',
+      path: "/advetisers-benfits/",
       component: <AdvertisersBenefitsPage />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/advetisers-pricing/',
+      path: "/advetisers-pricing/",
       component: <AdvertisersPricingPage />,
-      exact: true
-
+      exact: true,
     },
     // {
     //   path: '/advetisers-rtb/',
@@ -63,185 +60,160 @@ const MainRouter = () => {
 
     // },
     {
-      path: '/advetisers-cpagoal/',
+      path: "/advetisers-cpagoal/",
       component: <AdvertisersCpaGoalPage />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/advetisers-selfserve/',
+      path: "/advetisers-selfserve/",
       component: <AdvertisersSelfServePage />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/advetisers-rtbtraffic/',
+      path: "/advetisers-rtbtraffic/",
       component: <AdvertisersRtbPage />,
-      exact: true
+      exact: true,
     },
 
-
     {
-      path: '/advetisers-smartcpm/',
+      path: "/advetisers-smartcpm/",
       component: <AdvertisersSmartCpmPage />,
-      exact: true
-
+      exact: true,
     },
 
-
-
-
-
-
-
-    // Ad Format 
+    // Ad Format
     {
-      path: '/bannerAds',
+      path: "/bannerAds",
       component: <BannerAd />,
-      exact: true
-
+      exact: true,
     },
     {
-      path: '/popunderAds',
+      path: "/popunderAds",
       component: <PopunderAd />,
-      exact: true
-
+      exact: true,
     },
     {
-      path: '/nativeAd',
+      path: "/nativeAd",
       component: <NativeAd />,
-      exact: true
-
+      exact: true,
     },
     {
-      path: '/inpagepushAd',
+      path: "/inpagepushAd",
       component: <InPagePushAds />,
-      exact: true
-
+      exact: true,
     },
     {
-      path: '/directlinkad',
+      path: "/directlinkad",
       component: <DirectLinkAd />,
-      exact: true
-
+      exact: true,
     },
     {
-      path: '/interstitialad',
+      path: "/interstitialad",
       component: <InterstitialAd />,
-      exact: true
-
+      exact: true,
     },
 
-    // CPA Network 
+    // CPA Network
 
     {
-      path: '/cpanetwork',
+      path: "/cpanetwork",
       component: <CpaNetworks />,
-      exact: true
+      exact: true,
     },
 
     // FAQ Pages
 
     {
-      path: '/faqforadvertisers',
+      path: "/faqforadvertisers",
       component: <FaqForAdvertisers />,
-      exact: true
+      exact: true,
     },
 
     {
-      path: '/faqforpublishers',
+      path: "/faqforpublishers",
       component: <FaqForPublishersPage />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/faqforaffiliates',
+      path: "/faqforaffiliates",
       component: <FaqForAffiliatesPage />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/faqforcampaignsettings',
+      path: "/faqforcampaignsettings",
       component: <CampaignSettingPage />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/faqforhowtostart',
+      path: "/faqforhowtostart",
       component: <HowToStartPage />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/faqforstatsandtracking',
+      path: "/faqforstatsandtracking",
       component: <StatsAndTrackingPage />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/faqforstatsandandpayouts',
+      path: "/faqforstatsandandpayouts",
       component: <StatsAndPayoutPage />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/faqforgetadscodes',
+      path: "/faqforgetadscodes",
       component: <GetAdsCodes />,
-      exact: true
+      exact: true,
     },
 
     // Free Resources
 
     {
-      path: '/blogs',
+      path: "/blogs",
       component: <Blogs />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/trafficmonitization',
+      path: "/trafficmonitization",
       component: <TrafficMonitization />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/casestudies',
+      path: "/casestudies",
       component: <CaseStudies />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/newsletters',
+      path: "/newsletters",
       component: <Newsletter />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/glossary',
+      path: "/glossary",
       component: <Glossary />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/howtoadvertiseoffers',
+      path: "/howtoadvertiseoffers",
       component: <HowToAdvertise />,
-      exact: true
+      exact: true,
     },
 
     // Advertiser Pages
 
     {
-      path: '/benifitsforpublishers',
+      path: "/benifitsforpublishers",
       component: <BenifitsForPublishers />,
-      exact: true
+      exact: true,
     },
     {
-      path: '/referralprogram',
+      path: "/referralprogram",
       component: <ReferralProgram />,
-      exact: true
+      exact: true,
     },
 
-
-
-
-
-
-
-    
-
-    // 
-
-
-  ]
+    //
+  ];
   return (
-
     <Routes>
       <Route path="/" element={<HomePage />} />
       {mainRoutes.map((route, index) => (
@@ -251,10 +223,9 @@ const MainRouter = () => {
           element={route.component}
           exact={route.exact}
         />
-
       ))}
     </Routes>
-  )
-}
+  );
+};
 
-export default MainRouter
+export default MainRouter;
