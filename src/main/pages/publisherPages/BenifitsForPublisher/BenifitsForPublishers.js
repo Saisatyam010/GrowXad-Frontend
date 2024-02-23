@@ -5,6 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { BloggerReviews, MonitizeAnyTrafficData, WhyChooseUsCards } from './BenifitsForPublisherData';
 import { RiDoubleQuotesL } from "react-icons/ri";
 import Layout from '../../../components/Layout/Layout';
+import TbSeperator from '../../../components/Shared/TbSeperator';
 
 export const BenifitsForPublishers = () => {
     const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -20,6 +21,7 @@ export const BenifitsForPublishers = () => {
     return (
         <Layout>
             <Container fluid>
+                <TbSeperator />
                 <Row className='d-flex justify-content-center'>
                     <Col md={10}>
                         {/* Image and Content */}
@@ -200,29 +202,29 @@ export const BenifitsForPublishers = () => {
 
                             <Row className='d-flex justify-content-center'>
                                 {BloggerReviews.map((ele, key) => (
-                                        <Col md={4} className='pt-3'>
-                                            <div className={BenifitsForPublishersStyleCSS.dp_publisher_blogger_container}>
-                                                <Row >
-                                                    <Col md={12} className='py-2'>
-                                                        <RiDoubleQuotesL className={` ${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_main_heading_color} `} />
-                                                    </Col>
-                                                    <Col md={12}>
-                                                        <p className={`m-0 ${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_cards_content} fw-bold`}>{ele.content}</p>
-                                                    </Col>
-                                                </Row>
-                                                <Row className='d-flex align-items-center pt-4' style={{ padding: "1px 10px" }}>
-                                                    <Col md={3} className='col-3'>
-                                                        <div className='dp_publisher_blogger_icon_img'>
-                                                            <img src={ele.imgProfilePath} alt='' height="100%" width="100%"></img>
-                                                        </div>
-                                                    </Col>
-                                                    <Col md={7} className='col-6'>
-                                                        <p className={`m-0 text-center ${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_cards_content} `}>{ele.name}</p>
-                                                    </Col>
-                                                </Row>
-                                            </div>
-                                        </Col>
-                                    ))}
+                                    <Col md={4} className='pt-3'>
+                                        <div className={BenifitsForPublishersStyleCSS.dp_publisher_blogger_container}>
+                                            <Row >
+                                                <Col md={12} className='py-2'>
+                                                    <RiDoubleQuotesL className={` ${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_main_heading_color} `} />
+                                                </Col>
+                                                <Col md={12}>
+                                                    <p className={`m-0 ${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_cards_content} fw-bold`}>{ele.content}</p>
+                                                </Col>
+                                            </Row>
+                                            <Row className='d-flex align-items-center pt-4' style={{ padding: "1px 10px" }}>
+                                                <Col md={3} className='col-3'>
+                                                    <div className='dp_publisher_blogger_icon_img'>
+                                                        <img src={ele.imgProfilePath} alt='' height="100%" width="100%"></img>
+                                                    </div>
+                                                </Col>
+                                                <Col md={7} className='col-6'>
+                                                    <p className={`m-0 text-center ${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_cards_content} `}>{ele.name}</p>
+                                                </Col>
+                                            </Row>
+                                        </div>
+                                    </Col>
+                                ))}
                             </Row>
                         </Row>
                     </Col>

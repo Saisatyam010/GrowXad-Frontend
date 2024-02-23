@@ -3,6 +3,7 @@ import ReferralProgramStyleCSS from './Referralprogram.module.css'
 import { Col, Container, Row } from 'react-bootstrap';
 import { EarnMoneyByReferCard, HowToAttractReferrals } from './ReferralProgramData';
 import Layout from '../../../components/Layout/Layout';
+import TbSeperator from './../../../components/Shared/TbSeperator';
 
 export const ReferralProgram = () => {
     const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -17,6 +18,7 @@ export const ReferralProgram = () => {
     return (
         <Layout>
             <Container fluid>
+                <TbSeperator />
                 <Row className='d-flex justify-content-center'>
                     <Col md={10}>
                         {/* Image and Content */}
