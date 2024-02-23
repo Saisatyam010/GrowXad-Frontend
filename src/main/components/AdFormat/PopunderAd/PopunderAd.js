@@ -14,7 +14,6 @@ import { Button, Col, Row } from "react-bootstrap";
 import Layout from "../../Layout/Layout";
 import SectionSeperator from "../../Shared/SectionSeperator";
 import TbSeperator from "../../Shared/TbSeperator";
-// import { solutionData ,sectionsData} from "./PopunderMenu";
 
 const PopunderAd = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
