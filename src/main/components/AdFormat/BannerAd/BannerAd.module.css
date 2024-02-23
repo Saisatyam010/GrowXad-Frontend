@@ -41,17 +41,17 @@
 }
 
 .sana_DisplayBanner_card_borderwhite {
-  border: 1px solid #fff;
-  background-color: #fff;
+  border: 1px solid var(--tertiary-color);
+  background-color: var(--tertiary-color);
   border-radius: 30px;
 }
 
-.sana_DisplayBanner_font_26px {
+/* .sana_DisplayBanner_font_26px {
   font-size: 28px;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 0.5rem;
-}
+} */
 
 .sana_DisplayBanner_font_34px {
   font-size: 34px;
@@ -71,7 +71,7 @@
 }
 
 .sana_DISPLAYBANNER_CARD {
-  background-color: #fff;
+  background-color: var(--tertiary-color);
   border-radius: 10px;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -136,8 +136,14 @@
   /* background: rgb(85 108 214 / 10%); */
 }
 
-.sana_Solution_New_Cards_Box .sana_Solution_Cards:hover .sana_BannerDisplay_Card_Title h3,
-.sana_Solution_New_Cards_Box .sana_Solution_Cards:hover .sana_BannerDisplay_Card_desc p {
+.sana_Solution_New_Cards_Box
+  .sana_Solution_Cards:hover
+  .sana_BannerDisplay_Card_Title
+  h3,
+.sana_Solution_New_Cards_Box
+  .sana_Solution_Cards:hover
+  .sana_BannerDisplay_Card_desc
+  p {
   color: #fff;
 }
 
@@ -152,9 +158,12 @@
   border-radius: 35px; */
 }
 
-.sana_Solution_New_Cards_Box .sana_Solution_Cards:hover .sana_BannerDisplay_Card_desc button {
+.sana_Solution_New_Cards_Box
+  .sana_Solution_Cards:hover
+  .sana_BannerDisplay_Card_desc
+  button {
   background: #fff !important;
-  color: #73035B;
+  color: #73035b;
 }
 
 .sana_Solution_Cards .sana_BannerDisplay_Card_Title h3 {
@@ -181,17 +190,19 @@
   transition: 0.7s; */
 }
 
-.sana_Solution_New_Cards_Box .sana_Solution_Cards:hover .sana_hover_color_bubble {
+.sana_Solution_New_Cards_Box
+  .sana_Solution_Cards:hover
+  .sana_hover_color_bubble {
   top: 0rem;
 }
 
 /*--------------sadhana's css-----------------*/
 .sana_theme {
-  background-color: #73035B !important;
+  background-color: #73035b !important;
 }
 
 .sana_Add_formate_btns {
-  background-color: #73035B;
+  background-color: #73035b;
   border-radius: 5px;
   color: #fff;
 }
@@ -199,7 +210,11 @@
 /* New Card Design */
 
 .rs_bg_color {
-  background: linear-gradient(to right, var(--primary-color), rgb(223, 223, 225));
+  background: linear-gradient(
+    to right,
+    var(--primary-color),
+    rgb(223, 223, 225)
+  );
 }
 
 .rs_card_block {
@@ -218,7 +233,6 @@
 .rs_h1 {
   font-weight: 700;
 }
-
 
 .rs_img {
   align-items: center;
@@ -249,9 +263,6 @@
   font-style: normal;
 }
 
-
-
-
 .SSA_Btn_HOME_buytraffic {
   border: 1px solid var(--light-color);
   border-radius: 5px;
@@ -261,7 +272,6 @@
   background-color: var(--light-color);
 }
 
-
 .SSA_Btn_HOME_buytraffic:hover {
   border: 1px solid var(--light-color);
   border-radius: 5px;
@@ -269,7 +279,6 @@
   color: var(--primary-color);
   background-color: var(--light-color);
 }
-
 
 .gradient_signup {
   color: var(--secondary-color);
@@ -279,8 +288,6 @@
   /* background: linear-gradient(45deg, black, purple); */
   background-size: 400% 400%;
   animation: gradientMovement 10s ease infinite;
-
-
 }
 
 .gradient_signup:hover {
@@ -290,7 +297,6 @@
   border: 1px solid white !important;
 }
 
-
 .gradient_signup2 {
   color: var(--light-color);
   padding: 17px 24px !important;
@@ -299,8 +305,6 @@
   /* background: linear-gradient(45deg, black, purple); */
   background-size: 400% 400%;
   animation: gradientMovement 10s ease infinite;
-
-
 }
 
 .gradient_signup2:hover {
@@ -308,8 +312,4 @@
   background-color: var(--primary-color);
   /* background: linear-gradient(var(--seconary-color), var(--primary-color), var(--primary-color)); */
   border: 1px solid white !important;
-
-
-
-
 }

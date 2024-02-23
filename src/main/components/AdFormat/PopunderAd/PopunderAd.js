@@ -138,7 +138,7 @@ const PopunderAd = () => {
             <h1 className={`${AddStyle.dp_bannerads_main_heading}`}>
               Explore diverse GrowXads Popunder options for users.
             </h1>
-            <p className={`${AddStyle.dp_bannerads_sub_heading} m-0 py-3`}>
+            <p className={`${AddStyle.dp_bannerads_sub_heading} m-0 py-2`}>
               Traditional yet effective, Popunder advertising stand as the
               time-tested pillars of online promotion, with proven efficiency.
               Popunder, whether images or GIFs, find placement on publishers'
