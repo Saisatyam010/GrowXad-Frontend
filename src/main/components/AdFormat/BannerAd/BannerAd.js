@@ -31,7 +31,7 @@ const BannerAd = () => {
       <div>
         {/*1st section*/}
         <div className="container py-5">
-          <div className="row">
+        <div className={`row ${AddStyle.Add_formate_mob_view}`} >
             <div className="col-md-6">
               <h1 className={`${AddStyle.dp_bannerads_main_heading} m-0`}>
                 <span className={AddStyle.sana_DisplayBanner_VoiletText}>

@@ -31,7 +31,7 @@ const PopunderAd = () => {
         {/*1st section*/}
 
         <TbSeperator />
-        <div className="row">
+        <div className={`row ${AddStyle.Add_formate_mob_view}`}>
           <div className="col-md-6">
             <div>
               <span className={`${AddStyle.dp_bannerads_main_heading_color}`}>
