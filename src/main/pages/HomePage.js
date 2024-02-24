@@ -12,6 +12,10 @@ import UpperFooter from '../components/Home/Rtb'
 import BenefitCard from '../components/Home/BenefitsCard'
 import SectionSeperator from '../components/Shared/SectionSeperator'
 import Verified from '../components/Home/Verified/Verified'
+import AllWhiteCards from '../components/Home/AllWhiteCards/AllWhiteCards'
+import { BenefitCardMenu } from '../components/Shared/data/benefitCardMenu'
+
+
 
 
 
@@ -20,15 +24,16 @@ const HomePage = () => {
   return (
     <Layout>
 
+
       <Welcome />
       <SectionSeperator />
 
-
+      <AllWhiteCards message={BenefitCardMenu} />
       <SwichComponent />
       <SectionSeperator />
       <SectionSeperator />
       <SectionSeperator />
-      <BenefitCard />
+
       <SectionSeperator />
       <SectionSeperator />
       <SectionSeperator />
@@ -37,6 +42,7 @@ const HomePage = () => {
       <SectionSeperator />
       <SectionSeperator />
       <SectionSeperator />
+
       <CardHome />
       <SectionSeperator />
       <SectionSeperator />

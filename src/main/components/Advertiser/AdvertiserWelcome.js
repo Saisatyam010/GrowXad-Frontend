@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import CPANetworkStyleCSS from '../../components/CpaNetwork/CpaNetwork.module.css'
 const AdvertiserWelcome = (props) => {
-    console.log(props)
+   
 
     return (
         <>
@@ -22,7 +22,9 @@ const AdvertiserWelcome = (props) => {
                                 </Col>
                                 <Col md={12} className="p-0 m-0">
                                     <div className='p-0 m-0'>
-                                        <Button variant="outline" className={`${CPANetworkStyleCSS.RegisterButton}`}>Learn More</Button>
+                                        <div className='w-60'>
+                                            <Button variant="outline" className={`${CPANetworkStyleCSS.gradient_signup2}  px-5 mr-2 p-3 w-100  `}>Learn More</Button>{' '}
+                                        </div>
                                     </div>
                                 </Col>
                             </Row>

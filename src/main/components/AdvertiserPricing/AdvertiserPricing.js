@@ -25,6 +25,36 @@ const AdvertiserPricing = () => {
         imgUrl: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6de390dc-1dc4-42b0-0835-88f663227900/public'
 
     }
+
+    const PricingLargerData = [{
+        heading1: 'GrowXad for Advertisers.',
+        heading2: 'Experience a Superlative Output of Your Marketing',
+        subheading: 'A game-changing advertising network for media buyers and affiliates looking for alternative traffic sources to connect their offers to highly engaged audiences.',
+        spanHeading: 'ready to engage',
+        afterSpanHeading: ' with your offers',
+        imgUrl: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6de390dc-1dc4-42b0-0835-88f663227900/public'
+
+    },
+    {
+        heading1: 'GrowXad for Advertisers.',
+        heading2: 'Experience a Superlative Output of Your Marketing',
+        paragraph2: 'A game-changing advertising network for media buyers and affiliates looking for alternative traffic sources to connect their offers to highly engaged audiences.',
+        spanHeading: 'ready to engage',
+        afterSpanHeading: ' with your offers',
+        imgUrl: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6de390dc-1dc4-42b0-0835-88f663227900/public'
+
+    },
+
+    {
+        heading1: 'GrowXad for Advertisers.',
+        heading2: 'Experience a Superlative Output of Your Marketing',
+        subheading: 'A game-changing advertising network for media buyers and affiliates looking for alternative traffic sources to connect their offers to highly engaged audiences.',
+        spanHeading: 'ready to engage',
+        afterSpanHeading: ' with your offers',
+        imgUrl: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6de390dc-1dc4-42b0-0835-88f663227900/public'
+
+    },
+    ]
     const data2 = AdvertiserCardDataMenus;
 
 
@@ -63,6 +93,8 @@ const AdvertiserPricing = () => {
 
                     <Container fluid className='  ' >
                         <Container className='pt-3' >
+
+                            {PricingLargerData.map((ele)=>
                             <Row>
                                 <Col>
                                     <Row className='d-flex justify-content-center mb-4' >
@@ -73,9 +105,9 @@ const AdvertiserPricing = () => {
                                     </Row>
                                     <Row className='' >
                                         <Col md={6} className='' >
-                                            <h2 className='webcl_theme rk_price_h2' style={{ color: '#71065D' }} >CPA</h2>
-                                            <h6 className='rk_price_h2'>COST-PER-ACQUISITION</h6>
-                                            <p>Opt for Cost-Per-Acquisition (CPA) in familiar markets with a simple conversion process. For uncharted territories or complex flows, start with Cost Per Mille (CPM). This balance optimizes strategies, tailoring them to specific goals, while testing and data analysis pinpoint the most efficient model for maximum return on investment.</p>
+                                            <h2 className='webcl_theme rk_price_h2' style={{ color: '#71065D' }} >{ele.heading1}</h2>
+                                            <h6 className='rk_price_h2'>{ele.heading2}</h6>
+                                            <p>{ele.paragraph2}</p>
 
 
                                         </Col>
@@ -83,7 +115,7 @@ const AdvertiserPricing = () => {
                                             <Row className='d-flex justify-content-center' >
                                                 <Col md={4} sm={5} xs={5} className='' >
                                                     <div className='rk_price_bx-3'>
-                                                        <p>TOP VERTICALS:</p>
+                                                        <p className='text-[20px] '>TOP VERTICALS:</p>
                                                         <ul>
                                                             <li><Link to='' className='text-black no-underline'>VPN & Utility</Link></li>
                                                             <li><Link to='' className='text-black no-underline'>PIN Submits</Link></li>
@@ -117,107 +149,9 @@ const AdvertiserPricing = () => {
 
 
                                 </Col>
-                            </Row>
-
-                            <Row>
-                                <Col>
-
-                                    <Row className='' >
-                                        <Col md={6} className='' >
-                                            <h2 className='webcl_theme rk_price_h2' style={{ color: '#71065D' }} >CPC</h2>
-                                            <h6 className='rk_price_h2'>COST-PER-CLICK</h6>
-                                            <p>Opt for cost-per-click payment for easily convertible offers, such as a simple opt-in. Utilize the Traffic Chart and Traffic Estimator tools to ensure a substantial volume of impressions. This ensures an effective strategy by aligning the payment model with the simplicity of the conversion process while optimizing impressions for maximum impact.</p>
+                            </Row>)}
 
 
-                                        </Col>
-                                        <Col md={6} className='' >
-                                            <Row className='d-flex justify-content-center'>
-                                                <Col md={4} sm={5} xs={5} className='' >
-                                                    <div className='rk_price_bx-3'>
-                                                        <p>TOP VERTICALS:</p>
-                                                        <ul>
-                                                            <li><Link to='' className='text-black text-[18px] no-underline'>Mobile Apps & Games</Link></li>
-                                                            <li><Link to='' className='text-black text-[18px] no-underline'>Mobile Apps & Games</Link></li>
-                                                            <li><Link to='' className='text-black text-[18px] no-underline'>Utilities & Software</Link></li>
-                                                            <li><Link to='' className='text-black text-[18px] no-underline'>Subscriptions</Link></li>
-                                                        </ul>
-                                                    </div>
-                                                </Col>
-                                                <Col md={1} sm={2} xs={2} className='' >
-                                                    <div className='rk_price_bx-3-Vl' ></div>
-                                                </Col>
-                                                <Col md={4} sm={5} xs={5} >
-                                                    <div className='rk_price_bx-3 '>
-                                                        <div> <p>TOP AD FORMATS:</p>
-                                                            <ul>
-                                                                <li><Link to='' className='text-black text-[18px] no-underline '>Popunder</Link></li>
-                                                                <li><Link to='' className='text-black text-[18px] no-underline'>Popunder</Link></li>
-                                                                <li><Link to='' className='text-black text-[18px] no-underline'>Push Ads</Link></li>
-                                                                <li><Link to='' className='text-black text-[18px] no-underline'>Native Banners</Link></li>
-                                                            </ul></div>
-                                                    </div>
-                                                </Col>
-                                            </Row>
-
-
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col>
-                                            <hr className='rk_price_bx-3-Hl' />
-
-                                        </Col>
-                                    </Row>
-
-
-                                </Col>
-                            </Row>
-
-                            <Row>
-                                <Col>
-
-                                    <Row className='' >
-                                        <Col md={6} className='' >
-                                            <h2 className='webcl_theme rk_price_h2' style={{ color: '#71065D' }} >CPM</h2>
-
-                                            <h6 className='rk_price_h2'>COST-PER-MILLE</h6>
-                                            <p>Cost-per-thousand-impressions (CPM) pricing suits exploring new GEOs and testing intricate conversion flows like CC submits. It's cost-effective, aiding bid balance until conversions increase, making it ideal for strategic testing and optimization.</p>
-
-
-                                        </Col>
-                                        <Col md={6} className='' >
-                                            <Row className='d-flex justify-content-center'>
-                                                <Col md={4} sm={5} xs={5} className='' >
-                                                    <div className='rk_price_bx-3'>
-                                                        <p className='webcl_theme'>TOP VERTICALS:</p>
-                                                        <ul>
-                                                            <li><Link to='' className='text-black no-underline'>Finance</Link></li>
-                                                            <li><Link to='' className='text-black no-underline'>E-commerce</Link></li>
-                                                        </ul>
-                                                    </div>
-                                                </Col>
-                                                <Col md={1} sm={2} xs={2} className='' >
-                                                    <div className='rk_price_bx-3-Vl' ></div>
-                                                </Col>
-                                                <Col md={4} sm={5} xs={5} >
-                                                    <div> <p>TOP AD FORMATS:</p>
-                                                        <ul>
-                                                            <li><Link to='' className='text-black text-[18px] no-underline '>Popunder</Link></li>
-                                                            <li><Link to='' className='text-black text-[18px] no-underline'>Popunder</Link></li>
-                                                            <li><Link to='' className='text-black text-[18px] no-underline'>Push Ads</Link></li>
-                                                            <li><Link to='' className='text-black text-[18px] no-underline'>Native Banners</Link></li>
-                                                        </ul></div>
-                                                </Col>
-                                            </Row>
-
-
-                                        </Col>
-                                    </Row>
-
-
-
-                                </Col>
-                            </Row>
 
                         </Container>
 

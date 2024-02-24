@@ -10,14 +10,14 @@ const JoinGrowXAd = () => {
         { text: "I'm an Affiliate" }
     ];
     return (
-        <Container>
+        <Container className={JoinGrowXAds.rs_common_red_square_block}>
             <Row className='d-flex justify-content-center '>
                 <Col md={12}>
-                    <div className='container mt-5 bg-black rounded-lg '>
+                    <div className='container mt-5  rounded-lg '>
                         <div className='row d-flex justify-content-center'>
                             <div className='col-md-12'>
                                 <section className={JoinGrowXAds.rs_section_container}>
-                                    <section className={JoinGrowXAds.rs_common_red_square_block}>
+                                    <section >
                                         <div className={`${JoinGrowXAds.rs_col_7} col-lg-8 offset-lg-2`}>
                                             <p className={`${JoinGrowXAds.AdvertisersContainerHeading} text-center fs-3 text-white`}>Join GrowXAds Today</p>
                                             <p className={`${JoinGrowXAds.JoinGrowXAdsSubHeading} text-white`}>

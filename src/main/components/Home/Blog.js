@@ -45,7 +45,7 @@ const Blog = () => {
                   <div key={index} className="card">
                     <div className={`${Cardstyles.sana_mainPage_card} `}>
                       <div>
-                        <div className="">
+                        <div >
                           <img
                             src={item.imageSrc}
                             alt=""

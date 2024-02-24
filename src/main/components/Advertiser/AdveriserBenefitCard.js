@@ -11,7 +11,7 @@ import TbSeperator from "../Shared/TbSeperator";
 
 
 const AdvertiserBenefitCard = (props) => {
-    console.log(props.message)
+
 
     return (
         <>

@@ -11,7 +11,8 @@ import Layout from "../Layout/Layout";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { AdvertiserBenefitsProsData } from "../Shared/data/advertiserBenefitsPros";
 import AdvertiserBenefitCard from "./AdveriserBenefitCard";
-import { AdvertiserBenefitCardMenu } from "../Shared/data/benefitCardMenu";
+import { AdvertiserBenefitCardMenu, AdvertiserBenefitsMenu, BenefitCardMenu } from "../Shared/data/benefitCardMenu";
+import AllWhiteCards from "../Home/AllWhiteCards/AllWhiteCards";
 
 const AdvertiserBenefits = () => {
     const data = {
@@ -21,6 +22,12 @@ const AdvertiserBenefits = () => {
         spanHeading: 'ready to engage',
         afterSpanHeading: ' with your offers',
         imgUrl: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/424b3ba8-0537-49df-53b2-933890a6a200/public'
+    }
+
+    const Advertiserhp = {
+        blackHeading1: "Revolutionizing Your Online Presence:",
+        spanPurple: "fewfewfewfewf",
+        blackHeading2: "fewfwefewf",
     }
 
     return (
@@ -43,30 +50,20 @@ const AdvertiserBenefits = () => {
                     style={{ borderEndStartRadius: "40px" }}
                 >
                     <div className="container pt-4 px-md-5 px-2">
-
-                        <div className="text-center">
-                            <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}>Revolutionizing Your Online Presence: </span>
-                            <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color}`}>Revolutionizing Advanced Digital Marketing Tactics</span>
-                        </div>
-
                         <div className="row">
-                            {solutions.map((item, index) => (
-                                <div className="col-md-6 pt-4 " key={index}>
-                                    <div className={`p-md-5 p-3 bg-white ${AdvertiserBenefitsStyles.SSA_card1} `}>
-                                        <div className={`${AdvertiserBenefitsStyles.SSA_benefits_font26px_purple}  d-flex align-items-center`}>
-                                            {item.title}
-
-                                            <span className="fs-3 px-2">{item.icon}</span>
-
-                                        </div>
-
-                                        <p className={`${AdvertiserBenefitsStyles.dp_advbenifits_content} `}>
-                                            {item.description}
-                                        </p>
-                                    </div>
-                                </div>
-                            ))}
+                            <div className="text-center">
+                                <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}>Revolutionizing Your Online Presence: </span>
+                                <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color}`}>Revolutionizing Advanced Digital Marketing Tactics</span>
+                            </div>
                         </div>
+                        <div className="row">
+                            <div className="col-md-12">
+                                <AllWhiteCards message={AdvertiserBenefitsMenu} hp={Advertiserhp} />
+                            </div>
+                        </div>
+
+
+
                     </div>
                 </div>
 
@@ -159,7 +156,7 @@ const AdvertiserBenefits = () => {
                 <Switch3Component />
                 {/*----------------------------9col section-------------------------*/}
 
-                <div className="container p-5">
+                <div className="container p-5 ">
 
                     <div className="text-center py-4">
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}>Join pros who make 1.34B </span>
@@ -190,45 +187,42 @@ const AdvertiserBenefits = () => {
                     </div>
                 </div>
 
-                <AdvertiserBenefitCard message={AdvertiserBenefitCardMenu} />
+
 
 
                 {/*--------------------payment section-------------------*/}
 
                 {/*-------------------Box Section-------------------*/}
-                <div
-                    className="px-3 my-3"
-                    style={{ bottom: "0px", marginBottom: "20px" }}
-                >
-                    <div className="px-md-5 px-0 mx-md-5 mx-2 ">
-                        <div className="container-fluid  SSA_Benefit_Bg_Img3  py-md-5 py-3">
-                            <div className="text-center pt-5">
-                                <div >
-                                    <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading} `}>Join </span>
-                                    <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color} `}>GrowXAds </span>
-                                    <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading} `}>Today!</span>
-                                </div>
 
-                                <p className={`${AdvertiserBenefitsStyles.dp_advbenifits_sub_heading} text-black`}>
-                                    You’re only a few minutes away from high-value
-                                    audiences ready to engage with your offers.
-                                </p>
-                                <Col md={{ span: 4, offset: 4 }} className="mb-2 my-5">
-                                    <Button className={`MoreButton btn`}>
-                                        <div className='p-0 m-0'>
-                                            <div className='d-flex align-items-center justify-content-center'>
 
-                                                <span>Signup And Try</span>
-                                                <span className={`ps-3 moreArrrow`}><FaArrowCircleRight /></span>
-
-                                            </div>
-                                        </div>
-                                    </Button>
-                                </Col>
-                            </div>
+                <div className="container-fluid   py-md-5 py-3 bgBenefits">
+                    <div className="text-center pt-5">
+                        <div >
+                            <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading} text-white`}>Join </span>
+                            <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color} text-white `}>GrowXAds </span>
+                            <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading} text-white`}>Today!</span>
                         </div>
+
+                        <p className={`${AdvertiserBenefitsStyles.dp_advbenifits_sub_heading} text-white`}>
+                            You’re only a few minutes away from high-value
+                            audiences ready to engage with your offers.
+                        </p>
+                        <Col md={{ span: 4, offset: 4 }} className="mb-2 my-5">
+                            <Button className={`MoreButton btn`}>
+                                <div className='p-0 m-0'>
+                                    <div className='d-flex align-items-center justify-content-center'>
+
+                                        <span>Signup And Try</span>
+                                        <span className={`ps-3 moreArrrow`}><FaArrowCircleRight /></span>
+
+                                    </div>
+                                </div>
+                            </Button>
+                        </Col>
                     </div>
                 </div>
+
+
 
                 {/*-----------second last section------------------*/}
                 <div className="container-fluid">

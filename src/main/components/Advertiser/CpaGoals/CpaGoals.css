@@ -32,7 +32,6 @@
 .dp_cpagoals_topbenifits_container {
     color: white;
     margin-top: 50px;
-    background-color: #333333;
     border-radius: 30px;
     padding: 40px;
 }
@@ -104,19 +103,19 @@
     padding: 5px;
 }
 
-.dp_payment_items li{
+.dp_payment_items li {
     background-color: #e7ecef;
     margin: 5px 0px;
     border-radius: 15px;
     border: 1px solid lightgray;
 }
 
-.a{
+.a {
     background-image: url(https://adsterra.com/_nuxt/img/background.4612f35.png);
-   
+
 }
 
-.SSA_NEW_SmartCPM_card_black_bg{
+.SSA_NEW_SmartCPM_card_black_bg {
     background-color: #333;
     border-radius: 22px;
     height: 220px;
@@ -125,7 +124,7 @@
     z-index: 1;
 }
 
-.SSA_NEW_SmartCPM_imgbgcolor{
+.SSA_NEW_SmartCPM_imgbgcolor {
     align-items: center;
     background: #fff;
     border-radius: 8px;

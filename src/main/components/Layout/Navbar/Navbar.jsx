@@ -12,8 +12,8 @@ const HeaderMenu = [
       { name: 'Benefits for Advertisers', to: "/advetisers-benfits/" },
       { name: 'Pricing Models', to: "/advetisers-pricing/" },
       { name: 'Self-Serve Platform', to: "/advetisers-selfserve/" },
-      { name: 'RTB traffic for advertisers', to: "/benifitsforpublishers" },
-      { name: 'Smart CPM', to: "/advetisers-smartcpm" },
+      { name: 'RTB traffic for advertisers', to: "/advetisers-rtb/" },
+      { name: 'Smart CPM', to: "/advetisers-smartcpm/" },
       { name: 'CPA Goal', to: "/advetisers-cpagoal/" },
     ]
   },
@@ -157,7 +157,7 @@ export default function Header() {
           <div className="fixed inset-0 z-10" />
           <Dialog.Panel className="fixed top-20 inset-y-0 left-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex flex-col gap-y-4">
-              {HeaderMenu.map((menu, index    ) => (
+              {HeaderMenu.map((menu, index) => (
                 <Fragment key={index}>
                   {menu.data ? (
                     <Disclosure>

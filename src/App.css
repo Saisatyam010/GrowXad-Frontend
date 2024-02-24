@@ -85,6 +85,15 @@
 
 }
 
-.gradient_Top{
+.gradient_Top {
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
+
+.bgBenefits {
+  background-image: url("http://localhost:3000/images/bgg.png") !important;
+  background-color: var(--secondary-color);
+  background-size: cover;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-radius: 4px;
 }

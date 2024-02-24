@@ -136,7 +136,9 @@ const CpaGoals = () => {
 
             <Row className="mt-5 p-3 d-flex justify-content-center px-2 card">
               <Col md={11}>
-                <h3 className="p-0">How to enable CPA Goal</h3>
+                <Row className='mb-5'>
+                  <h3 className="text-center ">How to enable CPA Goal</h3>
+                </Row>
 
                 <Row className="mt-4 ">
                   <Col md={6} style={{ fontSize: "14px" }}>
@@ -146,77 +148,56 @@ const CpaGoals = () => {
                       </Col>
                       <Col md={11} className="col-11  ">
                         <div className="ps-1">
-                          <span className="dp_cpa_enableCPA_link ">
-                            Sign up
-                          </span>
-                          <span> or </span>
-                          <span className="dp_cpa_enableCPA_link">
-                            log in
-                          </span>
-                          <span> as an advertiser.</span>
+
+                          Sign up or log in as an advertiser.vervwevwevw wvevwevwev wvwevwevwev ewvewvwevewv
                         </div>
                       </Col>
                     </Row>
 
                     <Row className="mb-2">
                       <Col md={1} className="col-1">
-                        <span className="dp_cpa_enableCPA_numbering">2 </span>
+                        <span className="dp_cpa_enableCPA_numbering">1 </span>
                       </Col>
-                      <Col md={11} className="col-11">
+                      <Col md={11} className="col-11  ">
                         <div className="ps-1">
-                          <span>Ensure to set up </span>
-                          <span className="dp_cpa_enableCPA_link ">
-                            S2S tracking
-                          </span>
-                          <span>
-                            {" "}
-                            since it’s necessary for tracking conversions.
-                          </span>
+
+                          Sign up or log in as an advertiser.
                         </div>
                       </Col>
                     </Row>
 
                     <Row className="mb-2">
                       <Col md={1} className="col-1">
-                        <span className="dp_cpa_enableCPA_numbering">3 </span>
+                        <span className="dp_cpa_enableCPA_numbering">1 </span>
                       </Col>
-                      <Col md={11} className="col-11">
+                      <Col md={11} className="col-11  ">
                         <div className="ps-1">
-                          <span>
-                            {" "}
-                            To enable CPA Goal optimization, create a new
-                            campaign or choose the existing one. To create a
-                            new campaign, hit Campaigns Create.
-                          </span>
+
+                          Sign up or log in as an advertiser.
                         </div>
                       </Col>
                     </Row>
 
                     <Row className="mb-2">
                       <Col md={1} className="col-1">
-                        <span className="dp_cpa_enableCPA_numbering">4 </span>
+                        <span className="dp_cpa_enableCPA_numbering">1 </span>
                       </Col>
-                      <Col md={11} className="col-11">
+                      <Col md={11} className="col-11  ">
                         <div className="ps-1">
-                          <span>
-                            On the campaign page, pick CPM or CPC from the
-                            Pricing type field.
-                          </span>
+
+                          Sign up or log in as an advertiser.
                         </div>
                       </Col>
                     </Row>
 
                     <Row className="mb-2">
                       <Col md={1} className="col-1">
-                        <span className="dp_cpa_enableCPA_numbering">3 </span>
+                        <span className="dp_cpa_enableCPA_numbering">1 </span>
                       </Col>
-                      <Col md={11} className="col-11">
+                      <Col md={11} className="col-11  ">
                         <div className="ps-1">
-                          <span>
-                            Jump to Step 4 – Advanced settings. You can now
-                            create a rule to optimize your traffic for the
-                            number of conversions or eCPA.
-                          </span>
+
+                          Sign up or log in as an advertiser.
                         </div>
                       </Col>
                     </Row>
@@ -225,8 +206,8 @@ const CpaGoals = () => {
                   <Col md={6} className=" dp_cpa_enableCPA_bgimage">
                     <Row
                       style={{
-                        padding: "40px 40px 20px 40px",
-                        marginTop: "80px",
+
+
                         fontSize: "16px",
                       }}
                     >
@@ -483,11 +464,11 @@ const CpaGoals = () => {
 
             {/* Ready to create a rules-based campaign? */}
 
-            <Row className="mt-5 d-flex justify-content-center px-2">
+            <Row className="mt-5 d-flex justify-content-center px-2 bgBenefits">
               <Col
                 md={12}
                 className=" dp_cpagoals_topbenifits_container "
-                style={{ backgroundColor: "#73035b" }}
+
               >
                 <Row className="mt-4 px-2 d-flex justify-content-center">
                   <Col md={12}>
@@ -509,9 +490,7 @@ const CpaGoals = () => {
             {/* FAQ about CPA Goal */}
 
             <Row className="mt-5 d-flex justify-content-center px-2">
-              <Col md={12}>
-                <h1 className="text-center">FAQ about CPA Goal</h1>
-              </Col>
+
 
               <Col md={12} className="p-0">
                 <Row className="mt-4 px-2 d-flex justify-content-center">

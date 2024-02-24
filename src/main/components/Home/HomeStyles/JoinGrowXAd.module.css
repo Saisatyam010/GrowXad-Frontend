@@ -3,6 +3,7 @@
 }
 
 .rs_common_red_square_block {
+    background-image: url("http://localhost:3000/images/bgg.png") !important;
     background-color: var(--secondary-color);
     background-size: cover;
     padding-bottom: 25px;

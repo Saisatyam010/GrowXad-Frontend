@@ -42,7 +42,7 @@
 }
 
 .rk_blog_card_content {
-    font-size: 18px;
+    font-size: var(--section-sub-heading);
     font-weight: 500;
     display: flex;
     justify-content: start;
@@ -59,7 +59,7 @@
 }
 
 .rk_blog_card_time {
-    font-size: 12px;
+    font-size: var(--section-content);
 }
 
 .rk_blog_card_button {
@@ -76,8 +76,8 @@
 }
 
 .sana_mainPage_card {
-    /* height: 460px; */
-    /* max-width: 450px; */
+    height: 400px;
+    max-width: 450px;
     /* border: 1px solid #ddd; */
     border-radius: 5px;
     /* margin: 16px; */
