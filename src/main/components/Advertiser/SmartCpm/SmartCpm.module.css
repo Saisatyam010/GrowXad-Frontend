@@ -1,0 +1,66 @@
+.SSA_SmartCPM_Text_purple {
+    color: var(--primary-color);
+  }
+  
+  .SSA_smartCPM_Font2rem {
+    font-size: (--section-main-heading);
+    font-weight: 700;
+  }
+  
+  .SSA_SmartCPM_Font_34px {
+    font-weight: 700;
+    font-size: var(--section-sub-heading);
+  }
+  .SSA_benefit_SIX_col_card {
+    border-radius: 30px;
+    height: 290px;
+  }
+  
+  .SSA_SmartCPM_imgbgcolor {
+    align-items: center;
+    background: var(--tertiary-color);
+    border-radius: 8px;
+    box-shadow: 2px 2px 0 #b4b4b4, 12px 12px 44px rgba(115, 3, 91, 0.9);
+    height: 72px;
+    z-index: 1;
+    justify-content: center;
+    width: 72px;
+  }
+  
+  .SSA_SmartCPM_card_black_bg {
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius-base);
+    height: 220px;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+  }
+  .Unlocking_SmartCPM_container {
+    background-color: var(--secondary-color);
+  }
+  .Accelerated_Onboarding_Guide {
+    display: inline-flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    margin-right: 10px;
+  }
+  .Accelerated_Onboarding_Guide_p {
+    font-size: var(--section-heading);
+  }
+  .SSA_Ad_Benefits_font2rem_container {
+    background-color: var(--primary-color);
+  }
+  .SSA_Ad_Benefits_font2rem_Section2 {
+    font-size: var(--section-main-heading);
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  .SSA_Ad_Benefits_font22px {
+    font-size: var(--section-heading);
+  }
+  
