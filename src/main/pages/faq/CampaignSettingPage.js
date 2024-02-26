@@ -48,41 +48,45 @@ export const CampaignSettingPage = () => {
 
 
                         {FaqForCampaignSettingsQuestions.map((question, index) => (
-                            <div
-                                key={question.id}
-                                className={`col-md-12 ${dropStyles.sana_drop_question}`}
-                            >
-                                <div className={dropStyles.sana_DropQues_container}>
-                                    <p onClick={() => handleOpen(question.id)}>
-
-                                        <span
-                                            className={`${dropStyles.dp_faq_content} ${openQuestionIds.includes(question.id)
-                                                ? dropStyles.opened
-                                                : ""
-                                                }`}
-                                        >
-                                            Q{index + 1}.
-                                        </span>
-
-                                        <span className={`${dropStyles.dp_faq_content} `}> {question.question}</span>
-
-                                        <span
-                                            className={`${dropStyles.sana_chevron_icon} ${openQuestionIds.includes(question.id)
-                                                ? dropStyles.rotate
-                                                : ""
-                                                }`}
-                                        >
-                                            <FaPlus />
-                                        </span>
-                                    </p>
-                                </div>
-                                <div
-                                    className={`${dropStyles.sana_dropdown_content} ${openQuestionIds.includes(question.id) ? dropStyles.open : ""
-                                        }`}
-                                >
-                                    <p className={`${dropStyles.dp_faq_content}`}>A.{question.id} {question.answer}</p>
-                                </div>
-                            </div>
+                         <div
+                         key={question.id}
+                         className={`col-md-12 ${dropStyles.sana_drop_question}`}
+                       >
+                         <div className={dropStyles.sana_DropQues_container}>
+                           <div
+                           className={`${dropStyles.rk_drop_q_cont} row `}
+                           onClick={() => handleOpen(question.id)}>
+                              <div className='d-flex col-md-11 col-sm-11 col-11 col-xs-11 justify-content-start'>
+                             <div
+                               className={`${dropStyles.dp_faq_content} ${openQuestionIds.includes(question.id)
+                                 ? dropStyles.opened
+                                 : ""
+                                 }`}
+                             >
+                               Q{index + 1}.
+                             </div>
+       
+                             <div className={`${dropStyles.dp_faq_content} `}> {question.question}</div>
+                             </div>
+       
+                             <div
+                             className='col-md-1 col-sm-1 col-1 col-xs-1'
+                               
+                             >
+                               <FaPlus className={`${dropStyles.sana_chevron_icon}  ${openQuestionIds.includes(question.id)
+                                 ? dropStyles.rotate
+                                 : ""
+                                 }`}/>
+                             </div>
+                           </div>
+                         </div>
+                         <div
+                           className={`${dropStyles.sana_dropdown_content} ${openQuestionIds.includes(question.id) ? dropStyles.open : ""
+                             }`}
+                         >
+                           <p className={`${dropStyles.dp_faq_content}`}>A.{question.id} {question.answer}</p>
+                         </div>
+                       </div>
                         ))}
                     </Col>
 
