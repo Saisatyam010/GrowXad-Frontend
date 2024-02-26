@@ -19,7 +19,7 @@ const AdvertiserBenefitCard = (props) => {
                 <Row>
                     <Col md={12}>
 
-                        <div className="text-center py-4">
+                        <div className="text-center pt-4">
                             <span className={`${BenefitCardStyles.dp_advbenifits_main_heading}`}>We do care about </span>
                             <span className={`${BenefitCardStyles.dp_advbenifits_main_heading_color}`}>your business </span>
                             <span className={`${BenefitCardStyles.dp_advbenifits_main_heading}`}>growth </span>
@@ -32,7 +32,7 @@ const AdvertiserBenefitCard = (props) => {
             <Container>
                 <Row>
                     {props.message.map((card, index) => (
-                        <Col md={3}>
+                        <Col md={3} className="my-2">
                             <div
                                 key={index}
                                 className={`${BenefitCardStyles.sana_card
