@@ -5,7 +5,7 @@ export const AdvertiserBenefitsProsData = [
     },
     {
         name: 'Mobile Apps',
-        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/4eaf578b-ddd0-4c1e-700a-058f7aadf100/public',
+        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8b30caf2-0bb1-43eb-f2bd-52e22ec48b00/public',
     },
     {
         name: 'Dating',
