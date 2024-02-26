@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import dropStyles from "../Faqs/Faq.module.css";
 import { FaqsMenu } from "./FaqsMenu";
-import { FaChevronDown } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa6";
 const Faqs = () => {
   const [openQuestionIds, setOpenQuestionIds] = useState([]);
