@@ -24,6 +24,25 @@ const RtbTraffic = () => {
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1w2NFNh10mGbPzIwiFe10kodW-180zKUF891p2hZl0GzJBXZhAmYKCkVW8whAar8z1mU&usqp=CAU",
   ];
 
+  const aboutRtbCardData = [
+    {
+      title: "INTEGRATION",
+      content: "OpenRTB XML and JSON feeds",
+      imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/cb57682d-3247-4733-070c-a1e363363500/public",
+    },
+    {
+      title: "AD FORMATS",
+      content: "Popundars Web Push and Native ads social Bar",
+      imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c5d535a1-d52b-4531-6da1-ef400e21be00/public",
+    },
+    {
+      title: "ANY TRAFFIC",
+      content: "ALL GEOs Mobile & desktop Advanced targeting",
+      imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/81284225-e029-4487-4d3c-bef861693800/public",
+    },
+
+  ];
+
   const handleNext = () => {
     setStartIndex(
       (prevIndex) => (prevIndex + 1) % (icons.length - iconsPerPage + 1)
@@ -62,45 +81,48 @@ const RtbTraffic = () => {
       "A game-changing advertising network for media buyers and affiliates looking for alternative traffic sources to connect their offers to highly engaged audiences.",
     spanHeading: "ready to engage",
     afterSpanHeading: " with your offers",
-    imgUrl: " http://localhost:3000/images/rtbMainBanner.png",
+    imgUrl: " https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d30cde05-3032-42fa-b4c7-04394a7e1500/public",
   };
   return (
     <>
       <Layout>
         <div>
-          <div className="container ">
-            <div className="row">
-              <div className="col-md-12">
+          <div className="container-fluid ">
+            <div className="row d-flex justify-content-center pt-5">
+              <div className="col-md-11">
                 <AdvertiserWelcome message={data} />
               </div>
             </div>
           </div>
 
-          {/* -------------------------------------------------------------------------------------------- */}
-          <Container className="mt-3">
-            <Row className={rtbStyles.rk_rtb_box_2}>
-              <Col md={8}>
+          <Container fluid className="my-4">
+            <Row className="d-flex justify-content-center">
+              <Col md={8} >
                 <div className="text-center">
-                  <h2 className={`${rtbStyles.rk_rtb_box_2_cont} mt-5`}>
-                    About <span style={{ color: "#71065D" }}>RTB</span>
-                  </h2>
-                  <p className={rtbStyles.rk_rtb_box_2_cont_txt}>
+                  <span className={`${rtbStyles.dp_RtbTraffic_main_heading}`}>About </span>
+                  <span className={`${rtbStyles.dp_RtbTraffic_main_heading_color}`}>RTB</span>
+                </div>
+
+                <div className="text-center px-3 ">
+
+                  <p className={`${rtbStyles.dp_RtbTraffic_heading} m-0 pt-3`}>
                     Optimize your real-time bidding with GrowX, a renowned RTB
                     ad network for advertisers and publishers. Achieve speed,
                     scale, and flexibility, connecting with your audience
                     instantly and maximizing budget efficiency through GrowX's
                     programmatic solutions.
                   </p>
-                  <p className={rtbStyles.rk_rtb_box_2_cont_txt}>
+                  <p className={`${rtbStyles.dp_RtbTraffic_heading} m-0 pt-3`}>
                     Real-time bidding, a form of programmatic advertising,
                     operates as an automated auction where advertisers bid on ad
                     impressions. This streamlined process ensures instant,
                     efficient, and straightforward media buying and selling.
                   </p>
+
                 </div>
               </Col>
             </Row>
-            <Row className="">
+            {/* <Row className="">
               <Col className="text-center" md={12}>
                 <Link
                   to="/adveriserauthLogin"
@@ -111,105 +133,47 @@ const RtbTraffic = () => {
                   </Button>
                 </Link>
               </Col>
-            </Row>
+            </Row> */}
           </Container>
 
           <Container className="mt-3">
-            <Row className="d-flex justify-content-center mt-4 mb-4">
-              <Col md={8}>
-                <div className={rtbStyles.rk_rtb_box_3_col}>
-                  <div className="">
-                    <div className={rtbStyles.rk_rtb_box_3_mview_1}>
-                      <div className={rtbStyles.rk_rtb_box_align}>
-                        <img
-                          className={rtbStyles.rk_rtb_box_3_icon1}
-                          src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/cb57682d-3247-4733-070c-a1e363363500/public"
-                          style={{ width: "80px", height: "80px" }}
-                        />
-                      </div>
-                      <div className={rtbStyles.rk_rtb_box_3_mtext_2}>
-                        <div>
-                          <h4 className={rtbStyles.rk_rtb_fs_mview_h}>
-                            INTEGRATION
-                          </h4>
-                        </div>
-                        <div className="">
-                          {" "}
-                          <p
-                            className={` ${rtbStyles.rk_rtb_box_3_icontxt2} ${rtbStyles.rk_rtb_fs_mview_p} `}
-                          >
-                            OpenRTB <br /> XML and
-                            <br /> JSON feeds{" "}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            <Row className="d-flex justify-content-center p-5">
 
-                  <div className="">
-                    <div className={rtbStyles.rk_rtb_box_3_mview_1}>
-                      <div className={rtbStyles.rk_rtb_box_align}>
-                        <img
-                          className={rtbStyles.rk_rtb_box_3_icon1}
-                          src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c5d535a1-d52b-4531-6da1-ef400e21be00/public"
-                          style={{ width: "80px", height: "80px" }}
-                        />
-                      </div>
-                      <div className={rtbStyles.rk_rtb_box_3_mtext_2}>
-                        <div>
-                          <h4 className={rtbStyles.rk_rtb_fs_mview_h}>
-                            AD FORMATS
-                          </h4>
-                        </div>
-                        <div className="">
-                          {" "}
-                          <p
-                            className={` ${rtbStyles.rk_rtb_box_3_icontxt2} ${rtbStyles.rk_rtb_fs_mview_p} `}
-                          >
-                            Popundars <br /> Web Push and Native ads <br />{" "}
-                            social Bar{" "}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              {
+                aboutRtbCardData.map((ele, index) => (
+                  <>
 
-                  <div className="">
-                    <div className={rtbStyles.rk_rtb_box_3_mview_1}>
-                      <div className={rtbStyles.rk_rtb_box_align}>
-                        <img
-                          className={rtbStyles.rk_rtb_box_3_icon1}
-                          src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/81284225-e029-4487-4d3c-bef861693800/public"
-                          style={{ width: "80px", height: "80px" }}
-                        />
-                      </div>
-                      <div className={rtbStyles.rk_rtb_box_3_mtext_2}>
-                        <div>
-                          <h4 className={rtbStyles.rk_rtb_fs_mview_h}>
-                            ANY TRAFFIC
-                          </h4>
-                        </div>
-                        <div className="">
-                          {" "}
-                          <p
-                            className={`${rtbStyles.rk_rtb_box_3_icontxt2} ${rtbStyles.rk_rtb_fs_mview_p}`}
-                          >
-                            ALL GEOs <br /> Mobile & desktop <br /> Advanced
-                            targeting{" "}
+                    <Col md={4} className="my-2">
+                      <div
+                        className={
+                          rtbStyles.dp_rtbtraffic_card
+                        }
+                      >
+                        <span>
+                          <div className="d-flex justify-content-center">
+                            <div >
+                              <img src={ele.imgPath} width={100} />
+                            </div>
+                          </div>
+                          <p className={`${rtbStyles.dp_RtbTraffic_heading} text-center m-0 py-2`}>
+                            {ele.title}
                           </p>
-                        </div>
+                          <p className={`${rtbStyles.dp_RtbTraffic_content} text-center m-0`}>
+                            {ele.content}
+                          </p>
+                        </span>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </Col>
+                    </Col>
+                  </>
+                ))
+              }
+
             </Row>
           </Container>
 
           <Container>
             <Row
-              className="d-flex justify-content-center"
-              style={{ backgroundColor: "rgb(115,3,91)" }}
+              className={`d-flex justify-content-center ${rtbStyles.simple_steps_bg}`}
             >
               <Col className={rtbStyles.rk_rktb_box_3_bg_1}>
                 <Row className="d-flex justify-content-center ">
@@ -286,9 +250,7 @@ const RtbTraffic = () => {
           <Container>
             <Row className="">
               <Col className="text-center">
-                <h1 className="mt-5">
-                  How does <span style={{ color: "73035B" }}>RTB</span> work?
-                </h1>
+                <h1 className="mt-5">How does RTB work?</h1>
               </Col>
             </Row>
             <Row>
@@ -439,7 +401,9 @@ const RtbTraffic = () => {
                       <p className="fs-4 text-center ">Partner RTB</p>
                     </div>
                   </div>
-                  <div className={`d-flex justify-content-end ${rtbStyles.rk_rtb_box_4_arrow} ${rtbStyles.rk_rtb_mview_hidden_cont}`}>
+                  <div
+                    className={`d-flex justify-content-end ${rtbStyles.rk_rtb_box_4_arrow} ${rtbStyles.rk_rtb_mview_hidden_cont}`}
+                  >
                     <svg
                       width="415"
                       height="42"
@@ -498,9 +462,7 @@ const RtbTraffic = () => {
                     </div>
 
                     <div
-                      className={`d-flex align-items-center px-2 ${
-                        rtbStyles.rk_rtb_mview_hidden_cont
-                      }`}
+                      className={`d-flex align-items-center px-2 ${rtbStyles.rk_rtb_mview_hidden_cont}`}
                     >
                       <svg
                         width="154"
@@ -520,7 +482,7 @@ const RtbTraffic = () => {
                     <div className="px-2 ">
                       <div className="d-flex justify-content-center ">
                         <img
-                          className={rtbStyles.rk_rtb_box_4_icon_4 }
+                          className={rtbStyles.rk_rtb_box_4_icon_4}
                           src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/7505907e-f39a-4413-a145-785f8f332c00/public"
                         />
                       </div>
@@ -550,29 +512,20 @@ const RtbTraffic = () => {
                   </h1>
                 </div>
                 <div className="d-flex align-items-center justify-content-end">
-                  <button
-                    className={rtbStyles.rk_rtb_box_6_btn_icon}
-                    style={{ backgroundColor: "#A759A6" }}
-                  >
+                  <button className={rtbStyles.rk_rtb_box_6_btn_icon}>
                     <AiOutlineRight />
                   </button>
                 </div>
               </Col>
               <Col className="" md={6} sm={12} xs={12}>
                 <div>
-                  <div className={`${rtbStyles.rk_rtb_box_5_pstn_div_main}   d-flex justify-content-center`}>
+                  <div
+                    className={`${rtbStyles.rk_rtb_box_5_pstn_div_main}   d-flex justify-content-center`}
+                  >
                     <div>
                       <img
                         src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d076e71e-c41c-4d59-4578-8978367ae000/public"
-                        style={{
-                          width: "400px",
-                          height: "240px",
-                          backgroundColor: "rgb(238,226,250)",
-                          padding: "10px",
-                          paddingRight: "20px",
-                          borderRadius: "60px",
-                          marginBottom: "40px",
-                        }}
+                        className={rtbStyles.about_real_time_bidding}
                       />
                     </div>
                   </div>
