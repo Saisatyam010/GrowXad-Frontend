@@ -5,7 +5,7 @@ export const AdvertiserBenefitsProsData = [
     },
     {
         name: 'Mobile Apps',
-        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/bb3901d7-3b74-46f5-dc21-df6b86a3a000/public',
+        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/56e7e3ed-2314-4b34-01a1-617f84c48b00/public',
     },
     {
         name: 'Dating',
@@ -13,11 +13,11 @@ export const AdvertiserBenefitsProsData = [
     },
     {
         name: 'E-commerce',
-        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/bb3901d7-3b74-46f5-dc21-df6b86a3a000/public',
+        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/79609aa1-d3ec-476e-f0b8-69ca6d66fe00/public',
     },
     {
         name: 'iGaming',
-        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/bb3901d7-3b74-46f5-dc21-df6b86a3a000/public',
+        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/5bc63ba9-a7c1-4a31-7603-7d63d96bf700/public',
 
     },
     {
@@ -36,7 +36,7 @@ export const AdvertiserBenefitsProsData = [
     },
     {
         name: 'Sweepstakes',
-        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d08e8a5d-e3a9-45bb-1078-28986c80aa00/public'
+        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/42e25258-5da9-4b0d-1ea5-e3486db13800/public'
     }
 
 ]
