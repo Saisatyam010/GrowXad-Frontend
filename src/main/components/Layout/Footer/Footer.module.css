@@ -2,8 +2,6 @@
   border: none;
 }
 
-
-
 .rs_footer_adserver ul {
   margin: 0px;
   padding: 0px;
@@ -21,14 +19,16 @@
 .rs_footer_adserver .footer_logo {
   margin-bottom: 30px;
 }
+
 .rs_footer_adserver .footer_logo img {
   max-width: 200px;
 }
+
 .rs_footer_adserver .footer_text p {
   margin-bottom: 14px;
-  font-size: 14px;
+  font-size: 16px;
   color: #7e7e7e;
-  line-height: 28px;
+  line-height: 20px;
 }
 
 .rs_footer_adserver .footer_social-icon span {
@@ -329,5 +329,5 @@ u.abul123l li a .twitter {
 }
 
 .Adtype:hover {
-  color: rgb(115, 3, 91) !important;
+  color: #71065d !important;
 }
