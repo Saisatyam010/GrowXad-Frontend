@@ -4,16 +4,55 @@
     --purple: var(--primary-color);
 }
 
+.dp_switch_container{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
+    padding: 40px 40px ;
+    background-color: rgb(239,239,239);
+    border-radius: 30px;
+}
+
+.dp_switch_points_heading_container {
+    background-color: var(--tertiary-color);
+    border-radius: var(--border-radius-large);
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.dp_switch_points_heading_container_questionmark{
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    display: inline-block;
+    border: 1px solid var(--secondary-color);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.dp_switch_points {
+    list-style-type: circle;
+    padding: 0px 20px;
+}
+
+.dp_switch_points li {
+    list-style-type: disc;
+    font-size: var(--section-content);
+}
+
 .dp_advbenifits_main_heading {
     font-size: var(--section-main-heading);
     color: var(--secondary-color);
     font-weight: 600;
+    line-height: 40px;
 }
 
 .dp_advbenifits_main_heading_color {
     font-size: var(--section-main-heading);
     color: var(--primary-color);
     font-weight: 600;
+    line-height: 40px;
+
 }
 
 .dp_advbenifits_sub_heading {
@@ -21,12 +60,34 @@
     font-weight: 600;
 }
 
+.dp_advbenifits_sub_heading_color {
+    font-size: var(--section-sub-heading);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
 .dp_advbenifits_content {
     font-size: var(--section-content);
     font-weight: 600;
 }
 
-.dp_advbenifits_3btns{
+.dp_advbenifits_heading {
+    font-size: var(--section-heading);
+    font-weight: 700;
+}
+
+.dp_advbenifits_switch_heading {
+    font-size: var(--section-heading);
+    font-weight: 600;
+}
+
+.dp_advbenifits_switch_heading_color {
+    font-size: var(--section-heading);
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.dp_advbenifits_3btns {
     border: 1px solid var(--secondary-color);
     border-radius: var(--border-radius-large);
 }
@@ -63,9 +124,6 @@
     margin-left: 3px;
 }
 
-.SSA_BENEFIT_Text_Black {
-    color: #333 !important;
-}
 
 .SSA_Ad_Benefits_font20px {
     font-size: 20px;
@@ -107,14 +165,6 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-}
-
-
-
-.SSA_benefits_font26px_purple {
-    font-size: var(--section-sub-heading);
-    color: var(--purple);
-    font-weight: 500;
 }
 
 

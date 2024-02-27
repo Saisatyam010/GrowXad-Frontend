@@ -1,17 +1,48 @@
 .webcl_theme {
-    color: var(--primary-color);
-  }
-  
-  .rk_price_bx_3 {
-    font-size: 1.3rem;
-    font-weight: 500;
-    line-height: 2.2rem;
-  }
-  .rk_price_bx_3 p {
-    margin: 0;
-  }
-  
-  .rk_price_bx_3 ul {
-    padding: 0;
-    margin: 0;
-  }
+  color: var(--primary-color);
+}
+
+.rk_price_bx_3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+}
+
+.rk_price_bx_3 p {
+  margin: 0;
+}
+
+.rk_price_bx_3 ul {
+  padding: 0;
+  margin: 0;
+}
+
+.dp_advpricing_main_heading {
+  font-size: var(--section-main-heading);
+  color: var(--secondary-color);
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.dp_advpricing_main_heading_color {
+  font-size: var(--section-main-heading);
+  color: var(--primary-color);
+  font-weight: 600;
+  line-height: 50px
+}
+
+.dp_advpricing_sub_heading {
+  font-size: var(--section-sub-heading);
+  font-weight: 500;
+}
+
+.dp_advpricing_main_sub_heading_color {
+  font-size: var(--section-heading);
+  font-weight: 500;
+  color: var(--primary-color)
+}
+
+.dp_advpricing_cards_content {
+  font-size: var(--section-content);
+  font-weight: 500;
+}
