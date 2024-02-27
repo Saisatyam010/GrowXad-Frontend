@@ -26,11 +26,13 @@
 
 @media screen and (max-width: 768px) {
   * {
-    --section-main-heading: 2rem;
-    --section-sub-heading: 1.5rem;
-    --section-content: 1rem;
-    --section-button: 1.2rem;
-    --section-heading: 1rem;
+    --top-banner-heading:2rem;
+    --top-banner-content:1.25rem;
+    --top-banner-button:1rem;
+    --section-main-heading: 1.75rem; 
+    --section-sub-heading: 1.25rem;
+    --section-content: 0.875rem;
+    --section-button: 1rem;
   }
 }
 

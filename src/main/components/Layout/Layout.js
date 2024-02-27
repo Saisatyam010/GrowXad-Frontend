@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
     <>
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <Navbar />
-        <div >{children}</div>
+        <div style={{ marginBottom: '0px' }}>{children}</div>
         <Footer />
       </div>
     </>
