@@ -12,7 +12,7 @@ const Footer = () => {
       <div className={FooterStyles.rs_footer_adserver}>
         <footer className={FooterStyles.footer_section}>
           <div className="container">
-            <div className={`${FooterStyles.footer_cta} `}>
+            <div className={`${FooterStyles.footer_cta} pt-5 pb-5`}>
               <div className="row"></div>
             </div>
             <div className="footer-content pt-5 pb-5">
@@ -38,7 +38,7 @@ const Footer = () => {
                       <div className={`pe-2 ${FooterStyles.ab_fontwhite}`}>
                         Follow us
                       </div>
-                      <div className={`${FooterStyles.ab123ab} mt-3`}>
+                      <div className={FooterStyles.ab123ab}>
                         <ul className={FooterStyles.abul123}>
                           <li>
                             <a class={FooterStyles.facebook} href="#">
@@ -53,7 +53,7 @@ const Footer = () => {
                           </li>
 
                           <li>
-                            <a class={FooterStyles.instagram} href="#">
+                            <a class={FooterStyles.instagram }href="#">
                               <span></span>
                               <span></span>
                               <span></span>
@@ -92,7 +92,7 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-6 mb-30 mt-3">
+                <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
                   <div className={FooterStyles.footer_widget}>
                     <div className={FooterStyles.footer_widget_heading}>
                       <h3>Ad Type </h3>
@@ -123,7 +123,7 @@ const Footer = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-6 mb-1 mt-3">
+                <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
                   <div className={FooterStyles.footer_widget}>
                     <div className={FooterStyles.footer_widget_heading}>
                       <h3>Subscribe</h3>

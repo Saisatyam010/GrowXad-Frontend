@@ -15,6 +15,7 @@
     font-weight: 500;
 }
 
+
 .RegisterButton {
     margin: 0px 20px;
     outline: none;
@@ -52,22 +53,40 @@
     transition: transform 0.8s ease;
 }
 
+/* 
+.dp_referalprogram_howtoattract_card {
+    background-color: var(--tertiary-color);
+    border-radius: var(--border-radius-base);
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 500px;
+}
+
+.dp_referalprogram_howtoattract_card:hover {
+    box-shadow: 0 0 14px 0 var(--primary-color);
+    color: var(--primary-color);
+} */
+
+
+
 .rs_bg_color {
     background: linear-gradient(to right, var(--primary-color), rgb(223, 223, 225));
 }
 
 .rs_card_block {
-    background: #eee;
+    background: black;
     color: white;
     height: 100%;
+    /* border-radius: 10px; */
     transition: 0.5s ease-in-out;
-    border-radius: var(--border-radius-base);
 }
 
 .rs_card_block:hover {
     cursor: pointer;
     transform: translateY(-5px);
     transition: transform 0.8s ease;
+
 }
 
 .rs_h1 {
@@ -85,11 +104,12 @@
     color: white;
     height: 80px;
     justify-content: center;
-    width: 120px;
+    position: relative;
+    width: 80px;
 }
 
 .rs_h_text {
-    color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
     font-size: var(--section-heading);
     padding: 10px 0px;
     border-bottom: 2px solid var(--primary-color);
@@ -103,7 +123,7 @@
 }
 
 .rs_p_text {
-    color: rgb(82, 82, 82);
+    color: rgb(255, 255, 255);
     margin-top: 10px;
     font-size: var(--section-content);
     font-style: normal;
