@@ -264,14 +264,15 @@
   background-repeat: no-repeat;
 }
 .Svg__image {
-  /* background-image: url("http://localhost:3001/Images/6_icon.png"); */
   background-repeat: no-repeat;
   background-position: 100%;
   background-attachment: fixed;
   display: flex;
   text-align: center;
   justify-content: center;
-  height: 600px;
+  height: 800px;
+  background-color: rgb(242, 234, 250);
+  border-radius: 50px;
 }
 @media screen and (max-width: 767px) {
   .RTB_Integration {
@@ -282,4 +283,7 @@
   .RTB_Integration_mob {
     display: none;
   }
+}
+.RTB_Integration_mob {
+  background-color: rgb(242, 234, 250);
 }

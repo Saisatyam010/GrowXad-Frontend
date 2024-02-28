@@ -284,63 +284,74 @@ const RtbTraffic = () => {
             </Row>
           </Container> */}
           <Container fluid className={rtbStyles.RTB_Integration}>
-            <div className={rtbStyles.Svg__image}>
+            <div className={`${rtbStyles.Svg__image}  p-5`}>
               <img
                 src="http://localhost:3001/Images/6_icon_With_Content.png"
                 alt=""
               />
             </div>
           </Container>
-          <Container className={rtbStyles.RTB_Integration_mob}>
-            <Row className='d-flex align-items-center justify-content-between mb-3'>
-            <Col xs={4} sm={3}>
-                <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8cd01e97-6f9a-4f7e-caf8-c7c80f69bc00/public' />
-            </Col>
-            <Col xs={7} sm={6} className='text-start'>
-                <p>Select a DSP or exchange that suits your goals and budget (e.g., Google, Trade Desk, MediaMath, AppNexus).</p>
-            </Col>
+          <Container className={`${rtbStyles.RTB_Integration_mob}  p-5 `}>
+            <Row className="d-flex align-items-center justify-content-between mb-3">
+              <Col xs={4} sm={3}>
+                <img src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8cd01e97-6f9a-4f7e-caf8-c7c80f69bc00/public" />
+              </Col>
+              <Col xs={7} sm={6} className="text-start">
+                <p>
+                  Select a DSP or exchange that suits your goals and budget
+                  (e.g., Google, Trade Desk, MediaMath, AppNexus).
+                </p>
+              </Col>
             </Row>
-            <Row className='d-flex align-items-center justify-content-between mb-3'>
-            <Col xs={7} sm={6}>
+            <Row className="d-flex align-items-center justify-content-between mb-3">
+              <Col xs={7} sm={6}>
                 <p>Register and set up your account on the chosen platform.</p>
-            </Col>
-            <Col xs={4} sm={3}>
-                <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/2b2dde91-a2bf-4b20-a241-3508a1dd9500/public' />
-            </Col>
+              </Col>
+              <Col xs={4} sm={3}>
+                <img src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/2b2dde91-a2bf-4b20-a241-3508a1dd9500/public" />
+              </Col>
             </Row>
-            <Row className='d-flex align-items-center justify-content-between mb-3'>
-            <Col xs={4} sm={3}>
-                <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/a91f8848-fccd-44f5-7617-96f2272fa000/public' />
-            </Col>
-            <Col xs={7} sm={6}>
+            <Row className="d-flex align-items-center justify-content-between mb-3">
+              <Col xs={4} sm={3}>
+                <img src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/a91f8848-fccd-44f5-7617-96f2272fa000/public" />
+              </Col>
+              <Col xs={7} sm={6}>
                 <p>Implement tracking tags to collect user behavior data.</p>
-            </Col>
+              </Col>
             </Row>
-            <Row className='d-flex align-items-center justify-content-between mb-3'>
-            <Col xs={7} sm={6}>
-                <p>Define campaign objectives, budget, and targeting parameters (demographics, interests).</p>
-            </Col>
-            <Col xs={4} sm={3}>
-                <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/68414e3b-ff40-44b6-335b-9f7b69b54d00/public' />
-            </Col>
+            <Row className="d-flex align-items-center justify-content-between mb-3">
+              <Col xs={7} sm={6}>
+                <p>
+                  Define campaign objectives, budget, and targeting parameters
+                  (demographics, interests).
+                </p>
+              </Col>
+              <Col xs={4} sm={3}>
+                <img src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/68414e3b-ff40-44b6-335b-9f7b69b54d00/public" />
+              </Col>
             </Row>
-            <Row className='d-flex align-items-center justify-content-between mb-3'>
-            <Col xs={4} sm={3}>
-                <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/e52806bf-47b0-4167-6687-3a1b41f1cc00/public' />
-            </Col>
-            <Col xs={7} sm={6}>
-                <p>Implement conversion tracking for accurate ROI measurement.</p>
-            </Col>
+            <Row className="d-flex align-items-center justify-content-between mb-3">
+              <Col xs={4} sm={3}>
+                <img src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/e52806bf-47b0-4167-6687-3a1b41f1cc00/public" />
+              </Col>
+              <Col xs={7} sm={6}>
+                <p>
+                  Implement conversion tracking for accurate ROI measurement.
+                </p>
+              </Col>
             </Row>
-            <Row className='d-flex align-items-center justify-content-between mb-3'>
-            <Col xs={7} sm={6}>
-                <p>Monitor key metrics and optimize performance by adjusting strategies as needed.</p>
-            </Col>
-            <Col xs={4} sm={3}>
-                <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/f311564f-5832-47eb-24da-db2ea828bf00/public' />
-            </Col>
+            <Row className="d-flex align-items-center justify-content-between mb-3">
+              <Col xs={7} sm={6}>
+                <p>
+                  Monitor key metrics and optimize performance by adjusting
+                  strategies as needed.
+                </p>
+              </Col>
+              <Col xs={4} sm={3}>
+                <img src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/f311564f-5832-47eb-24da-db2ea828bf00/public" />
+              </Col>
             </Row>
-   </Container>
+          </Container>
           <Container>
             <Row className="">
               <Col className="text-center">
