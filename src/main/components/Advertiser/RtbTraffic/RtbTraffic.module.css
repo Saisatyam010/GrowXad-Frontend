@@ -272,5 +272,14 @@
   text-align: center;
   justify-content: center;
   height: 600px;
-  
+}
+@media screen and (max-width: 767px) {
+  .RTB_Integration {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .RTB_Integration_mob {
+    display: none;
+  }
 }
