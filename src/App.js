@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import MainRouter from "./routes/MainRouter";
 import HomePage from './main/pages/HomePage';
 import AdvertiserDashboardRouter from './routes/AdvertiserDashboaradRouter';
-
+import SvgDesctop from './main/components/SvgDesctop/SvgDesctop';
 
 
 
@@ -27,6 +27,7 @@ function App() {
         <MainRouter />
         {/* Adertiser Dashboard Routes */}
         {/* <AdvertiserDashboardRouter /> */}
+        <SvgDesctop/>
 
       </Router>
       {/* </ThemeProvider> */}

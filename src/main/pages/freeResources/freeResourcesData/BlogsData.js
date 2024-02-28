@@ -1,4 +1,4 @@
-// import { IoPricetagsOutline } from "react-icons/io5";
+data// import { IoPricetagsOutline } from "react-icons/io5";
 // import { MdOutlineTipsAndUpdates } from "react-icons/md";
 // import { RiAdvertisementLine } from "react-icons/ri";
 // import { TbDiscount2 } from "react-icons/tb";

@@ -41,6 +41,7 @@ const AdvertiserBenefits = () => {
         </div>
 
         {/*--------------------------Second Section------------------------*/}
+        
         <div
           className={`container-fluid py-5 ${AdvertiserBenefitsStyles.SSA_BenefitsAdv_BG_IMG1}`}
           style={{ borderEndStartRadius: "40px" }}
