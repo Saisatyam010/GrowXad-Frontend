@@ -43,6 +43,40 @@ const RtbTraffic = () => {
 
   ];
 
+  const RtbIntegrationStepsData = [
+    {
+      title: "Choose a  Ad Exchange",
+      content: "Research and select a DSP or ad exchange that suits your advertising goals and budget. Popular options include Google Marketing Platform, The Trade Desk, MediaMath, and AppNexus",
+      imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/cb57682d-3247-4733-070c-a1e363363500/public",
+    },
+    {
+      title: "Register and Set Up an Account",
+      content: "Sign up for an account with your chosen DSP or ad exchange",
+      imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c5d535a1-d52b-4531-6da1-ef400e21be00/public",
+    },
+    {
+      title: "Implement Tracking Tags",
+      content: "These tags help track user behavior and collect data that can be used for targeting and optimization purposes",
+      imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/81284225-e029-4487-4d3c-bef861693800/public",
+    },
+    {
+      title: "Create Campaigns and Set Targeting Parameters",
+      content: "Define your campaign objectives, budget, targeting parameters, and bidding strategy. Targeting parameters may include factors such as demographics, interests, geography, device type, and browsing behavior.",
+      imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/81284225-e029-4487-4d3c-bef861693800/public",
+    },
+    {
+      title: "Monitor and Optimize Campaign Performance",
+      content: "Monitor key metrics such as impressions, clicks, click-through rates (CTR), conversions, and return on investment (ROI)",
+      imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/81284225-e029-4487-4d3c-bef861693800/public",
+    },
+    {
+      title: "Implement Conversion Tracking",
+      content: "By implementing conversion tracking, you can accurately measure the ROI of your campaigns and optimize your bidding and targeting strategies based on actual conversion data",
+      imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/81284225-e029-4487-4d3c-bef861693800/public",
+    },
+
+  ];
+
   const handleNext = () => {
     setStartIndex(
       (prevIndex) => (prevIndex + 1) % (icons.length - iconsPerPage + 1)
@@ -169,23 +203,78 @@ const RtbTraffic = () => {
               }
 
             </Row>
+
+
+
           </Container>
 
           <Container>
             <Row
               className={`d-flex justify-content-center ${rtbStyles.simple_steps_bg}`}
             >
-              <Col className={rtbStyles.rk_rktb_box_3_bg_1}>
+              <Col className="bg-info">
                 <Row className="d-flex justify-content-center ">
-                  <Col md={8} className="text-white">
+                  <Col md={12} >
                     <Row className="">
                       <Col className="text-center">
-                        <h1>
+
+                        <div className="text-center">
+                          <span className={`${rtbStyles.dp_RtbTraffic_main_heading}`}>GrowXAds </span>
+                          <span className={`${rtbStyles.dp_RtbTraffic_main_heading_color}`}>RTB Integration </span>
+                          <span className={`${rtbStyles.dp_RtbTraffic_main_heading}`}>in 6 simple steps:</span>
+                        </div>
+
+                        <div className={``}>
+                          <Row className="d-flex justify-content-center p-5">
+
+                            {
+                              RtbIntegrationStepsData.map((ele, index) => (
+                                <>
+
+                                  <Col md={12} className="my-2">
+                                    <div
+                                      className={
+                                        rtbStyles.dp_rtbtraffic_card
+                                      }
+                                    >
+                                      <span>
+                                        <div className="d-flex justify-content-center">
+                                          <div >
+                                            <img src={ele.imgPath} width={100} />
+                                          </div>
+                                        </div>
+                                        <p className={` text-center m-0 py-2`}>
+                                          {ele.title}
+                                        </p>
+                                        <p className={` text-center m-0`}>
+                                          {ele.content}
+                                        </p>
+                                      </span>
+                                    </div>
+                                  </Col>
+                                </>
+                              ))
+                            }
+
+                          </Row>
+
+                        </div>
+
+                        <div className={`${rtbStyles.dp_RtbTraffic_RtbIntegration_bg}`}>
+                          <h1>Hello</h1>
+                        </div>
+
+
+
+                        {/* <h1>
                           GrowX RTB Integration in <br /> 4 simple steps:{" "}
-                        </h1>
+                        </h1> */}
                       </Col>
                     </Row>
-                    <Row className={rtbStyles.rk_rktb_box_3_dview_only}>
+
+
+
+                    {/* <Row className={rtbStyles.rk_rktb_box_3_dview_only}>
                       <Col md={6} className=" ">
                         <div className={rtbStyles.rk_rktb_box_3_sub}>
                           <p className="fs-5 pt-4 pb-4">
@@ -215,7 +304,7 @@ const RtbTraffic = () => {
                           </p>
                         </div>
                       </Col>
-                    </Row>
+                    </Row> */}
 
                     <div className={rtbStyles.rk_rktb_box_3_mview_only}>
                       <div className={rtbStyles.rk_rktb_box_3_sub}>
@@ -247,10 +336,15 @@ const RtbTraffic = () => {
               </Col>
             </Row>
           </Container>
+
           <Container>
-            <Row className="">
-              <Col className="text-center">
-                <h1 className="mt-5">How does RTB work?</h1>
+            <Row className="pt-5">
+              <Col >
+                <div className="text-center">
+                  <span className={`${rtbStyles.dp_RtbTraffic_main_heading}`}>How does </span>
+                  <span className={`${rtbStyles.dp_RtbTraffic_main_heading_color}`}>RTB </span>
+                  <span className={`${rtbStyles.dp_RtbTraffic_main_heading}`}>work?</span>
+                </div>
               </Col>
             </Row>
             <Row>
@@ -497,26 +591,11 @@ const RtbTraffic = () => {
               </Col>
             </Row>
           </Container>
+
+
           <Container>
-            <Row className={`mb-5 ${rtbStyles.rk_rtb_box_6_bg_main}`}>
-              <Col
-                md={6}
-                sm={12}
-                xs={12}
-                className="d-flex justify-content-between"
-              >
-                <div className="d-flex align-items-center mt-3">
-                  <h1>
-                    Read more about real-time <br /> bidding advertising on our{" "}
-                    <br /> blog.
-                  </h1>
-                </div>
-                <div className="d-flex align-items-center justify-content-end">
-                  <button className={rtbStyles.rk_rtb_box_6_btn_icon}>
-                    <AiOutlineRight />
-                  </button>
-                </div>
-              </Col>
+            <Row className={`mb-5 ${rtbStyles.rk_rtb_box_6_bg_main} py-3`}>
+
               <Col className="" md={6} sm={12} xs={12}>
                 <div>
                   <div
@@ -531,13 +610,33 @@ const RtbTraffic = () => {
                   </div>
                 </div>
               </Col>
+
+              <Col
+                md={6}
+                sm={12}
+                xs={12}
+                className="d-flex justify-content-between align-items-center py-3"
+              >
+
+                <div className="d-flex align-items-center justify-content-end">
+                  <button className={rtbStyles.rk_rtb_box_6_btn_icon}>
+                    <AiOutlineRight />
+                  </button>
+                </div>
+
+                <div className="px-3">
+                  <span className={`${rtbStyles.dp_RtbTraffic_main_heading}`}>Read more about </span>
+                  <span className={`${rtbStyles.dp_RtbTraffic_main_heading_color}`}>real-time bidding </span>
+                  <span className={`${rtbStyles.dp_RtbTraffic_main_heading}`}>advertising on our blog.</span>
+                </div>
+
+              </Col>
+
             </Row>
           </Container>
-          <Container className={`mt-4 ${rtbStyles.rk_rtb_box_6_cont}`}>
-            <Row>
-              <Col></Col>
-            </Row>
-          </Container>
+
+
+
         </div>
       </Layout>
     </>

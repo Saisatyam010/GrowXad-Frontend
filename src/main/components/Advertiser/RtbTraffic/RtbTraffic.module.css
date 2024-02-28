@@ -49,6 +49,11 @@
   transition: transform 0.8s ease;
 }
 
+.dp_RtbTraffic_RtbIntegration_bg{
+  background-image: url("http://localhost:3000/Images/RtbIntegrationSteps.png");
+  background-size: 100% 100%;
+}
+
 
 
 

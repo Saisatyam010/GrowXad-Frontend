@@ -1,8 +1,6 @@
 import React from "react";
 import AdvertiserBenefitsStyles from "../../components/Advertiser/AdvertiserStyles/AdvertiserBenefit.module.css";
 import { Button, Col } from "react-bootstrap";
-import { BsArrowRightCircle } from "react-icons/bs";
-import { Link } from "react-router-dom";
 import Switch3Component from "../Shared/Switch3Component";
 import SampleMap from "./SampleMap";
 import { solutions, CardDataSix } from "../../components/Shared/data/advertiserBenefits";
@@ -176,13 +174,14 @@ const AdvertiserBenefits = () => {
                         {AdvertiserBenefitsProsData.map((item, index) =>
                             <div className="col-md-4 mb-3">
                                 <div
-                                    className={`d-flex bg-dark py-2 ${AdvertiserBenefitsStyles.SSA_BENEFITS_OUTER}`}
-                                    style={{ borderRadius: " var(--border-radius-base)" }}
+                                    className={`d-flex bg-dark py-2 bg-info ${AdvertiserBenefitsStyles.SSA_BENEFITS_OUTER}`}
+                                    style={{ borderRadius: " 20px" }}
                                 >
-                                    <div className={`${AdvertiserBenefitsStyles.SSA_BENEFITS_ICON} bg-white`}>
+                                    <div className={`${AdvertiserBenefitsStyles.SSA_BENEFITS_ICON} `}>
                                         <img
                                             src={item.image}
-                                            alt=""
+                                            alt=""                                         
+                                            style={{width:"50px",height:"50px"}}
                                         />
                                     </div>
                                     <div className={`${AdvertiserBenefitsStyles.dp_advbenifits_heading} text-white px-3`}>
@@ -205,7 +204,7 @@ const AdvertiserBenefits = () => {
                     className="px-3 my-3"
                 >
                     <div className="px-md-5 px-0 mx-md-5 mx-2 ">
-                        <div className="container-fluid  SSA_Benefit_Bg_Img3  py-md-3 mt-5">
+                        <div className="container-fluid    py-md-3 mt-5">
                             <div className="text-center">
                                 <div >
                                     <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading} `}>Join </span>
@@ -237,9 +236,8 @@ const AdvertiserBenefits = () => {
                 {/*-----------second last section------------------*/}
                 <div className="container-fluid">
                     <div className="container">
-                        <div className="row  container px-md-5  pt-md-0 d-flex align-items-center">
+                        <div className="row px-md-5  pt-md-0 d-flex align-items-center">
                             <div className="col-md-7  ">
-
                                 <div>
                                     <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}>Partnerships that </span>
                                     <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color}`}>you can profit </span>
@@ -270,12 +268,8 @@ const AdvertiserBenefits = () => {
                                 />
                             </div>
                         </div>
-
-
                     </div>
                 </div>
-
-                {/* <BenefitSlider /> */}
             </div>
         </Layout>
     );
