@@ -1,118 +1,115 @@
 .dp_cpanetwork_main_heading {
-    font-size: var(--section-main-heading);
-    color: var(--secondary-color);
-    font-weight: 600;
+  font-size: var(--section-main-heading);
+  color: var(--secondary-color);
+  font-weight: 600;
 }
 
 .dp_cpanetwork_main_heading_color {
-    font-size: var(--section-main-heading);
-    color: var(--primary-color);
-    font-weight: 600;
+  font-size: var(--section-main-heading);
+  color: var(--primary-color);
+  font-weight: 600;
 }
 
 .dp_cpanetwork_main_sub_heading {
-    font-size: var(--section-heading);
-    font-weight: 500;
+  font-size: var(--section-heading);
+  font-weight: 500;
 }
 
 .dp_cpaNetwork_cards_content {
-    font-size: var(--section-content);
-    font-weight: 500;
+  font-size: var(--section-content);
+  font-weight: 500;
 }
 
 .RegisterButton {
-    margin: 0px 20px;
-    outline: none;
-    border: none;
-    background-color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    font-size: var(--section-heading);
-    color: var(--tertiary-color);
-    width: 250px;
-    padding: 15px 0px;
+  margin: 0px 20px;
+  outline: none;
+  border: none;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-size: var(--section-heading);
+  color: var(--tertiary-color);
+  width: 250px;
+  padding: 15px 0px;
 }
 
 .RegisterButton:hover {
-    background-color: var(--tertiary-color);
-    border: 1px solid var(--light-color);
-    color: var(--secondary-color);
-    cursor: pointer;
+  background-color: var(--tertiary-color);
+  border: 1px solid var(--light-color);
+  color: var(--secondary-color);
+  cursor: pointer;
 }
 
 .dp_cpanetwork_socialmedia_bg {
-    background-image: url('https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/f9f36bfc-9684-4a16-d928-1d1101fe0a00/public');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
+  background-image: url("https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/f9f36bfc-9684-4a16-d928-1d1101fe0a00/public");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
 }
 
-
 .dp_cpanetwork_exclusive_cards {
-    border: 3px solid var(--light-color);
-    background-color: var(--tertiary-color);
-    border-radius: var(--border-radius-base);
-    padding: 30px;
-    min-height: 300px;
+  border: 3px solid var(--light-color);
+  background-color: var(--tertiary-color);
+  border-radius: var(--border-radius-base);
+  padding: 30px;
+  min-height: 300px;
 }
 
 .dp_cpanetwork_exclusive_cards:hover {
-    cursor: pointer;
-    transform: translateY(-5px);
-    transition: transform 0.8s ease;
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: transform 0.8s ease;
 }
 
 .dp_cpanetwork_opp_cards_underline {
-    background: var(--primary-color);
-    border-radius: var(--border-radius-large);
-    height: 5px;
-    margin: 30px;
-    width: 50px;
+  background: var(--primary-color);
+  border-radius: var(--border-radius-large);
+  height: 5px;
+  margin: 30px;
+  width: 50px;
 }
 
 .dp_cpanetwork_icon_circle {
-    display: flex;
-    align-items: center;
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    padding: 20px;
-    border: 3px solid var(--light-color);
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+  border: 3px solid var(--light-color);
 }
 
 .dp_cpanetwork_icon_circle:hover {
-    scale: 1.1;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
+  scale: 1.1;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 
 .dp_cpanetwork_keyfeatures_card {
-    position: relative;
-    border: 2px solid var(--light-color);
-    background-color: #fff;
-    border-radius: var(--border-radius-base);
-    padding: 20px;
-    margin-bottom: 20px;
-    min-height: 260px;
-    border-radius: var(--border-radius-base);
+  position: relative;
+  font-size: 22px;
+  /* background-color: rgb(240, 215, 248); */
+  padding: 60px;
+  margin-bottom: 20px;
+  border-radius: var(--border-radius-base);
 }
 
 .dp_cpanetwork_keyfeatures_card:hover {
-    cursor: pointer;
-    transform: translateY(-5px);
-    transition: transform 0.8s ease;
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: transform 0.8s ease;
 }
 
 .dp_cpanetwork_keyfeatures_card_image {
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .dp_cpanetwork_keyfeatures_card_title {
-    font-size: var(--section-heading);
-    padding: 10px 0px;
-    margin: 0px;
-    font-weight: 500;
+  font-size: var(--section-heading);
+  padding: 10px 0px;
+  margin: 0px;
+  font-weight: 500;
 }

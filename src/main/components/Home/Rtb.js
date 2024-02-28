@@ -1,17 +1,11 @@
-import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { RtbMenu } from "../Shared/data/rtbMenu";
 import RtbStyles from "../../components/Home/HomeStyles/Rtb.module.css";
 import JoinGrowXAd from "./HomeStyles/JoinGrowXAd";
-
 import { FaArrowCircleRight } from "react-icons/fa";
 import TbSeperator from "../Shared/TbSeperator";
 
-// import JoinGrowXAd from './HomeStyles/JoinGrowXAd'
-
 const Rtb = (props) => {
-  const { title, imagePath } = props;
-
   return (
     <Container fluid className={`${RtbStyles.RtbContainer} py-5`}>
       <Container style={{ marginBottom: "4rem" }}>
@@ -39,7 +33,7 @@ const Rtb = (props) => {
       <TbSeperator />
       <Container>
         <Row>
-          <TbSeperator />
+          {/* <TbSeperator /> */}
 
           <TbSeperator />
 
@@ -52,7 +46,7 @@ const Rtb = (props) => {
 
           <TbSeperator />
 
-          <Col md={12} lg={12} className={`${RtbStyles.RtbItems}  w-100  `}>
+          <Col md={12} lg={12} className={`${RtbStyles.RtbItems} w-100`}>
             <div className="d-flex align-items-center justify-content-center w-100">
               {RtbMenu.map((advertiser, index) => {
                 return (
@@ -89,8 +83,6 @@ const Rtb = (props) => {
         </Row>
       </Container>
       <TbSeperator />
-
-      {/* Join GrowXAds Today */}
 
       <Row>
         <JoinGrowXAd />

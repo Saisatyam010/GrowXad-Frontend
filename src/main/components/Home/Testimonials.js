@@ -4,9 +4,7 @@ import { MdArrowBack } from "react-icons/md";
 import { MdArrowForward } from "react-icons/md";
 import { sliderData, settings } from "../Shared/data/TestimonialMenu";
 import Cardstyles from "../../components/Home/HomeStyles/Testimonials.module.css";
-import BlogStyles from '../../components/Home/HomeStyles/Blog.module.css'
 import { RiDoubleQuotesL } from "react-icons/ri";
-
 
 const Testimonials = () => {
   const sliderRef = useRef(null);
@@ -25,15 +23,22 @@ const Testimonials = () => {
         <div className="col-md-12 ">
           <div className={Cardstyles.rk_blog_b2_cardslider_main}>
             <div>
-
-              <h1 className='text-center font-semibold text-black'>Our partners’ <span style={{ color: "#71065D" }}>Trust</span> is our core value</h1>
-
+              <h1 className="text-center font-semibold text-black">
+                Our partners’ <span style={{ color: "#71065D" }}>Trust</span> is
+                our core value
+              </h1>
             </div>
             <div className="d-flex gap-2">
-              <button className={Cardstyles.rk_grow_sl_button} onClick={goToPrev}>
+              <button
+                className={Cardstyles.rk_grow_sl_button}
+                onClick={goToPrev}
+              >
                 <MdArrowBack />
               </button>
-              <button className={Cardstyles.rk_grow_sl_button} onClick={goToNext}>
+              <button
+                className={Cardstyles.rk_grow_sl_button}
+                onClick={goToNext}
+              >
                 <MdArrowForward />
               </button>
             </div>
@@ -48,7 +53,9 @@ const Testimonials = () => {
                 <div key={index}>
                   <div className={`${Cardstyles.sana_mainPage_card} p-3`}>
                     <div className={Cardstyles.sana_img_quotation}>
-                      <p className={Cardstyles.rk_img_quote}><RiDoubleQuotesL /></p>
+                      <p className={Cardstyles.rk_img_quote}>
+                        <RiDoubleQuotesL />
+                      </p>
                     </div>
                     <div className={Cardstyles.sana_content}>
                       <p className="text-start">{item.content}</p>
@@ -56,9 +63,15 @@ const Testimonials = () => {
                     <div
                       className={`${Cardstyles.sana_main_page_card_image2} mt-4 d-flex`}
                     >
-                      <img className="rounded-full" src={item.author.imageSrc} alt="" height={100} width={100} />
+                      <img
+                        className="rounded-full"
+                        src={item.author.imageSrc}
+                        alt=""
+                        height={100}
+                        width={100}
+                      />
                       <div className={Cardstyles.sana_cards_details}>
-                        <h3 className="text-start">{item.author.name}</h3>
+                        <h5 className="text-start">{item.author.name}</h5>
                         <p className="text-start">{item.author.role}</p>
                       </div>
                     </div>

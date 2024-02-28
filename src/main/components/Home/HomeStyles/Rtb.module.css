@@ -1,45 +1,48 @@
-.RtbContainer {
+/* .RtbContainer {
     background-color: rgba(238, 233, 244, 0.523);
-}
+} */
 
 .RtbItems {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(149, 149, 149);
 }
 
-
+@media (max-width: 768px) {
+  .RtbItems {
+    justify-content: center;
+  }
+}
 
 .RtbCardsHeading {
-    margin: 0px;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 10px;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
 }
 
 .JoinGrowXAdsSubHeading {
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    padding: 30px;
-    margin: 0px;
-    color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  color: var(--secondary-color);
 }
 
 .RTBContainerHeading {
-    font-size: 40px;
-    font-weight: 500;
-    text-align: center;
-    padding: 30px;
-    margin: 0px;
-    color: var(--primary-color)
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  color: var(--primary-color);
 }
 
 .RtbBackgroundImage {
-    background-image: url('https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/ea5468b6-1c82-47d8-4221-31ddd8f9dc00/public');
-    /* height: fit-content; */
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/ea5468b6-1c82-47d8-4221-31ddd8f9dc00/public");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

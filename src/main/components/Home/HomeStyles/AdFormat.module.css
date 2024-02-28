@@ -1,95 +1,88 @@
 .AdvertisersContainer {
-   /* border-radius: 50px; */
-   border: 2px solid var(--light-color);
-   margin: 10px 0px;
-   padding: 50px;
-   transition: transform 0.5s ease;
+  border: 2px solid var(--light-color);
+  margin: 10px 0px;
+  padding: 50px;
+  transition: transform 0.5s ease;
 }
 
 .AdvertisersContainerHeading {
-   font-size: 40px;
-   font-weight: 500;
-   text-align: center;
-   padding: 30px;
-   margin: 0px;
-   color: var(--primary-color);
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  color: var(--primary-color);
 }
 
 .AdvertisersContainer:hover {
-   /* background-color: rgba(203, 213, 225, 0.305); */
-   /* border: 2px solid transparent; */
-   transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
-
-
 .heading {
-   /* font-size: 24px; */
-   font-weight: 600;
-   margin: 0px;
-   /* color: var(--primary-color) */
+  font-weight: 600;
+  margin: 0px;
 }
 
 .content {
-   font-size: 16px;
-   font-weight: 600;
-   margin: 0px;
-   color: var(--secondary-color);
-   /* padding: 50px 0px; */
-   margin-top: 2rem;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0px;
+  color: var(--secondary-color);
+  margin-top: 2rem;
 }
 
 .text_U_img {
-   font-size: 14px;
-   margin-top: 20px;
-}
-
-.LiveDemoButton {
-   outline: none;
-   border: none;
-   background-color: var(--primary-color);
-   font-size: 20px;
-   font-weight: 600;
-   color: var(--tertiary-color);
-   transition: transform 0.3s ease;
-   transform: scale(1);
-   width: 250px;
-   padding: 15px 0px;
+  font-size: 14px;
+  margin-top: 20px;
 }
 
 .LiveDemoButton:hover {
-   background-color: var(--primary-color);
-   /* border: 1px solid var(--light-color); */
-   color: var(--light-color);
-   cursor: pointer;
-   /* filter: blur(0.8); */
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  cursor: pointer;
+}
+
+.LiveDemoButton {
+  outline: none;
+  border: none;
+  background-color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--tertiary-color);
+  transition: transform 0.3s ease;
+  transform: scale(1);
+  width: 200px;
+  padding: 10px 0px;
 }
 
 .MoreButton {
-   margin: 0px 20px;
-   outline: none;
-   border: none;
-   background-color: var(--secondary-color);
-   border: 1px solid var(--primary-color);
-   font-size: 20px;
-   font-weight: 600;
-   color: var(--tertiary-color);
-   transition: transform 0.3s ease;
-   transform: scale(1);
-   width: 250px;
-   padding: 15px 0px;
-
+  margin: 10px;
+  outline: none;
+  border: none;
+  background-color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--tertiary-color);
+  transition: transform 0.3s ease;
+  transform: scale(1);
+  width: 200px;
+  padding: 10px 0px;
 }
-
 .MoreButton:hover {
-   background-color: var(--secondary-color);
-   border: 1px solid var(--light-color);
-   color: var(--light-color);
-   cursor: pointer;
-   /* filter: opacity(90%); */
+  background-color: var(--secondary-color);
+  border: 1px solid var(--light-color);
+  color: var(--light-color);
+  cursor: pointer;
 }
 
 .MoreButton:hover .moreArrrow {
-   transform: translateX(5px);
-
+  transform: translateX(5px);
+}
+@media (max-width: 767px) {
+  .LiveDemoButton,
+  .MoreButton {
+    width: 100%;
+    /* margin-bottom: 10px; */
+    margin: 10px;
+  }
 }

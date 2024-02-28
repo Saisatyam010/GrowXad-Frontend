@@ -1,123 +1,116 @@
 .rs_section_container {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .rs_common_red_square_block {
-    background-color: var(--secondary-color);
-    background-size: cover;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    border-radius: 4px;
+  background-color: var(--secondary-color);
+  background-size: cover;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-radius: 4px;
 }
 
 .rs_col_10 {
-    flex: 0 0 auto;
-    width: 83.33333333%;
+  flex: 0 0 auto;
+  width: 83.33333333%;
 }
 
 .rs_text_h {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .rs_text_p {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    line-height: 30px
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .rs_col-12 {
-    flex: 0 0 auto;
-    width: 100%;
+  flex: 0 0 auto;
+  width: 100%;
 }
 
 .rs_row_button {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -0.75rem;
-    margin-left: calc(var(--bs-gutter-x)*-.5);
-    margin-right: -0.75rem;
-    margin-right: calc(var(--bs-gutter-x)*-.5);
-    margin-top: 0;
-    margin-top: calc(var(--bs-gutter-y)*-1);
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.75rem;
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+  margin-right: -0.75rem;
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-top: 0;
+  margin-top: calc(var(--bs-gutter-y) * -1);
 }
 
 .rs_block_list {
-    border: 1px solid #fff;
-    width: 100%;
-    border-radius: 20px;
-    color: #fff;
-    display: block;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 24px;
-    position: relative;
-    -webkit-text-decoration: none;
-    text-decoration: none;
-    transition: background-color .3s;
-    cursor: pointer;
+  border: 1px solid #fff;
+  width: 100%;
+  border-radius: 20px;
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
 }
 
 .rs_block_list:hover {
-    /* background-color: #ada4a48c; */
-    opacity: 1;
+  opacity: 1;
 }
 
 .rs_block_list:after {
-    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDRMMTAuNTkgNS40MUwxNi4xNyAxMUg0VjEzSDE2LjE3TDEwLjU5IDE4LjU5TDEyIDIwTDIwIDEyTDEyIDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K");
-    border: 1px solid #fff;
-    border-radius: 30px;
-    content: "";
-    height: 40px;
-    position: absolute;
-    right: 16px;
-    top: 16px;
-    transition: rotate .3s;
-    width: 40px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 13px;
-    margin-top: 6px;
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDRMMTAuNTkgNS40MUwxNi4xNyAxMUg0VjEzSDE2LjE3TDEwLjU5IDE4LjU5TDEyIDIwTDIwIDEyTDEyIDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K");
+  border: 1px solid #fff;
+  border-radius: 30px;
+  content: "";
+  height: 40px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  transition: rotate 0.3s;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 13px;
+  margin-top: 6px;
 }
 
 .rs_block_list:hover:after {
-    background-image: url("https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/def2f8b0-a698-4c01-d09d-763116bc5500/public");
-    background-color: #fff;
-    transform: rotate(-45deg);
+  background-image: url("https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/def2f8b0-a698-4c01-d09d-763116bc5500/public");
+  background-color: #fff;
+  transform: rotate(-45deg);
 }
 
 /*  */
 .image_container {
-    width: 400px;
-    /* Set the width of the container */
-    height: 300px;
-    /* Set the height of the container */
-    overflow: hidden;
-    /* Hide the overflow for better positioning */
-    position: relative;
-    /* Position the image relative to the container */
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
 }
 
 .image {
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease;
-    /* Add a transition effect for smooth hover */
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
 }
 
 .image:hover {
-    transform: scale(1.1);
-    /* Scale the image slightly on hover */
+  transform: scale(1.1);
 }
 
 .JoinGrowXAdsSubHeading {
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    padding: 30px;
-    margin: 0px;
-    color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  color: var(--secondary-color);
 }

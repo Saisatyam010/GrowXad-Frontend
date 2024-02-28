@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const TbSeperator = () => {
-  return (
-    <div className='mt-3 mb-3'>
-        
-    </div>
-  )
-}
+  return <div className="mt-5 mb-5"></div>;
+};
 
-export default TbSeperator
+export default TbSeperator;
