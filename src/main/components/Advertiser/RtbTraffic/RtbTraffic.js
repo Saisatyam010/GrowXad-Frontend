@@ -206,7 +206,7 @@ const RtbTraffic = () => {
             </Row>
           </Container>
 
-          <Container>
+          {/* <Container>
             <Row
               className="d-flex justify-content-center"
               style={{ backgroundColor: "rgb(115,3,91)" }}
@@ -282,6 +282,14 @@ const RtbTraffic = () => {
                 </Row>
               </Col>
             </Row>
+          </Container> */}
+          <Container fluid>
+            <div className={rtbStyles.Svg__image}>
+              <img
+                src="http://localhost:3001/Images/6_icon_With_Content.png"
+                alt=""
+              />
+            </div>
           </Container>
           <Container>
             <Row className="">
@@ -439,7 +447,9 @@ const RtbTraffic = () => {
                       <p className="fs-4 text-center ">Partner RTB</p>
                     </div>
                   </div>
-                  <div className={`d-flex justify-content-end ${rtbStyles.rk_rtb_box_4_arrow} ${rtbStyles.rk_rtb_mview_hidden_cont}`}>
+                  <div
+                    className={`d-flex justify-content-end ${rtbStyles.rk_rtb_box_4_arrow} ${rtbStyles.rk_rtb_mview_hidden_cont}`}
+                  >
                     <svg
                       width="415"
                       height="42"
@@ -498,9 +508,7 @@ const RtbTraffic = () => {
                     </div>
 
                     <div
-                      className={`d-flex align-items-center px-2 ${
-                        rtbStyles.rk_rtb_mview_hidden_cont
-                      }`}
+                      className={`d-flex align-items-center px-2 ${rtbStyles.rk_rtb_mview_hidden_cont}`}
                     >
                       <svg
                         width="154"
@@ -520,7 +528,7 @@ const RtbTraffic = () => {
                     <div className="px-2 ">
                       <div className="d-flex justify-content-center ">
                         <img
-                          className={rtbStyles.rk_rtb_box_4_icon_4 }
+                          className={rtbStyles.rk_rtb_box_4_icon_4}
                           src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/7505907e-f39a-4413-a145-785f8f332c00/public"
                         />
                       </div>
@@ -560,7 +568,9 @@ const RtbTraffic = () => {
               </Col>
               <Col className="" md={6} sm={12} xs={12}>
                 <div>
-                  <div className={`${rtbStyles.rk_rtb_box_5_pstn_div_main}   d-flex justify-content-center`}>
+                  <div
+                    className={`${rtbStyles.rk_rtb_box_5_pstn_div_main}   d-flex justify-content-center`}
+                  >
                     <div>
                       <img
                         src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d076e71e-c41c-4d59-4578-8978367ae000/public"
