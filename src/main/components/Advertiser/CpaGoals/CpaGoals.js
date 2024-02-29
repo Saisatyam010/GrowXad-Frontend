@@ -76,7 +76,6 @@ const CpaGoals = () => {
                           Algorithms Scrutinize Ad Placements, Retaining Only
                           Those Meeting Your KPIs
                         </p>
-                         
                       </Col>
                     </Row>
                   </Col>
