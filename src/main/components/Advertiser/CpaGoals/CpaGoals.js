@@ -1,24 +1,23 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import Accordion from 'react-bootstrap/Accordion';
-
-import './CpaGoals.css'
-import { Link } from 'react-router-dom';
-import Layout from '../../Layout/Layout';
-import AdvertiserWelcome from '../AdvertiserWelcome';
-import Faqs from '../../Faqs/Faqs';
-import AdvertiserPricingCard from '../../AdvertiserPricing/AdvertiserPricingCard';
-import { AdvertiserCardDataMenus } from '../../Shared/data/advertiserCardMenu';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import "./CpaGoals.css";
+import { Link } from "react-router-dom";
+import Layout from "../../Layout/Layout";
+import AdvertiserWelcome from "../AdvertiserWelcome";
+import Faqs from "../../Faqs/Faqs";
+import AdvertiserPricingCard from "../../AdvertiserPricing/AdvertiserPricingCard";
+import { AdvertiserCardDataMenus } from "../../Shared/data/advertiserCardMenu";
 const CpaGoals = () => {
   const data = {
-    heading1: 'GrowXad for Advertisers.',
-    heading2: 'Experience a Superlative Output of Your Marketing',
-    subheading: 'A game-changing advertising network for media buyers and affiliates looking for alternative traffic sources to connect their offers to highly engaged audiences.',
-    spanHeading: 'ready to engage',
-    afterSpanHeading: ' with your offers',
-    imgUrl: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/a912a064-937a-4030-29a2-3db8a96e9600/public'
-
-  }
+    heading1: "GrowXad for Advertisers.",
+    heading2: "Experience a Superlative Output of Your Marketing",
+    subheading:
+      "A game-changing advertising network for media buyers and affiliates looking for alternative traffic sources to connect their offers to highly engaged audiences.",
+    spanHeading: "ready to engage",
+    afterSpanHeading: " with your offers",
+    imgUrl:
+      "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/a912a064-937a-4030-29a2-3db8a96e9600/public",
+  };
   const data2 = AdvertiserCardDataMenus;
   return (
     <Layout>
@@ -33,7 +32,6 @@ const CpaGoals = () => {
       <Container style={{ marginTop: "74px" }}>
         <Row className=" d-flex justify-content-center p-0 m-0">
           <Col md={12}>
-
             {/* Top Benifits */}
 
             <Row className="mt-5 d-flex justify-content-center px-2 ">
@@ -122,7 +120,10 @@ const CpaGoals = () => {
 
                 <Row className="py-3 px-2">
                   <Col md={12} className="text-center">
-                    <Link to="/adveriserauthLogin" className='no-underline hover:no-underline'>
+                    <Link
+                      to="/adveriserauthLogin"
+                      className="no-underline hover:no-underline"
+                    >
                       <button className="dp_cpagoals_signup_button">
                         SIGN UP AND TRY
                       </button>
@@ -150,9 +151,7 @@ const CpaGoals = () => {
                             Sign up
                           </span>
                           <span> or </span>
-                          <span className="dp_cpa_enableCPA_link">
-                            log in
-                          </span>
+                          <span className="dp_cpa_enableCPA_link">log in</span>
                           <span> as an advertiser.</span>
                         </div>
                       </Col>
@@ -185,8 +184,8 @@ const CpaGoals = () => {
                           <span>
                             {" "}
                             To enable CPA Goal optimization, create a new
-                            campaign or choose the existing one. To create a
-                            new campaign, hit Campaigns Create.
+                            campaign or choose the existing one. To create a new
+                            campaign, hit Campaigns Create.
                           </span>
                         </div>
                       </Col>
@@ -264,73 +263,11 @@ const CpaGoals = () => {
             <div className="my-md-5 my-0 py-md-5 pt-3">
               <div className="" style={{ marginBottom: "-130px " }}>
                 <div className="container py-3">
-                  <div className='row'>
-                    <div className='col-md-12'>
+                  <div className="row">
+                    <div className="col-md-12">
                       <AdvertiserPricingCard cardData={data2} />
                     </div>
                   </div>
-                  {/* <div className="row">
-                    <div className="col-md-3 text-white mt-2">
-                      <div className="SSA_NEW_SmartCPM_card_black_bg">
-
-                        <div className='d-flex align-items-center justify-content-center'>
-                          <div className="SSA_NEW_SmartCPM_imgbgcolor pt-3">
-                            <img
-                              src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d2b40f71-d012-416d-c25d-f68b9285bd00/public"
-                              alt=""
-                            />
-                          </div>
-                        </div>
-                        <div className="SSA_smartCPM_Font18px pt-3">
-                          Effortlessly Embrace Extensive Traffic for Testing
-                          or Scaling Ad Campaigns
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-3 text-white mt-2">
-                      <div className="SSA_NEW_SmartCPM_card_black_bg">
-                        <div className="SSA_NEW_SmartCPM_imgbgcolor p-1">
-                          <img
-                            src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/201b92c1-460b-4981-02d0-aabf07d1af00/public"
-                            alt=""
-                          />
-                        </div>
-                        <div className="SSA_smartCPM_Font18px pt-3">
-                          Forecast and Regulate Conversion Numbers via
-                          Targeting Strategies
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-3 text-white mt-2">
-                      <div className="SSA_NEW_SmartCPM_card_black_bg">
-                        <div className="SSA_NEW_SmartCPM_imgbgcolor p-1">
-                          <img
-                            src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/45308090-6da2-4729-23c1-3ac2773d4c00/public"
-                            alt=""
-                          />
-                        </div>
-                        <div className="SSA_smartCPM_Font18px pt-3">
-                          Strategically Plan and Allocate Budgets for
-                          Sustainable Long-Term Campaigns
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-3 text-white mt-2">
-                      <div className="SSA_NEW_SmartCPM_card_black_bg">
-                        <div className="SSA_NEW_SmartCPM_imgbgcolor ">
-                          <img
-                            className="p-1"
-                            src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/a1fefbdf-b259-49b5-aed4-d1e2e666db00/public"
-                            alt=""
-                          />
-                        </div>
-                        <div className="SSA_smartCPM_Font18px pt-3">
-                          Execute Global Campaigns Safely, Avoiding
-                          Overspending or Loss of Control
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -343,8 +280,7 @@ const CpaGoals = () => {
                   <Col md={7}>
                     <h1 className="text-center py-4 ">
                       <span>
-                        Implement CPA Goal for Onclick and In-Page Push
-                        Traffic
+                        Implement CPA Goal for Onclick and In-Page Push Traffic
                       </span>
                     </h1>
                   </Col>
@@ -366,7 +302,10 @@ const CpaGoals = () => {
                         </p>
                       </Col>
                       <Col md={4}>
-                        <Link to="/popunderad" className='no-underline hover:no-underline'>
+                        <Link
+                          to="/popunderad"
+                          className="no-underline hover:no-underline"
+                        >
                           <button className="dp_cpagoals_signup_button">
                             GET MORE INFORMATION
                           </button>
@@ -386,13 +325,16 @@ const CpaGoals = () => {
                       </Col>
                       <Col md={4}>
                         <p style={{ fontSize: "16px" }}>
-                          Exclusive ad formats designed to elevate CTR by up
-                          to 30%. Access over 20 high-converting templates
-                          with meticulously crafted designs.
+                          Exclusive ad formats designed to elevate CTR by up to
+                          30%. Access over 20 high-converting templates with
+                          meticulously crafted designs.
                         </p>
                       </Col>
                       <Col md={4}>
-                        <Link to="/bannerad" className='no-underline hover:no-underline'>
+                        <Link
+                          to="/bannerad"
+                          className="no-underline hover:no-underline"
+                        >
                           <button className="dp_cpagoals_signup_button">
                             GET MORE INFORMATION
                           </button>
@@ -412,13 +354,16 @@ const CpaGoals = () => {
                       </Col>
                       <Col md={4}>
                         <p style={{ fontSize: "16px" }}>
-                          The cutting-edge successor to Web Push compatible
-                          with all browsers and operating systems. No opt-ins
-                          or subscriptions needed.
+                          The cutting-edge successor to Web Push compatible with
+                          all browsers and operating systems. No opt-ins or
+                          subscriptions needed.
                         </p>
                       </Col>
                       <Col md={4}>
-                        <Link to="/inpagepushad" className='no-underline hover:no-underline'>
+                        <Link
+                          to="/inpagepushad"
+                          className="no-underline hover:no-underline"
+                        >
                           <button className="dp_cpagoals_signup_button">
                             GET MORE INFORMATION
                           </button>
@@ -437,13 +382,16 @@ const CpaGoals = () => {
                       </Col>
                       <Col md={4}>
                         <p style={{ fontSize: "16px" }}>
-                          The cutting-edge successor to Web Push compatible
-                          with all browsers and operating systems. No opt-ins
-                          or subscriptions needed.
+                          The cutting-edge successor to Web Push compatible with
+                          all browsers and operating systems. No opt-ins or
+                          subscriptions needed.
                         </p>
                       </Col>
                       <Col md={4}>
-                        <Link to="/inpagepushad" className='no-underline hover:no-underline'>
+                        <Link
+                          to="/inpagepushad"
+                          className="no-underline hover:no-underline"
+                        >
                           <button className="dp_cpagoals_signup_button">
                             GET MORE INFORMATION
                           </button>
@@ -463,13 +411,16 @@ const CpaGoals = () => {
                       </Col>
                       <Col md={4}>
                         <p style={{ fontSize: "16px" }}>
-                          The cutting-edge successor to Web Push compatible
-                          with all browsers and operating systems. No opt-ins
-                          or subscriptions needed.
+                          The cutting-edge successor to Web Push compatible with
+                          all browsers and operating systems. No opt-ins or
+                          subscriptions needed.
                         </p>
                       </Col>
                       <Col md={4}>
-                        <Link to="/inpagepushad" className='no-underline hover:no-underline'>
+                        <Link
+                          to="/inpagepushad"
+                          className="no-underline hover:no-underline"
+                        >
                           <button className="dp_cpagoals_signup_button">
                             GET MORE INFORMATION
                           </button>
@@ -523,8 +474,6 @@ const CpaGoals = () => {
             {/* Reliable payment systems for advertisers */}
 
             <Row className="my-5 d-flex justify-content-center px-2">
-
-
               <Col md={12} className="p-0">
                 <ul className="dp_payment_items">
                   <li>
@@ -573,8 +522,13 @@ const CpaGoals = () => {
           </Col>
         </Row>
       </Container>
-    </Layout>
-  )
-}
 
-export default CpaGoals
+
+
+
+
+    </Layout>
+  );
+};
+
+export default CpaGoals;
