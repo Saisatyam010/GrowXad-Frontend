@@ -76,6 +76,7 @@ const CpaGoals = () => {
                           Algorithms Scrutinize Ad Placements, Retaining Only
                           Those Meeting Your KPIs
                         </p>
+                         
                       </Col>
                     </Row>
                   </Col>
@@ -207,7 +208,7 @@ const CpaGoals = () => {
 
                     <Row className="mb-2">
                       <Col md={1} className="col-1">
-                        <span className="dp_cpa_enableCPA_numbering">3 </span>
+                        <span className="dp_cpa_enableCPA_numbering">5</span>
                       </Col>
                       <Col md={11} className="col-11">
                         <div className="ps-1">
@@ -522,11 +523,6 @@ const CpaGoals = () => {
           </Col>
         </Row>
       </Container>
-
-
-
-
-
     </Layout>
   );
 };
