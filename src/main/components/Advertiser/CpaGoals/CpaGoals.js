@@ -74,7 +74,7 @@ const CpaGoals = () => {
                         <h6>Maximize Returns with Each Placement</h6>
                         <p style={{ fontSize: "14px" }}>
                           Algorithms Scrutinize Ad Placements, Retaining Only
-                          Those Meeting
+                          Those Meeting Your KPIs
                         </p>
                          
                       </Col>
