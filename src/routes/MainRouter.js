@@ -53,12 +53,7 @@ const MainRouter = () => {
       component: <AdvertisersPricingPage />,
       exact: true,
     },
-    // {
-    //   path: '/advetisers-rtb/',
-    //   component: <AdvertisersRtbPage />,
-    //   exact: true
-
-    // },
+   
     {
       path: "/advetisers-cpagoal/",
       component: <AdvertisersCpaGoalPage />,

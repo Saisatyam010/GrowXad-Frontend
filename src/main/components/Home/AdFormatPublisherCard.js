@@ -62,7 +62,6 @@ const AdvertisersCards = (props) => {
         <Row>
           <Col md={7}>
             <Button className={`${AdFormatStyle.LiveDemoButton} btn mb-2`}>
-              {/* Add margin-bottom to create space */}
               <div className="p-0 m-0">
                 <div className="d-flex align-items-center justify-content-center">
                   <span className="ps-3 me-2">
@@ -73,7 +72,7 @@ const AdvertisersCards = (props) => {
               </div>
             </Button>
 
-            <Button className={`${AdFormatStyle.MoreButton} btn`}>
+            <Button className={`${AdFormatStyle.MoreButton} btn mb-2`}>
               <div className="p-0 m-0">
                 <div className="d-flex align-items-center justify-content-center">
                   <span>MORE</span>

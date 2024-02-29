@@ -42,21 +42,24 @@ const Rtb = (props) => {
               Well <span style={{ color: "#71065D" }}>Proven</span>Technology
             </h1>
           </Col>
-          <TbSeperator />
+          {/* <TbSeperator /> */}
 
-          <TbSeperator />
-
-          <Col md={12} lg={12} className={`${RtbStyles.RtbItems} w-100`}>
-            <div className="d-flex align-items-center justify-content-center w-100">
-              {RtbMenu.map((advertiser, index) => {
-                return (
-                  <>
-                    <RtbCards key={index} {...advertiser} />
-                  </>
-                );
-              })}
-            </div>
-          </Col>
+          <div className="row text-center justify-content-center">
+            {RtbMenu.map((item, index) => (
+              <div key={index} className="col-md-2">
+                <div className="p-4"></div>
+                <div className="d-flex flex-column align-items-center">
+                  <img
+                    src={item.imagePath}
+                    alt=""
+                    height={item.height}
+                    width={item.width}
+                  />
+                  <p className={`mt-2 ${RtbStyles.RtbCardsHeading}`}>{item.title}</p>
+                </div>
+              </div>
+            ))}
+          </div>
 
           <Col md={12} className="d-flex justify-content-center py-5">
             <Button className={`LiveDemoButton btn`}>
@@ -109,3 +112,8 @@ const RtbCards = (props) => {
     </div>
   );
 };
+
+
+
+
+
