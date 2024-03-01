@@ -7,6 +7,8 @@ import AdvertiserWelcome from "../AdvertiserWelcome";
 import Faqs from "../../Faqs/Faqs";
 import AdvertiserPricingCard from "../../AdvertiserPricing/AdvertiserPricingCard";
 import { AdvertiserCardDataMenus } from "../../Shared/data/advertiserCardMenu";
+import { Enable_Goal_Data } from "../../Shared/data/advertiserCardMenu";
+
 const CpaGoals = () => {
   const data = {
     heading1: "GrowXad for Advertisers.",
@@ -135,6 +137,7 @@ const CpaGoals = () => {
 
             {/* How to enable CPA Goal */}
 
+
             <Row className="mt-5 p-3 d-flex justify-content-center px-2 card">
               <Col md={11}>
                 <h3 className="p-0">How to enable CPA Goal</h3>
@@ -256,9 +259,10 @@ const CpaGoals = () => {
                     </Row>
                   </Col>
                 </Row>
+
+                
               </Col>
             </Row>
-
             {/* Top Use Cases */}
             <div className="my-md-5 my-0 py-md-5 pt-3">
               <div className="" style={{ marginBottom: "-130px " }}>
