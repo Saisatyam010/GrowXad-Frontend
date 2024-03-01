@@ -1,4 +1,4 @@
-export const BenefitCardMenu = [
+    export const BenefitCardMenu = [
     {
         heading: "Advertisers",
         content:

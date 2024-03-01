@@ -25,11 +25,9 @@ const AdvertiserBenefits = () => {
         { text: "I'm an Advertiser" },
         { text: "I'm a Publisher" },
     ];
-
     return (
         <Layout>
             <div>
-                {/*--------------------------main Section------------------------*/}
                 <div className="container ">
                     <div className="row">
                         <div className="col-md-12">
@@ -39,8 +37,6 @@ const AdvertiserBenefits = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*--------------------------Second Section------------------------*/}
                 <div
                     className={`container-fluid pt-3 ${AdvertiserBenefitsStyles.SSA_BenefitsAdv_BG_IMG1}`}
                     style={{ borderEndStartRadius: "40px" }}
@@ -49,7 +45,6 @@ const AdvertiserBenefits = () => {
 
                         <div className="text-center">
                             <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}>Which entities derive benefits from the utilization of GrowXad's advertising solutions?</span>
-                            {/* <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color}`}>Revolutionizing Advanced Digital Marketing Tactics</span> */}
                         </div>
 
                         <div className="row">
@@ -59,19 +54,13 @@ const AdvertiserBenefits = () => {
                                         <div>
                                         <div className={`${AdvertiserBenefitsStyles.SSA_benefits_font2ghgf6px_purple} pb-2  d-flex align-items-center`}>
                                             <span className={AdvertiserBenefitsStyles.rk_adv_card_sbH}>{item.title}</span>
-                                            
-
                                             <span className="px-2">
                                                 <img
                                                 width={50}
                                                 src={item.icon}
                                                 />
-                                                
-                                               
                                             </span>
-
                                         </div>
-
                                         <p className={`${AdvertiserBenefitsStyles.dp_advbenifits_content} `}>
                                             {item.description}
                                         </p>
@@ -82,21 +71,16 @@ const AdvertiserBenefits = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*--------------------------Third Section------------------------*/}
                 <div className="container  mt-5 px-4">
-
                     <div className="text-center">
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}> Connect with target audiences </span>
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color}`}>ready to engage </span>
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}> with your offers </span>
                     </div>
-
                     <div className="row align-items-center px-md-5 pt-4 pt-md-0">
                         <div className="col-md-6" style={{ overflow: "hidden" }}>
                             <SampleMap style={{ width: "100%" }} />
                         </div>
-
                         <div className="col-md-6">
                             <div className={`${AdvertiserBenefitsStyles.dp_advbenifits_sub_heading} m-0 py-3 `}>
                                 Best-matching traffic sources
@@ -110,7 +94,6 @@ const AdvertiserBenefits = () => {
                             </p>
                         </div>
                     </div>
-
                     <div className="row align-items-center  px-md-5  pt-4 pt-md-0 ">
                         <div className="col-md-6 text-left ">
                             <div className={`${AdvertiserBenefitsStyles.dp_advbenifits_sub_heading} m-0 py-3 `}>
@@ -123,7 +106,6 @@ const AdvertiserBenefits = () => {
                                 intelligence, and ad optimization tools, which will help you
                                 improve your campaigns and increase conversions. <br /> <br />{" "}
                             </p>
-
                             <div>
                                 <button className={`${AdvertiserBenefitsStyles.RegisterButton} MoreButton  m-0`}>
                                     <div className='d-flex align-items-center justify-content-center'>
@@ -141,7 +123,6 @@ const AdvertiserBenefits = () => {
                             />
                         </div>
                     </div>
-
                     <div className="row align-items-center container px-md-5 px-3 pt-4 mt-5 pt-md-0">
                         <div className="col-md-6">
                             <img
@@ -164,9 +145,6 @@ const AdvertiserBenefits = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*--------------------------Switch Section------------------------*/}
-
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-12">
@@ -174,17 +152,12 @@ const AdvertiserBenefits = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*----------------------------9col section-------------------------*/}
-
                 <div className="container ">
-
                     <div className="text-center py-4">
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}>Join pros who make 1.34B </span>
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color}`}>Conversions </span>
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}>per year </span>
                     </div>
-
                     <div className="row">
                         {AdvertiserBenefitsProsData.map((item, index) =>
                             <div className="col-md-4 mb-3">
@@ -205,53 +178,10 @@ const AdvertiserBenefits = () => {
                                 </div>
                             </div>
                         )}
-
                     </div>
                 </div>
-
                 <AdvertiserBenefitCard message={AdvertiserBenefitCardMenu} />
-
-
-                {/*--------------------payment section-------------------*/}
-
-                {/*-------------------Box Section-------------------*/}
-                {/* <div
-                    className="px-3 my-3"
-                >
-                    <div className="px-md-5 px-0 mx-md-5 mx-2 ">
-                        <div className="container-fluid    py-md-3 mt-5">
-                            <div className="text-center">
-                                <div >
-                                    <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading} `}>Join </span>
-                                    <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color} `}>GrowXAds </span>
-                                    <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading} `}>Today!</span>
-                                </div>
-
-                                <p className={`${AdvertiserBenefitsStyles.dp_advbenifits_sub_heading} text-black py-4 `}>
-                                    You’re only a few minutes away from high-value
-                                    audiences ready to engage with your offers.
-                                </p>
-                                <Col md={{ span: 4, offset: 4 }} className="mb-2 mt-4">
-                                    <Button className={`MoreButton btn ${AdvertiserBenefitsStyles.rk_MoreBUtton}`}>
-                                       
-                                            <div className='d-flex align-items-center justify-content-center'>
-
-                                                <span>Signup And Try</span>
-                                                <span className={`ps-3 moreArrrow`}><FaArrowCircleRight /></span>
-
-                                            </div>
-                                     
-                                    </Button>
-                                </Col>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-
-
-
                 <Container>
-                
             <Row className='d-flex justify-content-center '>
                 <Col md={12}>
                     <div className='container mt-5 bg-black rounded-lg '>
@@ -282,8 +212,6 @@ const AdvertiserBenefits = () => {
                 </Col>
             </Row>
         </Container>
-
-                {/*-----------second last section------------------*/}
                 <div className="container-fluid">
                     <div className="container">
                         <div className="row px-md-5  pt-md-0 d-flex align-items-center">
@@ -295,7 +223,7 @@ const AdvertiserBenefits = () => {
                                 </div>
 
                                 <p className={`${AdvertiserBenefitsStyles.dp_advbenifits_content}m-0 pt-3`}>
-                                    The GrowXAds Self-Serve Platform is ideal for people who want to purchase traffic without the help of a manager. You'll have access to a range of targeting options, competitive intelligence, and ad optimization tools, which will help you improve your campaigns and increase conversions.
+                                    The GrowXAds Self-serve Platform is ideal for people who want to purchase traffic without the help of a manager. You'll have access to a range of targeting options, competitive intelligence, and ad optimization tools, which will help you improve your campaigns and increase conversions.
                                 </p>
                                 <div>
                                     <Button className={`MoreButton btn m-0`}>
