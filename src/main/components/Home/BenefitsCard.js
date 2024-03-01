@@ -17,32 +17,15 @@ const BenefitCard = () => {
             <Container>
                 <Row>
                     <Col md={12}>
-
-
                         <h1 className='text-center font-semibold text-black'>Who can benefit  <span style={{ color: "#71065D" }}>from GrowX</span>ad network</h1>
-
-
                     </Col>
                     <TbSeperator />
-
                 </Row>
-
             </Container>
-
-
-
-
-
-
             <Container>
-
-                <Row>
-
-
-
-
+                <Row className="d-flex justify-content-center">
                     {BenefitCardMenu.map((card, index) => (
-                        <Col md={4}>
+                        <Col md={4} className="mb-2">
                             <div
                                 key={index}
                                 className={`${BenefitCardStyles.sana_card

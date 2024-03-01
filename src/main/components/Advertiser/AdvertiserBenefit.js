@@ -115,7 +115,7 @@ const AdvertiserBenefits = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="col-md-6  ">
+                        <div className="col-md-6 mt-2 mt-md-0 ">
                             <img
                                 src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6866317f-03c4-4b32-eb64-e02ebfb77500/public"
                                 alt=""
@@ -184,13 +184,13 @@ const AdvertiserBenefits = () => {
                 <Container>
             <Row className='d-flex justify-content-center '>
                 <Col md={12}>
-                    <div className='container mt-5 bg-black rounded-lg '>
-                        <div className='row d-flex justify-content-center'>
+                    <div className={` container mt-5 rounded-lg ${AdvertiserBenefitsStyles.rk_adv_bnft_bg}`}>
+                        <div className='row d-flex justify-content-center bg-[rgba(0,0,0,0.5)] rounded-lg'>
                             <div className='col-md-12'>
                                 <section className={AdvertiserBenefitsStyles.rs_section_container}>
                                     <section className={AdvertiserBenefitsStyles.rs_common_red_square_block}>
                                         <div className={`${AdvertiserBenefitsStyles.rs_col_7} col-lg-8 offset-lg-2`}>
-                                            <p className={`${AdvertiserBenefitsStyles.AdvertisersContainerHeading} text-center fs-3 text-white`}>Join GrowXAds Today</p>
+                                            <p className={`${AdvertiserBenefitsStyles.AdvertisersContainerHeading} text-center fw-bold fs-3 text-white`}>Join GrowXAds Today</p>
                                             <p className={`${AdvertiserBenefitsStyles.JoinGrowXAdsSubHeading} text-white`}>
                                                 You’re only a few minutes away from high-performing ad campaigns and loads of quality traffic. Welcome to your new growth area!
                                             </p>
@@ -223,7 +223,7 @@ const AdvertiserBenefits = () => {
                                 </div>
 
                                 <p className={`${AdvertiserBenefitsStyles.dp_advbenifits_content}m-0 pt-3`}>
-                                    The GrowXAds Self-serve Platform is ideal for people who want to purchase traffic without the help of a manager. You'll have access to a range of targeting options, competitive intelligence, and ad optimization tools, which will help you improve your campaigns and increase conversions.
+                                    The GrowXAds Self-Serve Platform is ideal for people who want to purchase traffic without the help of a manager. You'll have access to a range of targeting options, competitive intelligence, and ad optimization tools, which will help you improve your campaigns and increase conversions.
                                 </p>
                                 <div>
                                     <Button className={`MoreButton btn m-0`}>

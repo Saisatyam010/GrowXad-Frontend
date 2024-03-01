@@ -5,6 +5,7 @@
     line-height: 40px;
 }
 
+
 .dp_advbenifits_main_heading_color {
     font-size: var(--section-main-heading);
     color: var(--primary-color);
@@ -152,11 +153,17 @@
 }
 
 .rs_common_red_square_block {
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     background-size: cover;
     padding-bottom: 25px;
     padding-top: 25px;
     border-radius: 4px;
+}
+
+.rk_adv_bnft_bg{
+    background-image: url(https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/892fb500-b550-497b-e58f-f3b793a60400/public);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .rs_col_10 {
@@ -277,10 +284,13 @@
     max-height: 15rem
 }
 
-@media screen and (max-width:"767px") {
-    .rk_switch_revrse{
-        display: flex;
-        flex-direction: column-reverse;
+@media screen and (max-width:767px) {
+    .dp_switch_container {
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
+        padding: 20px 20px;
+        background-color: rgb(239, 239, 239);
+        border-radius: 30px;
     }
 }
+   
 

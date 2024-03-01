@@ -1,7 +1,7 @@
 export const AdvertiserBenefitsProsData = [
     {
         name: 'VPN & Utilities',
-        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/2b5f1040-5b8e-44dc-10d6-17931a27e000/public',
+        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/bb3901d7-3b74-46f5-dc21-df6b86a3a000/public',
     },
     {
         name: 'Mobile Apps',
@@ -22,7 +22,7 @@ export const AdvertiserBenefitsProsData = [
     },
     {
         name: 'Finance',
-        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/77e476ac-0e5f-47c8-d2fc-c7bacf8de500/public',
+        image: 'https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/bb3901d7-3b74-46f5-dc21-df6b86a3a000/public',
 
     },
     {

@@ -11,12 +11,12 @@
             "Maximize ad earnings. Monetize effortlessly. AI optimizes CPM and ad feeds for profitability. Explore new revenue streams.",
         imgUrl: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/0666322a-013d-47c7-63b1-28f78c05cc00/public"
     },
-    {
-        heading: "Affiliate",
-        content:
-            "GrowXAd CPA Network: Lucrative offers, fast payouts, risk-free. Boost profits with backlinks. Elevate earnings effortlessly.",
-        imgUrl: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/b6242427-4cff-4d1c-f208-e374e73f8100/public"
-    },
+    // {
+    //     heading: "Affiliate",
+    //     content:
+    //         "GrowXAd CPA Network: Lucrative offers, fast payouts, risk-free. Boost profits with backlinks. Elevate earnings effortlessly.",
+    //     imgUrl: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/b6242427-4cff-4d1c-f208-e374e73f8100/public"
+    // },
 ];
 
 export const AdvertiserBenefitCardMenu = [

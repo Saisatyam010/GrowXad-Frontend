@@ -9,7 +9,7 @@ const Welcome = () => {
         <>
             <section className={`${welcomeStyles.SSA_HOME_parallax}`}>
                 <Container>
-                    <Row className=''>
+                    <Row className='d-flex align-items-center justify-content-center'>
                         <Col md={7} className='flex items-center content-center'>
                             <div className="d-flex justify-content-center align-items-center">
                                 <div className=''>
@@ -30,9 +30,9 @@ const Welcome = () => {
 
                             </div>
                         </Col>
-                        <Col md={5} className=''>
+                        {/* <Col md={5} className=''>
                             <TopSlider />
-                        </Col>
+                        </Col> */}
                     </Row>
 
                 </Container>

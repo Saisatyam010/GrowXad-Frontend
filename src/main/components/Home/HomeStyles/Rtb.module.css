@@ -10,6 +10,12 @@
 
 }
 
+.rk_proven_td{
+    /* display: flexbox; */
+    /* display: flex;
+    flex-wrap: nowrap; */
+}
+
 
 
 .RtbCardsHeading {
