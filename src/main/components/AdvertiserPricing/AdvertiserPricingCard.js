@@ -28,8 +28,8 @@ const AdvertiserPricingCard = (props) => {
           </div>
         </div>
       </div>
-      <div className={cardHomeStyles.rs_bg_color}>
-        <div className="container mt-3 p-4">
+      <div className={`${cardHomeStyles.rs_bg_color} `} >
+        <div className="container  mt-3 p-4">
           <div className="row mt-4 p-2 ">
             {props.cardData.map((card, index) => (
               <div

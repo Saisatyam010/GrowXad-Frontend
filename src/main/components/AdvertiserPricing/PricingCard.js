@@ -12,8 +12,8 @@ const PricingCard = () => {
                     <Row >
 
                         <Col xs={12} md={4} lg={4} className={` py-5 ${SmartCpmStyles.sk_border}`} >
-
-                            <div className='card p-4'>               <div className='d-flex justify-content-center  '>
+                            <div className='card p-4'>               
+                            <div className='d-flex justify-content-center  '>
                                 <div>
                                     <  img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c94f6f62-ac4d-4453-8cd9-8b1b47913500/public' alt='advertisercaed' />
                                 </div>
@@ -121,9 +121,10 @@ const PricingCard = () => {
 
                         <Col xs={12} md={4} lg={4} className={` py-5 ${SmartCpmStyles.sk_border}`} >
 
-                            <div className='card p-4'>               <div className='d-flex justify-content-center  '>
+                            <div className='card p-4'>               
+                            <div className='d-flex justify-content-center'>
                                 <div>
-                                    <  img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c94f6f62-ac4d-4453-8cd9-8b1b47913500/public' alt='advertisercaed' />
+                                    <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c94f6f62-ac4d-4453-8cd9-8b1b47913500/public' alt='advertisercaed' />
                                 </div>
                             </div>
                                 <div className='d-flex align-items-start justify-content-start'>
@@ -144,7 +145,6 @@ const PricingCard = () => {
                                             opacity: "100%"
                                         }} />
                                     </div>
-
 
                                     <p className=' fs-6'>Forget about hit-or-miss tactics. Before
                                         running your CPA campaign at full
