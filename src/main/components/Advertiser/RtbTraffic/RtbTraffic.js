@@ -45,7 +45,6 @@ const RtbTraffic = () => {
         setIconsPerPage(5);
       }
     };
-
     window.addEventListener("resize", updateIconsPerPage);
 
     updateIconsPerPage();
@@ -54,7 +53,6 @@ const RtbTraffic = () => {
     };
   }, []);
 
-  // const visibleIcons = icons.slice(startIndex, startIndex + iconsPerPage);
   const data = {
     heading1: "GrowXad for Advertisers.",
     heading2: "Experience a Superlative Output of Your Marketing",

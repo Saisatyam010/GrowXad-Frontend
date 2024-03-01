@@ -189,6 +189,25 @@ export const AdvertiserSmartCpmBusinessCardData = [
   },
 ];
 
-
-
-
+export const Enable_Goal_Data = [
+  {
+    id: 1,
+    title: "Sign up or log in as an advertiser.",
+  },
+  {
+    id: 2,
+    title: "Sign up or log in as an advertiser.",
+  },
+  {
+    id: 3,
+    title: "Sign up or log in as an advertiser.",
+  },
+  {
+    id: 4,
+    title: "Sign up or log in as an advertiser.",
+  },
+  {
+    id: 5,
+    title: "Sign up or log in as an advertiser.",
+  },
+];
