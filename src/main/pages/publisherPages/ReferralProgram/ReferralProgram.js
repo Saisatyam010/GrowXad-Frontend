@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { EarnMoneyByReferCard, HowToAttractReferrals } from './ReferralProgramData';
 import Layout from '../../../components/Layout/Layout';
 import { GoRocket } from 'react-icons/go';
-
+import TbSeperator from '../../../components/Shared/TbSeperator';
 export const ReferralProgram = () => {
     const [hoveredIndex, setHoveredIndex] = useState(null);
 
@@ -18,8 +18,8 @@ export const ReferralProgram = () => {
     return (
         <Layout>
             <Container fluid>
+                <TbSeperator />
                 <Row className='d-flex justify-content-center'>
-
                     <Col md={10}>
                         {/* Image and Content */}
 
@@ -67,7 +67,7 @@ export const ReferralProgram = () => {
                         </Row>
 
                         {/* Earn money */}
-
+                        <TbSeperator />
                         <Row>
                             <Col md={12}>
                                 <Row>
@@ -93,8 +93,7 @@ export const ReferralProgram = () => {
                                                         <img
                                                             src={ele.imgPath}
                                                             alt=""
-                                                            style={{ minWidth: "100%", minHeight: "100%", }}
-                                                        />
+                                                            style={{ minWidth: "100%", minHeight: "100%", }} />
                                                     </Col>
 
                                                     <Col md={12} className='p-3 text-center'>
@@ -105,21 +104,18 @@ export const ReferralProgram = () => {
                                                     </Col>
                                                 </Row>
                                             </div>
-
                                         </Col>
                                     ))}
                                 </Row>
                             </Col>
-
                         </Row>
 
                         {/* How can you attract referrals to GrowXAds??  */}
-
+                        <TbSeperator />
                         <Row>
                             <Col md={12} >
                                 <Row>
                                     <Col md={12} className='py-4'>
-
                                         <div className='fw-bold text-center pt-5'>
                                             <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading}`}>
                                                 How can you </span>
@@ -130,11 +126,9 @@ export const ReferralProgram = () => {
                                             <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading_color}`}>
                                                 GrowXAds? </span>
                                         </div>
-
                                         <p className={`text-center ${ReferralProgramStyleCSS.dp_referralprogram_sub_heading}`}>Employ any or all of these methods to earn additional income!</p>
                                     </Col>
                                 </Row>
-
 
                                 <Row>
                                     {HowToAttractReferrals.map((card, index) => (
@@ -163,7 +157,6 @@ export const ReferralProgram = () => {
                                     ))}
                                 </Row>
                             </Col>
-
                         </Row>
                     </Col>
                 </Row>
