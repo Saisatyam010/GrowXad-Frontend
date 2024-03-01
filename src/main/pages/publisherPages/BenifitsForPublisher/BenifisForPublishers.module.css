@@ -2,12 +2,14 @@
     font-size: var(--section-main-heading);
     color: var(--secondary-color);
     font-weight: 600;
+    line-height: 40px;
 }
 
 .dp_benifitsforpublishers_main_heading_color {
     font-size: var(--section-main-heading);
     color: var(--primary-color);
     font-weight: 600;
+    line-height: 40px;
 }
 
 .dp_benifitsforpublishers_sub_heading {
@@ -28,6 +30,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.dp_howtoattract_card_fontBorder {
+    border-Top: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+    padding: 7px 0px;
+}
+
+.dp_whychooseus_card_fontBorder {
+    border-Top: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+    padding: 7px 0px;
 }
 
 .RegisterButton {

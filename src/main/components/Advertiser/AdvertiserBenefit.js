@@ -248,16 +248,14 @@ const AdvertiserBenefits = () => {
                                     The GrowXAds Self-Serve Platform is ideal for people who want to purchase traffic without the help of a manager. You'll have access to a range of targeting options, competitive intelligence, and ad optimization tools, which will help you improve your campaigns and increase conversions.
                                 </p>
                                 <div>
-                                    <Button className={`MoreButton btn m-0`}>
+                                    <button className={`MoreButton  m-0`}>
                                         <div className='p-0 m-0'>
                                             <div className='d-flex align-items-center justify-content-center '>
-
                                                 <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_content}`}>Learn More</span>
                                                 <span className={`ps-3 moreArrrow`}><FaArrowCircleRight /></span>
-
                                             </div>
                                         </div>
-                                    </Button>
+                                    </button>
                                 </div>
                             </div>
                             <div className="col-md-5">

@@ -25,11 +25,11 @@ export const BenifitsForPublishers = () => {
                     <Col md={10}>
                         {/* Image and Content */}
 
-                        <Row>
+                        <Row className='py-4'>
                             <Col md={6} className='d-flex align-items-center'>
                                 <Row>
-                                    <Col md={12}>
-                                        <div className='p-2'>
+                                    <Col md={12} className='p-0'>
+                                        <div className='p-0'>
 
                                             <div className='fw-bold'>
                                                 <span className={`${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_main_heading}`}>
@@ -50,26 +50,23 @@ export const BenifitsForPublishers = () => {
                                             </p>
                                         </div>
                                     </Col>
-                                    <Col md={12} className='p-0 m-0'>
-                                        <button className={`my-3 ${BenifitsForPublishersStyleCSS.RegisterButton}`}>
-
-                                            <div className='d-flex align-items-center justify-content-center'>
-                                                <span>
-                                                    <GoRocket />
-                                                </span>
-                                                <span className='px-2'>
-                                                    Start Monetizing
-                                                </span>
+                                    <Col md={12} className='p-0 m-0 '>
+                                        <button className={`MoreButton  m-0`}>
+                                            <div className='p-0 m-0'>
+                                                <div className='d-flex align-items-center justify-content-center '>
+                                                    <span className={`${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_cards_content}`}>Learn More</span>
+                                                    <span className={`ps-3 moreArrrow`}><GoRocket /></span>
+                                                </div>
                                             </div>
-
                                         </button>
+
                                     </Col>
                                 </Row>
                             </Col>
 
-                            <Col md={6} className='py-2 '>
+                            <Col md={6} >
                                 <div className='text-center '>
-                                    <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/9aeac015-b088-42cb-0f24-a295c24d5a00/public' width="100%" height="100%" alt=''></img>
+                                    <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/b64bff8a-74fe-48a3-1d6b-ce3111d9b000/public' width="100%" height="100%" alt=''></img>
                                 </div>
                             </Col>
                         </Row>
@@ -194,10 +191,13 @@ export const BenifitsForPublishers = () => {
                                                         className=''
                                                     />
                                                 </div>
-                                                <div className={`${BenifitsForPublishersStyleCSS.rs_h_card_border} `}>
-                                                    <div className={BenifitsForPublishersStyleCSS.slide_card}></div>
+                                               
+                                                {/* <h5 className={BenifitsForPublishersStyleCSS.rs_h_text}>{card.title}</h5> */}
+
+                                                <div className='pt-3 my-3'>
+                                                    <span className={`${BenifitsForPublishersStyleCSS.dp_howtoattract_card_fontBorder} fw-bold`}>{card.title}</span>
                                                 </div>
-                                                <h5 className={BenifitsForPublishersStyleCSS.rs_h_text}>{card.title}</h5>
+
                                                 <p className={BenifitsForPublishersStyleCSS.rs_p_text}>{card.content}</p>
                                             </div>
                                         </div>
@@ -212,11 +212,11 @@ export const BenifitsForPublishers = () => {
 
                         <Row className='d-flex justify-content-center p-1'>
                             <Col md={12}>
-                                <div className='fw-bold text-center py-5'>
+                                <div className='fw-bold text-center py-3'>
                                     <span className={`${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_main_heading}`}>
-                                        Top Bloggers' </span>
+                                        Top Publishers' </span>
                                     <span className={`${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_main_heading_color}`}>
-                                        Review </span>
+                                        Testimonials </span>
                                 </div>
                             </Col>
 

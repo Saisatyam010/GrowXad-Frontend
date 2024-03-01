@@ -18,34 +18,34 @@ export const MonitizeAnyTrafficData = [
 
 export const WhyChooseUsCards = [
     {
-        title: "Dedicated Support and Customer Service",
+        title: "Support and Customer Service",
         content: "Our customer support is dedicated to prompt and effective resolution of issues for advertisers and publishers.",
-        imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/1264b2c5-e36e-41f8-6ae4-73cc66150c00/public"
+        imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d06ea3e0-f4bf-4ea9-f4a8-ca09f6588b00/public"
     },
     {
         title: "Customization and Personalization",
         content: "Empower advertisers with robust customization tools for personalized campaigns, elevating effectiveness through tailored targeting..",
-        imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/5275d796-7cbf-4d7c-9e5f-bfd7318b3900/public"
+        imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/b8744127-5100-4ab5-24d6-083331386000/public"
     },
     {
         title: "Partnerships and Collaborations",
         content: "Showcase esteemed partnerships and collaborations to boost advertiser confidence in your platform's credibility and influence.",
-        imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/2db4585d-3d7b-488c-c556-60d54e5f7c00/public"
+        imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6c198357-bbce-490e-1a9a-ae0ddb52d300/public"
     },
     {
         title: "Cross-Channel Marketing ",
         content: "Highlight cross-channel opportunities for advertisers to extend reach across platforms, enhancing campaign effectiveness.",
-        imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/bd4002c9-6d52-4dee-7a77-6cfcd60e2a00/public"
+        imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/dafc38df-d5f3-4ca7-71f7-32cb46625000/public"
     },
     {
         title: "Highly Targeted Audience",
         content: "Connect advertisers with a niche or well-defined demographic, optimizing relevance for successful campaigns.",
-        imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/99d8cca9-97f0-4a09-654c-216a7c030100/public"
+        imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/68435a7d-2c48-4725-ab1e-e3e00f428c00/public"
     },
     {
-        title: "Brand Safety and Ad Fraud Prevention",
+        title: "Brand Safety and Ad Fraud Safety",
         content: "Committed to brand safety, we employ rigorous measures to combat ad fraud, ensuring a secure advertising environment.",
-        imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/352ba55c-983c-4a59-2143-5e1feb3e4700/public"
+        imgPath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/2aa8bf71-a612-4edb-1c09-ba515b09c200/public"
     },
 ]
 
@@ -54,7 +54,7 @@ export const BloggerReviews = [
         name : " ~ George Wood",
         imgProfilePath:"https://adsterra.com/_nuxt/img/person_1.a0cb0d8.png ",
         imgDoublequotes : "https://www.pngarts.com/files/12/Apostrophe-Icon-PNG-Image.png",
-        content: "“Effortless navigation! The clean, intuitive interface simplifies ad management and performance tracking. A big thumbs up for the simple, effective design !”"
+        content: "“Effortless navigation! The clean, intuitive interface simplifies ad management and performance tracking!”"
     },
     {
         name : " ~ George Wood",

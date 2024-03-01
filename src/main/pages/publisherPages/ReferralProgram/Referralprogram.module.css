@@ -2,12 +2,14 @@
     font-size: var(--section-main-heading);
     color: var(--secondary-color);
     font-weight: 600;
+    line-height: 40px;
 }
 
 .dp_referralprogram_main_heading_color {
     font-size: var(--section-main-heading);
     color: var(--primary-color);
     font-weight: 600;
+    line-height: 40px;
 }
 
 .dp_referralprogram_sub_heading {
@@ -44,7 +46,7 @@
     border: 1px solid var(--primary-color);
     padding: 20px;
     margin-bottom: 20px;
-    min-height: 300px;
+    min-height: 330px;
 }
 
 .dp_referalprogram_earnmoney_card:hover {
@@ -75,7 +77,7 @@
 }
 
 .rs_card_block {
-    background: black;
+    background: rgb(33, 37, 41);
     color: white;
     height: 100%;
     /* border-radius: 10px; */
@@ -86,7 +88,12 @@
     cursor: pointer;
     transform: translateY(-5px);
     transition: transform 0.8s ease;
+}
 
+.dp_howtoattract_card_fontBorder {
+    border-Top: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+    padding: 7px 0px;
 }
 
 .rs_h1 {

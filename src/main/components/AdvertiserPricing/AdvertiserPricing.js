@@ -60,9 +60,9 @@ const AdvertiserPricing = () => {
     return (
         <div>
             <Layout>
-                <div className="container">
+                <div className="container " >
                     <div className="row">
-                        <div className="col-md-12 mt-3">
+                        <div className="col-md-12" style={{ margin: "80px 0px" }}>
                             <AdvertiserWelcome message={data} />
                         </div>
                     </div>
@@ -85,13 +85,13 @@ const AdvertiserPricing = () => {
 
                     <TbSeperator />
 
-                    <Container fluid className=" px-5">
+                    <Container fluid className=" pt-5">
 
                         <Row className='d-flex justify-content-center'>
-                            <Col md={5}>
+                            <Col md={7}>
                                 <div className='text-center pt-3'>
                                     <span className={`${PrcingStyle.dp_advpricing_main_heading} m-0`} >Operate pricing models to gain broader reach and </span>
-                                    <span className={`${PrcingStyle.dp_advpricing_main_heading_color} m-0`} >larger ROI </span>
+                                    <span className={`${PrcingStyle.dp_advpricing_main_heading_color} m-0`} >Larger ROI </span>
                                 </div>
                             </Col>
                         </Row>
@@ -122,7 +122,7 @@ const AdvertiserPricing = () => {
                                                         {/* Render Top Verticals using map */}
                                                         <Col md={4} sm={5} xs={5} className="">
                                                             <div className={PrcingStyle.rk_price_bx_3}>
-                                                                <p className={`${PrcingStyle.dp_advpricing_main_sub_heading} m-0 fw-bold`}>
+                                                                <p className={`${PrcingStyle.dp_advpricing_heading} m-0 fw-bold`}>
                                                                     TOP VERTICALS:
                                                                 </p>
                                                                 <ul>
@@ -144,11 +144,9 @@ const AdvertiserPricing = () => {
                                                                 </ul>
                                                             </div>
                                                         </Col>
-                                                        <Col md={1} sm={2} xs={2} className="">
-                                                            <div className={PrcingStyle.rk_price_bx_3_Vl}></div>
-                                                        </Col>
+
                                                         {/* Render Top Ad Formats using map */}
-                                                        <Col md={4} sm={5} xs={5}>
+                                                        <Col md={6} sm={5} xs={5}>
                                                             <div className={PrcingStyle.rk_price_bx_3}>
 
                                                                 <p className={`${PrcingStyle.dp_advpricing_main_sub_heading} m-0 fw-bold`}>
@@ -176,7 +174,7 @@ const AdvertiserPricing = () => {
                                                     </Row>
                                                 </Col>
                                             </Row>
-                                            
+
                                             <Row>
                                                 <Col>
                                                     <hr className={PrcingStyle.rk_price_bx_3_Hl} />
@@ -193,13 +191,23 @@ const AdvertiserPricing = () => {
 
                     </Container>
 
-                    <div className="row pt-5">
-                        <div >
-                            <PricingCard />
+                    <Container fluid>
+                        <div className="row">
+                            <div >
+                                <PricingCard />
+                            </div>
                         </div>
-                    </div>
+                    </Container>
 
-                    <AdvertiserPricingCard cardData={data2} />
+                    <Container fluid >
+                        <div className="row">
+                            <div >
+                                 <AdvertiserPricingCard cardData={data2} />
+                            </div>
+                        </div>
+                    </Container>
+
+
                 </div>
             </Layout >
         </div >

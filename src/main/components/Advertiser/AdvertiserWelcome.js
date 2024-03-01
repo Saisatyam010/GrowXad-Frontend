@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import CPANetworkStyleCSS from '../../components/CpaNetwork/CpaNetwork.module.css'
+import { GoRocket } from 'react-icons/go'
 const AdvertiserWelcome = (props) => {
 
     console.log(props)
@@ -25,7 +26,15 @@ const AdvertiserWelcome = (props) => {
                             </Col>
                             <Col md={12} className="p-0 py-2">
                                 <div>
-                                    <Button variant="outline" className={`${CPANetworkStyleCSS.RegisterButton} m-0`}>Learn More</Button>
+                                   
+                                    <button className={`MoreButton  m-0`}>
+                                        <div className='p-0 m-0'>
+                                            <div className='d-flex align-items-center justify-content-center '>
+                                                <span className={`${CPANetworkStyleCSS.dp_referralprogram_content}`}>Learn More</span>
+                                                <span className={`ps-3 moreArrrow`}><GoRocket /></span>
+                                            </div>
+                                        </div>
+                                    </button>
                                 </div>
                             </Col>
                         </Row>

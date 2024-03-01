@@ -88,10 +88,6 @@ const MainRouter = () => {
 
 
 
-
-
-
-
     // Ad Format 
     {
       path: '/bannerAds',
@@ -234,7 +230,7 @@ const MainRouter = () => {
 
 
 
-    
+
 
     // 
 

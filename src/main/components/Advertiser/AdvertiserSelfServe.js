@@ -85,7 +85,7 @@ export default function SelfServe() {
                 <section>
                     <Container>
                         <Row className="justify-content-center ">
-                            <Col md={8} className="d-flex justify-content-center pt-4 align-items-center">
+                            <Col md={10} className="d-flex justify-content-center pt-4 align-items-center">
 
                                 <div className="text-center py-3">
                                     <span className={`${AdvertiserSelfServeStyles.dp_SelfService_main_heading}`}>Improve your advertising experience with </span>
@@ -113,7 +113,7 @@ export default function SelfServe() {
                                     {selfServicePoints.map((point, index) => (
                                         <p className="d-flex m-0" key={index}>
                                             <span className={AdvertiserSelfServeStyles.ab_sspoints}>
-                                                <TiTick className="fs-4 " />
+                                                <TiTick className="fs-4 text-white" />
                                             </span>
                                             <span
                                                 className={`${AdvertiserSelfServeStyles.dp_SelfService_content} m-0 fw-bold ps-3`}
@@ -207,7 +207,8 @@ export default function SelfServe() {
                                                 key={index}
                                                 className={`${AdvertiserSelfServeStyles.dp_SelfService_content} py-1`}
                                             >
-                                                ✔ {item}
+                                                <span>✔ </span>
+                                                 <span className="ps-2">{item}</span>
                                             </li>
                                         ))}
                                     </ul>
