@@ -57,10 +57,6 @@ export const BlogData = [
       "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/b82ccfe6-574a-4a6d-bea3-4ccfffa77400/public",
     button: "Read",
   },
-
-
-
-  
 ];
 
 export const settings = {
