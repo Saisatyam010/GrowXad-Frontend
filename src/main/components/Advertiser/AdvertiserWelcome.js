@@ -1,7 +1,14 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import CPANetworkStyleCSS from '../../components/CpaNetwork/CpaNetwork.module.css'
+
+import { FaArrowCircleRight } from "react-icons/fa";
+import AdvertiserBenefitsStyles from "../../components/Advertiser/AdvertiserStyles/AdvertiserBenefit.module.css";
+
+
+
 import { GoRocket } from 'react-icons/go'
+
 const AdvertiserWelcome = (props) => {
 
     console.log(props)
@@ -26,6 +33,14 @@ const AdvertiserWelcome = (props) => {
                             </Col>
                             <Col md={12} className="p-0 py-2">
                                 <div>
+
+                                <button className={`${AdvertiserBenefitsStyles.RegisterButton} MoreButton  m-0`}>
+                                    <div className='d-flex align-items-center justify-content-center'>
+                                        <span>Learn More</span>
+                                        <span className={`ps-3 moreArrrow`}><FaArrowCircleRight /></span>
+                                    </div>
+                                </button>
+
                                    
                                     <button className={`MoreButton  m-0`}>
                                         <div className='p-0 m-0'>
@@ -35,6 +50,7 @@ const AdvertiserWelcome = (props) => {
                                             </div>
                                         </div>
                                     </button>
+
                                 </div>
                             </Col>
                         </Row>

@@ -39,28 +39,6 @@ const Verified = () => {
                     </Col>
                 </Row>
             </Container>
-            {/* <Container fluid className='bg-light py-5'>
-                <Container>
-                    <Row className='mb-4'>
-                        <Col md={12}>
-                            <div className='flex items-center justify-center'>
-                                <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/99e4efb9-a05f-4c97-78dd-e20b8c367900/public' height={350} width={300}></img>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row className='d-flex align-items-center justify-content-center'>
-                        <Col md={7} className=''>
-
-
-                            <h1 className='text-center font-[11px] text-black'>GrowXad traffic quality is verified by Adscore <span style={{ color: "#71065D" }}>We block any bot </span>or other fraudulent traffic.</h1>
-
-
-                        </Col>
-                    </Row>
-
-                </Container>
-            </Container> */}
-
         </>
     )
 }

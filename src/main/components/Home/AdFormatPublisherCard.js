@@ -82,7 +82,7 @@ const AdvertisersCards = (props) => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={7}>
+                    <Col md={7} className='d-flex flex-md-row flex-column gap-2'>
 
                         <Button className={`${AdFormatStyle.LiveDemoButton} btn`}>
                             <div className='p-0 m-0'>

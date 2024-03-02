@@ -25,11 +25,9 @@ const AdvertiserBenefits = () => {
         { text: "I'm an Advertiser" },
         { text: "I'm a Publisher" },
     ];
-
     return (
         <Layout>
             <div>
-                {/*--------------------------main Section------------------------*/}
                 <div className="container ">
                     <div className="row">
                         <div className="col-md-12">
@@ -39,8 +37,6 @@ const AdvertiserBenefits = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*--------------------------Second Section------------------------*/}
                 <div
                     className={`container-fluid pt-3 ${AdvertiserBenefitsStyles.SSA_BenefitsAdv_BG_IMG1}`}
                     style={{ borderEndStartRadius: "40px" }}
@@ -49,7 +45,6 @@ const AdvertiserBenefits = () => {
 
                         <div className="text-center">
                             <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}>Which entities derive benefits from the utilization of GrowXad's advertising solutions?</span>
-                            {/* <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color}`}>Revolutionizing Advanced Digital Marketing Tactics</span> */}
                         </div>
 
                         <div className="row">
@@ -59,19 +54,13 @@ const AdvertiserBenefits = () => {
                                         <div>
                                         <div className={`${AdvertiserBenefitsStyles.SSA_benefits_font2ghgf6px_purple} pb-2  d-flex align-items-center`}>
                                             <span className={AdvertiserBenefitsStyles.rk_adv_card_sbH}>{item.title}</span>
-                                            
-
                                             <span className="px-2">
                                                 <img
                                                 width={50}
                                                 src={item.icon}
                                                 />
-                                                
-                                               
                                             </span>
-
                                         </div>
-
                                         <p className={`${AdvertiserBenefitsStyles.dp_advbenifits_content} `}>
                                             {item.description}
                                         </p>
@@ -82,21 +71,16 @@ const AdvertiserBenefits = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*--------------------------Third Section------------------------*/}
                 <div className="container  mt-5 px-4">
-
                     <div className="text-center">
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}> Connect with target audiences </span>
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color}`}>ready to engage </span>
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}> with your offers </span>
                     </div>
-
                     <div className="row align-items-center px-md-5 pt-4 pt-md-0">
                         <div className="col-md-6" style={{ overflow: "hidden" }}>
                             <SampleMap style={{ width: "100%" }} />
                         </div>
-
                         <div className="col-md-6">
                             <div className={`${AdvertiserBenefitsStyles.dp_advbenifits_sub_heading} m-0 py-3 `}>
                                 Best-matching traffic sources
@@ -110,7 +94,6 @@ const AdvertiserBenefits = () => {
                             </p>
                         </div>
                     </div>
-
                     <div className="row align-items-center  px-md-5  pt-4 pt-md-0 ">
                         <div className="col-md-6 text-left ">
                             <div className={`${AdvertiserBenefitsStyles.dp_advbenifits_sub_heading} m-0 py-3 `}>
@@ -123,7 +106,6 @@ const AdvertiserBenefits = () => {
                                 intelligence, and ad optimization tools, which will help you
                                 improve your campaigns and increase conversions. <br /> <br />{" "}
                             </p>
-
                             <div>
                                 <button className={`${AdvertiserBenefitsStyles.RegisterButton} MoreButton  m-0`}>
                                     <div className='d-flex align-items-center justify-content-center'>
@@ -133,7 +115,7 @@ const AdvertiserBenefits = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="col-md-6  ">
+                        <div className="col-md-6 mt-2 mt-md-0 ">
                             <img
                                 src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6866317f-03c4-4b32-eb64-e02ebfb77500/public"
                                 alt=""
@@ -141,7 +123,6 @@ const AdvertiserBenefits = () => {
                             />
                         </div>
                     </div>
-
                     <div className="row align-items-center container px-md-5 px-3 pt-4 mt-5 pt-md-0">
                         <div className="col-md-6">
                             <img
@@ -164,9 +145,6 @@ const AdvertiserBenefits = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*--------------------------Switch Section------------------------*/}
-
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-12">
@@ -174,17 +152,12 @@ const AdvertiserBenefits = () => {
                         </div>
                     </div>
                 </div>
-
-                {/*----------------------------9col section-------------------------*/}
-
                 <div className="container ">
-
                     <div className="text-center py-4">
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}>Join pros who make 1.34B </span>
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color}`}>Conversions </span>
                         <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}>per year </span>
                     </div>
-
                     <div className="row">
                         {AdvertiserBenefitsProsData.map((item, index) =>
                             <div className="col-md-4 mb-3">
@@ -205,62 +178,19 @@ const AdvertiserBenefits = () => {
                                 </div>
                             </div>
                         )}
-
                     </div>
                 </div>
-
                 <AdvertiserBenefitCard message={AdvertiserBenefitCardMenu} />
-
-
-                {/*--------------------payment section-------------------*/}
-
-                {/*-------------------Box Section-------------------*/}
-                {/* <div
-                    className="px-3 my-3"
-                >
-                    <div className="px-md-5 px-0 mx-md-5 mx-2 ">
-                        <div className="container-fluid    py-md-3 mt-5">
-                            <div className="text-center">
-                                <div >
-                                    <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading} `}>Join </span>
-                                    <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color} `}>GrowXAds </span>
-                                    <span className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading} `}>Today!</span>
-                                </div>
-
-                                <p className={`${AdvertiserBenefitsStyles.dp_advbenifits_sub_heading} text-black py-4 `}>
-                                    You’re only a few minutes away from high-value
-                                    audiences ready to engage with your offers.
-                                </p>
-                                <Col md={{ span: 4, offset: 4 }} className="mb-2 mt-4">
-                                    <Button className={`MoreButton btn ${AdvertiserBenefitsStyles.rk_MoreBUtton}`}>
-                                       
-                                            <div className='d-flex align-items-center justify-content-center'>
-
-                                                <span>Signup And Try</span>
-                                                <span className={`ps-3 moreArrrow`}><FaArrowCircleRight /></span>
-
-                                            </div>
-                                     
-                                    </Button>
-                                </Col>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-
-
-
                 <Container>
-                
             <Row className='d-flex justify-content-center '>
                 <Col md={12}>
-                    <div className='container mt-5 bg-black rounded-lg '>
-                        <div className='row d-flex justify-content-center'>
+                    <div className={` container mt-5 rounded-lg ${AdvertiserBenefitsStyles.rk_adv_bnft_bg}`}>
+                        <div className='row d-flex justify-content-center bg-[rgba(0,0,0,0.5)] rounded-lg'>
                             <div className='col-md-12'>
                                 <section className={AdvertiserBenefitsStyles.rs_section_container}>
                                     <section className={AdvertiserBenefitsStyles.rs_common_red_square_block}>
                                         <div className={`${AdvertiserBenefitsStyles.rs_col_7} col-lg-8 offset-lg-2`}>
-                                            <p className={`${AdvertiserBenefitsStyles.AdvertisersContainerHeading} text-center fs-3 text-white`}>Join GrowXAds Today</p>
+                                            <p className={`${AdvertiserBenefitsStyles.AdvertisersContainerHeading} text-center fw-bold fs-3 text-white`}>Join GrowXAds Today</p>
                                             <p className={`${AdvertiserBenefitsStyles.JoinGrowXAdsSubHeading} text-white`}>
                                                 You’re only a few minutes away from high-performing ad campaigns and loads of quality traffic. Welcome to your new growth area!
                                             </p>
@@ -282,8 +212,6 @@ const AdvertiserBenefits = () => {
                 </Col>
             </Row>
         </Container>
-
-                {/*-----------second last section------------------*/}
                 <div className="container-fluid">
                     <div className="container">
                         <div className="row px-md-5  pt-md-0 d-flex align-items-center">

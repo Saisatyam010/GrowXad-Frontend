@@ -22,8 +22,6 @@ const HomePage = () => {
 
       <Welcome />
       <SectionSeperator />
-
-
       <SwichComponent />
       <SectionSeperator />
       <SectionSeperator />
@@ -32,7 +30,6 @@ const HomePage = () => {
       <SectionSeperator />
       <SectionSeperator />
       <SectionSeperator />
-
       <Testimonials />
       <SectionSeperator />
       <SectionSeperator />
