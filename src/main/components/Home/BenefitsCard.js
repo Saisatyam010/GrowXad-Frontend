@@ -14,7 +14,7 @@ const BenefitCard = () => {
 
     return (
         <>
-            <Container>
+            <Container className="mt-3">
                 <Row>
                     <Col md={12}>
                         <h1 className='text-center font-semibold text-black'>Who can benefit  <span style={{ color: "#71065D" }}>from GrowX</span>ad network</h1>
