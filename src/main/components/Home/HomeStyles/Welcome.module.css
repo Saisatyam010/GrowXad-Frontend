@@ -2,11 +2,8 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    /* height: 8vh; */
     width: 100%;
     color: #FFFFFF;
-    /* background-color: var(--primary-color); */
-    /* display: flex; */
     justify-content: center;
     align-items: center;
 
@@ -19,8 +16,9 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    /* height: 60vh; */
     width: 100%;
+    padding: 40px 30px;
 }
 
 

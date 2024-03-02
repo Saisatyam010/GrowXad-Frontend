@@ -7,18 +7,28 @@ import TopSlider from './TopSlider/TopSlider'
 const Welcome = () => {
     return (
         <>
+
             <section className={`${welcomeStyles.SSA_HOME_parallax}`}>
                 <Container>
                     <Row className='d-flex align-items-center justify-content-center'>
                         <Col md={7} className='flex items-center content-center'>
+
+            <section >
+                <Container fluid className={`${welcomeStyles.SSA_HOME_parallax}`}>
+                    <Row >
+                        <Col md={6} className='flex items-center content-center'>
+
                             <div className="d-flex justify-content-center align-items-center">
                                 <div className=''>
-                                    <h1 className='text-center text-[3rem] text-white'>WELCOME TO GrowXad</h1>
-                                    <p className={`${welcomeStyles.SSA_HOME_21pxFont} py-1 p-3 text-white`}> Unlock the full potential of your advertising
+                                    <h1 className='text-[3rem] text-white'>WELCOME TO GrowXad</h1>
+                                    <p className={`${welcomeStyles.SSA_HOME_21pxFont} py-1 text-white`}>
+                                        Empowering Advertising Ecosystems: From Brands to Publishers, Our Network Drives Engagement, Revenue, and Growth with Targeted Strategies and Seamless Integration.
+                                    </p>
+                                    {/* Unlock the full potential of your advertising
                                         campaigns with our cutting-edge platform.
                                         We are on a mission to empower your brand and extend your influence through revolutionary advertising solutions.
-                                        Our goal is to provide you with the tools and technology needed to elevate your marketing efforts and achieve unparalleled success.</p>
-                                    <div class="d-flex justify-content-center p-4 align-items-center">
+                                        Our goal is to provide you with the tools and technology needed to elevate your marketing efforts and achieve unparalleled success. */}
+                                    <div class="d-flex align-items-center">
                                         <div className='mr-2 w-40'>
                                             <Link to="/adveriserauthLogin" className='text-black no-underline hover:no-underline border-0 outline-0'> <button type="button" className={`${welcomeStyles.SSA_Btn_HOME_buytraffic} py-3   p-3 w-100`}>BUY TRAFFIC</button></Link>
                                         </div>
@@ -27,14 +37,21 @@ const Welcome = () => {
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </Col>
+
                         {/* <Col md={5} className=''>
                             <TopSlider />
                         </Col> */}
-                    </Row>
 
+
+                        <Col md={6} >
+                            <div className='pe-3'>
+                                <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d36c9e1-8cb0-4111-920c-597470549400/public' />
+                            </div>
+                        </Col>
+
+                    </Row>
                 </Container>
             </section>
             {/* <section className={`${welcomeStyles.SSA_HOME_section_background} 
@@ -58,8 +75,6 @@ const Welcome = () => {
                     </div>
                 </div>
             </section> */}
-
-
 
         </>
     )

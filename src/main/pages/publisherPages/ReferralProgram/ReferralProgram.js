@@ -3,7 +3,8 @@ import ReferralProgramStyleCSS from './Referralprogram.module.css'
 import { Col, Container, Row } from 'react-bootstrap';
 import { EarnMoneyByReferCard, HowToAttractReferrals } from './ReferralProgramData';
 import Layout from '../../../components/Layout/Layout';
-
+import { GoRocket } from 'react-icons/go';
+import TbSeperator from '../../../components/Shared/TbSeperator';
 export const ReferralProgram = () => {
     const [hoveredIndex, setHoveredIndex] = useState(null);
 
@@ -17,44 +18,39 @@ export const ReferralProgram = () => {
     return (
         <Layout>
             <Container fluid>
+                <TbSeperator />
                 <Row className='d-flex justify-content-center'>
-
                     <Col md={10}>
                         {/* Image and Content */}
 
-                        <Row>
+                        <Row className='py-4'>
                             <Col md={6} className='d-flex align-items-center'>
                                 <Row>
-                                    <Col md={12}>
-                                        <div className='p-2'>
+                                    <Col md={12} className='p-0'>
+                                        <div className='fw-bold  pt-5'>
 
-                                            <div className='fw-bold pt-5'>
-
-                                                <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading}`}>
-                                                    Join Our </span>
-                                                <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading_color}`}>
-                                                    Referral Program </span>
-                                                <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading}`}>
-                                                    Today! </span>
-                                            </div>
-
-                                            <p className={`py-3 ${ReferralProgramStyleCSS.dp_referralprogram_sub_heading}`}>
-                                                Receive 5% of the revenue from every referral you bring in. Simply sign up and receive your exclusive referral link.
-                                            </p>
+                                            <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading}`}>
+                                                Join Our </span>
+                                            <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading_color}`}>
+                                                Referral Program </span>
+                                            <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading}`}>
+                                                Today! </span>
                                         </div>
+
+                                        <p className={`py-3 ${ReferralProgramStyleCSS.dp_referralprogram_sub_heading}`}>
+                                            Receive 5% of the revenue from every referral you bring in. Simply sign up and receive your exclusive referral link.
+                                        </p>
                                     </Col>
                                     <Col md={12} className='m-0 p-0'>
-                                        <button className={`my-3 ${ReferralProgramStyleCSS.RegisterButton}`}>
 
-                                            <div className='d-flex align-items-center justify-content-center'>
-                                                <span>
-                                                    {/* <GoRocket /> */}
-                                                </span>
-                                                <span className='px-2'>
-                                                    Start Monetizing
-                                                </span>
+
+                                        <button className={`MoreButton  m-0`}>
+                                            <div className='p-0 m-0'>
+                                                <div className='d-flex align-items-center justify-content-center '>
+                                                    <span className={`${ReferralProgramStyleCSS.dp_referralprogram_content}`}>Learn More</span>
+                                                    <span className={`ps-3 moreArrrow`}><GoRocket /></span>
+                                                </div>
                                             </div>
-
                                         </button>
                                     </Col>
                                 </Row>
@@ -63,7 +59,7 @@ export const ReferralProgram = () => {
                             <Col md={6} className='py-2 '>
                                 <div className='text-center '>
                                     <img
-                                        src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/9dd99071-0a9b-468d-2e48-5dac32cdd100/public"
+                                        src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/5ecb590d-2679-44d3-8fc0-84e84ec43400/public"
                                         alt=""
                                     />
                                 </div>
@@ -71,7 +67,7 @@ export const ReferralProgram = () => {
                         </Row>
 
                         {/* Earn money */}
-
+                        <TbSeperator />
                         <Row>
                             <Col md={12}>
                                 <Row>
@@ -97,11 +93,10 @@ export const ReferralProgram = () => {
                                                         <img
                                                             src={ele.imgPath}
                                                             alt=""
-                                                            style={{ minWidth: "100%", minHeight: "100%", }}
-                                                        />
+                                                            style={{ minWidth: "100%", minHeight: "100%", }} />
                                                     </Col>
 
-                                                    <Col md={12} className='p-3 mt-3 text-center'>
+                                                    <Col md={12} className='p-3 text-center'>
                                                         <h4 className={`fw-bold ${ReferralProgramStyleCSS.dp_referralprogram_sub_heading}`}>{ele.title}</h4>
                                                         <p className={`m-0 ${ReferralProgramStyleCSS.dp_referralprogram_sub_heading}`}>
                                                             {ele.content}
@@ -109,21 +104,18 @@ export const ReferralProgram = () => {
                                                     </Col>
                                                 </Row>
                                             </div>
-
                                         </Col>
                                     ))}
                                 </Row>
                             </Col>
-
                         </Row>
 
                         {/* How can you attract referrals to GrowXAds??  */}
-
+                        <TbSeperator />
                         <Row>
                             <Col md={12} >
                                 <Row>
                                     <Col md={12} className='py-4'>
-
                                         <div className='fw-bold text-center pt-5'>
                                             <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading}`}>
                                                 How can you </span>
@@ -134,40 +126,37 @@ export const ReferralProgram = () => {
                                             <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading_color}`}>
                                                 GrowXAds? </span>
                                         </div>
-
                                         <p className={`text-center ${ReferralProgramStyleCSS.dp_referralprogram_sub_heading}`}>Employ any or all of these methods to earn additional income!</p>
                                     </Col>
                                 </Row>
 
-
                                 <Row>
                                     {HowToAttractReferrals.map((card, index) => (
                                         <div className='col-md-6 col-lg-6 mb-4'
-                                            key={index} // Don't forget to add a unique key for each card
+                                            key={index}
                                             onMouseEnter={() => handleMouseEnter(index)}
                                             onMouseLeave={handleMouseLeave}>
                                             <div className={`${ReferralProgramStyleCSS.rs_card_block} `}>
                                                 <div className={ReferralProgramStyleCSS.rs_inner}>
-                                                    <div className={`${ReferralProgramStyleCSS.rs_img} d-flex ${ReferralProgramStyleCSS.rs_strawberry}`}>
+                                                    <div className={`${ReferralProgramStyleCSS.rs_img}`}>
                                                         <img
                                                             src={card.imgPath}
                                                             alt='Unique Partner Care'
                                                             loading='lazy'
-                                                            className=''
+                                                            className='w-100 h-100'
                                                         />
                                                     </div>
-                                                    <div className={`${ReferralProgramStyleCSS.rs_h_card_border} `}>
-                                                        <div className={ReferralProgramStyleCSS.slide_card}></div>
+
+                                                    <div className='my-4'>
+                                                        <span className={`${ReferralProgramStyleCSS.dp_howtoattract_card_fontBorder}`}>{card.title}</span>
                                                     </div>
-                                                    <h5 className={ReferralProgramStyleCSS.rs_h_text}>{card.title}</h5>
-                                                    <p className={ReferralProgramStyleCSS.rs_p_text}>{card.content}</p>
+                                                    <p className={`${ReferralProgramStyleCSS.rs_p_text} m-0`}>{card.content}</p>
                                                 </div>
                                             </div>
                                         </div>
                                     ))}
                                 </Row>
                             </Col>
-
                         </Row>
                     </Col>
                 </Row>
