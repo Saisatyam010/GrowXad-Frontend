@@ -96,7 +96,7 @@ const Switch3Component = () => {
               {popunder && (
                 <>
                   <div
-                    className={`container-fluid ${AdvertiserBenefitsStyles.dp_switch_container}`}
+                    className={`container-fluid  ${AdvertiserBenefitsStyles.dp_switch_container}`}
                   >
                     <div
                       className={` row ${AdvertiserBenefitsStyles.rk_switch_revrse}`}
@@ -121,7 +121,8 @@ const Switch3Component = () => {
                       </div>
                       <div className="col-md-8 order-md-1 order-lg-1">
                         <div className="row ">
-                          <div className="col-md-6 mt-3 mt-md-0">
+                          <div className="col-md-6 mt-3 mt-md-0 ">
+                            <div className="w-100">
                             <span
                               className={`${AdvertiserBenefitsStyles.dp_switch_points_heading_container} fw-bold `}
                             >
@@ -136,10 +137,11 @@ const Switch3Component = () => {
                                 Ads views weekly
                               </span>
                             </span>
+                            </div>
 
-                            <div className="">
+                            <div className="mt-3 d-block d-md-none w-100">
                               <span
-                                className={` mt-3 d-block d-md-none ${AdvertiserBenefitsStyles.dp_switch_points_heading_container} m-0 p-0 fw-bold `}
+                                className={`${AdvertiserBenefitsStyles.dp_switch_points_heading_container} m-0 p-0 fw-bold `}
                               >
                                 <span
                                   className={`${AdvertiserBenefitsStyles.dp_advbenifits_switch_heading_color} m-0 p-0 bg-bold`}

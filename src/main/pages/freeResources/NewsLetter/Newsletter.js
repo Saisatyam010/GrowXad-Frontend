@@ -1,10 +1,9 @@
-import React from 'react'
-import { TiArrowForward } from "react-icons/ti";
-import { Col, Container, Form, Row } from 'react-bootstrap';
-import Layout from '../../../components/Layout/Layout';
+import React from 'react';
 import styles from "./Newsletters.module.css";
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
-export const Newsletter = () => {
+const Newsletter = () => {
     return (
         <>
             <Layout>
@@ -134,11 +133,10 @@ export const Newsletter = () => {
 
 
                         </div>
-
                     </div>
                 </div>
-            </Layout>
-
+            </div>
         </>
     )
 }
+export default Newsletter;

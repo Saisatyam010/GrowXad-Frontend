@@ -41,6 +41,7 @@ const AdvertiserBenefitCard = (props) => {
                             >
                                 <div className={BenefitCardStyles.sana_img}>
                                     <img
+                                        width={100}
                                         src={card.imgUrl}
                                         alt=""
                                     />
@@ -54,7 +55,7 @@ const AdvertiserBenefitCard = (props) => {
                                     <p className={`${BenefitCardStyles.sana_contents} m-0 pt-3`}>{card.content}</p>
                                 </div>
 
-                                <div className={BenefitCardStyles.sana_btn_black}>
+                                <div className={`${BenefitCardStyles.sana_btn_black}`}>
                                     <button className={`${BenefitCardStyles.sana_card_btn} d-flex`}>
                                         <span className={`${BenefitCardStyles.dp_advbenifits_sub_heading}`}></span>
                                         Learn More
