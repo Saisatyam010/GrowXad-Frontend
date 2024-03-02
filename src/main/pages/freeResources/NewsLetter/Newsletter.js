@@ -86,42 +86,44 @@ export const Newsletter = () => {
 
                             <div className='col-md-6 ps-5'>
                                 <div className={`${styles.envelope}`}>
-                                    <img className={`${styles.arrow_imgg}`} src="http://localhost:3000/images/Newsletter.png" />
+                                    <img className={`${styles.arrow_imgg}`} src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/732289df-986c-41c1-ad58-a2423a671800/public" />
                                 </div>
                                 <h4 className='text-center mt-5'>
                                     <span>WHAT'S THERE FOR YOU:</span>
                                 </h4>
                                 <span >
-                                    <img className={`${styles.arrow_img}`} src="http://localhost:3000/images/arrow.png" />
+                                    <img className={`${styles.arrow_img}`} src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d8a89bfb-f733-4aaa-3376-d46e54de2300/public" />
                                     Top-performing geos, offers, and ready-to-use traffic bundles;
                                 </span>
                                 <br />
                                 <span >
-                                    <img className={`${styles.arrow_img}`} src="http://localhost:3000/images/arrow.png" />
+                                    <img className={`${styles.arrow_img}`} src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d8a89bfb-f733-4aaa-3376-d46e54de2300/public" />
                                     Tips for effective advertising and monetization;
                                 </span>
 
                                 <br />
                                 <span >
-                                    <img className={`${styles.arrow_img}`} src="http://localhost:3000/images/arrow.png" />
+                                    <img className={`${styles.arrow_img}`} src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d8a89bfb-f733-4aaa-3376-d46e54de2300/public" />
                                     Product guides to making your efforts bring brilliant results;
                                 </span>
                                 <br />
                                 <span >
-                                    <img className={`${styles.arrow_img}`} src="http://localhost:3000/images/arrow.png" />
+                                    <img className={`${styles.arrow_img}`} src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d8a89bfb-f733-4aaa-3376-d46e54de2300/public" />
                                     Suggested bids and low-competition GEOs with substantial traffic volumes;
                                 </span>
                                 <br />
                                 <span >
-                                    <img className={`${styles.arrow_img}`} src="http://localhost:3000/images/arrow.png" />
+                                    <img className={`${styles.arrow_img}`} src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d8a89bfb-f733-4aaa-3376-d46e54de2300/public" />
                                     Affiliate marketing conferences, webinars,and meetups invitations;
                                 </span>
                                 <br />
+                                
                                 <span >
-                                    <img className={`${styles.arrow_img}`} src="http://localhost:3000/images/arrow.png" />
+                                    <img className={`${styles.arrow_img}`} src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/d8a89bfb-f733-4aaa-3376-d46e54de2300/public" />
                                     Bonuses, promo codes, giveaways, and contests from Adsterra and its partners;
                                 </span>
 
+                                
 
                                 <div className={`${styles.border_right} mt-5`}>
                                     <p className={`${styles.p_textt} ps-2`}>Our mission is to help you constantly grow with our <strong>A-level</strong> expertise and the best service in the industry. Join the community of skilled pros who share your values and serve you only actionable tips! Sign up now.</p>

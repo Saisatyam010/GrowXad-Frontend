@@ -85,7 +85,7 @@ export default function Header() {
           <Link to="/">
             <div>
               <img className="" src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/ab447981-3b6d-4f3a-3739-e75b2032e900/public"
-                alt="" height={100} width={150} />
+                alt="" height={100} width={200} />
             </div>
           </Link>
         </div>
@@ -157,7 +157,7 @@ export default function Header() {
           <div className="fixed inset-0 z-10" />
           <Dialog.Panel className="fixed top-20 inset-y-0 left-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex flex-col gap-y-4">
-              {HeaderMenu.map((menu, index    ) => (
+              {HeaderMenu.map((menu, index) => (
                 <Fragment key={index}>
                   {menu.data ? (
                     <Disclosure>
