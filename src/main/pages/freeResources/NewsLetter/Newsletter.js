@@ -135,7 +135,7 @@ const Newsletter = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Layout>
         </>
     )
 }
