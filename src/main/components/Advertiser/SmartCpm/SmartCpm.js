@@ -188,7 +188,7 @@ const SmartCpm = () => {
                     <div className="container px-3 py-md-5 py-0 py-lg-5">
                         <div className="row d-flex justify-content-center align-items-center">
                             <div className="col-md-6">
-                                <img src="https://adsterra.com/_nuxt/img/screenshot.17ddd39.png" alt="" />
+                                <img src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c23afd0a-9b40-40d2-a16b-9810a2a57200/public" alt="" />
                             </div>
                             <div className="col-md-6 text-left pt-3 pt-md-0">
                                 <div className="SSA_SmartCPM_Font_34px pb-2 mb-4">Accelerated Onboarding Guide for SmartCPM</div>
