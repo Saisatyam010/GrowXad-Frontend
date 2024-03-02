@@ -26,8 +26,7 @@ export const SelfServePlatform = [
   },
   {
     num: "3",
-    content:
-      "Enter domain details, choose a Banner size, and click SUBMIT.",
+    content: "Enter domain details, choose a Banner size, and click SUBMIT.",
   },
   {
     num: "4",
@@ -44,7 +43,7 @@ export const solutionData = [
   {
     title: "Streamlined App Installs",
     description:
-      "Effortlessly promote app downloads through strategically placed page push ads on various websites, including WordPress and BlogSpot (Blogger).",
+      "Promote app downloads with targeted page push ads across websites, including WordPress and BlogSpot.",
   },
   {
     title: "Immersive Page Push Experience",
@@ -59,7 +58,7 @@ export const solutionData = [
   {
     title: "Consistent Revenue with Strong Fill Rates",
     description:
-      "Optimize your content revenue with page push ads boasting strong fill rates. Ensure consistent exposure and revenue generation for your content.",
+      "Maximize revenue with high-fill page push ads. Ensure steady exposure and consistent revenue for your content.",
   },
 ];
 export const sectionsData = [

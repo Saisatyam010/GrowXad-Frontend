@@ -103,8 +103,7 @@ const InterstitialAd = () => {
                 </h1>
               </div>
 
-              <TbSeperator />
-              <TbSeperator />
+       
 
               {solutionData.map((item, index) => (
                 <div key={index} className="col-md-6 pt-4">
@@ -126,7 +125,7 @@ const InterstitialAd = () => {
             </div>
           </div>
         </div>
-        <TbSeperator />
+        
 
         {/*3rd section*/}
         <div className="container">

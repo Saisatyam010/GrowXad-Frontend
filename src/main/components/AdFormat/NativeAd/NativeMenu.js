@@ -37,7 +37,7 @@ export const solutionData = [
   {
     title: "Effortlessly elevate brand recognition",
     description:
-      "Smoothly integrate Native Ads into any website, including WordPress, BlogSpot (Blogger), and other platforms for a seamless user experience.",
+      "Integrate Native Ads seamlessly on WordPress, BlogSpot, and other platforms for a smooth user experience.",
   },
   {
     title: " Compatible with all operating systems",

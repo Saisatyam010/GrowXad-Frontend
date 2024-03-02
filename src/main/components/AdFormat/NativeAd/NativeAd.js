@@ -104,9 +104,7 @@ const NativeAd = () => {
                 </h1>
               </div>
 
-              <TbSeperator />
-              <TbSeperator />
-
+            
               {solutionData.map((item, index) => (
                 <div key={index} className="col-md-6 pt-4">
                   <div className={AddStyle.sana_Solution_New_Cards_Box}>
@@ -127,7 +125,6 @@ const NativeAd = () => {
             </div>
           </div>
         </div>
-        <TbSeperator />
 
         {/*3rd section*/}
         <div className="container">

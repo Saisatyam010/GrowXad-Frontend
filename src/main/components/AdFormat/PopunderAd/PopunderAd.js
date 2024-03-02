@@ -31,7 +31,6 @@ const PopunderAd = () => {
       <div className="container py-5">
         {/*1st section*/}
 
-        <TbSeperator />
         <div className="row">
           <div className="col-md-6">
             <div style={{ lineHeight: "40px" }}>

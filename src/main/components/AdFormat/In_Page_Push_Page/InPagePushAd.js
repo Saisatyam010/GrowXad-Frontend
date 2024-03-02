@@ -104,8 +104,7 @@ const InPagePushAd = () => {
                 </h1>
               </div>
 
-              <TbSeperator />
-              <TbSeperator />
+             
 
               {solutionData.map((item, index) => (
                 <div key={index} className="col-md-6 pt-4">
@@ -127,8 +126,7 @@ const InPagePushAd = () => {
             </div>
           </div>
         </div>
-        <TbSeperator />
-
+     
         {/*3rd section*/}
         <div className="container">
           <div className="row">

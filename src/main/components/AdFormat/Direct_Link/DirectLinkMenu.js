@@ -37,12 +37,12 @@ export const solutionData = [
   {
     title: "Effortless User Engagement",
     description:
-      "Facilitate seamless interaction by directly linking users to your content, bypassing the need for traditional display ads on various platforms.",
+      "Directly link users to your content, bypassing traditional display ads on multiple platforms for seamless interaction.",
   },
   {
     title: "Versatile Direct Link Campaigns",
     description:
-      "Experience adaptable campaigns that seamlessly cater to diverse operating systems, ensuring a universally effective advertising approach.",
+      "Adapt campaigns for universal effectiveness across diverse operating systems.",
   },
   {
     title: "Premium Results, Trusted Campaigns",

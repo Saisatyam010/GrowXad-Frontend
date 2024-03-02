@@ -71,7 +71,7 @@ const BannerAd = () => {
                       variant="outline"
                       className={`${AddStyle.gradient_signup}  px-5 mr-2 p-3 w-100`}
                     >
-                      Get Popunder Code
+                      Get Banner Code
                     </Button>
                   </Link>
                 </div>
@@ -104,9 +104,7 @@ const BannerAd = () => {
                   solutions
                 </h1>
               </div>
-
-              <TbSeperator />
-              <TbSeperator />
+              
 
               {solutionData.map((item, index) => (
                 <div key={index} className="col-md-6 pt-4">
@@ -128,7 +126,7 @@ const BannerAd = () => {
             </div>
           </div>
         </div>
-        <TbSeperator />
+        {/* <TbSeperator /> */}
 
         {/*3rd section*/}
         <div className="container">
