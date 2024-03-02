@@ -57,10 +57,6 @@ const PublisherCards = (props) => {
                     <Col md={7} >
                         <Row>
                             <Col md={12}>
-                                {/* <img
-                                src={imagePath}
-                                alt=""
-                            /> */}
                                 <h4 className={AdFormatStyle.heading}>
                                     {title}
                                 </h4>
@@ -71,10 +67,7 @@ const PublisherCards = (props) => {
                         </Row>
                     </Col>
                     <Col md={5}  >
-                        {/* <div style={{ position: 'relative', paddingTop: '56.25%' }}>
-                        <iframe src={imagePath} style={{ border: 'none', position: 'absolute', top: 0, left: 0, height: '100%', width: '100%' }} allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowFullScreen="true" />
-                    </div> */}
-                        <div className='w-100 d-flex justify-content-center'>
+                        <div className='w-100 d-flex justify-content-center '>
                             <div className='' style={{ height: "220px", width: "250px" }}>
                                 <img src={isHovered ? imagePath : imagePath2} className='' height={200} width={250}></img>
                             </div>
@@ -82,16 +75,21 @@ const PublisherCards = (props) => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={7} className='d-flex flex-md-row flex-column gap-2' >
+                    <Col md={7} className='d-flex flex-md-row mt-2 mt-md-0 text-center flex-column gap-2' >
+                        <div className='d-flex justify-content-center mt-2 mt-md-0 flex-md-row gap-2 flex-column'>
+                           
+                            <span>
                         <Button className={`${AdFormatStyle.LiveDemoButton} btn`}>
-                            <div className='p-0 m-0'>
-                                <div className='d-flex align-items-center justify-content-center'>
-                                    <span className="ps-3 me-2 "><RxVideo /></span>
+                            <div className='p-0 d-flex align-items-center justify-content-center m-0'>
+                               
+                                    <span className="me-2"><RxVideo /></span>
                                     <span>Live Demo</span>
 
-                                </div>
+                              
                             </div>
                         </Button>
+                        </span>
+                        <span>
                         <Button className={`${AdFormatStyle.MoreButton} btn`}>
                             <div className='p-0 m-0'>
                                 <div className='d-flex align-items-center justify-content-center'>
@@ -100,6 +98,8 @@ const PublisherCards = (props) => {
                                 </div>
                             </div>
                         </Button>
+                        </span>
+                        </div>
                     </Col>
                     <Col md={5} className='d-flex align-items-center '>
                         <p className={AdFormatStyle.text_U_img}>{ContentUnderImage}</p>

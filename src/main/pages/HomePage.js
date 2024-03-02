@@ -23,9 +23,6 @@ const HomePage = () => {
       <Welcome />
       <SectionSeperator />
       <SwichComponent />
-      <SectionSeperator />
-      <SectionSeperator />
-      <SectionSeperator />
       <BenefitCard />
       <SectionSeperator />
       <SectionSeperator />
@@ -43,9 +40,6 @@ const HomePage = () => {
       <SectionSeperator />
       <SectionSeperator />
       <UpperFooter />
-      <SectionSeperator />
-      <SectionSeperator />
-      <SectionSeperator />
       <Verified />
       <SectionSeperator />
       <SectionSeperator />
