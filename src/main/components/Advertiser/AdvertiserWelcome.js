@@ -57,7 +57,7 @@ const AdvertiserWelcome = (props) => {
 
           <Col
             md={6}
-            className="d-flex align-items-center px-3  justify-content-center "
+            className="d-flex align-items-center px-3 justify-content-center "
           >
             <div>
               <img src={props.message.imgUrl} alt=""></img>
