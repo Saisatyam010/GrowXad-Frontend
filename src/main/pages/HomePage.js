@@ -12,7 +12,7 @@ import UpperFooter from '../components/Home/Rtb'
 import BenefitCard from '../components/Home/BenefitsCard'
 import SectionSeperator from '../components/Shared/SectionSeperator'
 import Verified from '../components/Home/Verified/Verified'
-
+import 'animate.css';
 
 
 

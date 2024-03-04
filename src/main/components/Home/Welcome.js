@@ -3,6 +3,7 @@ import welcomeStyles from '../Home/HomeStyles/Welcome.module.css'
 import { Link } from 'react-router-dom'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import TopSlider from './TopSlider/TopSlider'
+import 'animate.css';
 
 const Welcome = () => {
     return (
@@ -12,7 +13,7 @@ const Welcome = () => {
                     <Row >
                         <Col md={6} className='flex items-center content-center'>
                             <div className="d-flex justify-content-center align-items-center">
-                                <div className=''>
+                                <div className='wow animate__animated animate__fadeInLeft animate__delay-0.5s'>
                                     <h1 className='text-[3rem] text-white'>WELCOME TO GrowXad</h1>
                                     <p className={`${welcomeStyles.SSA_HOME_21pxFont} py-1 text-white`}>
                                         Empowering Advertising Ecosystems: From Brands to Publishers, Our Network Drives Engagement, Revenue, and Growth with Targeted Strategies and Seamless Integration.
@@ -34,7 +35,7 @@ const Welcome = () => {
                         </Col>
 
                         <Col md={6} >
-                            <div className='pe-3'>
+                            <div className='pe-3 wow animate__animated animate__zoomIn animate__delay-0.5s'>
                                 <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d36c9e1-8cb0-4111-920c-597470549400/public' />
                             </div>
                         </Col>

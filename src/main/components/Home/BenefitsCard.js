@@ -15,7 +15,7 @@ const BenefitCard = () => {
     return (
         <>
             <Container>
-                <Row>
+                <Row className="wow animate__animated animate__fadeIn animate__delay-0.5s">
                     <Col md={12}>
 
 
@@ -28,15 +28,9 @@ const BenefitCard = () => {
                 </Row>
 
             </Container>
-
-
-
-
-
-
             <Container>
 
-                <Row>
+                <Row className="wow animate__animated animate__fadeIn animate__delay-0.5s">
 
 
 
@@ -65,7 +59,7 @@ const BenefitCard = () => {
                                     <button className={`${BenefitCardStyles.sana_card_btn} d-flex`}>
                                         Learn More{" "}
                                         <FaArrowRight
-                                            className={`${BenefitCardStyles.sana_icon_btn} ml-3 animate__animated animate__bounce animate__delay-2s`}
+                                            className={`${BenefitCardStyles.sana_icon_btn} ml-3 animate__animated animate__bounce animate__delay-0.5s`}
                                         />
                                     </button>
                                 </div>

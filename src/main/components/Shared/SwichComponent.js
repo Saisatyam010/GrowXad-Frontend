@@ -1,10 +1,4 @@
 import React from 'react'
-
-import { RxVideo } from "react-icons/rx";
-import { FaArrowRightLong } from "react-icons/fa6";
-
-
-// import SwitchButtonSection from '../SwichComponent/SwitchButtonSection';
 import { useState } from 'react';
 
 import AdFormatPublisherCard from '../Home/AdFormatPublisherCard';
@@ -19,15 +13,15 @@ const SwichComponent = () => {
         <>
             <div className='container-fluid ' >
                 <div className='row mt-3 '>
-                    <div className='col-md-12'>
-                        <h1 className='text-center font-semibold text-black'>We deliver <span style={{ color: "#71065D" }}>high-converting ads</span>  and traffic</h1>
+                    <div className='col-md-12 wow animate__animated animate__fadeInDown animate__delay-0.5s'>
+                        <h1 className='text-center font-semibold text-black '>We deliver <span style={{ color: "#71065D" }}>high-converting ads</span>  and traffic</h1>
                     </div>
                 </div>
 
                 <div className='row'>
                     <div className='col-md-12'>
                         <div>
-                            <div className="container  py-4  " >
+                            <div className="container py-4 wow animate__animated animate__fadeIn animate__delay-1s" >
                                 <div className='px-md-5 justify-content-center d-flex row '>
                                     <div class="col-md-8  justify-content-center" style={{ padding: '0px !important', margin: '0px !important', border: '1px solid rgb(203 213 225)', borderRadius: '28px' }}>
                                         <div className='row  justify-content-center align-items-center' >
