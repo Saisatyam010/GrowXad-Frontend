@@ -17,7 +17,7 @@ const AdvertiserWelcome = (props) => {
         <>
             <Container fluid >
                 <Row className=''>
-                    <Col md={6} className='d-flex align-items-center '>
+                    <Col md={6} className='d-flex align-items-center order-2 order-md-1 '>
                         <Row>
                             <Col md={12} className=" p-0 m-0 ">
 
@@ -34,7 +34,7 @@ const AdvertiserWelcome = (props) => {
                             <Col md={12} className="p-0 py-2">
                                 <div>
 
-                                <button className={`${AdvertiserBenefitsStyles.RegisterButton} MoreButton  m-0`}>
+                                <button className={`${AdvertiserBenefitsStyles.RegisterButton} MoreButton m-md-0 mb-3`}>
                                     <div className='d-flex align-items-center justify-content-center'>
                                         <span>Learn More</span>
                                         <span className={`ps-3 moreArrrow`}><FaArrowCircleRight /></span>
@@ -48,9 +48,9 @@ const AdvertiserWelcome = (props) => {
                         </Row>
                     </Col>
 
-                    <Col md={6} className='d-flex align-items-center px-3  justify-content-center '>
+                    <Col md={6} className='d-flex align-items-center px-3 order-1 order-md-2 mb-2 mb-md-0  justify-content-center '>
                         <div>
-                            <img src={props.message.imgUrl} alt=''></img>
+                            <img className={CPANetworkStyleCSS.rk_all_comp_welcome_img} src={props.message.imgUrl} alt=''></img>
                         </div>
                     </Col>
                 </Row>

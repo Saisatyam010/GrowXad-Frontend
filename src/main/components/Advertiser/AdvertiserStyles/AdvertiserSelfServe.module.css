@@ -30,8 +30,8 @@
 }
 
 .dp_SelfService_heading {
-    font-size: var(--section-heading);
-    font-weight: 700;
+    font-size: var(--section-big-content);
+    font-weight: 600;
 }
 
 

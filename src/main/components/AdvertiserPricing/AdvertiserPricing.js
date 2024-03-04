@@ -62,7 +62,7 @@ const AdvertiserPricing = () => {
             <Layout>
                 <div className="container " >
                     <div className="row">
-                        <div className="col-md-12" style={{ margin: "80px 0px" }}>
+                        <div className="col-md-12" style={{ margin: "40px 0px" }}>
                             <AdvertiserWelcome message={data} />
                         </div>
                     </div>
@@ -120,7 +120,7 @@ const AdvertiserPricing = () => {
                                                 <Col md={6} className="pt-3">
                                                     <Row className="d-flex justify-content-center">
                                                         {/* Render Top Verticals using map */}
-                                                        <Col md={4} sm={5} xs={5} className="">
+                                                        <Col md={4} sm={5} xs={6} className="">
                                                             <div className={PrcingStyle.rk_price_bx_3}>
                                                                 <p className={`${PrcingStyle.dp_advpricing_heading} m-0 fw-bold`}>
                                                                     TOP VERTICALS:
