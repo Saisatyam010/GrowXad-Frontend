@@ -1,5 +1,4 @@
-import React from "react";
-import "./SmartCpm.css";
+import SmartCpmStyle from "./SmartCpm.module.css";
 import { Link } from "react-router-dom";
 import Layout from "../../Layout/Layout";
 import AdvertiserWelcome from "../AdvertiserWelcome";
@@ -23,10 +22,9 @@ const SmartCpm = () => {
     afterSpanHeading: " with your offers",
     imgUrl: "http://localhost:3000/images/arrowRtbBanner.png",
   };
-  const data2 = AdvertiserCardDataSmartCpmMenus;
   const smartCPM_CardDataMenu = smartCPM_CardData;
 
-  const data3 = AdvertiserSmartCpmBusinessCardData;
+  //   const data3 = AdvertiserSmartCpmBusinessCardData;
 
   const SmartCPMExpenses = [
     {
@@ -59,25 +57,27 @@ const SmartCpm = () => {
       <Layout>
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-12 mt-5">
               <AdvertiserWelcome message={data} />
             </div>
           </div>
-          <div className="row my-5">
+          {/* <div className="row my-5">
             <div className="col-md-12">
-              {/* <AdvertiserBenefitCard message={data3} /> */}
+              <AdvertiserBenefitCard message={data3} />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div>
           {/*-----------------SmartCPM MAin Page-------------------*/}
 
           {/*-----------------second section-------------------*/}
-          <div className="py-md-5 py-0" style={{ backgroundColor: "#212529" }}>
+          <div className="py-md-5 py-0">
             <div className="container py-3">
-              <div className="row text-white">
-                <div className="SSA_SmartCPM_Font_34px pb-2 text-center pb-2 pt-4">
+              <div className="row">
+                <div
+                  className={`${SmartCpmStyle.SSA_SmartCPM_Font_34px} pb-2 text-center pb-2 pt-4`}
+                >
                   Unlocking SmartCPM with GrowXAds: Key Highlights
                 </div>
 
@@ -158,13 +158,15 @@ const SmartCpm = () => {
             </div>
           </div>
           {/*-----------------third section-------------------*/}
-          <div className="container py-5 px-3 x">
-            <div className="row d-flex justify-content-center align-items-center">
-              <div className="col-md-6 text-left">
-                <div className="SSA_SmartCPM_Font_34px pb-2 ">
+          <div className=" py-5 px-3 d-flex justify-content-center align-items-center">
+            <div
+              className={`${SmartCpmStyle.cards_reverse} row d-flex justify-content-center align-items-center`}
+            >
+              <div className="col-md-6 order-md-2 text-left">
+                <div className={`${SmartCpmStyle.SSA_SmartCPM_Font_34px} pb-2`}>
                   SmartCPM: Cutting Your Expenses
                 </div>
-                <p className="SSA_smartCPM_Font18px py-3">
+                <p className={`${SmartCpmStyle.SSA_smartCPM_Font18px} py-3`}>
                   SmartCPM employs second-price auction principles: Set a bid
                   cap, and the algorithm strategically competes within your
                   targeting. By estimating competitors' bids, it offers slightly
@@ -175,61 +177,63 @@ const SmartCpm = () => {
                   to="/adveriserauthLogin"
                   className="text-black no-underline hover:no-underline"
                 >
-                  <button type="button" class="btn btn-dark px-5 py-2">
+                  <button type="button" className="btn btn-dark px-5 py-2">
                     TRY NOW
                   </button>
                 </Link>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 m-3 mb-4">
                 <img
                   src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6fe45403-130c-46ae-383c-3e3cdf48fb00/public"
                   alt=""
-                  width="100%"
+                  width="80%"
                 />
               </div>
             </div>
           </div>
 
-                    {/*-----------------fourth section-------------------*/}
-                    <div className="container px-3 py-md-5 py-0 py-lg-5">
-                        <div className="row d-flex justify-content-center align-items-center">
-                            <div className="col-md-6">
-                                <img src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c23afd0a-9b40-40d2-a16b-9810a2a57200/public" alt="" />
-                            </div>
-                            <div className="col-md-6 text-left pt-3 pt-md-0">
-                                <div className="SSA_SmartCPM_Font_34px pb-2 mb-4">Accelerated Onboarding Guide for SmartCPM</div>
-                                {SmartCPMExpenses.map((item, index) => {
-                                    return (
-                                        <div className="d-flex " key={index}>
-                                            <span
-                                                className="mb-3"
-                                                style={{
-                                                    backgroundColor: "#73035b",
-                                                    borderRadius: "50%",
-                                                    padding: "4px 12px",
-                                                    color: "white",
-                                                    fontWeight: "500",
-                                                }}
-                                            >
-                                                {item.num}
-                                            </span>
-                                            <p className="pb-3 mb-0 ml-2 " style={{ fontSize: "20px" }}>
-                                                {item.content}
-                                            </p>
-                                        </div>
-                                    );
-                                })}
-                            </div>
-                        </div>
+          {/*-----------------fourth section-------------------*/}
+          <div className="container px-3 py-md-5 py-0 py-lg-5">
+            <div className="row d-flex justify-content-center align-items-center">
+              <div className="col-md-6">
+                <img
+                  src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c23afd0a-9b40-40d2-a16b-9810a2a57200/public"
+                  alt=""
+                />
+              </div>
+              <div className="col-md-6 text-left pt-3 pt-md-0">
+                <div
+                  className={`${SmartCpmStyle.SSA_SmartCPM_Font_34px} pb-2 mb-4`}
+                >
+                  Accelerated Onboarding Guide for SmartCPM
+                </div>
+                {SmartCPMExpenses.map((item, index) => {
+                  return (
+                    <div className="d-flex " key={index}>
+                      <span
+                        className={`mb-3 ${SmartCpmStyle.sana_smartCpm_numbering}`}
+                      >
+                        {item.num}
+                      </span>
+                      <p
+                        className={`pb-3 mb-0 ml-2 ${SmartCpmStyle.Accelerated_numbering_pera}`}
+                      >
+                        {item.content}
+                      </p>
                     </div>
-                    <AdvertiserPricingCard cardData={smartCPM_CardDataMenu} />
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+          <AdvertiserPricingCard cardData={smartCPM_CardDataMenu} />
 
           <div className="container">
             <div className="row">
               <div className="col-md-12"></div>
             </div>
             <div className="row">
-              <div className="col-md-12">
+              <div className="col-md-12 mt-5">
                 <Faqs />
               </div>
             </div>
@@ -238,17 +242,18 @@ const SmartCpm = () => {
           {/*-----------------fifth section-------------------*/}
         </div>
 
-        <div
-          className="px-3 my-3 "
-          style={{ bottom: "0px", marginBottom: "20px" }}
-        >
+        <div className="px-3 my-3 ">
           <div className="px-md-5 px-0 mx-md-5 mx-2 ">
-            <div className="container-fluid  SSA_Benefit_Bg_Img3  py-md-5 py-3">
+            <div
+              className={`container-fluid  ${SmartCpmStyle.SSA_Benefit_Bg_Img3}  py-md-5 py-3`}
+            >
               <div className="text-center text-white pt-5">
-                <div className="SSA_Ad_Benefits_font2rem_Section2  text-white">
+                <div
+                  className={`${SmartCpmStyle.SSA_Ad_Benefits_font2rem_Section2}  text-white`}
+                >
                   Why try SmartCPM today?
                 </div>
-                <p className="SSA_Ad_Benefits_font22px">
+                <p className={SmartCpmStyle.SSA_Ad_Benefits_font22px}>
                   Our intelligent pricing model solves the problem
                   <br />
                   of overpaying for traffic.{" "}
@@ -256,12 +261,12 @@ const SmartCpm = () => {
                     {" "}
                     It's a powerful tool to save money and increase ROI. When
                     you enable automated bidding, you only pay the best price
-                    needed to get relevant ad views. The algorithm will do all
-                    the jobs by competing over traffic 24/7.
+                    needed to get relevant ad views. <br /> The algorithm will
+                    do all the jobs by competing over traffic 24/7.
                   </span>
                 </p>
                 <Col md={{ span: 4, offset: 4 }} className="mb-2 my-5">
-                  <Button className={`MoreButton btn`}>
+                  <Button className={SmartCpmStyle.Enable_btn}>
                     <div className="p-0 m-0">
                       <div className="d-flex align-items-center justify-content-center">
                         <span>ENABLE SMARTCPM</span>
