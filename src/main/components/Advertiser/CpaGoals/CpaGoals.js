@@ -267,9 +267,7 @@ const CpaGoals = () => {
                     <Col md={12}>
                       <Row className="px-0 py-3 d-flex align-items-center justify-content-between">
                         <Col md={3}>
-                          <p style={{ fontSize: "25px", fontWeight: "600" }}>
-                            {item.title}
-                          </p>
+                          <p>{item.title}</p>
                         </Col>
                         <Col md={4}>
                           <p style={{ fontSize: "16px" }}>{item.description}</p>

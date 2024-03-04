@@ -2,10 +2,6 @@
   padding: 40px;
 }
 
-.dp_cpagoals_top_container span {
-  font-size: 30px;
-  font-weight: 700;
-}
 @media screen and (max-width: 768px) {
   .dp_cpagoals_top_container {
     flex-direction: column-reverse;
