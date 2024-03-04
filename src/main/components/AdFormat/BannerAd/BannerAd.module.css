@@ -11,14 +11,19 @@
 }
 
 .dp_bannerads_sub_heading {
-  font-size: var(--section-heading);
+  font-size: 18px;
   font-weight: 500;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  .dp_bannerads_sub_heading {
+    font-size: 16px;
+  }
 }
 
 .dp_bannerads_content {
   font-size: var(--section-content);
   font-weight: 500;
-  /* font-size: ; */
 }
 
 .sana_DisplayBanner_VoiletText {
@@ -103,14 +108,16 @@
 }
 
 /*-------------card format(second section)-----------------*/
-.sana_Solution_New_Cards_Box .sana_Solution_Cards {
-  flex: 0 50%;
+
+.sana_Solution_New_Cards_Box {
+  flex: 1;
+  flex-basis: 100px;
+  height: 200px;
   background: #fff;
+  margin: 20px;
+  border-radius: 30px;
   box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2),
     0 5px 15px 0 rgba(37, 44, 97, 0.15);
-  border-radius: 15px;
-  position: relative;
-  z-index: 1;
   overflow: hidden;
   transition: 0.7s;
 }
@@ -121,23 +128,20 @@
   cursor: pointer;
   transform: translateY(-5px);
   transition: 0.8s;
-  /* background: #73035B;
-  color: #fff;
-  transform: scale(1.05);
-  background: linear-gradient(#73035B, #73035B) padding-box,
-    conic-gradient(from var(--angle), #3E3E3E, #FFFFFF) border-box;
-  border: 4px solid transparent;
-  border-radius: 16px;
-  animation: rotate-gradient 3s infinite linear;
-  z-index: 9; */
 }
 
 .sana_Solution_New_Cards_Box .sana_Solution_Cards:hover::before {
   /* background: rgb(85 108 214 / 10%); */
 }
 
-.sana_Solution_New_Cards_Box .sana_Solution_Cards:hover .sana_BannerDisplay_Card_Title h3,
-.sana_Solution_New_Cards_Box .sana_Solution_Cards:hover .sana_BannerDisplay_Card_desc p {
+.sana_Solution_New_Cards_Box
+  .sana_Solution_Cards:hover
+  .sana_BannerDisplay_Card_Title
+  h3,
+.sana_Solution_New_Cards_Box
+  .sana_Solution_Cards:hover
+  .sana_BannerDisplay_Card_desc
+  p {
   color: #fff;
 }
 
@@ -152,9 +156,12 @@
   border-radius: 35px; */
 }
 
-.sana_Solution_New_Cards_Box .sana_Solution_Cards:hover .sana_BannerDisplay_Card_desc button {
+.sana_Solution_New_Cards_Box
+  .sana_Solution_Cards:hover
+  .sana_BannerDisplay_Card_desc
+  button {
   background: #fff !important;
-  color: #73035B;
+  color: #73035b;
 }
 
 .sana_Solution_Cards .sana_BannerDisplay_Card_Title h3 {
@@ -181,17 +188,19 @@
   transition: 0.7s; */
 }
 
-.sana_Solution_New_Cards_Box .sana_Solution_Cards:hover .sana_hover_color_bubble {
+.sana_Solution_New_Cards_Box
+  .sana_Solution_Cards:hover
+  .sana_hover_color_bubble {
   top: 0rem;
 }
 
 /*--------------sadhana's css-----------------*/
 .sana_theme {
-  background-color: #73035B !important;
+  background-color: #73035b !important;
 }
 
 .sana_Add_formate_btns {
-  background-color: #73035B;
+  background-color: #73035b;
   border-radius: 5px;
   color: #fff;
 }
@@ -199,7 +208,11 @@
 /* New Card Design */
 
 .rs_bg_color {
-  background: linear-gradient(to right, var(--primary-color), rgb(223, 223, 225));
+  background: linear-gradient(
+    to right,
+    var(--primary-color),
+    rgb(223, 223, 225)
+  );
 }
 
 .rs_card_block {
@@ -218,7 +231,6 @@
 .rs_h1 {
   font-weight: 700;
 }
-
 
 .rs_img {
   align-items: center;
@@ -249,9 +261,6 @@
   font-style: normal;
 }
 
-
-
-
 .SSA_Btn_HOME_buytraffic {
   border: 1px solid var(--light-color);
   border-radius: 5px;
@@ -261,7 +270,6 @@
   background-color: var(--light-color);
 }
 
-
 .SSA_Btn_HOME_buytraffic:hover {
   border: 1px solid var(--light-color);
   border-radius: 5px;
@@ -269,7 +277,6 @@
   color: var(--primary-color);
   background-color: var(--light-color);
 }
-
 
 .gradient_signup {
   color: var(--secondary-color);
@@ -279,37 +286,47 @@
   /* background: linear-gradient(45deg, black, purple); */
   background-size: 400% 400%;
   animation: gradientMovement 10s ease infinite;
-
-
 }
 
 .gradient_signup:hover {
   color: var(--light-color);
   background-color: var(--primary-color);
-  /* background: linear-gradient(var(--seconary-color), var(--primary-color), var(--primary-color)); */
   border: 1px solid white !important;
 }
 
-
-.gradient_signup2 {
+/* .gradient_signup2 {
   color: var(--light-color);
   padding: 17px 24px !important;
-  /* background-color: var(--primary-color) !important; */
   border: 1px solid white !important;
-  /* background: linear-gradient(45deg, black, purple); */
   background-size: 400% 400%;
   animation: gradientMovement 10s ease infinite;
-
-
 }
 
 .gradient_signup2:hover {
   color: var(--light-color);
   background-color: var(--primary-color);
-  /* background: linear-gradient(var(--seconary-color), var(--primary-color), var(--primary-color)); */
   border: 1px solid white !important;
+} */
 
+/* ---------------------------------"" */
 
+.gradient_signup2 {
+  /* color: var(--light-color); */
+  padding: 14px 24px !important;
+  border: 1px solid white !important;
+  /* background-size: 400% 400%; */
+  animation: gradientMovement 10s ease infinite;
+}
 
+.gradient_signup2:hover {
+  color: var(--light-color);
+  background-color: var(--primary-color);
+  border: 1px solid white !important;
+}
 
+@media (max-width: 768px) {
+  .gradient_signup2 {
+    padding: 15px 4px !important;
+    text-align: center;
+  }
 }
