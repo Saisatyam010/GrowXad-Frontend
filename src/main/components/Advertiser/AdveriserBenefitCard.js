@@ -1,18 +1,12 @@
 import React from "react";
 import "animate.css";
 import BenefitCardStyles from "../../components/Home/HomeStyles/BenefitCard.module.css";
-// import "./TestCards.css";
 import { FaArrowRight } from "react-icons/fa";
 import { AdvertiserBenefitCardMenu } from "../Shared/data/benefitCardMenu";
 import { Col, Container, Row } from "react-bootstrap";
-
-
 import TbSeperator from "../Shared/TbSeperator";
-
-
 const AdvertiserBenefitCard = (props) => {
     console.log(props.message)
-
     return (
         <>
             <Container>
@@ -28,48 +22,40 @@ const AdvertiserBenefitCard = (props) => {
                     <TbSeperator />
                 </Row>
             </Container>
-
             <Container>
-                <Row>
-                    {props.message.map((card, index) => (
-                        <Col md={3} className="my-2">
-                            <div
-                                key={index}
-                                className={`${BenefitCardStyles.sana_card
-                                    }  animate__animated ${index % 2 === 0 ? "animate__backInUp" : "animate__bounceInUp"
-                                    }`}
-                            >
-                                <div className={BenefitCardStyles.sana_img}>
-                                    <img
-                                        width={100}
-                                        src={card.imgUrl}
-                                        alt=""
-                                    />
-                                </div>
-
-                                <div>
-                                    <p className={`${BenefitCardStyles.sana_heading} m-0`}>{card.heading}</p>
-                                </div>
-
-                                <div >
-                                    <p className={`${BenefitCardStyles.sana_contents} m-0 pt-3`}>{card.content}</p>
-                                </div>
-
-                                <div className={`${BenefitCardStyles.sana_btn_black}`}>
-                                    <button className={`${BenefitCardStyles.sana_card_btn} d-flex`}>
-                                        <span className={`${BenefitCardStyles.dp_advbenifits_sub_heading}`}></span>
-                                        Learn More
-                                        <FaArrowRight
-                                            className={`${BenefitCardStyles.sana_icon_btn} ml-3 animate__animated animate__bounce animate__delay-2s`}
-                                        />
-                                    </button>
-                                </div>
-                            </div>
-                        </Col>
-                    ))}
-
-                </Row>
-            </Container>
+    <Row className='gx-5'>
+        {props.message.map((card, index) => (
+            <Col md={3} lg={3} xs={12} className='p-2' key={index}>
+                <div className={`${BenefitCardStyles.sana_card} p-3`}>
+                    <div>
+                        <img
+                            width={100}
+                            src={card.imgUrl}
+                            alt=""
+                        />
+                    </div>
+                    <div className='mt-3'>
+                        <h5 className='text-white'>{card.heading}</h5>
+                    </div>
+                    <div className='mt-3'>
+                        <p className='text-white'>
+                            {card.content}
+                        </p>
+                    </div>
+                    <div className='mt-auto'>
+                        <button className={`${BenefitCardStyles.sana_card_btn} d-flex align-items-center`}>
+                            <span className={`${BenefitCardStyles.dp_advbenifits_sub_heading}`}></span>
+                            Learn More
+                            <FaArrowRight
+                                className={`${BenefitCardStyles.sana_icon_btn} ml-3 animate__animated animate__bounce animate__delay-2s`}
+                            />
+                        </button>
+                    </div>
+                </div>
+            </Col>
+        ))}
+    </Row>
+</Container>
         </>
     );
 };
