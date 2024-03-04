@@ -1,7 +1,6 @@
 import React from "react";
 import "animate.css";
 import BenefitCardStyles from "../../components/Home/HomeStyles/BenefitCard.module.css";
-// import "./TestCards.css";
 import { FaArrowRight } from "react-icons/fa";
 import { AdvertiserBenefitCardMenu } from "../Shared/data/benefitCardMenu";
 import { Col, Container, Row } from "react-bootstrap";

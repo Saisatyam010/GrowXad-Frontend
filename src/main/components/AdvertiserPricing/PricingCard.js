@@ -10,7 +10,7 @@ const PricingCard = () => {
 
                 <Row >
 
-                    <Col xs={12} md={4} lg={4} className={`px-3`} >
+                    <Col xs={12} md={4} lg={4} className={`px-3 py-2`} >
                         <div className={`${SmartCpmStyles.dp_pricing_banner_card} p-3`}>
                             <div className='d-flex justify-content-center'>
                                 <div>
@@ -49,7 +49,7 @@ const PricingCard = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} md={4} lg={4} className={`px-3`} >
+                    <Col xs={12} md={4} lg={4} className={`px-3 py-2`} >
                         <div className={`${SmartCpmStyles.dp_pricing_banner_card} p-3`}>
                             <div className='d-flex justify-content-center'>
                                 <div>
@@ -88,7 +88,7 @@ const PricingCard = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} md={4} lg={4} className={`px-3`} >
+                    <Col xs={12} md={4} lg={4} className={`px-3 py-2`} >
                         <div className={`${SmartCpmStyles.dp_pricing_banner_card} p-3`}>
                             <div className='d-flex justify-content-center'>
                                 <div>

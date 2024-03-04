@@ -14,7 +14,7 @@ export default function SelfServe() {
         spanHeading: "ready to engage",
         afterSpanHeading: " with your offers",
         imgUrl:
-            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c9aeaeb1-a4cf-4869-1e39-647cd61f4700/public",
+            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/4696fc40-2b68-44d4-f8fd-79cf20804500/public",
     };
     const selfServePlatform = [
         {

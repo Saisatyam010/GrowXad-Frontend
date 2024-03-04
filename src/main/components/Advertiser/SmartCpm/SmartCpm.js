@@ -82,6 +82,7 @@ const SmartCpm = () => {
                 </div>
 
                 {/* <div className="col-md-3 px-3  pt-3">
+                {/* <div className="col-md-3 px-3  pt-3">
                                     <div className="">
                                         <div className="SSA_SmartCPM_imgbgcolor">
                                             <img
