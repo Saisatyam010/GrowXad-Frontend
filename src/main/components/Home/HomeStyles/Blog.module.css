@@ -36,8 +36,8 @@
 }
 
 .rk_grow_sl_button:hover {
-  /* background-color: rgba(134, 139, 139, 0.123); */
-  background-color: red;
+  background-color: rgba(134, 139, 139, 0.123);
+  /* background-color: red; */
 }
 
 .rk_blog_card_content {
@@ -77,7 +77,9 @@
   border-radius: 5px;
   overflow: hidden;
   transition: box-shadow 0.7s ease, background-color 0.8s ease;
-  height: 450px;
+  height: 320px;
+  /* height: 100%; */
+
 }
 
 .sana_mainPage_card:hover {
