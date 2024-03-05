@@ -103,8 +103,7 @@ const InterstitialAd = () => {
                 </h1>
               </div>
 
-              <TbSeperator />
-              <TbSeperator />
+       
 
               {solutionData.map((item, index) => (
                 <div key={index} className="col-md-6 pt-4">
@@ -126,7 +125,7 @@ const InterstitialAd = () => {
             </div>
           </div>
         </div>
-        <TbSeperator />
+        
 
         {/*3rd section*/}
         <div className="container">
@@ -161,24 +160,14 @@ const InterstitialAd = () => {
                     mobile devices.
                   </p>
                 </div>
-                {/* <Link
-                to="/adveriserauthLogin"
-                className="no-underline hover:no-underline"
-              >
-                <button
-                  className={`${AddStyle.sana_Add_formate_btns} px-5 py-3 `}
-                >
-                  THE BANNER CODE
-                </button>
-              </Link> */}
               </div>
               <div className="col-md-6 pt-md-0 pt-lg-0 pt-3">
                 <div className="d-flex justify-content-center">
                   <img
                     src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/a39a5652-7919-473c-e64d-84b0ef212e00/public"
                     alt=""
-                  // className=""
-                  // style={{ width: "80%" }}
+                    // className=""
+                    // style={{ width: "80%" }}
                   />
                 </div>
               </div>
@@ -355,19 +344,19 @@ const InterstitialAd = () => {
                     to="/adveriserauthLogin"
                     className="no-underline hover:no-underline"
                   >
-                    <div className="d-flex gap-3">
-                      <div className="w-60">
+                    <div className="row d-flex justify-content-center text-center mx-auto ">
+                      <div className=" col-md-6">
                         <Button
                           variant="outline"
-                          className={`${AddStyle.gradient_signup2}  px-5 mr-2 p-3 w-100 text-white`}
+                          className={`${AddStyle.gradient_signup2}  px-5 p-3 m-2 w-60 text-white`}
                         >
-                          Get Popunder Code
+                          Get Direct Link Code
                         </Button>{" "}
                       </div>
-                      <div className="w-60">
+                      <div className=" col-md-6">
                         <Button
                           variant="outline"
-                          className={`${AddStyle.gradient_signup2}  px-5 mr-2 p-3 w-100 text-white`}
+                          className={`${AddStyle.gradient_signup2}  px-5 p-3 m-2 w-60  text-white`}
                         >
                           Learn More
                         </Button>{" "}

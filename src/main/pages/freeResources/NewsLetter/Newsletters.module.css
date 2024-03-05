@@ -1,51 +1,48 @@
-* 
-{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-
-.highlight_red 
-{
-    color:#71065d;
-    font-size: 34px;
-    font-weight: bold;
+.highlight_red {
+    color: var(--primary-color);
+    font-size: var(--section-main-heading);
+    font-size: var(--section-sub-heading);
+    font-weight: var(--font-weight-bold);
+    /* font-weight: bold; */
 }
 
-
-
-
-
-.span_gap 
-{
+.span_gap {
     margin-left: 10px;
 }
 
-.subscribe_button 
-{
-    background-color:#71065d;
-    color: #fff;
+.p_text {
+    font-size: var(--section-content);
+    font-weight: 500;
+}
 
+.subscribe_button {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
     pointer-events: none;
-    font-size: 15px;
+    font-size: var(--section-content);
     padding: 15px 20px;
-    border:none;
-    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-weight: var(--font-weight-normal);
     border-radius: 10px;
     cursor: pointer;
 }
 
-.comment 
-{
-    color: #8a8a8a;
-    font-size: 12px;
-    font-weight: 400;
+.comment {
+    color: #8A8A8A;
+    font-size: var(--section-content);
+    font-weight: var(--font-weight-normal);
     line-height: 16px;
 }
 
-.horizontal_line 
-{
+.horizontal_line {
     border: 0;
     border-top: 1px solid;
     border-top: var(--bs-border-width) solid;
@@ -54,37 +51,31 @@
     opacity: .25;
 }
 
-.anchor_line 
-{
-    color: #8a8a8a;
+.anchor_line {
+    color: #8A8A8A;
     -webkit-text-decoration: underline;
     text-decoration: underline;
 }
 
-.envelope 
-{
+.envelope {
     padding-top: 10px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-
-
-.arrow_img  
-{
+.arrow_img {
     width: 16px;
-    margin-right: 10px;
+    margin-right: 100px;
 }
 
-.arrow_imgg 
-{
+.arrow_imgg {
     width: 250px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
-.border_right 
-{
-    border-left: 5px solid #71065d;
-    font-size: 14px;
+.border_right {
+    border-left: 5px solid #71065D;
+    font-size: var(--section-content);
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
@@ -92,14 +83,12 @@
     padding: 0 0 0 12px;
 }
 
-.p_textt 
-{
-    font-size: 13px;
-    font-weight:500;
+.p_textt {
+    font-size: var(--section-content);
+    font-weight: var(--font-weight-normal);
 }
 
-.input_field:focus 
-{
+.input_field:focus {
     outline: none;
     box-shadow: none;
     border-color: #000;

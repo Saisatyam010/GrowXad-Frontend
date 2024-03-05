@@ -42,11 +42,11 @@ const DirectLinkAd = () => {
                 <span> — Direct Link Advertising on Your Website</span>
               </h1>
               <p className={`${AddStyle.dp_bannerads_sub_heading}  py-3 m-0`}>
-                "With GrowXad Direct Links, advertisers execute
+                With GrowXad Direct Links, advertisers execute
                 AdBlock-resistant, cost-effective CPC, CPM, and CPA campaigns.
                 Achieve over 1 BN weekly impressions! Direct Links seamlessly
                 integrate into web and mobile content, resulting in up to 8x
-                higher CTRs compared to traditional display ads."
+                higher CTRs compared to traditional display ads.
               </p>
               <div class="d-flex justify-content-start  align-items-center m-0 ">
                 <div className="mr-3 w-60">
@@ -105,8 +105,7 @@ const DirectLinkAd = () => {
                 </h1>
               </div>
 
-              <TbSeperator />
-              <TbSeperator />
+    
 
               {solutionData.map((item, index) => (
                 <div key={index} className="col-md-6 pt-4">
@@ -128,7 +127,7 @@ const DirectLinkAd = () => {
             </div>
           </div>
         </div>
-        <TbSeperator />
+        
 
         {/*3rd section*/}
         <div className="container">
@@ -139,7 +138,6 @@ const DirectLinkAd = () => {
 
         <div className=" container-fluid">
           <div className="container py-md-5 p-3 card">
-            <div className="row"></div>
             <div className="row">
               <div className="col-md-6 d-flex align-items-center">
                 <div>
@@ -163,24 +161,14 @@ const DirectLinkAd = () => {
                     for both desktop and mobile devices.
                   </p>
                 </div>
-                {/* <Link
-                to="/adveriserauthLogin"
-                className="no-underline hover:no-underline"
-              >
-                <button
-                  className={`${AddStyle.sana_Add_formate_btns} px-5 py-3 `}
-                >
-                  THE BANNER CODE
-                </button>
-              </Link> */}
               </div>
               <div className="col-md-6 pt-md-0 pt-lg-0 pt-3">
                 <div className="d-flex justify-content-center">
                   <img
                     src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/a39a5652-7919-473c-e64d-84b0ef212e00/public"
                     alt=""
-                  // className=""
-                  // style={{ width: "80%" }}
+                    // className=""
+                    // style={{ width: "80%" }}
                   />
                 </div>
               </div>
@@ -356,19 +344,19 @@ const DirectLinkAd = () => {
                     to="/adveriserauthLogin"
                     className="no-underline hover:no-underline"
                   >
-                    <div className="d-flex gap-3">
-                      <div className="w-60">
+                    <div className="row d-flex justify-content-center text-center mx-auto ">
+                      <div className=" col-md-6">
                         <Button
                           variant="outline"
-                          className={`${AddStyle.gradient_signup2}  px-5 mr-2 p-3 w-100 text-white`}
+                          className={`${AddStyle.gradient_signup2}  px-5 p-3 m-2 w-60 text-white`}
                         >
                           Get Direct Link Code
                         </Button>{" "}
                       </div>
-                      <div className="w-60">
+                      <div className=" col-md-6">
                         <Button
                           variant="outline"
-                          className={`${AddStyle.gradient_signup2}  px-5 mr-2 p-3 w-100 text-white`}
+                          className={`${AddStyle.gradient_signup2}  px-5 p-3 m-2 w-60  text-white`}
                         >
                           Learn More
                         </Button>{" "}
@@ -400,7 +388,7 @@ const DirectLinkAd = () => {
           <div className="container card p-3">
             <div className="row">
               <div className="col-md-7">
-                <h1 className=" font-semibold text-black mb-3">
+                <h1 className=" font-semibold text-black mb-3  m-2">
                   How To Get{" "}
                   <span style={{ color: "#71065D" }} className="mr-2">
                     Direct Link Code

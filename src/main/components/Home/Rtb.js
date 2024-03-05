@@ -13,7 +13,10 @@ const Rtb = (props) => {
     const { title, imagePath } = props
 
     return (
-        <Container fluid className={`${RtbStyles.RtbContainer} py-5`}>
+
+        <Container fluid className={`${RtbStyles.RtbContainer} py-5 wow animate__animated animate__fadeIn animate__delay-1s`}>
+
+
             <Container style={{ marginBottom: "4rem" }}>
                 <Row>
                     <Col md={12} className='d-flex justify-content-center'>

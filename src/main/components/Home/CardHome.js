@@ -17,7 +17,7 @@ const CardHome = () => {
         <>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-12'>
+                    <div className='col-md-12 wow animate__animated animate__fadeIn animate__delay-0.5s'>
                         <h1 className='text-center font-semibold text-black'>Why Choose <span style={{ color: "#71065D" }}>the Leading Online</span> Ad Network</h1>
 
                     </div>
@@ -25,7 +25,7 @@ const CardHome = () => {
             </div>
             <div className={cardHomeStyles.rs_bg_color}>
 
-                <div className='container mt-3 p-4'>
+                <div className='container mt-3 p-4 wow animate__animated animate__fadeIn animate__delay-0.5s'>
                     <div className='row mt-4 p-2 '>
                         {CardHomeMenu.map((card, index) => (
                             <div className='col-md-4 col-lg-4 mb-4'

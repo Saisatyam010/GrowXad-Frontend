@@ -20,16 +20,24 @@ const Blog = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-12 ">
+        <div className="col-md-12 wow animate__animated animate__fadeIn animate__delay-1s">
           <div className={Cardstyles.rk_blog_b2_cardslider_main}>
             <div>
-              <h1 className='text-center font-semibold text-black'>Latest in <span style={{ color: "#71065D" }}>the</span> Blog</h1>
+              <h1 className="text-center font-semibold text-black">
+                Latest in <span style={{ color: "#71065D" }}>the</span> Blog
+              </h1>
             </div>
             <div className="d-flex gap-2">
-              <button className={Cardstyles.rk_grow_sl_button} onClick={goToPrev}>
+              <button
+                className={Cardstyles.rk_grow_sl_button}
+                onClick={goToPrev}
+              >
                 <MdArrowBack />
               </button>
-              <button className={Cardstyles.rk_grow_sl_button} onClick={goToNext}>
+              <button
+                className={Cardstyles.rk_grow_sl_button}
+                onClick={goToNext}
+              >
                 <MdArrowForward />
               </button>
             </div>
@@ -69,7 +77,9 @@ const Blog = () => {
                           </div>
                           <div className="d-flex justify-content-end">
                             <span>
-                              <button className={Cardstyles.rk_blog_card_button}>
+                              <button
+                                className={Cardstyles.rk_blog_card_button}
+                              >
                                 {item.button} &nbsp; <FaArrowRight />
                               </button>
                             </span>

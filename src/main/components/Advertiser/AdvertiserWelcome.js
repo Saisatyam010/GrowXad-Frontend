@@ -1,63 +1,87 @@
-import React from 'react'
-import { Button, Col, Container, Row } from 'react-bootstrap'
-import CPANetworkStyleCSS from '../../components/CpaNetwork/CpaNetwork.module.css'
+import React from "react";
+import { Button, Col, Container, Row } from "react-bootstrap";
+import CPANetworkStyleCSS from "../../components/CpaNetwork/CpaNetwork.module.css";
 
 import { FaArrowCircleRight } from "react-icons/fa";
 import AdvertiserBenefitsStyles from "../../components/Advertiser/AdvertiserStyles/AdvertiserBenefit.module.css";
 
-
-
-import { GoRocket } from 'react-icons/go'
+import { GoRocket } from "react-icons/go";
 
 const AdvertiserWelcome = (props) => {
+  console.log(props);
 
-    console.log(props)
+  return (
+    <>
+      <Container fluid>
+        <Row className="">
+          <Col md={6} className="d-flex align-items-center ">
+            <Row>
+              <Col md={12} className=" p-0 m-0 ">
+                <div>
+                  <span
+                    className={`${CPANetworkStyleCSS.dp_cpanetwork_main_heading} m-0`}
+                  >
+                    {props.message.heading1}{" "}
+                  </span>
 
-    return (
-        <>
-            <Container fluid >
-                <Row className=''>
-                    <Col md={6} className='d-flex align-items-center order-2 order-md-1 '>
-                        <Row>
-                            <Col md={12} className=" p-0 m-0 ">
+                  <span
+                    className={`${CPANetworkStyleCSS.dp_cpanetwork_main_heading} m-0`}
+                  >
+                    {props.message.heading2} {props.spanHeading}{" "}
+                    {props.afterSpanHeading}{" "}
+                  </span>
 
-                                <div>
-                                    <span className={`${CPANetworkStyleCSS.dp_cpanetwork_main_heading} m-0`} >{props.message.heading1} </span>
+                  <p
+                    className={` ${CPANetworkStyleCSS.dp_cpanetwork_main_sub_heading} m-0 py-3 `}
+                  >
+                    {props.message.subheading}
+                  </p>
+                </div>
+              </Col>
+              <Col md={12} className="p-0 py-2">
+                <div>
+                  <button
+                    className={`${AdvertiserBenefitsStyles.RegisterButton} MoreButton  m-0`}
+                  >
+                    <div className="d-flex align-items-center justify-content-center">
+                      <span>Learn More</span>
+                      <span className={`ps-3 moreArrrow`}>
+                        <FaArrowCircleRight />
+                      </span>
+                    </div>
+                  </button>
 
-                                    <span className={`${CPANetworkStyleCSS.dp_cpanetwork_main_heading} m-0`} >{props.message.heading2} {props.spanHeading} {props.afterSpanHeading} </span>
+                  {/* <button className={`MoreButton  m-0`}>
+                    <div className="p-0 m-0">
+                      <div className="d-flex align-items-center justify-content-center ">
+                        <span
+                          className={`${CPANetworkStyleCSS.dp_referralprogram_content}`}
+                        >
+                          Learn More
+                        </span>
+                        <span className={`ps-3 moreArrrow`}>
+                          <GoRocket />
+                        </span>
+                      </div>
+                    </div>
+                  </button> */}
+                </div>
+              </Col>
+            </Row>
+          </Col>
 
-                                    <p className={` ${CPANetworkStyleCSS.dp_cpanetwork_main_sub_heading} m-0 py-3 `}>
-                                        {props.message.subheading}
-                                    </p>
-                                </div>
-                            </Col>
-                            <Col md={12} className="p-0 py-2">
-                                <div>
+          <Col
+            md={6}
+            className="d-flex align-items-center px-3  justify-content-center "
+          >
+            <div>
+              <img src={props.message.imgUrl} alt=""></img>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </>
+  );
+};
 
-                                <button className={`${AdvertiserBenefitsStyles.RegisterButton} MoreButton m-md-0 mb-3`}>
-                                    <div className='d-flex align-items-center justify-content-center'>
-                                        <span>Learn More</span>
-                                        <span className={`ps-3 moreArrrow`}><FaArrowCircleRight /></span>
-                                    </div>
-                                </button>
-                                  
-                                 
-
-                                </div>
-                            </Col>
-                        </Row>
-                    </Col>
-
-                    <Col md={6} className='d-flex align-items-center px-3 order-1 order-md-2 mb-2 mb-md-0  justify-content-center '>
-                        <div>
-                            <img className={CPANetworkStyleCSS.rk_all_comp_welcome_img} src={props.message.imgUrl} alt=''></img>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-
-        </>
-    )
-}
-
-export default AdvertiserWelcome
+export default AdvertiserWelcome;

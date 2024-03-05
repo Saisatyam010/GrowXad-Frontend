@@ -1,0 +1,116 @@
+.SSA_SmartCPM_Text_purple {
+  color: #73035b;
+}
+
+.SSA_smartCPM_Font2rem {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.SSA_smartCPM_Font18px {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 80%;
+}
+@media screen and (max-width: 768px) {
+  .SSA_smartCPM_Font18px {
+    font-size: 15px;
+  }
+}
+.SSA_smartCPM_Font16px {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+.SSA_SmartCPM_Font_34px {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.1;
+
+  /* background-color: #333; */
+}
+.SSA_benefit_SIX_col_card {
+  border-radius: 30px;
+  height: 290px;
+}
+
+.SSA_SmartCPM_imgbgcolor {
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 2px 2px 0 #b4b4b4, 12px 12px 44px rgba(115, 3, 91, 0.9);
+  height: 72px;
+  z-index: 1;
+  justify-content: center;
+  width: 72px;
+}
+
+.SSA_SmartCPM_card_black_bg {
+  background-color: #333;
+  border-radius: 22px;
+  height: 220px;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+.cards_reverse {
+  background-color: #e5ccdf;
+  border-radius: 30px;
+  width: 90%;
+  text-align: center;
+  margin: 0px;
+  display: flex;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .cards_reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.sana_smartCpm_numbering {
+  background-color: #73035b;
+  display: inline-flex;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  color: white;
+  border-radius: 50%;
+}
+.Accelerated_numbering_pera {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .Accelerated_numbering_pera {
+    font-size: 15px;
+  }
+}
+.Enable_btn {
+  background-color: black;
+  border: none;
+  padding: 14px 20px;
+  transition: background-color 0.4s;
+}
+.Enable_btn:hover {
+  background-color: rgb(51, 51, 51);
+}
+.SSA_Benefit_Bg_Img3 {
+  background-color: #73035b;
+  /* border-radius: 600px; */
+}
+.SSA_Ad_Benefits_font2rem_Section2 {
+  font-size: 2rem;
+}
+.SSA_Ad_Benefits_font22px {
+  font-size: 20px;
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  .SSA_Ad_Benefits_font22px {
+    font-size: 15px;
+  }
+}

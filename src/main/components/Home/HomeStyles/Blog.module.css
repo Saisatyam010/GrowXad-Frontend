@@ -1,92 +1,86 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* ----------------------------------->> slider css <<------------------------------------- */
 .rk_blog_b2_cardslider_main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 5px;
-    /* border-bottom: 1px solid rgba(128, 128, 128, 0.336); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
 }
 
 .rk_blog_card_img {
-    width: 100%;
+  width: 100%;
+  height: 200px;
 }
 
 .rk_blog_b2_feature {
-    font-weight: 600;
-    /* font-size: 40px; */
-    margin-bottom: 0;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 .rk_grow_sl_button {
-    background-color: transparent;
-    font-size: 1.5rem;
-    font-weight: lighter;
-    border: 1px solid black;
-    ;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .rk_grow_sl_button:hover {
-    background-color: rgba(134, 139, 139, 0.123);
+  /* background-color: rgba(134, 139, 139, 0.123); */
+  background-color: red;
 }
 
 .rk_blog_card_content {
-    font-size: 18px;
-    font-weight: 500;
-    display: flex;
-    justify-content: start;
-    margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: start;
+  margin-top: 1rem;
 }
 
 .rk_blog_card_content:hover {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .rk_blog_card2 {
-    display: flex;
-    justify-content: space-between
+  display: flex;
+  justify-content: space-between;
 }
 
 .rk_blog_card_time {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .rk_blog_card_button {
-    font-size: 16px;
-    color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    transition: 0.3s ease;
+  font-size: 16px;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease;
 }
 
 .rk_blog_card_button:hover {
-    color: var(--primary-color);
-    /* font-size: 15px; */
+  color: var(--primary-color);
 }
 
 .sana_mainPage_card {
-    /* height: 460px; */
-    /* max-width: 450px; */
-    /* border: 1px solid #ddd; */
-    border-radius: 5px;
-    /* margin: 16px; */
-    /* cursor: pointer; */
-    overflow: hidden;
-    transition: box-shadow 0.7s ease, background-color 0.8s ease;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: box-shadow 0.7s ease, background-color 0.8s ease;
+  height: 450px;
 }
 
 .sana_mainPage_card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: var(--light-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: var(--light-color);
 }
