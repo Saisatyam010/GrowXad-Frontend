@@ -10,6 +10,12 @@ import {
   solutionData,
   sectionsData,
 } from "../BannerAd/BannerMenu";
+import {
+  BannerAdsGoodReasons,
+  SelfServePlatform,
+  solutionData,
+  sectionsData,
+} from "../BannerAd/BannerMenu";
 
 import { Button, Col, Row } from "react-bootstrap";
 import Layout from "../../Layout/Layout";
@@ -37,9 +43,18 @@ const BannerAd = () => {
                 <span className={AddStyle.sana_DisplayBanner_VoiletText}>
                   Banner Ad{" "}
                 </span>
+                <span className={AddStyle.sana_DisplayBanner_VoiletText}>
+                  Banner Ad{" "}
+                </span>
                 <span> — Display Banner Advertising on Your Website</span>
               </h1>
               <p className={`${AddStyle.dp_bannerads_sub_heading}  py-3 m-0`}>
+                Online Banner Ads deliver unprecedented performance to
+                publishers. Webmasters and bloggers enjoy 100% fill rates and
+                high payouts. Advertisers access reliable traffic sources and
+                reach conscious customers that are ready to buy. If it is the
+                result you’re looking for, then an online display ad is what you
+                need.
                 Online Banner Ads deliver unprecedented performance to
                 publishers. Webmasters and bloggers enjoy 100% fill rates and
                 high payouts. Advertisers access reliable traffic sources and
@@ -71,7 +86,7 @@ const BannerAd = () => {
                       variant="outline"
                       className={`${AddStyle.gradient_signup}  px-5 mr-2 p-3 w-100`}
                     >
-                      Get Popunder Code
+                      Get Banner Code
                     </Button>
                   </Link>
                 </div>
@@ -93,6 +108,7 @@ const BannerAd = () => {
 
         {/*2nd section*/}
         <div className="py-md-5 py-2">
+        <div className="py-md-5 py-2">
           <div className="container py-5">
             <div className="row">
               <div
@@ -103,10 +119,16 @@ const BannerAd = () => {
                   <span style={{ color: "#71065D" }}>GrowXad</span> advertising
                   solutions
                 </h1>
+              <div
+                className={`${AddStyle.dp_bannerads_main_heading} text-center`}
+              >
+                <h1 className="text-center font-semibold text-black">
+                  Who benefits from{" "}
+                  <span style={{ color: "#71065D" }}>GrowXad</span> advertising
+                  solutions
+                </h1>
               </div>
-
-              <TbSeperator />
-              <TbSeperator />
+              
 
               {solutionData.map((item, index) => (
                 <div key={index} className="col-md-6 pt-4">
@@ -128,7 +150,7 @@ const BannerAd = () => {
             </div>
           </div>
         </div>
-        <TbSeperator />
+        {/* <TbSeperator /> */}
 
         {/*3rd section*/}
         <div className="container">

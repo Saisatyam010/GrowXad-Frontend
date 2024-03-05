@@ -122,16 +122,22 @@
   transition: 0.7s;
 }
 
+@media screen and (min-width: 770px) and (max-width: 990px) {
+  /* Your styles for this range */
+  .sana_Solution_New_Cards_Box {
+    flex: 1;
+    flex-basis: 100px;
+    height: 250px;
+    /* padding: 10px; */
+  }
+}
+
 .sana_Solution_New_Cards_Box .sana_Solution_Cards:hover {
   /* transform: translateY(-50%) rotate(0deg); */
   transition: transform 0.6s ease;
   cursor: pointer;
   transform: translateY(-5px);
   transition: 0.8s;
-}
-
-.sana_Solution_New_Cards_Box .sana_Solution_Cards:hover::before {
-  /* background: rgb(85 108 214 / 10%); */
 }
 
 .sana_Solution_New_Cards_Box
