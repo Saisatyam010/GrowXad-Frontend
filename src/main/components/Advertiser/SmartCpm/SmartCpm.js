@@ -17,7 +17,7 @@ const SmartCpm = () => {
       "A transformative advertising platform catering to media buyers and affiliates seeking innovative traffic channels to connect their offers with highly engaged audiences.",
     spanHeading: "ready to engage",
     afterSpanHeading: " with your offers",
-    imgUrl: "http://localhost:3000/images/arrowRtbBanner.png",
+    imgUrl: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/7b9d5fd7-a85d-4272-7402-ac096b50d200/public",
   };
   const smartCPM_CardDataMenu = smartCPM_CardData;
 

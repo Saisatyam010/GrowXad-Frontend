@@ -234,7 +234,7 @@ const RtbTraffic = () => {
 
                         <div className="d-none d-md-block m-4">
                           <img
-                            src="http://localhost:3000/Images/6_ICON_BANNER.png"
+                            src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/7b9d5fd7-a85d-4272-7402-ac096b50d200/public"
                             alt=""
                           />
                         </div>
