@@ -15,7 +15,7 @@ const Welcome = () => {
                         <Col md={6} className='flex items-center content-center'>
                             <div className="d-flex justify-content-center align-items-center">
                                 <div className='wow animate__animated animate__fadeInLeft animate__delay-0.5s'>
-                                    <h1 className='text-[3rem] text-white'>WELCOME TO GrowXad</h1>
+                                    <h1 className='text-[3rem] text-white'>WELCOME TO GROWXAD</h1>
                                     <p className={`${welcomeStyles.SSA_HOME_21pxFont} py-1 text-white`}>
                                         Empowering Advertising Ecosystems: From Brands to Publishers, Our Network Drives Engagement, Revenue, and Growth with Targeted Strategies and Seamless Integration.
                                     </p>
@@ -83,7 +83,7 @@ const Welcome = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+       </section>*/}
     </>
   );
 };

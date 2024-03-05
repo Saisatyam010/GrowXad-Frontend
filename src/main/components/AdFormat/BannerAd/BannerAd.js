@@ -10,12 +10,7 @@ import {
   solutionData,
   sectionsData,
 } from "../BannerAd/BannerMenu";
-import {
-  BannerAdsGoodReasons,
-  SelfServePlatform,
-  solutionData,
-  sectionsData,
-} from "../BannerAd/BannerMenu";
+
 
 import { Button, Col, Row } from "react-bootstrap";
 import Layout from "../../Layout/Layout";
@@ -468,6 +463,8 @@ const BannerAd = () => {
           </div>
         </div>
         {/*-----------last section-----------*/}
+      </div>
+      </div>
       </div>
     </Layout>
   );
