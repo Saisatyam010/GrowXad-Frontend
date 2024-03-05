@@ -2,7 +2,7 @@
     {
         heading: "Advertisers",
         content:
-            "Elevate ads: GrowXAd! Target precisely, 28K+ publishers, dominate CPM, CPC, CPA. Maximize impact. GrowXAd: Precision, Power, Performance! :boom::rocket:",
+            "Elevate ads: GrowXAd! Target precisely, 28K+ publishers, dominate CPM, CPC, CPA. Maximize impact. GrowXAd: Precision, Power, Performance! ",
         imgUrl: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/4923da97-8f80-40b8-048b-803607b0a200/public"
     },
     {

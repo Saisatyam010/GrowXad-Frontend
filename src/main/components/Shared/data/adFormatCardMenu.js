@@ -10,6 +10,7 @@ export const AdFormatAdvertiserCardMenuData = [
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA",
         ContentUnderImage:
             "Ads open in a new tab after a user clicks anywhere on a website",
+        link: "/bannerAds",
     },
     {
         title: "IN PAGE PUSH",
@@ -21,6 +22,7 @@ export const AdFormatAdvertiserCardMenuData = [
             "In-Page Push ads don’t fall under browser restrictions and appear on websites when users are actively surfing. Expect higher CTR and CR.",
         ContentUnderImage:
             "Ads open in a new tab after a user clicks anywhere on a website",
+        link: "/inpagepushAd"
     },
     {
         title: "NATIVE ADS",
@@ -32,18 +34,19 @@ export const AdFormatAdvertiserCardMenuData = [
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA.",
         ContentUnderImage:
             "Ads open in a new tab after a user clicks anywhere on a website",
+        link: "/nativeAd"
     },
     {
         title: "DIRECT LINK ADS",
         imagePath2:
             "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d1ad470-9e6a-4be8-f9e8-26412ea92a00/public",
-        imagePath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/e57d5ed2-4c06-4548-ae05-9e807cd53700/public",
-
-
+        imagePath:
+            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/e57d5ed2-4c06-4548-ae05-9e807cd53700/public",
         Content:
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA.",
         ContentUnderImage:
             "Ads open in a new tab after a user clicks anywhere on a website",
+        link: "/directlinkad"
     },
     {
         title: "POPUNDER ADS",
@@ -55,6 +58,7 @@ export const AdFormatAdvertiserCardMenuData = [
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA.",
         ContentUnderImage:
             "Ads open in a new tab after a user clicks anywhere on a website",
+        link: "/popunderAds"
     },
     {
         title: "INTERSTITIAL ADS",
@@ -66,6 +70,7 @@ export const AdFormatAdvertiserCardMenuData = [
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA.",
         ContentUnderImage:
             "Ads open in a new tab after a user clicks anywhere on a website",
+        link: "/interstitialad"
     },
 ];
 
@@ -84,6 +89,7 @@ export const AdFormatPublisherCardMenuData = [
             "In-Page Push ads don’t fall under browser restrictions and appear on websites when users are actively surfing. Expect higher CTR and CR.",
         ContentUnderImage:
             "Ads open in a new tab after a user clicks anywhere on a website",
+        link: "/inpagepushAd"
     },
     {
         title: "BANNER ADS",
@@ -95,6 +101,7 @@ export const AdFormatPublisherCardMenuData = [
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA",
         ContentUnderImage:
             "Ads open in a new tab after a user clicks anywhere on a website",
+        link: "/bannerAds",
     },
     {
         title: "NATIVE ADS",
@@ -106,18 +113,19 @@ export const AdFormatPublisherCardMenuData = [
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA.",
         ContentUnderImage:
             "Ads open in a new tab after a user clicks anywhere on a website",
+        link: "/nativeAd"
     },
     {
         title: "DIRECT LINK ADS",
         imagePath2:
             "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d1ad470-9e6a-4be8-f9e8-26412ea92a00/public",
-        imagePath: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/e57d5ed2-4c06-4548-ae05-9e807cd53700/public",
-
-
+        imagePath:
+            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/e57d5ed2-4c06-4548-ae05-9e807cd53700/public",
         Content:
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA.",
         ContentUnderImage:
             "Ads open in a new tab after a user clicks anywhere on a website",
+        link: "/directlinkad"
     },
     {
         title: "POPUNDER ADS",
@@ -129,6 +137,7 @@ export const AdFormatPublisherCardMenuData = [
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA.",
         ContentUnderImage:
             "Ads open in a new tab after a user clicks anywhere on a website",
+        link: "/popunderAds"
     },
     {
         title: "INTERSTITIAL ADS",
@@ -140,5 +149,6 @@ export const AdFormatPublisherCardMenuData = [
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA.",
         ContentUnderImage:
             "Ads open in a new tab after a user clicks anywhere on a website",
+        link: "/interstitialad"
     },
 ];

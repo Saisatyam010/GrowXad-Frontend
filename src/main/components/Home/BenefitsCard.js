@@ -27,17 +27,12 @@ const BenefitCard = () => {
             <Container>
 
 
-                <Row className="wow animate__animated animate__fadeIn animate__delay-0.5s">
-
-
-
-
-
+                <Row className="wow animate__animated animate__fadeIn animate__delay-0.5s d-flex justify-center">
                     {BenefitCardMenu.map((card, index) => (
                         <Col md={4} className="mb-2">
                             <div
                                 key={index}
-                                className={`${BenefitCardStyles.sana_card
+                                className={`p-2 ${BenefitCardStyles.sana_card
                                     }  animate__animated ${index % 2 === 0 ? "animate__backInUp" : "animate__bounceInUp"
                                     }`}
                             >

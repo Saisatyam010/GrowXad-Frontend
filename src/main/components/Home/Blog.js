@@ -5,6 +5,7 @@ import { MdArrowForward } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
 import Cardstyles from "../Home/HomeStyles/Blog.module.css";
 import { BlogData, settings } from "../Shared/data/BlogMenu";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   const sliderRef = useRef(null);
@@ -77,11 +78,13 @@ const Blog = () => {
                           </div>
                           <div className="d-flex justify-content-end">
                             <span>
-                              <button
-                                className={Cardstyles.rk_blog_card_button}
-                              >
-                                {item.button} &nbsp; <FaArrowRight />
-                              </button>
+                              <Link to={"/blogs"} style={{ textDecoration: "none" }}>
+                                < button
+                                  className={Cardstyles.rk_blog_card_button}
+                                >
+                                  {item.button} &nbsp; <FaArrowRight />
+                                </button>
+                              </Link>
                             </span>
                           </div>
                         </div>
@@ -93,8 +96,8 @@ const Blog = () => {
             </Slider>
           </div>
         </div>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 };
 

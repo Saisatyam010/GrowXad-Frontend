@@ -3,23 +3,28 @@
     color: var(--secondary-color);
     font-weight: 600;
 }
+
 .dp_advbenifits_main_heading_color {
     font-size: var(--section-main-heading);
     color: var(--primary-color);
     font-weight: 600;
 }
+
 .dp_advbenifits_sub_heading {
     font-size: var(--section-sub-heading);
     font-weight: 400;
 }
+
 .dp_advbenifits_heading {
     font-size: var(--section-heading);
     font-weight: 400;
 }
+
 .dp_advbenifits_content {
     font-size: var(--section-content);
     font-weight: 600;
 }
+
 .sana_card {
     /* height: 400px; */
     min-height: 350px;
@@ -33,10 +38,13 @@
     /* padding: 10px; */
     /* position: relative; */
 }
+
 .sana_img {
     width: 120px;
     height: 120px;
+    margin-left: 15px;
 }
+
 .sana_contents {
     padding: 0px 10px;
     margin-left: 10px;
@@ -45,6 +53,7 @@
     font-size: var(--section-content);
     color: white;
 }
+
 .sana_heading {
     padding: 0px 10px;
     margin-left: 10px;
@@ -52,17 +61,20 @@
     font-weight: 500;
     font-size: var(--section-heading);
 }
+
 .sana_btn_black {
     font-weight: 600;
     display: inline-block;
-    padding: 20px 10px 20px 5px;
+    padding: 20px 10px 20px 20px;
     font-size: 18px;
 }
+
 .sana_icon_btn {
     border-radius: 50%;
     border: 1px solid black;
     padding: 3px;
 }
+
 .sana_card_btn {
     padding: 10px;
     background-color: white;
@@ -72,14 +84,18 @@
     align-items: center;
     transition: transform 0.1s;
 }
+
 .sana_card_btn:hover .sana_icon_btn {
     color: #71065D;
     border: 1px solid #71065D;
 }
+
 .sana_icon_btn:hover {
     animation: bounce 0.7s linear;
 }
+
 @keyframes bounce {
+
     0%,
     20%,
     50%,

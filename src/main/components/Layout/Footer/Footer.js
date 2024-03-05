@@ -99,7 +99,7 @@ const Footer = () => {
                     </div>
                     <ul>
                       <li>
-                        <Link to="/bannerad" className="hover:no-underline">
+                        <Link to="/bannerAds" className="hover:no-underline">
                           Banner Ad
                         </Link>
                       </li>
@@ -112,7 +112,7 @@ const Footer = () => {
                         <Link to="/directlinkad">Direct Link</Link>
                       </li>
                       <li>
-                        <Link to="/popunderad">Popunder Ad</Link>
+                        <Link to="/popunderAds">Popunder Ad</Link>
                       </li>
                       <li>
                         <Link to="/inpagepushad">In-Page Push Ads</Link>
