@@ -20,7 +20,6 @@ import { GetAdsCodes } from '../main/pages/faq/GetAdsCodes'
 import { Blogs } from '../main/pages/freeResources/Blogs/Blogs'
 import { TrafficMonitization } from '../main/pages/freeResources/TrafficMonitization/TrafficMonitization'
 import { CaseStudies } from '../main/pages/freeResources/CaseStudies/CaseStudies'
-import { Newsletter } from '../main/pages/freeResources/NewsLetter/Newsletter'
 import { Glossary } from '../main/pages/freeResources/Glossary/Glossary'
 import { HowToAdvertise } from '../main/pages/freeResources/HowToAdvertiseOffers/HowToAdvertise'
 import { BenifitsForPublishers } from '../main/pages/publisherPages/BenifitsForPublisher/BenifitsForPublishers'
@@ -32,6 +31,7 @@ import AdvertisersBenefitsPage from '../main/pages/advertiserPages/AdvertisersBe
 import AdvertisersSelfServePage from '../main/pages/advertiserPages/AdvertisersSelfServePage'
 import AdvertisersSmartCpmPage from '../main/pages/advertiserPages/AdvertisersSmartCpmPage'
 import AdvertisersRtbPage from '../main/pages/advertiserPages/AdvertisersRtbPage'
+import Newsletter from './../main/pages/freeResources/NewsLetter/Newsletter';
 
 
 const MainRouter = () => {
@@ -85,10 +85,6 @@ const MainRouter = () => {
       exact: true
 
     },
-
-
-
-
 
 
 
@@ -234,7 +230,7 @@ const MainRouter = () => {
 
 
 
-    
+
 
     // 
 

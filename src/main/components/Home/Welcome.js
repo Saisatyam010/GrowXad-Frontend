@@ -1,3 +1,4 @@
+
 import React from 'react'
 import welcomeStyles from '../Home/HomeStyles/Welcome.module.css'
 import { Link } from 'react-router-dom'
@@ -54,18 +55,37 @@ const Welcome = () => {
                                 We are on a mission to empower your brand and extend your influence through revolutionary advertising solutions.
                                 Our goal is to provide you with the tools and technology needed to elevate your marketing efforts and achieve unparalleled success.</p>
                         </div>
-                    </div>
-                    <div class="d-flex justify-content-center p-4 align-items-center">
-                        <Link to="/adveriserauthLogin" className='text-black no-underline hover:no-underline border-0 outline-0'> <button type="button" className={`${welcomeStyles.SSA_Btn_HOME_buytraffic} py-3  mr-2 p-3`}>BUY TRAFFIC</button></Link>
-                        <div className='mt-2'>
-                            <Link to="/adveriserauthLogin" className='text-white no-underline hover:no-underline '> <Button variant="outline" className={`${welcomeStyles.gradient_signup}  px-5 mr-2 p-3`}>Sell Traffic</Button>{' '}</Link>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
 
-        </>
-    )
-}
+                    </div>
+                    <div className="w-40">
+                      <Link
+                        to="/adveriserauthLogin"
+                        className="text-white no-underline hover:no-underline "
+                      >
+                        {" "}
+                        <Button
+                          variant="outline"
+                          className={`${welcomeStyles.gradient_signup}  px-5 mr-2 p-3 w-100`}
+                        >
+                          Sell Traffic
+                        </Button>{" "}
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Col>
+
+            <Col md={6}>
+              <div className="pe-3">
+                <img src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d36c9e1-8cb0-4111-920c-597470549400/public" />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    </>
+  );
+};
 
 export default Welcome;

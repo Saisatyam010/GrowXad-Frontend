@@ -15,10 +15,10 @@ const AdvertiserPricingCard = (props) => {
 
   return (
     <>
-      <div className="container">
+      <div className="container ">
         <div className="row">
           <div className="col-md-12">
-            <h1 className="text-center font-semibold text-black">
+            <h1 className="text-center font-semibold text-black py-4 m-0">
               Why Choose{" "}
               <span className={cardHomeStyles.webcl_theme}>
                 the Leading Online
@@ -28,8 +28,9 @@ const AdvertiserPricingCard = (props) => {
           </div>
         </div>
       </div>
-      <div className={cardHomeStyles.rs_bg_color}>
-        <div className="container mt-3 p-4">
+
+      <div className={`${cardHomeStyles.rs_bg_color}  p-0 m-0`} >
+        <div className="container  mt-3 p-4">
           <div className="row mt-4 p-2 ">
             {props.cardData.map((card, index) => (
               <div

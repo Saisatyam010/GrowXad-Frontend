@@ -16,8 +16,9 @@
   --border-radius-large: 2rem;
   --section-main-heading: 2.5rem;
   --section-sub-heading: 2rem;
-  --section-heading: 1.25rem;
-  --section-content: 1rem;
+  --section-heading: 1.5rem;
+  --section-content: 1.15rem;
+  --section-big-content:1.25rem;
   --section-button: 1.25rem;
   margin: 0;
   padding: 0;
@@ -26,10 +27,13 @@
 
 @media screen and (max-width: 768px) {
   * {
-    --section-main-heading: 2rem;
-    --section-sub-heading: 1.5rem;
-    --section-content: 1rem;
-    --section-button: 1.2rem;
+    --top-banner-heading:2rem;
+    --top-banner-content:1.25rem;
+    --top-banner-button:1rem;
+    --section-main-heading: 1.75rem; 
+    --section-sub-heading: 1.25rem;
+    --section-content: 0.875rem;
+    --section-button: 1rem;
   }
 }
 
@@ -38,53 +42,79 @@
 .LiveDemoButton {
   outline: none;
   border: none;
+  border-radius: 8px;
   background-color: var(--primary-color);
-  font-size: 20px;
+  font-size: var(--section-content);
   font-weight: 600;
   color: var(--tertiary-color);
   transition: transform 0.3s ease;
-  /* transform: scale(1); */
-  width: 250px;
-  padding: 15px 0px;
+  width: 200px;
+  padding: 2px;
 }
 
 .LiveDemoButton:hover {
-  background-color: var(--primary-color);
-  /* border: 1px solid var(--light-color); */
-  color: var(--light-color);
   cursor: pointer;
-  /* filter: blur(0.8); */
+  background-color:#660554;
+  color: rgb(241, 239, 239);
+}
+
+.LiveDemoButton:hover .liveicon {
+  transform: translateX(-7px);
+  transition: transform 0.3s ease;
 }
 
 .MoreButton {
-  margin: 0px 20px;
   outline: none;
   border: none;
+  border-radius: 8px;
   background-color: var(--secondary-color);
-  border: 1px solid var(--primary-color);
-  font-size: 20px;
+  margin: 0px 20px;
+  font-size: var(--section-content);
   font-weight: 600;
   color: var(--tertiary-color);
   transition: transform 0.3s ease;
-  /* transform: scale(1); */
-  width: 250px;
+  width: 200px;
   padding: 15px 0px;
-
 }
 
 .MoreButton:hover {
-  background-color: var(--secondary-color);
-  border: 1px solid var(--light-color);
+  background-color: #1a1a1a;
   color: var(--light-color);
   cursor: pointer;
-  /* filter: opacity(90%); */
 }
 
 .MoreButton:hover .moreArrrow {
-  transform: translateX(5px);
-
+  transform: translateX(7px);
+  transition: transform 0.3s ease;
 }
 
-.gradient_Top{
+
+
+/* New More button */
+
+.MoreButton1 {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  background-color: transparent;
+  font-size: var(--section-content);
+  font-weight: 600;
+  transition: transform 0.3s ease;
+  width: 200px;
+  padding: 2px;
+}
+
+.MoreButton1:hover {
+  cursor: pointer;
+  background-color:#d4b4ce;
+}
+
+.MoreButton1:hover .moreArrrow {
+  transform: translateX(7px);
+  transition: transform 0.3s ease;
+}
+
+.gradient_Top {
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
 }

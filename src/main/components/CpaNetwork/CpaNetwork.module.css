@@ -2,12 +2,19 @@
     font-size: var(--section-main-heading);
     color: var(--secondary-color);
     font-weight: 600;
+    line-height: 40px;
+
 }
+/* .rk_all_comp_welcome_img{
+    max-width: 30rem;
+    width: fit-content;
+} */
 
 .dp_cpanetwork_main_heading_color {
     font-size: var(--section-main-heading);
     color: var(--primary-color);
     font-weight: 600;
+    line-height: 40px
 }
 
 .dp_cpanetwork_main_sub_heading {
@@ -19,6 +26,64 @@
     font-size: var(--section-content);
     font-weight: 500;
 }
+
+@media screen and (max-width: 767px) {
+.rk_main_div_mob{
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 1.5rem;
+    /* padding: 0rem 1rem; */
+}
+.rk_main_div_mob_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rk_aboutus_div{
+    margin-bottom: 2rem;
+   
+}
+
+.rk_card_sprt_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    flex-flow: column;
+}
+.dp_cpanetwork_opp_cards_underline {
+    background: var(--primary-color);
+    border-radius: var(--border-radius-large);
+    height: 5px;
+    /* margin: 30px; */
+    margin-bottom: 20px;
+    width: 60px;
+}
+}
+
+@media screen and (min-width: 768px) {
+.rk_card_sprt_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    flex-flow: row;
+}
+
+.dp_cpanetwork_opp_cards_underline {
+    background: var(--primary-color);
+    border-radius: var(--border-radius-large);
+    height: 5px;
+    /* margin: 30px; */
+    margin-bottom: 60px;
+    width: 60px;
+}
+
+
+}
+
+
+
 
 .RegisterButton {
     margin: 0px 20px;
@@ -53,8 +118,12 @@
     background-color: var(--tertiary-color);
     border-radius: var(--border-radius-base);
     padding: 30px;
-    min-height: 300px;
+    min-height: 250px;
+    max-height: 250px;
+   
+    
 }
+
 
 .dp_cpanetwork_exclusive_cards:hover {
     cursor: pointer;
@@ -62,13 +131,7 @@
     transition: transform 0.8s ease;
 }
 
-.dp_cpanetwork_opp_cards_underline {
-    background: var(--primary-color);
-    border-radius: var(--border-radius-large);
-    height: 5px;
-    margin: 30px;
-    width: 50px;
-}
+
 
 .dp_cpanetwork_icon_circle {
     display: flex;
@@ -78,6 +141,13 @@
     width: 150px;
     padding: 20px;
     border: 3px solid var(--light-color);
+}
+
+.dp_cpanetwork_icon_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .dp_cpanetwork_icon_circle:hover {

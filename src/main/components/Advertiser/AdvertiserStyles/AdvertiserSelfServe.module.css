@@ -1,36 +1,65 @@
-.SSA_SelfService_MainHeading {
-    font-size: 3rem;
-    font-weight: 700;
-    margin: 0px;
-    padding: 20px 0px;
-
-}
-
-.SSA_SelfService_SubHeadiing {
-    font-size: 2.8rem;
+.dp_SelfService_main_heading {
+    font-size: var(--section-main-heading);
+    color: var(--secondary-color);
     font-weight: 600;
     line-height: 40px;
 }
 
-.SSA_SelfService_Para {
-    font-size: 20px;
+.dp_SelfService_main_heading_color {
+    font-size: var(--section-main-heading);
+    color: var(--primary-color);
     font-weight: 600;
-    line-height: 26px;
+    line-height: 40px;
+
+}
+
+.dp_SelfService_sub_heading {
+    font-size: var(--section-sub-heading);
+    font-weight: 600;
+}
+
+.dp_SelfService_sub_heading_color {
+    font-size: var(--section-sub-heading);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.dp_SelfService_content {
+    font-size: var(--section-content);
+    font-weight: 600;
+}
+
+.dp_SelfService_heading {
+    font-size: var(--section-big-content);
+    font-weight: 600;
+}
+
+
+.SSA_SelfService_MainHeading {
+    font-size: var(--section-main-heading);
+    font-weight: 700;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+.SSA_SelfService_SubHeadiing {
+    font-size: var(--section-main-heading);
+    font-weight: 600;
+    line-height: 40px;
 }
 
 .SSA_SELFSERVICE_PURPLE {
-    color: #73035B;
+    color: var(--primary-color);
 }
 
 .SSA_SelfServe_card1 {
     display: block;
     position: relative;
-    background-color: #FFFFFF;
-    border-radius: 4px;
+    border-radius: var(--border-radius-base);
     padding: 32px 24px;
     margin: 12px;
-    border: 1px solid #FAFAFA;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+    border: 1px solid #fafafa;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
@@ -41,11 +70,11 @@
         z-index: -1;
         top: -16px;
         right: -16px;
-        background: #73035B;
+        background: var(--primary-color);
         height: 62px;
         width: 62px;
-        color: white !important;
-        border-radius: 32px;
+        color: var(--tertiary-color);
+        border-radius: var(--border-radius-large);
         transform: scale(0);
         transform-origin: 50% 50%;
         transition: transform 0.45s ease-out;
@@ -65,99 +94,16 @@
     }
 }
 
-.ab_sscontainer1 {
-
-    border-radius: 20px;
-}
-
-.ab_sscontainer2 {
-    background-color: rgb(70, 12, 57);
-    border-radius: 20px;
-    color: white;
-}
-
-.ab_ssbtn {
-
-    margin-top: 30px;
-    font-size: 20px;
-    border: 1px solid #71065d;
-    padding: 10px 20px;
-    color: #73035B;
-    font-weight: 700;
-    border-radius: 10px;
-
-}
-
-.ab_sspara {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.ab_ssborderpara1 {
-    padding: 35px 30px;
-    border-radius: 16px;
-    border: 1px dotted grey;
-}
-
-.ab_ssborderpara1:hover {
-    padding: 35px 30px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-
-.ab_ssborderpara2 {
-    padding: 30px 10px 11px 20px;
-    border-radius: 16px;
-    border: 1px dotted grey;
-}
-
-.ab_ssborderpara2:hover {
-    padding: 30px 10px 11px 20px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-
-.ab_ssborder {
-    padding: 16px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    border-radius: 15px;
-}
-
-.ab_ssborder:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
 .ab_ssborder1 {
     padding: 16px;
-    box-shadow: rgba(49, 49, 75, 0.25) 0px 50px 100px -20px, rgba(67, 67, 67, 0.3) 0px 30px 60px -30px, rgba(26, 50, 74, 0.35) 0px -2px 6px 0px inset;
-    border-radius: 15px;
+    border-radius: var(--border-radius-base);
 }
 
 .ab_ssborder1 p {
     padding: 10px 0px;
 }
 
-.ab_ssborder1:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
 
-.ab_ssbtn2 {
-    padding: 20px 30px;
-    border: none;
-    color: white;
-    border-radius: 10px;
-    background: #73035B;
-
-}
-
-
-
-
-
-.ab_selfservice_iconcontainer {
-    padding: 5px;
-    border-radius: 15px;
-    border: 1px solid #71065d;
-    background-color: whitesmoke;
-}
 
 .ab_sspoints {
     display: inline-flex;
@@ -166,22 +112,48 @@
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    background-color: #73035B;
-    color: white;
+    background-color: var(--primary-color);
+}
+
+.ab_sspoints_title {
+    margin-left: 10px;
 }
 
 .ab_ssline {
     width: 35px;
     height: 8px;
-    background-color: #73035B;
-    border-radius: 10px;
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-base);
     text-align: center;
 }
 
-.ab_ssline:hover {
-    width: 35px;
-    height: 8px;
-    background-color: #000000;
-    border-radius: 10px;
-    text-align: center;
+
+.dp_selfserve_card {
+    background-color: var(--tertiary-color);
+    border-radius: var(--border-radius-base);
+    padding: 25px;
+    border: 2px solid var(--light-color);
+    min-height: 150px;
+    margin-bottom: 10px;
+}
+
+.dp_selfserve_card:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: transform 0.8s ease;
+}
+
+
+.ab_selfservice_iconcontainer {
+    background-color: var(--tertiary-color);
+    border-radius: var(--border-radius-base);
+    padding: 25px;
+    border: 2px solid var(--light-color);
+    min-height: 150px;
+}
+
+.ab_selfservice_iconcontainer:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: transform 0.8s ease;
 }

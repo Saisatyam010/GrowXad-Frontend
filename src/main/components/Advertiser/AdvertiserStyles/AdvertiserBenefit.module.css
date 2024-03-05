@@ -1,19 +1,16 @@
-:root {
-    --text-darkgray: #333;
-    --white: var(--tertiary-color);
-    --purple: var(--primary-color);
-}
-
 .dp_advbenifits_main_heading {
     font-size: var(--section-main-heading);
     color: var(--secondary-color);
     font-weight: 600;
+    line-height: 40px;
 }
+
 
 .dp_advbenifits_main_heading_color {
     font-size: var(--section-main-heading);
     color: var(--primary-color);
     font-weight: 600;
+    line-height: 40px;
 }
 
 .dp_advbenifits_sub_heading {
@@ -21,13 +18,64 @@
     font-weight: 600;
 }
 
+.dp_advbenifits_sub_heading_color {
+    font-size: var(--section-sub-heading);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
 .dp_advbenifits_content {
     font-size: var(--section-content);
     font-weight: 600;
 }
 
-.dp_advbenifits_3btns{
-    border: 1px solid var(--secondary-color);
+.dp_advbenifits_heading {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+.dp_switch_container {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
+    padding: 40px 40px;
+    background-color: rgb(239, 239, 239);
+    border-radius: 30px;
+}
+
+.dp_switch_points_heading_container {
+    background-color: var(--tertiary-color);
+    border-radius: var(--border-radius-large);
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.dp_switch_points {
+    padding: 0px 20px;
+}
+
+.dp_advbenifits_switch_heading {
+    font-size: var(--section-heading);
+    font-weight: 600;
+}
+
+.dp_advbenifits_switch_heading_color {
+    font-size: var(--section-heading);
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.dp_switch_points li {
+    list-style-type: disc;
+    font-size: var(--section-content);
+}
+
+
+
+
+
+.dp_advbenifits_3btns {
+    border: 1px solid rgba(128, 128, 128, 0.199);
     border-radius: var(--border-radius-large);
 }
 
@@ -50,6 +98,7 @@
     cursor: pointer;
 }
 
+
 .SSA_BENEFITS_OUTER {
     height: 70px;
     display: flex;
@@ -63,240 +112,185 @@
     margin-left: 3px;
 }
 
-.SSA_BENEFIT_Text_Black {
-    color: #333 !important;
-}
-
-.SSA_Ad_Benefits_font20px {
-    font-size: 20px;
-    line-height: 24px;
-    font-style: normal;
-    font-weight: 400;
-    color: var(--text-darkgray);
-    font-family: Roboto, sans-serif;
-}
-
-.SSA_Ad_Benefits_font2rem {
-    font-size: 3.2rem;
-    font-style: normal;
-    /* font-stretch: semi-condensed; */
-    font-weight: 800;
-    color: var(--text-darkgray);
-    /* font-family: Roboto,sans-serif; */
-}
-
-.SSA_btn_BenefitsAd_main {
-    background-color: var(--purple);
-    color: var(--white);
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 18px;
-    text-transform: uppercase;
-    /* padding: 10px 40px; */
-}
-
-.SSA_BenefitsAdv_BG_IMG1 {
-    background: #EFEFEF url('https://GrowXAd.com/_nuxt/img/background.587e593.png') no-repeat right;
-}
-
-.SSA_Ad_Benefits_font2rem_Section2 {
-    font-size: 2rem;
-    color: var(--text-darkgray);
-    font-family: Rubik, sans-serif;
-    margin-bottom: 25px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-}
-
-
-
-.SSA_benefits_font26px_purple {
-    font-size: var(--section-sub-heading);
-    color: var(--purple);
-    font-weight: 500;
-}
-
-
-.SSA_Benefit_BG_IMG2 {
-    background: #EFEFEF url('https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/56863149-6232-41d8-e717-2eef3619f300/public') no-repeat right;
-    ;
-    background-size: 100%;
-}
-
-.SSA_Ad_Benefits_font22px {
-    font-size: 22px;
-    line-height: 24px;
-}
-
-.SSA_Benefit_Bg_Img3 {
-    background-size: cover;
-    border-radius: 30px;
-}
-
-.SSA_benefit_font36px {
-    font-size: 36px;
-    line-height: 1.2;
-    font-weight: 600;
-    color: var(--text-darkgray);
-    font-family: Rubik, sans-serif;
-    margin-bottom: 25px;
-    font-style: normal;
-}
-
-.SSA_imgbgcolor {
-    align-items: center;
-    background: hsla(0, 0%, 100%, .2);
-    border-radius: 8px;
-    height: 80px;
-    justify-content: center;
-    position: relative;
-    width: 80px;
-}
-
-.SSA_imgbgcolor::before {
-    background: rgba(151, 0, 206, 0.8);
-    content: "";
-    height: 75px;
-    filter: blur(42px);
-    left: 15px;
-    position: absolute;
-    top: 15px;
-    width: 75px;
-    z-index: 1;
-}
-
-.SSA_benefit_SIX_col_card {
-    border-radius: 30px;
-    height: 290px;
-}
-
-.ssa-uldot {
-    list-style: circle !important;
-}
-
-.webbackground_theme_for_benefit {
-    /* background-image: url(/public/image/background_for_pricing_benefit.png);
-     */
-    background-color: rgb(0, 0, 0) !important;
-    background-size: cover;
-}
-
-.SSA_Benefit_bg_img_main {
-    background-size: cover;
-    /* background-color: rgb(0, 0, 0) !important; */
-    /* background: linear-gradient(to top, #000000, rgb(68, 6, 6), rgb(0, 0, 0)); */
-    background-blend-mode: lighten;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #FFFFFF;
-    /* padding: 100px 0; */
-}
-
-.as_SSA_Benefit_bg_img_main {
-    background-size: cover;
-    /* background-color: rgb(0, 0, 0) !important; */
-    background: linear-gradient(to bottom, #000000, rgb(0, 0, 0), rgb(34, 6, 18));
-    background-blend-mode: lighten;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #FFFFFF;
-    /* padding: 100px 0; */
-}
-
-.ssa_benefit_button {
-    background-color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-    border: 1px solid #73035B;
-    border-radius: 5px;
-}
-
-.ssa_benefit_button:hover {
-    background-color: #E3E3E3;
-    font-size: 18px;
-    font-weight: 600;
-    border: 1px solid #73035B;
-    border-radius: 5px;
-}
-
-.SSA_Benefit_Bg_Img3 {
-    background-image: url('https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/ec363136-4810-4559-1b0d-5af09e4ca300/public');
-}
-
-.SSA_go_corner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    overflow: hidden;
-    top: 0;
-    right: 0;
-    background-color: #73035B;
-    border-radius: 0 4px 0 32px;
-}
-
-
-
 .SSA_card1 {
     display: block;
     position: relative;
-    height: 270px;
-
+    height: 220px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
     background-color: var(--tertiary-color);
-    /* border-radius: var(--border-radius-base); */
     padding: 30px;
     margin: 10px;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
-
-    &:before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: -16px;
-        right: -16px;
-        background: var(--primary-color);
-        height: 60px;
-        width: 60px;
-        color: var(--tertiary-color);
-        border-radius: var(--border-radius-large);
-        transform: scale(1);
-        transform-origin: 50% 50%;
-        transition: transform 0.45s ease-out;
-    }
-
-    &:hover:before {
-        transform: scale(21);
-    }
+  
 }
 
-.SSA_card1:hover {
-    transition: all 0.3s ease-out;
-    color: var(--tertiary-color);
-
-    .SSA_benefits_font26px_purple {
-        color: var(--tertiary-color);
-    }
+.rk_adv_card_sbH{
+    font-size: var(--section-sub-heading);
+    font-weight: 500;
 }
 
-
-/*------------sadhana's css--------------*/
-.sana_label {
-    margin: 5px;
-    width: 380px;
-    height: 350px;
+.rk_MoreButton{
+    border: 1px solid #fff;
+    width: 100%;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 24px;
+    position: relative;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    transition: background-color .3s;
     cursor: pointer;
 }
 
 
-/* To be deleled  */
+.rs_section_container {
+    padding-bottom: 50px;
+}
 
-/* .SSA_benefits_RoundRadius_card {
-    border: 1px solid transparent;
+.rs_common_red_square_block {
+    /* background-color: var(--secondary-color); */
+    background-size: cover;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-radius: 4px;
+}
+
+.rk_adv_bnft_bg{
+    background-image: url(https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/892fb500-b550-497b-e58f-f3b793a60400/public);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rs_col_10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+
+.rs_text_h {
+    color: white;
+    text-align: center;
+}
+
+.rs_text_p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px
+}
+
+.rs_col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.rs_row_button {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.75rem;
+    margin-left: calc(var(--bs-gutter-x)*-.5);
+    margin-right: -0.75rem;
+    margin-right: calc(var(--bs-gutter-x)*-.5);
+    margin-top: 0;
+    margin-top: calc(var(--bs-gutter-y)*-1);
+}
+
+.rs_block_list {
+    border: 1px solid #fff;
+    width: 100%;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 24px;
+    position: relative;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    transition: background-color .3s;
+    cursor: pointer;
+}
+
+.rs_block_list:hover {
+    /* background-color: #ada4a48c; */
+    opacity: 1;
+}
+
+.rs_block_list:after {
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDRMMTAuNTkgNS40MUwxNi4xNyAxMUg0VjEzSDE2LjE3TDEwLjU5IDE4LjU5TDEyIDIwTDIwIDEyTDEyIDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K");
+    border: 1px solid #fff;
     border-radius: 30px;
-    height: 270px;
-} */
+    content: "";
+    height: 40px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    transition: rotate .3s;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.rs_block_list:hover:after {
+    background-image: url("https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/def2f8b0-a698-4c01-d09d-763116bc5500/public");
+    background-color: #fff;
+    transform: rotate(-45deg);
+}
+
+/*  */
+.image_container {
+    width: 400px;
+    /* Set the width of the container */
+    height: 300px;
+    /* Set the height of the container */
+    overflow: hidden;
+    /* Hide the overflow for better positioning */
+    position: relative;
+    /* Position the image relative to the container */
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    /* Add a transition effect for smooth hover */
+}
+
+.image:hover {
+    transform: scale(1.1);
+    /* Scale the image slightly on hover */
+}
+
+.JoinGrowXAdsSubHeading {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px;
+    margin: 0px;
+    color: var(--secondary-color);
+}
+
+.rk_switch_img_one{
+    /* width: 100%; */
+    /* aspect-ratio: 2/1.5; */
+    max-height: 15rem
+}
+
+@media screen and (max-width:767px) {
+    .dp_switch_container {
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
+        padding: 20px 20px;
+        background-color: rgb(239, 239, 239);
+        border-radius: 30px;
+    }
+}
+   
+

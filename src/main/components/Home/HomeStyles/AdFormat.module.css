@@ -48,37 +48,36 @@
    outline: none;
    border: none;
    background-color: var(--primary-color);
-   font-size: 20px;
+   font-size: calc(100% +50px);
    font-weight: 600;
    color: var(--tertiary-color);
    transition: transform 0.3s ease;
    transform: scale(1);
-   width: 250px;
+   width: 9rem;
    padding: 15px 0px;
+
+
+
 }
 
 .LiveDemoButton:hover {
    background-color: var(--primary-color);
-   /* border: 1px solid var(--light-color); */
    color: var(--light-color);
    cursor: pointer;
-   /* filter: blur(0.8); */
 }
 
 .MoreButton {
-   margin: 0px 20px;
    outline: none;
    border: none;
    background-color: var(--secondary-color);
    border: 1px solid var(--primary-color);
-   font-size: 20px;
    font-weight: 600;
    color: var(--tertiary-color);
    transition: transform 0.3s ease;
    transform: scale(1);
-   width: 250px;
+   font-size: calc(100% +50px);
+   width: 9rem;
    padding: 15px 0px;
-
 }
 
 .MoreButton:hover {
@@ -86,7 +85,6 @@
    border: 1px solid var(--light-color);
    color: var(--light-color);
    cursor: pointer;
-   /* filter: opacity(90%); */
 }
 
 .MoreButton:hover .moreArrrow {

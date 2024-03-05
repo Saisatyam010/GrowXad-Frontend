@@ -7,7 +7,7 @@ const JoinGrowXAd = () => {
     const buttons = [
         { text: "I'm an Advertiser" },
         { text: "I'm a Publisher" },
-        { text: "I'm an Affiliate" }
+        // { text: "I'm an Affiliate" }
     ];
     return (
         <Container>
@@ -25,7 +25,7 @@ const JoinGrowXAd = () => {
                                             </p>
                                         </div>
                                         <div className='conatiner'>
-                                            <div className='row'>
+                                            <div className='row d-flex justify-content-center'>
                                                 {buttons.map((button, index) => (
                                                     <div key={index} className='col-lg-4 col-md-4 pb-2'>
                                                         <p className={JoinGrowXAds.rs_block_list}>{button.text}</p>
