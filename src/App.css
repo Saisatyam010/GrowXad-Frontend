@@ -64,17 +64,17 @@
 }
 
 .MoreButton {
+  margin: 0px 10px;
   outline: none;
   border: none;
-  border-radius: 8px;
   background-color: var(--secondary-color);
-  margin: 0px 20px;
-  font-size: var(--section-content);
-  font-weight: 600;
+  border: 1px solid var(--primary-color);
+  font-size: var(--section-big-content);
   color: var(--tertiary-color);
+  width: 180px;
+  padding: 10px 0px;
+  border-radius: 8px;
   transition: transform 0.3s ease;
-  width: 200px;
-  padding: 15px 0px;
 }
 
 .MoreButton:hover {

@@ -98,6 +98,24 @@
     cursor: pointer;
 }
 
+.RegisterButton02 {
+    margin: 0px 10px;
+    outline: none;
+    border: none;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    font-size: var(--section-big-content);
+    color: var(--tertiary-color);
+    width: 180px;
+    padding: 10px 0px;
+  }
+  .RegisterButton02:hover {
+    background-color: var(--tertiary-color);
+    border: 1px solid var(--light-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+  }
+
 
 .SSA_BENEFITS_OUTER {
     height: 70px;
