@@ -37,19 +37,19 @@ export const SelfServePlatform = [
 
 export const solutionData = [
   {
-    title: "Simplify app downloads",
+    title: "Streamline app downloads",
     description:
-      "You can easily put an online display ad on any website incl. WordPress and BlogSpot (Blogger), etc.",
+      "Effortlessly display your app with online banner ads on various websites, including WordPress and BlogSpot (Blogger).",
   },
   {
-    title: "Explore our banner ads",
+    title: "Discover our banner ads",
     description:
-      "Guaranteed compatibility across all operating systems for a universal advertising experience.",
+      "Ensuring seamless compatibility across all operating systems, offering a universal advertising experience.",
   },
   {
     title: "Trusted Advertisers, High CPMs",
     description:
-      "Unlock premium earnings with trusted advertisers delivering top-tier CPMs. Partnering with trusted advertisers.",
+      "Earn More with Trusted Ads: Top-tier CPMs from reliable advertisers for maximum revenue. Partner with success.",
   },
   {
     title: "Reliable, Strong Fill Rates",
@@ -64,21 +64,21 @@ export const sectionsData = [
     imageUrl:
       "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/f787e604-c053-4fe2-0be2-ff9631519b00/public",
     description:
-      "Maximize ad potential with our Popunder display! Unlock top-tier global offers—social apps, mobile, and browser games. Our advanced AI tailors ad content for a resonant visitor experience. Elevate advertising with relevance and quality.",
+      "Maximize your ad impact with our compelling banner display! Explore top-tier global offers across social apps, mobile experiences, and browser games. Our advanced AI tailors ad content, guaranteeing a resonant and engaging experience for visitors. Elevate your advertising strategy with relevance and quality.",
   },
   {
     title: "E-COMMERCE (SALES)",
     imageUrl:
       "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/885a0697-f61c-4e0f-46ea-4a8c0d69c400/public",
     description:
-      "Unlock consistent income growth with our seasonal sales and offers ad Popunder. Thousands of clicks attest to its success, as numerous brands perpetually run campaigns. Elevate your revenue stream effortlessly.",
+      "Unlock consistent income growth with our banner ads showcasing seasonal sales and exclusive offers. Thousands of clicks attest to their success, as numerous brands perpetually run campaigns. Elevate your revenue effortlessly.",
   },
   {
     title: "UTILITIES & SOFTWARE",
     imageUrl:
       "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/7371d99a-5b76-49a5-9227-3f3dd2a72600/public",
     description:
-      "Monetize your inventory by featuring advertising Popunder, enabling software brands to showcase products such as VPNs, antiviruses, and cleaners. Enjoy higher payouts as advertisers invest in conversions. Maximize your earnings today.",
+      "Monetize your inventory with banner ads, featuring software products like VPNs, antiviruses, and cleaners. Enjoy higher payouts as advertisers invest in conversions. Maximize your earnings today.",
   },
   {
     title: "FINANCE",
