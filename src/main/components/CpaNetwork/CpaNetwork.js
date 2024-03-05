@@ -96,22 +96,23 @@ export const CpaNetwork = () => {
         </Row>
 
         <Row>
-          <Col md={12}>
-            <Row className="d-flex justify-content-center">
+          <Col md={12} >
+            <Row className="d-flex  justify-content-center">
               <Col
                 md={12}
                 className={`${CPANetworkStyleCSS.rk_card_sprt_div} m-2`}
               >
                 {CpaNetworkExOpportunity.map((ele, index) => (
                   <Col
+                   style={{position:"relative"}}
                     sm={12}
                     xs={12}
                     md={4}
                     xl={4}
                     key={index}
-                    className={`${CPANetworkStyleCSS.dp_cpanetwork_exclusive_cards} m-2`}
+                    className={`${CPANetworkStyleCSS.dp_cpanetwork_exclusive_cards} h-100  m-2`}
                   >
-                    <Row>
+                    <Row className="">
                       <Col md={12}>
                         <p
                           className={`${CPANetworkStyleCSS.dp_cpanetwork_main_sub_heading} text-center fw-bold`}
@@ -126,9 +127,10 @@ export const CpaNetwork = () => {
                           {" "}
                         </div>
                       </Col>
-                      <Col md={12}>
+                      <Col style={{height:"130px"}} className="d-flex justify-content-center " md={12}>
                         <p
-                          className={`${CPANetworkStyleCSS.dp_cpaNetwork_cards_content} text-center`}
+                        style={{position:"absolute",bottom:"5%"}}
+                          className={`${CPANetworkStyleCSS.dp_cpaNetwork_cards_content} px-2 text-center`}
                         >
                           {ele.content}{" "}
                         </p>
@@ -219,9 +221,9 @@ export const CpaNetwork = () => {
             >
               <Row className="d-flex justify-content-center">
                 {CpaNetworkDiscoverKeyFeatures.map((ele, index) => (
-                  <Col md={4} className="justify-content-center pt-4">
+                  <Col md={4} className="justify-content-center mb-4 mb-md-0  pt-4">
                     <div
-                      className={`text-center  ${CPANetworkStyleCSS.dp_cpanetwork_keyfeatures_card}`}
+                      className={`text-center h-100   ${CPANetworkStyleCSS.dp_cpanetwork_keyfeatures_card}`}
                     >
                       <img
                         src={ele.imgPath}
