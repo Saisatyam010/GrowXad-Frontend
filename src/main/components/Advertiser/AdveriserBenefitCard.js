@@ -25,7 +25,7 @@ const AdvertiserBenefitCard = (props) => {
             <Container>
     <Row className='gx-5'>
         {props.message.map((card, index) => (
-            <Col md={3} lg={3} xs={12} className='p-2' key={index}>
+            <Col md={3} sm={6} lg={3} xs={12} className='p-2' key={index}>
                 <div className={`${BenefitCardStyles.sana_card} p-3 d-flex flex-column`} style={{ borderRadius: "10px", height: '100%' }}>
                     <div>
                         <img
