@@ -50,21 +50,6 @@ const AdvertiserWelcome = (props) => {
                       </span>
                     </div>
                   </button>
-
-                  {/* <button className={`MoreButton  m-0`}>
-                    <div className="p-0 m-0">
-                      <div className="d-flex align-items-center justify-content-center ">
-                        <span
-                          className={`${CPANetworkStyleCSS.dp_referralprogram_content}`}
-                        >
-                          Learn More
-                        </span>
-                        <span className={`ps-3 moreArrrow`}>
-                          <GoRocket />
-                        </span>
-                      </div>
-                    </div>
-                  </button> */}
                 </div>
               </Col>
             </Row>

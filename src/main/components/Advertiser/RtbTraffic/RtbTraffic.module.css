@@ -12,7 +12,6 @@
   line-height: 40px;
 }
 
-
 .dp_RtbTraffic_sub_heading {
   font-size: var(--section-sub-heading);
   font-weight: 600;
@@ -29,10 +28,9 @@
   font-weight: 600;
 }
 
-
 .dp_RtbTraffic_heading {
   font-size: var(--section-heading);
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .dp_rtbtraffic_card {
@@ -49,14 +47,10 @@
   transition: transform 0.8s ease;
 }
 
-.dp_RtbTraffic_RtbIntegration_bg{
+.dp_RtbTraffic_RtbIntegration_bg {
   background-image: url("http://localhost:3000/Images/RtbIntegrationSteps.png");
   background-size: 100% 100%;
 }
-
-
-
-
 
 .rk_rtb_box_2_cont_txt {
   font-size: var(--section-heading);
