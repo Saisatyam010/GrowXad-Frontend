@@ -39,9 +39,9 @@ const AdvertiserWelcome = (props) => {
                 </div>
               </Col>
               <Col md={12} className="p-0 py-2">
-                <div>
+                <div className="">
                   <button
-                    className={`${AdvertiserBenefitsStyles.RegisterButton} MoreButton  m-0`}
+                    className={`${AdvertiserBenefitsStyles.RegisterButton02} MoreButton m-0`}
                   >
                     <div className="d-flex align-items-center justify-content-center">
                       <span>Learn More</span>
