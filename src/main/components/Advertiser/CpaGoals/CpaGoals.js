@@ -35,14 +35,14 @@ const CpaGoals = () => {
         </div>
       </div>
 
-      <Container style={{ marginTop: "74px" }}>
+      <Container>
         <Row className=" d-flex justify-content-center p-0 m-0">
           <Col md={12}>
             {/* Top Benifits */}
             <Row className="mt-5 d-flex justify-content-center px-2">
               <Col
                 md={12}
-                className={` ${CpagoalsStyle.dp_cpagoals_topbenifits_container} text-dark`}
+                className={`${CpagoalsStyle.dp_cpagoals_topbenifits_container} text-dark`}
               >
                 <h3 className="text-center">
                   Essential Benefits for Advertisers
@@ -59,7 +59,7 @@ const CpaGoals = () => {
                           />
                         </Col>
                         <Col md={9} className="px-2 col-8 pt-4">
-                          <h6>{benefit.title}</h6>
+                          <h5>{benefit.title}</h5>
                           <p>{benefit.description}</p>
                         </Col>
                       </Row>
@@ -267,7 +267,7 @@ const CpaGoals = () => {
                     <Col md={12}>
                       <Row className="px-0 py-3 d-flex align-items-center justify-content-between">
                         <Col md={3}>
-                          <p>{item.title}</p>
+                          <h5>{item.title}</h5>
                         </Col>
                         <Col md={4}>
                           <p style={{ fontSize: "16px" }}>{item.description}</p>
