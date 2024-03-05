@@ -18,7 +18,7 @@ const Faqs = () => {
 
   return (
     <div className="container">
-      <div className="row">
+      <div className="row wow animate__animated animate__fadeIn animate__delay-0.5s">
         <div className="col-md-12">
           <h1 className='text-center font-semibold text-black'>GrowXAd <span style={{ color: "#71065D" }}>Networks</span>FAQs</h1>
         </div>
@@ -27,7 +27,7 @@ const Faqs = () => {
         {FaqsMenu.map((question, index) => (
           <div
             key={question.id}
-            className={`col-md-12 ${dropStyles.sana_drop_question}`}
+            className={`col-md-12 wow animate__animated animate__fadeIn animate__delay-0.5s ${dropStyles.sana_drop_question}`}
           >
             <div className={dropStyles.sana_DropQues_container}>
               <p onClick={() => handleOpen(question.id)}>
@@ -41,7 +41,7 @@ const Faqs = () => {
                 </span>{" "}
                 {question.title}
                 <span
-                  className={`${dropStyles.sana_chevron_icon} ${openQuestionIds.includes(question.id)
+                  className={` ${dropStyles.sana_chevron_icon} ${openQuestionIds.includes(question.id)
                     ? dropStyles.rotate
                     : ""
                     }`}
@@ -51,7 +51,7 @@ const Faqs = () => {
               </p>
             </div>
             <div
-              className={`${dropStyles.sana_dropdown_content} ${openQuestionIds.includes(question.id) ? dropStyles.open : ""
+              className={` ${dropStyles.sana_dropdown_content} ${openQuestionIds.includes(question.id) ? dropStyles.open : ""
                 }`}
             >
               <p className="ml-3">{question.content}</p>

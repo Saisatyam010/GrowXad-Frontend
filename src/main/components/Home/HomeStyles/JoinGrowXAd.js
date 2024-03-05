@@ -11,7 +11,7 @@ const JoinGrowXAd = () => {
     ];
     return (
         <Container>
-            <Row className='d-flex justify-content-center '>
+            <Row className='d-flex justify-content-center wow animate__animated animate__fadeIn animate__delay-0.5s'>
                 <Col md={12}>
                     <div className='container mt-5 bg-black rounded-lg '>
                         <div className='row d-flex justify-content-center'>

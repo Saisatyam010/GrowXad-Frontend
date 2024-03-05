@@ -21,7 +21,7 @@ const Testimonials = () => {
 
   return (
     <div className="container">
-      <div className="row ">
+      <div className="row wow animate__animated animate__fadeIn animate__delay-0.5s">
         <div className="col-md-12 ">
           <div className={Cardstyles.rk_blog_b2_cardslider_main}>
             <div>

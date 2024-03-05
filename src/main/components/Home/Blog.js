@@ -20,7 +20,7 @@ const Blog = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-12 ">
+        <div className="col-md-12 wow animate__animated animate__fadeIn animate__delay-1s">
           <div className={Cardstyles.rk_blog_b2_cardslider_main}>
             <div>
               <h1 className="text-center font-semibold text-black">
