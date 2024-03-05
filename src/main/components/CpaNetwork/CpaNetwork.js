@@ -53,7 +53,7 @@ export const CpaNetwork = () => {
                 className={`${CPANetworkStyleCSS.rk_main_div_mob_btn} p-0 m-0 `}
               >
                 <button
-                  className={`my-1 mx-0  fw-bold ${CPANetworkStyleCSS.RegisterButton}`}
+                  className={`my-1 mx-0  fw-bold ${CPANetworkStyleCSS.RegisterButton_cpa}`}
                 >
                   Register Now!
                 </button>
