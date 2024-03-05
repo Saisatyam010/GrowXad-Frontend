@@ -118,3 +118,27 @@
 .gradient_Top {
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
 }
+
+.MoreButton_serve {
+  /* margin: 0px 10px; */
+  outline: none;
+  border: none;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  font-size: var(--section-big-content);
+  color: var(--tertiary-color);
+  /* width: 180px; */
+  padding: 10px 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.MoreButton_serve:hover {
+  background-color: #1a1a1a;
+  color: var(--light-color);
+  cursor: pointer;
+}
+
+.MoreButton_serve:hover .moreArrrow {
+  transform: translateX(7px);
+  transition: transform 0.3s ease;
+}

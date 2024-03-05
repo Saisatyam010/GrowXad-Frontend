@@ -173,16 +173,12 @@ export default function SelfServe() {
                                         to="/adveriserauthLogin"
                                         className="no-underline hover:no-underline"
                                     >
-                                        <Button className={`MoreButton btn m-0`}>
-                                            <div className="p-0 m-0">
-                                                <div className="d-flex align-items-center justify-content-center">
+                                        <button className={`MoreButton_serve d-flex align-items-center justify-content-center btn m-0`}>
                                                     <span>Try GrowXad SSP</span>
                                                     <span className={`ps-3 moreArrrow`}>
                                                         <FaArrowCircleRight />
                                                     </span>
-                                                </div>
-                                            </div>
-                                        </Button>
+                                        </button>
                                     </Link>
                                 </div>
                             </Col>
