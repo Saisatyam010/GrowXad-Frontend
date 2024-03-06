@@ -5,8 +5,6 @@ import CPANetworkStyleCSS from "../../components/CpaNetwork/CpaNetwork.module.cs
 import { FaArrowCircleRight } from "react-icons/fa";
 import AdvertiserBenefitsStyles from "../../components/Advertiser/AdvertiserStyles/AdvertiserBenefit.module.css";
 
-import { GoRocket } from "react-icons/go";
-
 const AdvertiserWelcome = (props) => {
   console.log(props);
 
@@ -14,12 +12,12 @@ const AdvertiserWelcome = (props) => {
     <>
       <Container fluid>
         <Row className="">
-          <Col md={6} className="d-flex align-items-center ">
+          <Col md={6} className="d-flex align-items-center order-2 order-md-1 ">
             <Row>
-              <Col md={12} className=" p-0 m-0 ">
+              <Col md={12} className=" py-5 m-0 ">
                 <div>
                   <span
-                    className={`${CPANetworkStyleCSS.dp_cpanetwork_main_heading} m-0`}
+                    className={`${CPANetworkStyleCSS.dp_cpanetwork_main_heading} m-0 `}
                   >
                     {props.message.heading1}{" "}
                   </span>
@@ -57,11 +55,9 @@ const AdvertiserWelcome = (props) => {
 
           <Col
             md={6}
-            className="d-flex align-items-center px-3  justify-content-center "
+            className="d-flex justify-content-md-end order-1 order-md-2"
           >
-            <div>
-              <img src={props.message.imgUrl} alt=""></img>
-            </div>
+            <img src={props.message.imgUrl} alt="" width={"80%"}></img>
           </Col>
         </Row>
       </Container>
