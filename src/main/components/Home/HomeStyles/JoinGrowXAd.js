@@ -13,8 +13,8 @@ const JoinGrowXAd = () => {
         <Container>
             <Row className='d-flex justify-content-center wow animate__animated animate__fadeIn animate__delay-0.5s'>
                 <Col md={12}>
-                    <div className='container mt-5 bg-black rounded-lg '>
-                        <div className='row d-flex justify-content-center'>
+                    <div className={`container mt-5 rounded-lg ${JoinGrowXAds.rs_img} `}>
+                        <div className='row d-flex justify-content-center bg-[rgba(0,0,0,0.5)]'>
                             <div className='col-md-12'>
                                 <section className={JoinGrowXAds.rs_section_container}>
                                     <section className={JoinGrowXAds.rs_common_red_square_block}>

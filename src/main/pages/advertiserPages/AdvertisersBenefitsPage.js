@@ -6,8 +6,6 @@ const AdvertisersBenefitsPage = () => {
   return (
     <div>
       <AdvertiserBenefits />
-
-
     </div>
   )
 }
