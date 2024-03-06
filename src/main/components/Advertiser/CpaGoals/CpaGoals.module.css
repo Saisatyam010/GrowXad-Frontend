@@ -33,15 +33,16 @@
 
 .dp_cpagoals_topbenifits_container {
   color: white;
-  margin-top: 50px;
   background-color: #e6dee4;
   border-radius: 30px;
-  padding: 40px;
+  padding: 40px 40px 10px 40px;
 }
 .dp_cpagoals_topbenifits_container_Launch {
   color: white;
   margin-top: 50px;
-  background-color: #73035b;
+  background-image: url(https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/892fb500-b550-497b-e58f-f3b793a60400/public);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 30px;
   padding: 40px;
 }
@@ -97,10 +98,6 @@
   margin: 0px;
 }
 
-.dp_apply_row :hover {
-  background-color: lightgray;
-}
-
 .dp_payment_items {
   list-style-type: none;
   display: flex;
@@ -144,4 +141,39 @@
   .Rules_Based_Camp_p {
     font-size: 15px !important;
   }
+}
+
+.dp_cpa_enableCPA_container {
+  border: 1px solid rgb(232, 231, 231);
+}
+
+/* .rs_section_container {
+  padding-bottom: 50px;
+} */
+
+.rk_adv_bnft_bg {
+  background-image: url(https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/892fb500-b550-497b-e58f-f3b793a60400/public);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rs_common_red_square_block {
+  background-size: cover;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-radius: 4px;
+}
+.JoinGrowXAdsSubHeading {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  color: var(--secondary-color);
+}
+.dp_cpagoals_create_camp_button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 40px;
+  background-color: #000000;
+  color: white;
 }
