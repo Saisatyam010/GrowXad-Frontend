@@ -39,9 +39,9 @@ export const AdFormatAdvertiserCardMenuData = [
     {
         title: "DIRECT LINK ADS",
         imagePath2:
-            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d1ad470-9e6a-4be8-f9e8-26412ea92a00/public",
+            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/43dc1a88-b0c9-4cb2-8c47-890f45c50f00/public",
         imagePath:
-            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/e57d5ed2-4c06-4548-ae05-9e807cd53700/public",
+            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/3ac0901d-4645-420a-b512-f12306883600/public",
         Content:
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA.",
         ContentUnderImage:
@@ -63,9 +63,9 @@ export const AdFormatAdvertiserCardMenuData = [
     {
         title: "INTERSTITIAL ADS",
         imagePath:
-            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/b422f523-ab94-4006-343f-9ac8434e6300/public",
+            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/f1e96aa5-92b1-4749-7284-af61be4a7d00/public",
         imagePath2:
-            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/12687a68-c192-41f8-4c43-3267fc34b800/public",
+            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/11ee415e-b44c-47a0-7462-556a6cbc1200/public",
         Content:
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA.",
         ContentUnderImage:
@@ -118,9 +118,9 @@ export const AdFormatPublisherCardMenuData = [
     {
         title: "DIRECT LINK ADS",
         imagePath2:
-            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8d1ad470-9e6a-4be8-f9e8-26412ea92a00/public",
+            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/43dc1a88-b0c9-4cb2-8c47-890f45c50f00/public",
         imagePath:
-            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/e57d5ed2-4c06-4548-ae05-9e807cd53700/public",
+            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/3ac0901d-4645-420a-b512-f12306883600/public",
         Content:
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA.",
         ContentUnderImage:
@@ -142,9 +142,9 @@ export const AdFormatPublisherCardMenuData = [
     {
         title: "INTERSTITIAL ADS",
         imagePath:
-            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/b422f523-ab94-4006-343f-9ac8434e6300/public",
+            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/f1e96aa5-92b1-4749-7284-af61be4a7d00/public",
         imagePath2:
-            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/12687a68-c192-41f8-4c43-3267fc34b800/public",
+            "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/11ee415e-b44c-47a0-7462-556a6cbc1200/public",
         Content:
             "Browser-friendly, non-intrusive ads with 2B+ impressions weekly.Out-of-the-box template creatives with 30X higher CTRs compared to web push.Available with CPM, CPC, and CPA.",
         ContentUnderImage:

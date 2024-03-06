@@ -2,7 +2,7 @@ import React from 'react'
 
 const SectionSeperator = () => {
   return (
-    <div style={{ margin: "6rem 0rem" }}>
+    <div className='h-6 lg:h-8'>
 
     </div>
   )

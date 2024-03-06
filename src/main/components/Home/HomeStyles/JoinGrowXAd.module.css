@@ -1,9 +1,14 @@
-.rs_section_container {
+/* .rs_section_container {
     padding-bottom: 50px;
-}
+} */
 
+.rs_img{
+    background-image: url("https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/892fb500-b550-497b-e58f-f3b793a60400/public");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .rs_common_red_square_block {
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     background-size: cover;
     padding-bottom: 25px;
     padding-top: 25px;

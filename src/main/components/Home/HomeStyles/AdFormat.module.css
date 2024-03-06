@@ -55,9 +55,7 @@
    transform: scale(1);
    width: 9rem;
    padding: 15px 0px;
-
-
-
+   border-radius: 6px;
 }
 
 .LiveDemoButton:hover {
@@ -78,6 +76,7 @@
    font-size: calc(100% +50px);
    width: 9rem;
    padding: 15px 0px;
+   border-radius: 6px;
 }
 
 .MoreButton:hover {
