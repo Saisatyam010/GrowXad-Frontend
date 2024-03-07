@@ -49,7 +49,7 @@ const AdvertiserBenefits = () => {
               <span
                 className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}
               >
-                Which entities derive benefits from the utilization of GrowXad's
+                Which entities derive benefits from the <span style={{ color: "#71065d" }}> utilization of GrowXad's </span>
                 advertising solutions?
               </span>
             </div>

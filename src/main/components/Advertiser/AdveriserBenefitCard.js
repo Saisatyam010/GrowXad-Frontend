@@ -20,14 +20,14 @@ const AdvertiserBenefitCard = (props) => {
                             <span className={`${BenefitCardStyles.dp_advbenifits_main_heading}`}>growth </span>
                         </div>
                     </Col>
-                    
+
                 </Row>
             </Container>
             <Container>
                 <Row className='gx-5'>
                     {props.message.map((card, index) => (
                         <Col md={3} sm={6} lg={3} xs={12} className='p-2' key={index}>
-                            <div className={`${BenefitCardStyles.sana_card} p-3 d-flex flex-column`} style={{ borderRadius: "10px", height: '100%' }}>
+                            <div className={`${BenefitCardStyles.sana_card} p-3 d-flex flex-column`} style={{ borderRadius: "10px" }}>
                                 <img
                                     width={50}
                                     src={card.imgUrl}
@@ -41,7 +41,7 @@ const AdvertiserBenefitCard = (props) => {
                                         {card.content}
                                     </p>
                                 </div>
-                                <div className='mt-auto'>
+                                {/* <div className='mt-auto'>
                                     <button className={`${BenefitCardStyles.sana_card_btn} d-flex align-items-center`}>
                                         <span className={`${BenefitCardStyles.dp_advbenifits_sub_heading}`}></span>
                                         Learn More
@@ -49,7 +49,7 @@ const AdvertiserBenefitCard = (props) => {
                                             className={`${BenefitCardStyles.sana_icon_btn} ml-3 animate__animated animate__bounce animate__delay-2s`}
                                         />
                                     </button>
-                                </div>
+                                </div> */}
                             </div>
                         </Col>
                     ))}
