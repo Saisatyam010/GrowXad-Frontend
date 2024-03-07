@@ -1,17 +1,17 @@
 export const BannerAdsGoodReasons = [
-  "Enhance Rankings: Drive Increased Website Visits with Our In-Page Push Ads",
+  "Enhance Rankings: Drive Increased Website Visits ",
 
-  "Expand Subscribers: Effortlessly Multiply Video Views through Our In-Page Push Ads.",
+  "Expand Subscribers: Effortlessly Multiply Video Views through ",
 
-  "Attract New Users: Revitalize Your Customer Base with Our Engaging In-Page Push Ads.",
+  "Attract New Users: Revitalize Your Customer Base with Our Engaging ",
 
-  "Optimize Buying Cycles: Strategically Drive Seasonal Sales with Our In-Page Push Ads.",
+  "Optimize Buying Cycles: Strategically Drive Seasonal Sales with ",
 
-  "Generate Leads and Sign-ups: Fuel Your Funnel with Our In-Page Push Ads.",
+  "Generate Leads and Sign-ups: Fuel Your Funnel ",
 
-  "Boost Downloads: Elevate App Numbers with Our In-Page Push Ads.",
+  "Boost Downloads: Elevate App Numbers",
 
-  "Enhance Awareness: Amplify Brand or Product Visibility with Our In-Page Push Ads.",
+  "Enhance Awareness: Amplify Brand or Product Visibility.",
 ];
 
 export const SelfServePlatform = [

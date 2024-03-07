@@ -1,11 +1,11 @@
 export const BannerAdsGoodReasons = [
-  "Elevate Website Traffic: Boost rankings and drive increased website visits.",
-  "Multiply Video Views: Gain subscribers effortlessly by multiplying video views.",
-  "Refresh Customer Base: Attract new users and rejuvenate your customer base.",
-  "Strategic Sales Impact: Optimize buying cycles and drive seasonal sales strategically.",
-  "Lead Generation: Generate valuable leads and sign-ups for enhanced conversions.",
-  "App Downloads Boost: Increase app downloads by capturing a broader audience.",
-  "Brand/Product Awareness: Enhance brand or product awareness effectively.",
+  "Boost rankings and drive increased website visits.",
+  "Gain subscribers effortlessly by multiplying video views.",
+  "Attract new users and rejuvenate your customer base.",
+  " Optimize buying cycles and drive seasonal sales strategically.",
+  " Generate valuable leads and sign-ups for enhanced conversions.",
+  "Increase app downloads by capturing a broader audience.",
+  "Enhance brand or product awareness effectively.",
 ];
 
 export const SelfServePlatform = [

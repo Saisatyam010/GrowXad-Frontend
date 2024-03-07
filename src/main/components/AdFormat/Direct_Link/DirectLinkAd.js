@@ -105,8 +105,6 @@ const DirectLinkAd = () => {
                 </h1>
               </div>
 
-    
-
               {solutionData.map((item, index) => (
                 <div key={index} className="col-md-6 pt-4">
                   <div className={AddStyle.sana_Solution_New_Cards_Box}>
@@ -127,7 +125,6 @@ const DirectLinkAd = () => {
             </div>
           </div>
         </div>
-        
 
         {/*3rd section*/}
         <div className="container">
@@ -137,11 +134,11 @@ const DirectLinkAd = () => {
         </div>
 
         <div className=" container-fluid">
-          <div className="container py-md-5 p-3 card">
+          <div className="container py-md-5 p-3 ">
             <div className="row">
               <div className="col-md-6 d-flex align-items-center">
                 <div>
-                  <h1 className="text-center font-semibold text-black">
+                  <h1 className="text-start font-semibold text-black">
                     {" "}
                     Types of GrowXad{" "}
                     <span style={{ color: "#71065D" }}>
@@ -226,7 +223,7 @@ const DirectLinkAd = () => {
 
         <SectionSeperator />
         <div className="container-fluid">
-          <div className="container p-3 card">
+          <div className="container p-3">
             <div className="row">
               <div className="col-md-6  pt-md-0 pt-lg-0 pt-3">
                 <div className="d-flex justify-content-center p-4">
@@ -238,7 +235,7 @@ const DirectLinkAd = () => {
                 </div>
               </div>
               <div className="col-md-6">
-                <h1 className="text-center font-semibold text-black">
+                <h1 className=" fs-2 text-start font-semibold text-black mb-4">
                   What are
                   <span style={{ color: "#71065D" }}>
                     {" "}
@@ -289,18 +286,21 @@ const DirectLinkAd = () => {
           </div>
         </div>
         <div className="container-fluid">
-          <div className="container  card p-3">
-            <div className="row"></div>
+          <div className="container p-3">
             <div className="row">
-              <div className="col-md-12  pr-0">
+              <div className="col-md-12 pr-0">
                 <div className="">
-                  <p className={`${AddStyle.dp_bannerads_content} pb-3 m-0`}>
+                  <p
+                    className={`${AddStyle.dp_bannerads_content} fw-bold pb-3 m-0`}
+                  >
                     1. Versatile placement for Direct Link ads—header, sidebar,
                     footer, and more. Deploy the GrowX code/script on your web
                     or mobile page to seamlessly showcase advertisements to
                     users.
                   </p>
-                  <p className={`${AddStyle.dp_bannerads_content} pb-2 m-0`}>
+                  <p
+                    className={`${AddStyle.dp_bannerads_content} fw-bold pb-2 m-0`}
+                  >
                     2. First, register as a Publisher and log in. <br /> <br />
                     3. Generate code for the needed banner size (160×300,
                     160×600, 300×250, 320х50, 728×90, 468×60), use ADD NEW
@@ -334,12 +334,12 @@ const DirectLinkAd = () => {
                   className={`${AddStyle.dp_bannerads_sub_heading} py-4 text-light m-0 text-center text-white`}
                 >
                   Leveraging partnerships with 28K+ direct publishers and 13K+
-                  advertisers, GrowX employs AI algorithms to consistently
-                  assess traffic quality, ensuring optimal traffic-to-offer
-                  matches.
+                  advertisers, GrowX employs AI algorithms to <br />{" "}
+                  consistently assess traffic quality, ensuring optimal
+                  traffic-to-offer matches.
                 </p>
 
-                <div className="d-flex align-items-center justify-content-center">
+                <div className="mt-4 d-flex align-items-center justify-content-center">
                   <Link
                     to="/adveriserauthLogin"
                     className="no-underline hover:no-underline"
@@ -367,13 +367,6 @@ const DirectLinkAd = () => {
                 <div className="d-flex align-tems-end justify-content-end py-2">
                   <Link
                     to="/adveriserauthLogin"
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      color: "white",
-                      fontWeight: "500",
-                      textDecoration: "none",
-                    }}
                     className={`"no-underline hover:no-underline" ${AddStyle.dp_bannerads_sub_heading}`}
                   ></Link>
                 </div>
@@ -385,7 +378,7 @@ const DirectLinkAd = () => {
         {/*8th section*/}
         <SectionSeperator />
         <div className="container-fluid">
-          <div className="container card p-3">
+          <div className="container p-3">
             <div className="row">
               <div className="col-md-7">
                 <h1 className=" font-semibold text-black mb-3  m-2">

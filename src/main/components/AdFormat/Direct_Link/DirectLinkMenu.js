@@ -1,11 +1,11 @@
 export const BannerAdsGoodReasons = [
-  "Maximize Website Visits: Drive increased traffic with impactful direct link ads.",
-  "Multiply Video Views: Attract more subscribers with our effective campaigns.",
-  "Refresh Customer Base: Engage and expand your audience for sustained growth.",
-  "Optimize Seasonal Sales: Boost sales strategically during peak seasons with our ads.",
-  "Seamless Lead Generation: Effortlessly generate valuable leads through targeted campaigns.",
-  "Boost App Downloads: Increase visibility and downloads with our effective ads.",
-  "Enhance Brand Awareness: Efficiently elevate brand or product awareness for broader reach.",
+  " Drive increased traffic with impactful direct link ads.",
+  " Attract more subscribers with our effective campaigns.",
+  " Engage and expand your audience for sustained growth.",
+  "Boost sales strategically during peak seasons with our ads.",
+  " Effortlessly generate valuable leads through targeted campaigns.",
+  "Increase visibility and downloads with our effective ads.",
+  " Efficiently elevate brand or product awareness for broader reach.",
 ];
 export const SelfServePlatform = [
   {

@@ -103,8 +103,6 @@ const InterstitialAd = () => {
                 </h1>
               </div>
 
-       
-
               {solutionData.map((item, index) => (
                 <div key={index} className="col-md-6 pt-4">
                   <div className={AddStyle.sana_Solution_New_Cards_Box}>
@@ -125,7 +123,6 @@ const InterstitialAd = () => {
             </div>
           </div>
         </div>
-        
 
         {/*3rd section*/}
         <div className="container">
@@ -135,8 +132,7 @@ const InterstitialAd = () => {
         </div>
 
         <div className=" container-fluid">
-          <div className="container py-md-5 p-3 card">
-            <div className="row"></div>
+          <div className="container py-md-5 p-3">
             <div className="row">
               <div className="col-md-6 d-flex align-items-center">
                 <div>
@@ -225,7 +221,7 @@ const InterstitialAd = () => {
 
         <SectionSeperator />
         <div className="container-fluid">
-          <div className="container p-3 card">
+          <div className="container p-3 ">
             <div className="row">
               <div className="col-md-6  pt-md-0 pt-lg-0 pt-3">
                 <div className="d-flex justify-content-center p-4">
@@ -237,7 +233,7 @@ const InterstitialAd = () => {
                 </div>
               </div>
               <div className="col-md-6">
-                <h1 className="text-center font-semibold text-black">
+                <h1 className="text-center font-semibold text-black mb-3">
                   What are
                   <span style={{ color: "#71065D" }}>
                     {" "}
@@ -288,19 +284,22 @@ const InterstitialAd = () => {
           </div>
         </div>
         <div className="container-fluid">
-          <div className="container  card p-3">
-            <div className="row"></div>
+          <div className="container p-3">
             <div className="row">
               <div className="col-md-12  pr-0">
                 <div className="">
-                  <p className={`${AddStyle.dp_bannerads_content} pb-3 m-0`}>
+                  <p
+                    className={`${AddStyle.dp_bannerads_content} fw-bold pb-3 m-0`}
+                  >
                     1. Employ Interstitial strategically across your
                     webpage—header, sidebar, footer, and more. Utilize the GrowX
                     code/script to seamlessly integrate popunder ads, enhancing
                     visibility and engaging users on your web or mobile page.
                     Boost interaction with effective advertisements.
                   </p>
-                  <p className={`${AddStyle.dp_bannerads_content} pb-2 m-0`}>
+                  <p
+                    className={`${AddStyle.dp_bannerads_content} fw-bold  pb-2 m-0`}
+                  >
                     2. First, register as a Publisher and log in. <br /> <br />
                     3. Generate code for the needed banner size (160×300,
                     160×600, 300×250, 320х50, 728×90, 468×60), use ADD NEW
@@ -334,12 +333,12 @@ const InterstitialAd = () => {
                   className={`${AddStyle.dp_bannerads_sub_heading} py-4 text-light m-0 text-center text-white`}
                 >
                   Leveraging partnerships with 28K+ direct publishers and 13K+
-                  advertisers, GrowX employs AI algorithms to consistently
-                  assess traffic quality, ensuring optimal traffic-to-offer
-                  matches.
+                  advertisers, GrowX employs AI algorithms to <br />{" "}
+                  consistently assess traffic quality, ensuring optimal
+                  traffic-to-offer matches.
                 </p>
 
-                <div className="d-flex align-items-center justify-content-center">
+                <div className=" mt-4 d-flex align-items-center justify-content-center">
                   <Link
                     to="/adveriserauthLogin"
                     className="no-underline hover:no-underline"
@@ -385,7 +384,7 @@ const InterstitialAd = () => {
         {/*8th section*/}
         <SectionSeperator />
         <div className="container-fluid">
-          <div className="container card p-3">
+          <div className="container p-3">
             <div className="row">
               <div className="col-md-7">
                 <h2 className=" font-semibold text-black mb-3">
