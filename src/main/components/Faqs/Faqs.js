@@ -27,10 +27,7 @@ const Faqs = () => {
       </div>
       <div className="row mt-5">
         {FaqsMenu.map((question, index) => (
-          <div
-            key={question.id}
-            className={`col-md-12 wow animate__animated animate__fadeIn animate__delay-0.5s ${dropStyles.sana_drop_question}`}
-          >
+          <div key={question.id} className={`col-md-12 wow animate__animated animate__fadeIn animate__delay-0.5s ${dropStyles.sana_drop_question}`} >
             <div className={dropStyles.sana_DropQues_container}>
               <p onClick={() => handleOpen(question.id)}>
                 <span

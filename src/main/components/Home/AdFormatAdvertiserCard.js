@@ -53,7 +53,7 @@ const PublisherCards = (props) => {
                 <Row>
                     <Col md={7} >
                         <Row>
-                            <Col md={12}>
+                            <Col md={12} className='mb-3 md:m-0'>
 
                                 <h4 className={AdFormatStyle.heading}>
                                     {title}
@@ -65,8 +65,6 @@ const PublisherCards = (props) => {
                         </Row>
                     </Col>
                     <Col md={5}  >
-
-
                         <div className='w-100 d-flex justify-content-center '>
 
                             <div className='' style={{ height: "220px", width: "250px" }}>
@@ -80,26 +78,20 @@ const PublisherCards = (props) => {
                         <div className='d-flex justify-content-center mt-2 mt-md-0 flex-md-row gap-2 flex-column'>
 
                             <span>
-                                <Button className={`${AdFormatStyle.LiveDemoButton} btn`}>
-                                    <div className='p-0 d-flex align-items-center justify-content-center m-0'>
-
+                                <button className={`${AdFormatStyle.LiveDemoButton}`}>
+                                    <div className='d-flex align-items-center justify-content-center'>
                                         <span className="me-2"><RxVideo /></span>
-                                        <span>Live Demo</span>
-
-
+                                        Live Demo
                                     </div>
-                                </Button>
+                                </button>
                             </span>
                             <span>
                                 <Link to={link} style={{ textDecoration: "none" }}>
-                                    <Button className={`${AdFormatStyle.MoreButton} btn`}>
-                                        <div className='p-0 m-0'>
-                                            <div className='d-flex align-items-center justify-content-center'>
-                                                <span>MORE</span>
-                                                <span className={`ps-3 ${AdFormatStyle.moreArrrow}`}><FaArrowCircleRight /></span>
-                                            </div>
+                                    <button className={`${AdFormatStyle.MoreButton}`}>
+                                        <div className='d-flex align-items-center justify-content-center'>
+                                            MORE<span className={`ps-3 ${AdFormatStyle.moreArrrow}`}><FaArrowCircleRight /></span>
                                         </div>
-                                    </Button>
+                                    </button>
                                 </Link>
                             </span>
                         </div>

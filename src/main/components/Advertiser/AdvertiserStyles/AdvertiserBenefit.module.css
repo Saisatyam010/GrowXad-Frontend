@@ -1,7 +1,7 @@
 .dp_advbenifits_main_heading {
     font-size: var(--section-main-heading);
     color: var(--secondary-color);
-    font-weight: 600;
+    font-weight: 400;
     line-height: 40px;
 }
 
@@ -9,13 +9,13 @@
 .dp_advbenifits_main_heading_color {
     font-size: var(--section-main-heading);
     color: var(--primary-color);
-    font-weight: 600;
+    font-weight: 400;
     line-height: 40px;
 }
 
 .dp_advbenifits_sub_heading {
     font-size: var(--section-sub-heading);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .dp_advbenifits_sub_heading_color {
@@ -26,7 +26,7 @@
 
 .dp_advbenifits_content {
     font-size: var(--section-content);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .dp_advbenifits_heading {
@@ -56,7 +56,7 @@
 
 .dp_advbenifits_switch_heading {
     font-size: var(--section-heading);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .dp_advbenifits_switch_heading_color {
@@ -80,7 +80,7 @@
 }
 
 .RegisterButton {
-    margin: 0px 20px;
+    /* margin: 0px 20px; */
     outline: none;
     border: none;
     background-color: var(--primary-color);
@@ -108,13 +108,14 @@
     color: var(--tertiary-color);
     width: 180px;
     padding: 10px 0px;
-  }
-  .RegisterButton02:hover {
+}
+
+.RegisterButton02:hover {
     background-color: var(--tertiary-color);
     border: 1px solid var(--light-color);
     color: var(--secondary-color);
     cursor: pointer;
-  }
+}
 
 
 .SSA_BENEFITS_OUTER {
@@ -141,15 +142,15 @@
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
-  
+
 }
 
-.rk_adv_card_sbH{
+.rk_adv_card_sbH {
     font-size: var(--section-sub-heading);
     font-weight: 500;
 }
 
-.rk_MoreButton{
+.rk_MoreButton {
     border: 1px solid #fff;
     width: 100%;
     border-radius: 20px;
@@ -166,9 +167,9 @@
 }
 
 
-.rs_section_container {
+/* .rs_section_container {
     padding-bottom: 50px;
-}
+} */
 
 .rs_common_red_square_block {
     /* background-color: var(--secondary-color); */
@@ -178,7 +179,7 @@
     border-radius: 4px;
 }
 
-.rk_adv_bnft_bg{
+.rk_adv_bnft_bg {
     background-image: url(https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/892fb500-b550-497b-e58f-f3b793a60400/public);
     background-repeat: no-repeat;
     background-size: cover;
@@ -296,7 +297,7 @@
     color: var(--secondary-color);
 }
 
-.rk_switch_img_one{
+.rk_switch_img_one {
     /* width: 100%; */
     /* aspect-ratio: 2/1.5; */
     max-height: 15rem
@@ -310,5 +311,3 @@
         border-radius: 30px;
     }
 }
-   
-

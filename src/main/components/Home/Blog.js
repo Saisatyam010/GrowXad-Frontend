@@ -25,7 +25,7 @@ const Blog = () => {
           <div className={Cardstyles.rk_blog_b2_cardslider_main}>
             <div>
               <h1 className="text-center font-semibold text-black">
-                Latest in <span style={{ color: "#71065D" }}>the</span> Blog
+                Latest in the<span style={{ color: "#71065D" }}> Blog </span>
               </h1>
             </div>
             <div className="d-flex gap-2">

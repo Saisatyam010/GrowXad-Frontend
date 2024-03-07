@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Layout from '../components/Layout/Layout'
 
 import Faqs from '../components/Faqs/Faqs'
@@ -13,6 +13,7 @@ import BenefitCard from '../components/Home/BenefitsCard'
 import SectionSeperator from '../components/Shared/SectionSeperator'
 import Verified from '../components/Home/Verified/Verified'
 import 'animate.css';
+import JoinGrowXAd from '../components/Home/HomeStyles/JoinGrowXAd'
 
 
 
@@ -21,30 +22,38 @@ const HomePage = () => {
     <Layout>
 
       <Welcome />
+
       <SectionSeperator />
+
       <SwichComponent />
+
       <BenefitCard />
+
       <SectionSeperator />
-      <SectionSeperator />
-      <SectionSeperator />
+
       <Testimonials />
+
       <SectionSeperator />
-      <SectionSeperator />
-      <SectionSeperator />
+
       <CardHome />
+
       <SectionSeperator />
-      <SectionSeperator />
-      <SectionSeperator />
+
       <Faqs />
+
       <SectionSeperator />
-      <SectionSeperator />
-      <SectionSeperator />
+
       <UpperFooter />
+
       <Verified />
+
+      <JoinGrowXAd />
+
       <SectionSeperator />
-      <SectionSeperator />
-      <SectionSeperator />
+
       <Blog />
+
+      <SectionSeperator />
 
     </Layout>
 
