@@ -17,17 +17,17 @@ export const ReferralProgram = () => {
     };
     return (
         <Layout>
-            <Container fluid>
+            <Container >
                 <TbSeperator />
                 <Row className='d-flex justify-content-center'>
-                    <Col md={10}>
+                    <Col md={12}>
                         {/* Image and Content */}
 
-                        <Row className='py-4'>
-                            <Col md={6} className='d-flex align-items-center'>
+                        <Row className='d-flex justify-between p-4'>
+                            <Col md={6} className='d-flex align-items-center order-2 order-md-1'>
                                 <Row>
                                     <Col md={12} className='p-0'>
-                                        <div className='fw-bold  pt-5'>
+                                        <div className='fw-bold pt-3'>
 
                                             <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading}`}>
                                                 Join Our </span>
@@ -42,12 +42,10 @@ export const ReferralProgram = () => {
                                         </p>
                                     </Col>
                                     <Col md={12} className='m-0 p-0'>
-
-
                                         <button className={`MoreButton  m-0`}>
                                             <div className='p-0 m-0'>
                                                 <div className='d-flex align-items-center justify-content-center '>
-                                                    <span className={`${ReferralProgramStyleCSS.dp_referralprogram_content}`}>Learn More</span>
+                                                    <span className={`${ReferralProgramStyleCSS.dp_referralprogram_content}`}>Join Now</span>
                                                     <span className={`ps-3 moreArrrow`}><GoRocket /></span>
                                                 </div>
                                             </div>
@@ -56,24 +54,21 @@ export const ReferralProgram = () => {
                                 </Row>
                             </Col>
 
-                            <Col md={6} className='py-2 '>
-                                <div className='text-center '>
+                            <Col md={6} className='py-2 order-1 order-md-2'>
+                                <div className='d-flex justify-center justify-md-end'>
                                     <img
-                                        src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/5ecb590d-2679-44d3-8fc0-84e84ec43400/public"
-                                        alt=""
-                                    />
+                                        src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/5ecb590d-2679-44d3-8fc0-84e84ec43400/public" width="80%" alt="" />
                                 </div>
                             </Col>
                         </Row>
 
                         {/* Earn money */}
-                        <TbSeperator />
                         <Row>
                             <Col md={12}>
                                 <Row>
                                     <Col md={12}>
 
-                                        <div className='fw-bold text-center p-5'>
+                                        <div className='fw-bold text-center pt-3 pb-2'>
                                             <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading}`}>
                                                 Earn money by recommending </span>
                                             <span className={`${ReferralProgramStyleCSS.dp_referralprogram_main_heading_color}`}>
@@ -86,7 +81,7 @@ export const ReferralProgram = () => {
 
                                 <Row>
                                     {EarnMoneyByReferCard.map((ele, key) => (
-                                        <Col md={4} >
+                                        <Col md={4} className=''>
                                             <div className={`${ReferralProgramStyleCSS.dp_referalprogram_earnmoney_card}`}>
                                                 <Row className='p-3 d-flex justify-content-center'>
                                                     <Col md={12} className=' d-flex align-items-center' style={{ height: "100px", width: "150px" }}>
@@ -111,7 +106,7 @@ export const ReferralProgram = () => {
                         </Row>
 
                         {/* How can you attract referrals to GrowXAds??  */}
-                        <TbSeperator />
+
                         <Row>
                             <Col md={12} >
                                 <Row>

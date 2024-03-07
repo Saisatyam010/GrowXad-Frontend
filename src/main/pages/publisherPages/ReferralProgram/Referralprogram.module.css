@@ -13,8 +13,8 @@
 }
 
 .dp_referralprogram_sub_heading {
-    font-size: var(--section-heading);
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .RegisterButton {
@@ -44,8 +44,8 @@
     border-radius: var(--border-radius-base);
     border: 1px solid var(--primary-color);
     padding: 20px;
-    margin-bottom: 20px;
-    min-height: 330px;
+    /* margin-bottom: 20px; */
+    /* min-height: 330px; */
 }
 
 .dp_referalprogram_earnmoney_card:hover {
@@ -59,7 +59,7 @@
 }
 
 .rs_card_block {
-    background: rgb(33, 37, 41);
+    background: #292929;
     color: white;
     height: 100%;
     transition: 0.5s ease-in-out;
@@ -97,7 +97,7 @@
 }
 
 .rs_h_text {
-    color: rgb(53, 53, 53);
+    color: white;
     font-size: var(--section-heading);
     padding: 10px 0px;
     border-bottom: 2px solid var(--primary-color);
@@ -111,7 +111,7 @@
 }
 
 .rs_p_text {
-    color: rgb(82, 82, 82);
+    color: white;
     margin-top: 10px;
     font-size: var(--section-content);
     font-style: normal;

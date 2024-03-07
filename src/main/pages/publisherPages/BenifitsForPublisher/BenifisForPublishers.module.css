@@ -87,8 +87,8 @@
 }
 
 .rs_card_block {
-    background: #eee;
-    color: rgb(105, 105, 105);
+    background: #292929;
+    color: white;
     height: 100%;
     transition: 0.5s ease-in-out;
     border-radius: var(--border-radius-base);
@@ -134,7 +134,7 @@
 }
 
 .rs_p_text {
-    color: rgb(82, 82, 82);
+    color: white;
     margin-top: 10px;
     font-size: var(--section-content);
     font-style: normal;

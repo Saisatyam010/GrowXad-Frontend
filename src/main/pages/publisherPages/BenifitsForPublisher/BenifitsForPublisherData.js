@@ -51,21 +51,22 @@ export const WhyChooseUsCards = [
 
 export const BloggerReviews = [
     {
-        name : " ~ George Wood",
-        imgProfilePath:"https://adsterra.com/_nuxt/img/person_1.a0cb0d8.png ",
-        imgDoublequotes : "https://www.pngarts.com/files/12/Apostrophe-Icon-PNG-Image.png",
-        content: "“Effortless navigation! The clean, intuitive interface simplifies ad management and performance tracking!”"
+        name: " ~ George Wood",
+        imgProfilePath: "https://adsterra.com/_nuxt/img/person_1.a0cb0d8.png ",
+        imgDoublequotes: "https://www.pngarts.com/files/12/Apostrophe-Icon-PNG-Image.png",
+        content: `“Effortless navigation!\n
+                   The clean, intuitive interface simplifies ad management and performance tracking!”`,
     },
     {
-        name : " ~ George Wood",
-        imgProfilePath:"https://adsterra.com/_nuxt/img/person_1.a0cb0d8.png ",
-        imgDoublequotes : "https://www.pngarts.com/files/12/Apostrophe-Icon-PNG-Image.png",
+        name: " ~ George Wood",
+        imgProfilePath: "https://adsterra.com/_nuxt/img/person_1.a0cb0d8.png ",
+        imgDoublequotes: "https://www.pngarts.com/files/12/Apostrophe-Icon-PNG-Image.png",
         content: "“Standout innovation in ad formats! Native interactive features add creativity to my blog, refreshing to see a platform embracing innovation.”"
     },
     {
-        name : " ~ Johnson",
-        imgProfilePath:"https://adsterra.com/_nuxt/img/person_1.a0cb0d8.png",
-        imgDoublequotes : "https://www.pngarts.com/files/12/Apostrophe-Icon-PNG-Image.png",
+        name: " ~ Johnson",
+        imgProfilePath: "https://adsterra.com/_nuxt/img/person_1.a0cb0d8.png",
+        imgDoublequotes: "https://www.pngarts.com/files/12/Apostrophe-Icon-PNG-Image.png",
         content: "“Ad placement flexibility is fantastic! Seamless integration enhances user experience. Customizable positions maintain a clean look on my blog.”"
     },
 ]

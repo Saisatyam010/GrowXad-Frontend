@@ -26,8 +26,8 @@ export const BenifitsForPublishers = () => {
                     <Col md={10}>
                         {/* Image and Content */}
 
-                        <Row className='py-4'>
-                            <Col md={6} className='d-flex align-items-center'>
+                        <Row className='p-3'>
+                            <Col md={6} className='d-flex align-items-center order-2 order-md-1'>
                                 <Row>
                                     <Col md={12} className='p-0'>
                                         <div className='p-0'>
@@ -40,9 +40,7 @@ export const BenifitsForPublishers = () => {
                                                 <span className={`${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_main_heading}`}>
                                                     for </span>
                                                 <span className={`${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_main_heading_color}`}>
-                                                    Publishers </span>
-                                                <span className={`${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_main_heading}`}>
-                                                    for Ads</span>
+                                                    Publishers for Ads</span>
                                             </div>
                                             <p className={`py-2 ${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_sub_heading}`}>
                                                 Partner with us for a lifetime and receive dedicated support, ensuring continuous growth in your revenue endeavors.
@@ -53,8 +51,8 @@ export const BenifitsForPublishers = () => {
                                         <button className={`MoreButton  m-0`}>
                                             <div className='p-0 m-0'>
                                                 <div className='d-flex align-items-center justify-content-center '>
-                                                    <span className={`${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_cards_content}`}>Learn More</span>
-                                                    <span className={`ps-3 moreArrrow`}><GoRocket /></span>
+                                                    <span className={`${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_cards_content}`}>Start Monetizing</span>
+                                                    <span className={`ps-2 moreArrrow`}><GoRocket /></span>
                                                 </div>
                                             </div>
                                         </button>
@@ -63,20 +61,19 @@ export const BenifitsForPublishers = () => {
                                 </Row>
                             </Col>
 
-                            <Col md={6} >
-                                <div className='text-center '>
-                                    <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/b64bff8a-74fe-48a3-1d6b-ce3111d9b000/public' width="100%" height="100%" alt=''></img>
+                            <Col md={6} className='d-flex justify-content-center order-1 order-md-2'>
+                                <div className='d-flex justify-content-center'>
+                                    <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/b64bff8a-74fe-48a3-1d6b-ce3111d9b000/public' width="80%" alt=''></img>
                                 </div>
                             </Col>
                         </Row>
 
                         {/* Monetize any type of Traffic */}
 
-                        <TbSeperator />
-                        <Row className='px-5 mx-5'>
+                        <Row className='p-3'>
                             <Col md={12}>
 
-                                <Row >
+                                <Row>
                                     <Col md={12}>
                                         <div className='fw-bold text-center py-5'>
                                             <span className={`${BenifitsForPublishersStyleCSS.dp_benifitsforpublishers_main_heading_color}`}>
@@ -109,7 +106,7 @@ export const BenifitsForPublishers = () => {
                                 </Row>
 
                                 <Row>
-                                    <Col md={6} className='d-flex align-items-center '>
+                                    <Col md={6} className='d-flex align-items-center order-2 order-md-1'>
                                         <Row>
                                             <Col md={12}>
                                                 <div >
@@ -124,7 +121,7 @@ export const BenifitsForPublishers = () => {
                                             </Col>
                                         </Row>
                                     </Col>
-                                    <Col md={6} className='d-flex justify-content-center align-items-center'>
+                                    <Col md={6} className='d-flex justify-content-center align-items-center order-1 order-md-2'>
                                         <img src='https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/9702214c-f9bf-4422-ed15-2554092afe00/public' width="350px" height="80%" alt=''></img>
                                     </Col>
                                 </Row>
@@ -150,7 +147,7 @@ export const BenifitsForPublishers = () => {
                         </Row>
 
                         {/* Why Choose us */}
-                        <TbSeperator />
+
                         <Row className='d-flex justify-content-center p-1'>
                             <Col md={12}>
                                 <div className='fw-bold text-center py-5'>
@@ -178,7 +175,7 @@ export const BenifitsForPublishers = () => {
                                                         loading='lazy'
                                                         className='' />
                                                 </div>
-                                               
+
                                                 {/* <h5 className={BenifitsForPublishersStyleCSS.rs_h_text}>{card.title}</h5> */}
 
                                                 <div className='pt-3 my-3'>

@@ -18,7 +18,7 @@
   --section-sub-heading: 2rem;
   --section-heading: 1.5rem;
   --section-content: 1.15rem;
-  --section-big-content:1.25rem;
+  --section-big-content: 1.25rem;
   --section-button: 1.25rem;
   margin: 0;
   padding: 0;
@@ -27,10 +27,10 @@
 
 @media screen and (max-width: 768px) {
   * {
-    --top-banner-heading:2rem;
-    --top-banner-content:1.25rem;
-    --top-banner-button:1rem;
-    --section-main-heading: 1.75rem; 
+    --top-banner-heading: 2rem;
+    --top-banner-content: 1.25rem;
+    --top-banner-button: 1rem;
+    --section-main-heading: 1.75rem;
     --section-sub-heading: 1.25rem;
     --section-content: 0.875rem;
     --section-button: 1rem;
@@ -54,7 +54,7 @@
 
 .LiveDemoButton:hover {
   cursor: pointer;
-  background-color:#660554;
+  background-color: #660554;
   color: rgb(241, 239, 239);
 }
 
@@ -68,7 +68,9 @@
   outline: none;
   border: none;
   background-color: var(--secondary-color);
-  border: 1px solid var(--primary-color);
+  /* 
+  commented because of benefit publisher section
+  border: 1px solid var(--primary-color); */
   font-size: var(--section-big-content);
   color: var(--tertiary-color);
   width: 180px;
@@ -107,7 +109,7 @@
 
 .MoreButton1:hover {
   cursor: pointer;
-  background-color:#d4b4ce;
+  background-color: #d4b4ce;
 }
 
 .MoreButton1:hover .moreArrrow {
@@ -132,6 +134,7 @@
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
+
 .MoreButton_serve:hover {
   background-color: #1a1a1a;
   color: var(--light-color);
