@@ -28,7 +28,7 @@
   font-size: var(--section-main-heading);
   color: var(--primary-color);
   font-weight: 600;
-  line-height: 50px
+  line-height: 50px;
 }
 
 .dp_advpricing_sub_heading {
@@ -39,10 +39,28 @@
 .dp_advpricing_main_sub_heading_color {
   font-size: var(--section-heading);
   font-weight: 500;
-  color: var(--primary-color)
+  color: var(--primary-color);
 }
 
 .dp_advpricing_cards_content {
   font-size: var(--section-content);
   font-weight: 500;
+}
+@media (max-width: 768px) {
+  .dp_advpricing_heading {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .dp_advpricing_main_sub_heading_color {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dp_advpricing_main_sub_heading {
+    font-size: 16px;
+  }
+}
+.dp_advpricing_main_sub_heading {
+  font-size: 18px;
 }

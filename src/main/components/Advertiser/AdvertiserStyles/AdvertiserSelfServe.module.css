@@ -1,159 +1,168 @@
 .dp_SelfService_main_heading {
-    font-size: var(--section-main-heading);
-    color: var(--secondary-color);
-    font-weight: 600;
-    line-height: 40px;
+  font-size: var(--section-main-heading);
+  color: var(--secondary-color);
+  font-weight: 600;
+  line-height: 40px;
 }
 
 .dp_SelfService_main_heading_color {
-    font-size: var(--section-main-heading);
-    color: var(--primary-color);
-    font-weight: 600;
-    line-height: 40px;
-
+  font-size: var(--section-main-heading);
+  color: var(--primary-color);
+  font-weight: 600;
+  line-height: 40px;
+}
+@media screen and (max-width: 768px) {
+  .dp_SelfService_main_heading_color .dp_SelfService_main_heading {
+    font-size: 24px;
+  }
 }
 
 .dp_SelfService_sub_heading {
-    font-size: var(--section-sub-heading);
-    font-weight: 600;
+  font-size: var(--section-sub-heading);
+  font-weight: 600;
 }
 
 .dp_SelfService_sub_heading_color {
-    font-size: var(--section-sub-heading);
-    font-weight: 600;
-    color: var(--primary-color);
+  font-size: var(--section-sub-heading);
+  font-weight: 600;
+  color: var(--primary-color);
 }
 
 .dp_SelfService_content {
-    font-size: var(--section-content);
-    font-weight: 600;
+  font-size: var(--section-content);
+  font-weight: 600;
 }
-
+@media screen and (max-width: 768px) {
+  .dp_SelfService_content {
+    font-size: 16px;
+    /* background-color: red; */
+  }
+}
 .dp_SelfService_heading {
-    font-size: var(--section-big-content);
-    font-weight: 600;
+  font-size: var(--section-big-content);
+  font-weight: 600;
 }
-
+@media screen and (max-width: 768px) {
+  .dp_SelfService_heading {
+    font-size: 16px;
+  }
+}
 
 .SSA_SelfService_MainHeading {
-    font-size: var(--section-main-heading);
-    font-weight: 700;
-    margin: 0px;
-    padding: 20px 0px;
+  font-size: var(--section-main-heading);
+  font-weight: 700;
+  margin: 0px;
+  padding: 20px 0px;
 }
 
 .SSA_SelfService_SubHeadiing {
-    font-size: var(--section-main-heading);
-    font-weight: 600;
-    line-height: 40px;
+  font-size: var(--section-main-heading);
+  font-weight: 600;
+  line-height: 40px;
 }
 
 .SSA_SELFSERVICE_PURPLE {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .SSA_SelfServe_card1 {
-    display: block;
-    position: relative;
-    border-radius: var(--border-radius-base);
-    padding: 32px 24px;
-    margin: 12px;
-    border: 1px solid #fafafa;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-    text-decoration: none;
-    z-index: 0;
-    overflow: hidden;
+  display: block;
+  position: relative;
+  border-radius: var(--border-radius-base);
+  padding: 32px 24px;
+  margin: 12px;
+  border: 1px solid #fafafa;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
 
-    &:before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: -16px;
-        right: -16px;
-        background: var(--primary-color);
-        height: 62px;
-        width: 62px;
-        color: var(--tertiary-color);
-        border-radius: var(--border-radius-large);
-        transform: scale(0);
-        transform-origin: 50% 50%;
-        transition: transform 0.45s ease-out;
-    }
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: var(--primary-color);
+    height: 62px;
+    width: 62px;
+    color: var(--tertiary-color);
+    border-radius: var(--border-radius-large);
+    transform: scale(0);
+    transform-origin: 50% 50%;
+    transition: transform 0.45s ease-out;
+  }
 
-    &:hover:before {
-        transform: scale(21);
-    }
+  &:hover:before {
+    transform: scale(21);
+  }
 }
 
 .SSA_SelfServe_card1:hover {
-    transition: all 0.3s ease-out;
-    color: rgba(255, 255, 255) !important;
+  transition: all 0.3s ease-out;
+  color: rgba(255, 255, 255) !important;
 
-    .SSA_benefits_font26px_purple {
-        color: rgba(255, 255, 255) !important;
-    }
+  .SSA_benefits_font26px_purple {
+    color: rgba(255, 255, 255) !important;
+  }
 }
 
 .ab_ssborder1 {
-    padding: 16px;
-    border-radius: var(--border-radius-base);
+  padding: 16px;
+  border-radius: var(--border-radius-base);
 }
 
 .ab_ssborder1 p {
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
 
-
-
 .ab_sspoints {
-    display: inline-flex;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--primary-color);
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
 }
 
 .ab_sspoints_title {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .ab_ssline {
-    width: 35px;
-    height: 8px;
-    background-color: var(--primary-color);
-    border-radius: var(--border-radius-base);
-    text-align: center;
+  width: 35px;
+  height: 8px;
+  background-color: var(--primary-color);
+  border-radius: var(--border-radius-base);
+  text-align: center;
 }
 
-
 .dp_selfserve_card {
-    background-color: var(--tertiary-color);
-    border-radius: var(--border-radius-base);
-    padding: 25px;
-    border: 2px solid var(--light-color);
-    min-height: 150px;
-    margin-bottom: 10px;
+  background-color: var(--tertiary-color);
+  border-radius: var(--border-radius-base);
+  padding: 25px;
+  border: 2px solid var(--light-color);
+  min-height: 150px;
+  margin-bottom: 10px;
 }
 
 .dp_selfserve_card:hover {
-    cursor: pointer;
-    transform: translateY(-5px);
-    transition: transform 0.8s ease;
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: transform 0.8s ease;
 }
 
-
 .ab_selfservice_iconcontainer {
-    background-color: var(--tertiary-color);
-    border-radius: var(--border-radius-base);
-    padding: 25px;
-    border: 2px solid var(--light-color);
-    min-height: 150px;
+  background-color: var(--tertiary-color);
+  border-radius: var(--border-radius-base);
+  padding: 25px;
+  border: 2px solid var(--light-color);
+  min-height: 150px;
 }
 
 .ab_selfservice_iconcontainer:hover {
-    cursor: pointer;
-    transform: translateY(-5px);
-    transition: transform 0.8s ease;
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: transform 0.8s ease;
 }

@@ -1,210 +1,183 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .dp_pricing_banner_content {
-    font-size: var(--section-content);
-    font-weight: 600;
+  font-size: var(--section-content);
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .dp_pricing_banner_content {
+    font-size: 16px;
+  }
 }
 
 .dp_pricing_banner_heading {
-    font-size: var(--section-heading);
-    color: var(--primary-color);
-    font-weight: 700;
+  font-size: var(--section-heading);
+  color: var(--primary-color);
+  font-weight: 700;
 }
 
 .dp_pricing_banner_card {
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
-    height: 100%;
-    transition: transform 0.3s ease;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
+  height: 100%;
+  transition: transform 0.3s ease;
 }
 
 .dp_pricing_banner_card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .sk_h {
-    font-family: "League Spartan";
+  font-family: "League Spartan";
 }
 
 .sk_color {
-    color: #71065D;
+  color: #71065d;
 }
 
-
-
-
-
-@media (min-width:720px) and (max-width:821px) {
-    .sk_border {
-        width: 60%;
-    }
-
-
+@media (min-width: 720px) and (max-width: 821px) {
+  .sk_border {
+    width: 60%;
+  }
 }
 
-@media (min-width:320px) and (max-width:720px) {
-    .sk_h {
-        font-size: 16px;
-    }
+@media (min-width: 320px) and (max-width: 720px) {
+  .sk_h {
+    font-size: 16px;
+  }
 }
 
 @property --angle {
-    syntax: '<angle>';
-    inherits: true;
-    initial-value: 0deg;
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
 }
-
-
 
 .SSA_CARD_EFFECT2 {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .2);
-    padding: 20px;
-    margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
 
-
-    border-radius: 16px
+  border-radius: 16px;
 }
 
-
 .SSA_CARD_EFFECT {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .2);
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 2px solid transparent;
-    border-radius: 16px;
-    max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  max-width: 400px;
 }
 
 .SSA_CARD_EFFECT:hover {
-    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .3);
-    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .2);
-    padding: 20px;
-    margin-bottom: 20px;
-    background: linear-gradient(white, white) padding-box, conic-gradient(from var(--angle), #ffffff, #71065d) border-box;
-    border: 2px solid transparent;
-    border-radius: 16px;
-    max-width: 400px;
-    animation: rotate-gradient 3s infinite linear;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(white, white) padding-box,
+    conic-gradient(from var(--angle), #ffffff, #71065d) border-box;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  max-width: 400px;
+  animation: rotate-gradient 3s infinite linear;
 }
 
 @keyframes rotate-gradient {
-    from {
-        --angle: 0deg;
-    }
+  from {
+    --angle: 0deg;
+  }
 
-    to {
-        --angle: 360deg;
-    }
+  to {
+    --angle: 360deg;
+  }
 }
-
-
-
 
 .sk_border:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 @keyframes rotate-gradient {
-    from {
-        --angle: 0deg;
-    }
+  from {
+    --angle: 0deg;
+  }
 
-    to {
-        --angle: 360deg;
-    }
+  to {
+    --angle: 360deg;
+  }
 }
-
 
 /* Growtharea css */
 
-
-
-
-
 .img_button {
-    width: 100%;
-    padding: 0;
-    border: none;
-    background: none;
-    cursor: pointer;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
-
 .sk_cont {
-    background-color: #efefef;
-    border-radius: 0 0 0 40px;
-    margin-bottom: 50px;
-    padding-bottom: 0 !important;
-    padding-top: 0;
-    /* position: relative; */
-
+  background-color: #efefef;
+  border-radius: 0 0 0 40px;
+  margin-bottom: 50px;
+  padding-bottom: 0 !important;
+  padding-top: 0;
+  /* position: relative; */
 }
 
 .sk_img {
-    margin-right: -150px;
-    margin-top: -150px;
-    margin-left: 100px;
+  margin-right: -150px;
+  margin-top: -150px;
+  margin-left: 100px;
 }
 
 .sk_effect_div {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .sk_effect_img:hover {
-    transform: scale(1.1);
-
+  transform: scale(1.1);
 }
 
 .sk_effect_img {
-    transition: transform 0.3s ease;
-
+  transition: transform 0.3s ease;
 }
 
-
 .sk_real01 {
-    position: absolute;
-    top: -150px;
+  position: absolute;
+  top: -150px;
 
-    z-index: -1;
-
-
+  z-index: -1;
 }
 
 .sk_body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "League Spartan";
-    position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan";
+  position: relative;
 }
 
-
-@media (max-width:1000px) {
-    .sk_growth_img_cont {
-        margin-bottom: 1150px;
-
-    }
-
+@media (max-width: 1000px) {
+  .sk_growth_img_cont {
+    margin-bottom: 1150px;
+  }
 }
 
-@media (min-width:1001px) and (max-width:1024px) {
-    .sk_growth_img_cont {
-        margin-bottom: 650px;
-
-    }
-
+@media (min-width: 1001px) and (max-width: 1024px) {
+  .sk_growth_img_cont {
+    margin-bottom: 650px;
+  }
 }
-
-
 
 /* 
    @media (min-width:410px) and (max-width:766) {

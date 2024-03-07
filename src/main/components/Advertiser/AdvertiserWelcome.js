@@ -30,14 +30,14 @@ const AdvertiserWelcome = (props) => {
                   </span>
 
                   <p
-                    className={` ${CPANetworkStyleCSS.dp_cpanetwork_main_sub_heading} m-0 py-3 `}
+                    className={` ${CPANetworkStyleCSS.dp_cpanetwork_main_sub_heading} m-0 pt-2  `}
                   >
                     {props.message.subheading}
                   </p>
                 </div>
               </Col>
-              <Col md={12} className="p-0 py-2">
-                <div className="">
+              <Col md={12} className="mb-3">
+                <div className={AdvertiserBenefitsStyles.create_resp_btn}>
                   <button
                     className={`${AdvertiserBenefitsStyles.RegisterButton02} MoreButton m-0`}
                   >
@@ -55,7 +55,7 @@ const AdvertiserWelcome = (props) => {
 
           <Col
             md={6}
-            className="d-flex justify-content-md-end order-1 order-md-2"
+            className="d-flex justify-content-md-end justify-content-center order-1 order-md-2"
           >
             <img src={props.message.imgUrl} alt="" width={"80%"}></img>
           </Col>
