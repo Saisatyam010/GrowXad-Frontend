@@ -1,6 +1,7 @@
 import SmartCpmStyle from "./SmartCpm.module.css";
 import { Link } from "react-router-dom";
-import { Container } from "react-bootstrap";
+
+import { Container, Row } from "react-bootstrap";
 import Layout from "../../Layout/Layout";
 import AdvertiserWelcome from "../AdvertiserWelcome";
 import AdvertiserPricingCard from "../../AdvertiserPricing/AdvertiserPricingCard";
@@ -8,6 +9,7 @@ import { smartCPM_CardData } from "../../Shared/data/advertiserCardMenu";
 import { Button, Col } from "react-bootstrap";
 import { FaArrowCircleRight } from "react-icons/fa";
 import Faqs from "../../Faqs/Faqs";
+import CardHome from "../../Home/CardHome";
 
 const SmartCpm = () => {
   const data = {
@@ -17,7 +19,8 @@ const SmartCpm = () => {
       "A transformative advertising platform catering to media buyers and affiliates seeking innovative traffic channels to connect their offers with highly engaged audiences.",
     spanHeading: "ready to engage",
     afterSpanHeading: " with your offers",
-    imgUrl: "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/7b9d5fd7-a85d-4272-7402-ac096b50d200/public",
+    imgUrl:
+      "https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/842bad1d-7283-4fc0-7b3b-888b2e08d300/public",
   };
   const smartCPM_CardDataMenu = smartCPM_CardData;
 
@@ -52,7 +55,7 @@ const SmartCpm = () => {
   return (
     <>
       <Layout>
-        <div className="container">
+        <div className="container ">
           <div className="row">
             <div className="col-md-12 mt-5">
               <AdvertiserWelcome message={data} />
@@ -158,15 +161,20 @@ const SmartCpm = () => {
 
           <Container>
             <div className="row mt-4">
-              <div className="col-md-6">
-                <img
-                  src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6fe45403-130c-46ae-383c-3e3cdf48fb00/public"
-                  alt=""
-                  width={450}
-                />
+              <div className="col-md-5">
+                <div className="ml-md-5">
+                  <img
+                    src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6fe45403-130c-46ae-383c-3e3cdf48fb00/public"
+                    alt=""
+                    width={400}
+                  />
+                </div>
               </div>
-              <div className="col-md-6 mt-5">
-                <h1 className="mt-5"> SmartCPM: Cutting Your Expenses</h1>
+              <div className="col-md-7 mt-5">
+                <h1 className={`mt-5 ${SmartCpmStyle.SSA_smartCPM_h1}`}>
+                  {" "}
+                  SmartCPM: Cutting Your Expenses
+                </h1>
                 <p className={`${SmartCpmStyle.SSA_smartCPM_Font18px} py-3`}>
                   SmartCPM employs second-price auction principles: Set a bid
                   cap, and the algorithm strategically competes within your
@@ -174,21 +182,23 @@ const SmartCpm = () => {
                   above the second-highest CPM to secure wins, ensuring cost
                   management.
                 </p>
-                <Link
-                  to="/adveriserauthLogin"
-                  className="text-black no-underline hover:no-underline"
-                >
-                  <button type="button" className="btn btn-dark px-5 py-2">
-                    TRY NOW
-                  </button>
-                </Link>
+                <div className={SmartCpmStyle.dark_center_btn}>
+                  <Link
+                    to="/adveriserauthLogin"
+                    className="text-black no-underline hover:no-underline"
+                  >
+                    <button type="button" className="btn btn-dark px-5 py-2 ">
+                      TRY NOW
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </Container>
           {/*-----------------fourth section-------------------*/}
           <div className="container px-3 py-md-5 py-0 py-lg-5">
             <div className="row d-flex justify-content-center align-items-center">
-              <div className="col-md-6 ">
+              <div className="col-md-6">
                 <img
                   src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/c23afd0a-9b40-40d2-a16b-9810a2a57200/public"
                   alt=""
@@ -204,14 +214,14 @@ const SmartCpm = () => {
                 </div>
                 {SmartCPMExpenses.map((item, index) => {
                   return (
-                    <div className="d-flex " key={index}>
+                    <div className="d-flex align-items-center" key={index}>
                       <span
                         className={`mb-3 ${SmartCpmStyle.sana_smartCpm_numbering}`}
                       >
                         {item.num}
                       </span>
                       <p
-                        className={`pb-3 mb-0 ml-2 ${SmartCpmStyle.Accelerated_numbering_pera}`}
+                        className={` ml-2 ${SmartCpmStyle.Accelerated_numbering_pera}`}
                       >
                         {item.content}
                       </p>
@@ -221,8 +231,8 @@ const SmartCpm = () => {
               </div>
             </div>
           </div>
-          <AdvertiserPricingCard cardData={smartCPM_CardDataMenu} />
-
+          {/* <AdvertiserPricingCard cardData={smartCPM_CardDataMenu} /> */}
+          <CardHome />
           <div className="container">
             <div className="row">
               <div className="col-md-12"></div>
@@ -237,45 +247,69 @@ const SmartCpm = () => {
           {/*-----------------fifth section-------------------*/}
         </div>
 
-        <div className="px-3 my-3 ">
-          <div className="px-md-5 px-0 mx-md-5 mx-2 ">
-            <div
-              className={`container-fluid  ${SmartCpmStyle.SSA_Benefit_Bg_Img3}  py-md-5 py-3`}
-            >
-              <div className="text-center text-white pt-5">
-                <div
-                  className={`${SmartCpmStyle.SSA_Ad_Benefits_font2rem_Section2}  text-white`}
-                >
-                  Why try SmartCPM today?
+        <Container className="mb-5">
+          <Row className="d-flex justify-content-center ">
+            <Col md={12}>
+              <div
+                className={` container mt-5 rounded-lg ${SmartCpmStyle.rk_adv_bnft_bg}`}
+              >
+                <div className="row d-flex justify-content-center bg-[rgba(0,0,0,0.5)] rounded-lg">
+                  <div className="col-md-12">
+                    <section className={SmartCpmStyle.rs_section_container}>
+                      <section
+                        className={SmartCpmStyle.rs_common_red_square_block}
+                      >
+                        <div
+                          className={`${SmartCpmStyle.rs_col_7} col-lg-8 offset-lg-2`}
+                        >
+                          <p
+                            className={`${SmartCpmStyle.AdvertisersContainerHeading} text-center fw-bold fs-3 text-white`}
+                          >
+                            Why try SmartCPM today?
+                          </p>
+                          <p
+                            className={`${SmartCpmStyle.JoinGrowXAdsSubHeading} text-white`}
+                          >
+                            Our intelligent pricing model solves the problem
+                            <br />
+                            of overpaying for traffic.{" "}
+                            <span className="">
+                              {" "}
+                              It's a powerful tool to save money and increase
+                              ROI. When you enable automated bidding, you only
+                              pay the best price needed to get relevant ad
+                              views. The algorithm will do all the jobs by
+                              competing over traffic 24/7.
+                            </span>
+                          </p>
+                        </div>
+                        <Row className="py-3 px-2">
+                          <Col md={12} className="text-center">
+                            <Link
+                              to="/adveriserauthLogin"
+                              className="no-underline hover:no-underline"
+                            >
+                              <Button className={SmartCpmStyle.Enable_btn}>
+                                <div className="p-0 m-0">
+                                  <div className="d-flex align-items-center justify-content-center">
+                                    <span>ENABLE SMARTCPM</span>
+                                    <span className={`ps-3 moreArrrow`}>
+                                      <FaArrowCircleRight />
+                                    </span>
+                                  </div>
+                                </div>
+                              </Button>
+                            </Link>
+                          </Col>
+                        </Row>
+                      </section>
+                    </section>
+                  </div>
                 </div>
-                <p className={SmartCpmStyle.SSA_Ad_Benefits_font22px}>
-                  Our intelligent pricing model solves the problem
-                  <br />
-                  of overpaying for traffic.{" "}
-                  <span className="">
-                    {" "}
-                    It's a powerful tool to save money and increase ROI. When
-                    you enable automated bidding, you only   pay the best <br />price
-                    needed to get relevant ad views. The algorithm will
-                    do all the jobs by competing over traffic 24/7.
-                  </span>
-                </p>
-                <Col md={{ span: 4, offset: 4 }} className="mb-2 my-5">
-                  <Button className={SmartCpmStyle.Enable_btn}>
-                    <div className="p-0 m-0">
-                      <div className="d-flex align-items-center justify-content-center">
-                        <span>ENABLE SMARTCPM</span>
-                        <span className={`ps-3 moreArrrow`}>
-                          <FaArrowCircleRight />
-                        </span>
-                      </div>
-                    </div>
-                  </Button>
-                </Col>
               </div>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </Layout>
     </>
   );

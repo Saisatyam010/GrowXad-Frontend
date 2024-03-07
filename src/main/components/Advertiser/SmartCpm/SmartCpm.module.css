@@ -16,8 +16,28 @@
 @media screen and (max-width: 768px) {
   .SSA_smartCPM_Font18px {
     font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
   }
 }
+@media screen and (max-width: 768px) {
+  .SSA_smartCPM_h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dark_center_btn {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
 .SSA_smartCPM_Font16px {
   font-size: 16px;
   font-weight: 400;
@@ -113,4 +133,30 @@
   .SSA_Ad_Benefits_font22px {
     font-size: 15px;
   }
+}
+.rk_adv_bnft_bg {
+  background-image: url(https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/892fb500-b550-497b-e58f-f3b793a60400/public);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rs_common_red_square_block {
+  background-size: cover;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-radius: 4px;
+}
+.JoinGrowXAdsSubHeading {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  color: var(--secondary-color);
+}
+.dp_cpagoals_create_camp_button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 40px;
+  background-color: #000000;
+  color: white;
 }
