@@ -206,7 +206,7 @@ const PopunderAd = () => {
         <SectionSeperator />
         <div className="row">
           <div className="col-md-6  pt-md-0 pt-lg-0">
-            <div className="d-flex justify-content-center p-4">
+            <div className="d-flex justify-content-center text-center align-items-center">
               <img
                 src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/f99fd012-8759-4f86-c7e9-1532566b5a00/public"
                 alt=""
@@ -301,18 +301,18 @@ const PopunderAd = () => {
                 >
                   Best <span style={{ color: "#fff" }}>opportunities</span>
                 </p>
-                <hr />
+                {/* <hr /> */}
 
                 <p
-                  className={`${AddStyle.dp_bannerads_sub_heading} py-4 text-light m-0 text-center text-white`}
+                  className={`${AddStyle.dp_bannerads_sub_heading} py-1 text-light m-0 text-center text-white`}
                 >
                   Leveraging partnerships with 28K+ direct publishers and 13K+
-                  advertisers, GrowX employs AI algorithms to consistently
-                  assess traffic quality, ensuring optimal traffic-to-offer
-                  matches.
+                  advertisers, GrowX employs AI algorithms to <br />{" "}
+                  consistently assess traffic quality, ensuring optimal
+                  traffic-to-offer matches.
                 </p>
 
-                <div className="d-flex align-items-center justify-content-center">
+                <div className=" mt-4 d-flex align-items-center justify-content-center">
                   <Link
                     to="/adveriserauthLogin"
                     className="no-underline hover:no-underline"
