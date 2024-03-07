@@ -114,10 +114,13 @@
   border: none;
   padding: 14px 20px;
   transition: background-color 0.4s;
+  color: white;
+  border-radius: 10px;
 }
 .Enable_btn:hover {
   background-color: rgb(51, 51, 51);
 }
+
 .SSA_Benefit_Bg_Img3 {
   background-color: #73035b;
   /* border-radius: 600px; */
@@ -152,6 +155,12 @@
   padding: 30px;
   margin: 0px;
   color: var(--secondary-color);
+}
+
+@media screen and (max-width: 768px) {
+  .JoinGrowXAdsSubHeading {
+    font-size: 16px;
+  }
 }
 .dp_cpagoals_create_camp_button {
   border: none;
