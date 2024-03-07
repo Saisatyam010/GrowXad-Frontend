@@ -34,18 +34,15 @@ const HeaderMenu = [
       { name: 'Interstitial Ad', to: "/interstitialad" },
     ]
   },
-  {
-    name: 'Cpa Network', to: "/cpanetwork"
-    // data: [
-    //   { name: "Cpa Network", to: "/cpanetwork" }
-    // ]
-  },
+  // {
+  //   name: 'Cpa Network', to: "/cpanetwork"
+  // },
   {
     name: 'Faq',
     data: [
       { name: 'FAQ for Advertisers', to: "/faqforadvertisers" },
       { name: 'FAQ for Publishers', to: "/faqforpublishers" },
-      { name: 'FAQ for Affiliates', to: "/faqforaffiliates" },
+      // { name: 'FAQ for Affiliates', to: "/faqforaffiliates" },
       { name: 'FAQ for Campaign Settings', to: "/faqforcampaignsettings" },
       { name: 'FAQ for How to Start', to: "/faqforhowtostart" },
       { name: 'FAQ for Stats and Tracking', to: "/faqforstatsandtracking" },
@@ -53,17 +50,17 @@ const HeaderMenu = [
       { name: 'FAQ for Get Ads Codes', to: "/faqforgetadscodes" },
     ]
   },
-  {
-    name: 'Free Resources',
-    data: [
-      { name: 'Blog', to: '/blogs' },
-      { name: 'How to Advertise Offers', to: '/howtoadvertiseoffers' },
-      { name: 'How to Monetize Traffic', to: '/trafficmonitization' },
-      { name: 'Case Studies', to: '/casestudies' },
-      { name: 'GrowXAd Newsletter', to: '/newsletters' },
-      { name: 'Glossary', to: '/glossary' },
-    ]
-  },
+  // {
+  //   name: 'Free Resources',
+  //   data: [
+  //     { name: 'Blog', to: '/blogs' },
+  //     { name: 'How to Advertise Offers', to: '/howtoadvertiseoffers' },
+  //     { name: 'How to Monetize Traffic', to: '/trafficmonitization' },
+  //     { name: 'Case Studies', to: '/casestudies' },
+  //     { name: 'GrowXAd Newsletter', to: '/newsletters' },
+  //     { name: 'Glossary', to: '/glossary' },
+  //   ]
+  // },
   {
     name: 'Login', data: [
       { name: 'As an advertiser' },

@@ -164,9 +164,9 @@
   cursor: pointer;
 }
 
-.rs_section_container {
-  padding-bottom: 50px;
-}
+/* .rs_section_container {
+    padding-bottom: 50px;
+} */
 
 .rs_common_red_square_block {
   /* background-color: var(--secondary-color); */

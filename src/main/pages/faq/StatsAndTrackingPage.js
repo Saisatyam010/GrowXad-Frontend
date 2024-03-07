@@ -31,7 +31,7 @@ export const StatsAndTrackingPage = () => {
                         </div>
 
                         <div className="row">
-                            <div className="col-md-12 text-center">
+                            <div className="col-md-12 text-center mt-3">
                                 <span className={`text-center py-3 ${dropStyles.dp_faq_main_heading}`}>
                                     FAQ for </span>
                                     

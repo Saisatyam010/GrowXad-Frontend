@@ -26,7 +26,7 @@ const Testimonials = () => {
           <div className={Cardstyles.rk_blog_b2_cardslider_main}>
             <div>
 
-              <h1 className='text-center font-semibold text-black'>Our partners’ <span style={{ color: "#71065D" }}>Trust</span> is our core value</h1>
+              <h1 className='text-center font-semibold text-black'>Our partner’s <span style={{ color: "#71065D" }}>Trust</span> is our core value</h1>
 
             </div>
             <div className="d-flex gap-2">
@@ -53,11 +53,9 @@ const Testimonials = () => {
                     <div className={Cardstyles.sana_content}>
                       <p className="text-start">{item.content}</p>
                     </div>
-                    <div
-                      className={`${Cardstyles.sana_main_page_card_image2} mt-4 d-flex`}
-                    >
-                      <img className="rounded-full" src={item.author.imageSrc} alt="" height={100} width={100} />
-                      <div className={Cardstyles.sana_cards_details}>
+                    <div className={`${Cardstyles.sana_main_page_card_image2} mt-4 d-flex`} >
+                      {/* <img className="rounded-full" src={item.author.imageSrc} alt="" height={100} width={100} />  */}
+                      <div className={`${Cardstyles.sana_cards_details} mt-3 ps-1`}>
                         <h3 className="text-start">{item.author.name}</h3>
                         <p className="text-start">{item.author.role}</p>
                       </div>

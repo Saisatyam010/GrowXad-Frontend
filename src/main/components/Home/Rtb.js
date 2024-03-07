@@ -14,7 +14,7 @@ const Rtb = (props) => {
 
     return (
 
-        <Container fluid className={`${RtbStyles.RtbContainer} py-5 wow animate__animated animate__fadeIn animate__delay-1s`}>
+        <Container fluid className={`${RtbStyles.RtbContainer} hidden md:block py-5 wow animate__animated animate__fadeIn animate__delay-1s`}>
 
 
             <Container style={{ marginBottom: "4rem" }}>
@@ -24,6 +24,7 @@ const Rtb = (props) => {
                     </Col>
                 </Row>
             </Container>
+
             <Container>
                 <Row>
                     <Col md={12} className=''>
@@ -31,8 +32,9 @@ const Rtb = (props) => {
                     </Col>
                 </Row>
             </Container>
+
             <TbSeperator />
-            <TbSeperator />
+
             <Container>
                 <Row>
                     <TbSeperator />
@@ -40,21 +42,23 @@ const Rtb = (props) => {
                     <Col md={12} >
                         <h1 className='text-center font-semibold text-black'>Well <span style={{ color: "#71065D" }}>Proven</span>Technology</h1>
                     </Col>
-                    </Row>
-                    <TbSeperator />
-                    <TbSeperator />
-                    <Row className=''>
+                </Row>
+
+                <TbSeperator />
+                <TbSeperator />
+
+                <Row className=''>
                     <Col md={12} lg={12} className={` d-flex justify-content-center ${RtbStyles.RtbItems}`}>
-                    <div className='d-flex align-items-center justify-content-center flex-wrap'>
-    {RtbMenu.map((advertiser, index) => (
-        <div className={`col-md-2 col-xs-6 ${RtbStyles.rk_proven_td} mb-3`} key={index}>
-            <RtbCards {...advertiser} />
-        </div>
-    ))}
-</div>
+                        <div className='d-flex align-items-center justify-content-center flex-wrap'>
+                            {RtbMenu.map((advertiser, index) => (
+                                <div className={`col-md-2 col-xs-6 ${RtbStyles.rk_proven_td} mb-3`} key={index}>
+                                    <RtbCards {...advertiser} />
+                                </div>
+                            ))}
+                        </div>
                     </Col>
-                    </Row>
-                    <Row>
+                </Row>
+                <Row>
                     <Col md={12} className='d-flex justify-content-center py-5'>
                         <Button className={`LiveDemoButton btn`}>
                             <div className='p-0 m-0'>
@@ -75,10 +79,10 @@ const Rtb = (props) => {
                     </Col>
                 </Row>
             </Container>
-            <TbSeperator />
-            <Row>
+
+            {/* <Row>
                 <JoinGrowXAd />
-            </Row>
+            </Row> */}
         </Container>
     )
 }

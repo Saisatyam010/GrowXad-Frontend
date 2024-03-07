@@ -27,10 +27,10 @@
 
 .sana_card {
     /* height: 400px; */
-    min-height: 350px;
+    /* min-height: 350px; */
     height: 100%;
     /* width: 100%; */
-    background-color: var(--secondary-color);
+    background-color: #292929;
     /* border: none; */
     border-radius: var(--border-radius-base);
     transition: scale 0.4s, background-color 0.4s;

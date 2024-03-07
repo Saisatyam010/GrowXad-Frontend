@@ -1,18 +1,16 @@
 import React from "react";
 import AdvertiserBenefitsStyles from "../../components/Advertiser/AdvertiserStyles/AdvertiserBenefit.module.css";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import Switch3Component from "../Shared/Switch3Component";
 import SampleMap from "./SampleMap";
-import {
-  solutions,
-  CardDataSix,
-} from "../../components/Shared/data/advertiserBenefits";
+import { solutions, } from "../../components/Shared/data/advertiserBenefits";
 import AdvertiserWelcome from "./AdvertiserWelcome";
 import Layout from "../Layout/Layout";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { AdvertiserBenefitsProsData } from "../Shared/data/advertiserBenefitsPros";
 import AdvertiserBenefitCard from "./AdveriserBenefitCard";
 import { AdvertiserBenefitCardMenu } from "../Shared/data/benefitCardMenu";
+import SectionSeperator from "../Shared/SectionSeperator";
 
 const AdvertiserBenefits = () => {
   const data = {
@@ -39,6 +37,9 @@ const AdvertiserBenefits = () => {
             </div>
           </div>
         </div>
+
+        <SectionSeperator />
+
         <div
           className={`container-fluid pt-3 ${AdvertiserBenefitsStyles.SSA_BenefitsAdv_BG_IMG1}`}
           style={{ borderEndStartRadius: "40px" }}
@@ -48,10 +49,12 @@ const AdvertiserBenefits = () => {
               <span
                 className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}
               >
-                Which entities derive benefits from the utilization of GrowXad's
+                Which entities derive benefits from the <span style={{ color: "#71065d" }}> utilization of GrowXad's </span>
                 advertising solutions?
               </span>
             </div>
+
+            <SectionSeperator />
 
             <div className="row">
               {solutions.map((item, index) => (
@@ -104,8 +107,8 @@ const AdvertiserBenefits = () => {
               with your offers{" "}
             </span>
           </div>
-          <div className="row align-items-center px-md-5 pt-4 pt-md-0">
-            <div className="col-md-6" style={{ overflow: "hidden" }}>
+          <div className="row d-flex align-items-center px-md-5 pt-4 pt-md-0">
+            <div className="col-md-6 d-flex justify-center mt-3" style={{ overflow: "hidden" }}>
               <SampleMap style={{ width: "100%" }} />
             </div>
             <div className="col-md-6">
@@ -126,10 +129,8 @@ const AdvertiserBenefits = () => {
             </div>
           </div>
           <div className="row align-items-center  px-md-5  pt-4 pt-md-0 ">
-            <div className="col-md-6 text-left ">
-              <div
-                className={`${AdvertiserBenefitsStyles.dp_advbenifits_sub_heading} m-0 py-3 `}
-              >
+            <div className="col-md-6 text-left order-2 order-md-1">
+              <div className={`${AdvertiserBenefitsStyles.dp_advbenifits_sub_heading} m-0 py-3 `} >
                 Powerful business space
               </div>
               <p className={AdvertiserBenefitsStyles.dp_advbenifits_content}>
@@ -139,20 +140,19 @@ const AdvertiserBenefits = () => {
                 intelligence, and ad optimization tools, which will help you
                 improve your campaigns and increase conversions. <br /> <br />{" "}
               </p>
-              <div>
+              {/* <div>
                 <button
-                  className={`${AdvertiserBenefitsStyles.RegisterButton} MoreButton  m-0`}
+                  className={`${AdvertiserBenefitsStyles.RegisterButton} MoreButton d-flex align-items-center justify-content-center m-0`}
                 >
-                  <div className="d-flex align-items-center justify-content-center">
-                    <span>Learn More</span>
-                    <span className={`ps-3 moreArrrow`}>
-                      <FaArrowCircleRight />
-                    </span>
-                  </div>
+                  <span>Learn More</span>
+                  <span className={`ps-3 moreArrrow`}>
+                    <FaArrowCircleRight />
+                  </span>
+
                 </button>
-              </div>
+              </div> */}
             </div>
-            <div className="col-md-6 mt-2 mt-md-0 ">
+            <div className="col-md-6 mt-2 mt-md-0 order-1 order-md-2 ">
               <img
                 src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6866317f-03c4-4b32-eb64-e02ebfb77500/public"
                 alt=""
@@ -160,7 +160,8 @@ const AdvertiserBenefits = () => {
               />
             </div>
           </div>
-          <div className="row align-items-center container px-md-5 px-3 pt-4 mt-5 pt-md-0">
+
+          <div className="row align-items-center container px-md-5 px-3 pt-4 mt-5 pt-md-0 ">
             <div className="col-md-6">
               <img
                 src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/8945d70b-6845-4146-e5f0-744ca5900600/public"
@@ -168,7 +169,7 @@ const AdvertiserBenefits = () => {
                 width="100%"
               />
             </div>
-            <div className="col-md-6 text-left pl-md-5 pl-0 pt-md-0 px-2 px-md-0 pt-4">
+            <div className="col-md-6 text-left pl-md-5 pl-0 pt-md-0 px-2 px-md-0 pt-4 ">
               <div
                 className={`${AdvertiserBenefitsStyles.dp_advbenifits_sub_heading} m-0 py-3 `}
               >
@@ -235,9 +236,11 @@ const AdvertiserBenefits = () => {
             ))}
           </div>
         </div>
+
         <AdvertiserBenefitCard message={AdvertiserBenefitCardMenu} />
+
         <Container>
-          <Row className="d-flex justify-content-center ">
+          <Row className="d-flex justify-content-center mb-3">
             <Col md={12}>
               <div
                 className={` container mt-5 rounded-lg ${AdvertiserBenefitsStyles.rk_adv_bnft_bg}`}
@@ -294,65 +297,68 @@ const AdvertiserBenefits = () => {
             </Col>
           </Row>
         </Container>
-        <div className="container-fluid">
-          <div className="container">
-            <div className="row px-md-5  pt-md-0 d-flex align-items-center">
-              <div className="col-md-7  ">
-                <div>
-                  <span
-                    className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}
-                  >
-                    Partnerships that{" "}
-                  </span>
-                  <span
-                    className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color}`}
-                  >
-                    you can profit{" "}
-                  </span>
-                  <span
-                    className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}
-                  >
-                    from{" "}
-                  </span>
-                </div>
+      </div>
 
-                <p
-                  className={`${AdvertiserBenefitsStyles.dp_advbenifits_content}m-0 pt-3`}
+
+      {/* <div className="container-fluid">
+        <div className="container">
+          <div className="row px-md-5  pt-md-0 d-flex align-items-center">
+            <div className="col-md-7  ">
+              <div>
+                <span
+                  className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}
                 >
-                  The GrowXAds Self-Serve Platform is ideal for people who want
-                  to purchase traffic without the help of a manager. You'll have
-                  access to a range of targeting options, competitive
-                  intelligence, and ad optimization tools, which will help you
-                  improve your campaigns and increase conversions.
-                </p>
-                <div>
-                  <button className={`MoreButton  m-0`}>
-                    <div className="p-0 m-0">
-                      <div className="d-flex align-items-center justify-content-center ">
-                        <span
-                          className={`${AdvertiserBenefitsStyles.dp_advbenifits_content}`}
-                        >
-                          Learn More
-                        </span>
-                        <span className={`ps-3 moreArrrow`}>
-                          <FaArrowCircleRight />
-                        </span>
-                      </div>
+                  Partnerships that{" "}
+                </span>
+                <span
+                  className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading_color}`}
+                >
+                  you can profit{" "}
+                </span>
+                <span
+                  className={`${AdvertiserBenefitsStyles.dp_advbenifits_main_heading}`}
+                >
+                  from{" "}
+                </span>
+              </div>
+
+              <p
+                className={`${AdvertiserBenefitsStyles.dp_advbenifits_content}m-0 pt-3`}
+              >
+                The GrowXAds Self-Serve Platform is ideal for people who want
+                to purchase traffic without the help of a manager. You'll have
+                access to a range of targeting options, competitive
+                intelligence, and ad optimization tools, which will help you
+                improve your campaigns and increase conversions.
+              </p>
+              <div>
+                <button className={`MoreButton  m-0`}>
+                  <div className="p-0 m-0">
+                    <div className="d-flex align-items-center justify-content-center ">
+                      <span
+                        className={`${AdvertiserBenefitsStyles.dp_advbenifits_content}`}
+                      >
+                        Learn More
+                      </span>
+                      <span className={`ps-3 moreArrrow`}>
+                        <FaArrowCircleRight />
+                      </span>
                     </div>
-                  </button>
-                </div>
+                  </div>
+                </button>
               </div>
-              <div className="col-md-5">
-                <img
-                  src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/7a94bf72-e93b-4833-2c8d-f01efdb49b00/public"
-                  alt=""
-                  width="100%"
-                />
-              </div>
+            </div>
+            <div className="col-md-5">
+              <img
+                src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/7a94bf72-e93b-4833-2c8d-f01efdb49b00/public"
+                alt=""
+                width="100%"
+              />
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
     </Layout>
   );
 };
