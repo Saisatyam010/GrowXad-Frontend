@@ -32,8 +32,8 @@ const PopunderAd = () => {
         {/*1st section*/}
 
         <div className="row">
-          <div className="col-md-6">
-            <div style={{ lineHeight: "40px" }}>
+          <div className="col-md-6 order-2 order-md-1">
+            <div>
               <span className={`${AddStyle.dp_bannerads_main_heading_color}`}>
                 Popunder Ad{" "}
               </span>
@@ -81,7 +81,7 @@ const PopunderAd = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 pt-4 px-3 px-md-0 px-lg-0 pt-md-0 pt-lg-0">
+          <div className="col-md-6 pt-4 px-3 px-md-0 px-lg-0 pt-md-0 pt-lg-0 order-1 order-md-2`">
             <div className="d-flex justify-content-center">
               <img
                 src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6bd7511b-3cea-4a0b-a607-900fb787f000/public"
@@ -292,8 +292,10 @@ const PopunderAd = () => {
 
         {/*7th section*/}
         {/* <SectionSeperator /> */}
-        <div className={`py-5`}>
-          <div className="container bg-black p-3 rounded">
+        <div
+          className={`py-5  bg-[rgba(0,0,0,0.7)] rounded-lg ${AddStyle.adv_bnft_bg}`}
+        >
+          <div className="container p-3  rounded">
             <div className="row ">
               <div className="col-md-12 ">
                 <p
@@ -304,7 +306,7 @@ const PopunderAd = () => {
                 {/* <hr /> */}
 
                 <p
-                  className={`${AddStyle.dp_bannerads_sub_heading} py-1 text-light m-0 text-center text-white`}
+                  className={`${AddStyle.dp_bannerads_sub_heading} offset-lg-2 py-1 text-light m-0 text-center text-white`}
                 >
                   Leveraging partnerships with 28K+ direct publishers and 13K+
                   advertisers, GrowX employs AI algorithms to <br />{" "}
@@ -378,7 +380,7 @@ const PopunderAd = () => {
             })}
           </div>
           <div className="col-md-5">
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center mt-5">
               <img
                 src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/1e510e77-05c3-4c9f-549d-7660086f5e00/public"
                 alt=""

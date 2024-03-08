@@ -14,7 +14,7 @@
 .dp_bannerads_sub_heading {
   font-size: 18px;
   font-weight: 500;
-  padding: 10px;
+  /* padding: 10px; */
 }
 @media screen and (max-width: 768px) {
   .dp_bannerads_sub_heading {
@@ -90,27 +90,10 @@
   border: 2px solid transparent;
   border-radius: 16px;
 }
-
-.sana_DISPLAYBANNER_CARD:hover {
-  padding: 1px;
-  /* box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.3);
-  padding: 20px;
-  margin-bottom: 20px;
-  background: linear-gradient(rgb(51, 51, 51), rgb(51, 51, 51)) padding-box,
-    conic-gradient(from var(--angle), #3E3E3E, #FFFFFF) border-box;
-  border: 2px solid transparent;
-  border-radius: 16px;
-  animation: rotate-gradient 3s infinite linear; */
-}
-
-@keyframes rotate-gradient {
-  from {
-    --angle: 0deg;
-  }
-
-  to {
-    --angle: 360deg;
-  }
+.adv_bnft_bg {
+  background-image: url(https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/892fb500-b550-497b-e58f-f3b793a60400/public);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*-------------card format(second section)-----------------*/
@@ -118,9 +101,9 @@
 .sana_Solution_New_Cards_Box {
   flex: 1;
   flex-basis: 100px;
-  height: 200px;
+  height: 180px;
   background: #fff;
-  margin: 20px;
+  margin: 1px;
   border-radius: 30px;
   box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2),
     0 5px 15px 0 rgba(37, 44, 97, 0.15);
@@ -139,7 +122,6 @@
 }
 
 .sana_Solution_New_Cards_Box .sana_Solution_Cards:hover {
-  /* transform: translateY(-50%) rotate(0deg); */
   transition: transform 0.6s ease;
   cursor: pointer;
   transform: translateY(-5px);
@@ -156,18 +138,6 @@
   p {
   color: #fff;
 }
-
-.sana_Solution_New_Cards_Box .sana_Solution_Cards:before {
-  /* content: "";
-  position: absolute;
-  background: rgb(85 108 214 / 5%);
-  z-index: -1;
-  transform: rotate(42deg);
-  right: -56px;
-  top: -23px;
-  border-radius: 35px; */
-}
-
 .sana_Solution_New_Cards_Box
   .sana_Solution_Cards:hover
   .sana_BannerDisplay_Card_desc
@@ -179,6 +149,8 @@
 .sana_Solution_Cards .sana_BannerDisplay_Card_Title h3 {
   color: #212121;
   font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .sana_Solution_Cards .sana_BannerDisplay_Card_desc p {
@@ -234,6 +206,7 @@
   min-height: 350px;
   height: 100%;
   transition: 0.5s ease-in-out;
+  border-radius: 10px;
 }
 
 .rs_card_block:hover {
@@ -273,15 +246,6 @@
   font-style: normal;
 }
 
-/* .SSA_Btn_HOME_buytraffic {
-  border: 1px solid var(--light-color);
-  border-radius: 5px;
-  font-weight: 600;
-  font-size: 17px;
-  color: var(--primary-color);
-  background-color: var(--light-color);
-} */
-
 .SSA_Btn_HOME_buytraffic {
   color: var(--light-color);
   background-color: var(--primary-color);
@@ -307,10 +271,8 @@
 /* ---------------------------------"" */
 
 .gradient_signup2 {
-  /* color: var(--light-color); */
   padding: 14px 24px !important;
   border: 1px solid white !important;
-  /* background-size: 400% 400%; */
   animation: gradientMovement 10s ease infinite;
 }
 

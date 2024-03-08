@@ -10,7 +10,7 @@ import {
   sectionsData,
 } from "./InterstitialMenu";
 
-import { Button, Col, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import Layout from "../../Layout/Layout";
 import SectionSeperator from "../../Shared/SectionSeperator";
 import TbSeperator from "../../Shared/TbSeperator";
@@ -31,7 +31,7 @@ const InterstitialAd = () => {
         {/*1st section*/}
         <div className="container py-5">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 order-2 order-md-1">
               <h1 className={`${AddStyle.dp_bannerads_main_heading} m-0`}>
                 <span className={AddStyle.sana_DisplayBanner_VoiletText}>
                   Interstitial Ad{" "}
@@ -46,7 +46,7 @@ const InterstitialAd = () => {
                 If you seek impactful results, Interstitial Ads are the ideal
                 solution.
               </p>
-              <div class="d-flex justify-content-start  align-items-center m-0 ">
+              <div class="d-flex justify-content-start  align-items-center  ">
                 <div className="mr-3 w-60">
                   <Link
                     to="/adveriserauthLogin"
@@ -76,7 +76,7 @@ const InterstitialAd = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 pt-4 px-3 px-md-0 px-lg-0 pt-md-0 pt-lg-0">
+            <div className="col-md-6 pt-4 px-3 px-md-0 px-lg-0 pt-md-0 pt-lg-0 order-1 order-md-2">
               <div className="d-flex justify-content-center">
                 <img
                   src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/6bd7511b-3cea-4a0b-a607-900fb787f000/public"
@@ -90,7 +90,7 @@ const InterstitialAd = () => {
         </div>
 
         {/*2nd section*/}
-        <div className="py-md-5 py-2">
+        <div className=" py-2">
           <div className="container py-5">
             <div className="row">
               <div
@@ -171,7 +171,7 @@ const InterstitialAd = () => {
           </div>
         </div>
         {/*4th section*/}
-        <SectionSeperator />
+
         <div>
           <div className="container ">
             <Row>
@@ -184,7 +184,6 @@ const InterstitialAd = () => {
                 </h1>
               </Col>
             </Row>
-            <SectionSeperator />
 
             <Row>
               {sectionsData.map((card, index) => (
@@ -270,7 +269,6 @@ const InterstitialAd = () => {
         </div>
         {/*6th section*/}
 
-        <SectionSeperator />
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -318,71 +316,75 @@ const InterstitialAd = () => {
         </div>
 
         {/*7th section*/}
-        <div className={`py-5`}>
-          <div className="container bg-black p-3 rounded">
-            <div className="row ">
-              <div className="col-md-12 ">
-                <p
-                  className={`${AddStyle.dp_bannerads_main_heading} text-light m-0 text-center text-white`}
-                >
-                  Best <span style={{ color: "#fff" }}>opportunities</span>
-                </p>
-                <hr />
-
-                <p
-                  className={`${AddStyle.dp_bannerads_sub_heading} py-4 text-light m-0 text-center text-white`}
-                >
-                  Leveraging partnerships with 28K+ direct publishers and 13K+
-                  advertisers, GrowX employs AI algorithms to <br />{" "}
-                  consistently assess traffic quality, ensuring optimal
-                  traffic-to-offer matches.
-                </p>
-
-                <div className=" mt-4 d-flex align-items-center justify-content-center">
-                  <Link
-                    to="/adveriserauthLogin"
-                    className="no-underline hover:no-underline"
+        <Container>
+          <div
+            className={`py-5  bg-[rgba(0,0,0,0.7)] rounded-lg ${AddStyle.adv_bnft_bg}`}
+          >
+            <div className="container p-3  rounded">
+              <div className="row ">
+                <div className="col-md-12 ">
+                  <p
+                    className={`${AddStyle.dp_bannerads_main_heading} text-light m-0 text-center text-white`}
                   >
-                    <div className="row d-flex justify-content-center text-center mx-auto ">
-                      <div className=" col-md-6">
-                        <Button
-                          variant="outline"
-                          className={`${AddStyle.gradient_signup2}  px-5 p-3 m-2 w-60 text-white`}
-                        >
-                          Get Direct Link Code
-                        </Button>{" "}
+                    Best <span style={{ color: "#fff" }}>opportunities</span>
+                  </p>
+                  {/* <hr /> */}
+
+                  <p
+                    className={`${AddStyle.dp_bannerads_sub_heading} offset-lg-2 py-1 text-light m-0 text-center text-white`}
+                  >
+                    Leveraging partnerships with 28K+ direct publishers and 13K+
+                    advertisers, GrowX employs AI algorithms to <br />{" "}
+                    consistently assess traffic quality, ensuring optimal
+                    traffic-to-offer matches.
+                  </p>
+
+                  <div className=" mt-4 d-flex align-items-center justify-content-center">
+                    <Link
+                      to="/adveriserauthLogin"
+                      className="no-underline hover:no-underline"
+                    >
+                      <div className="row d-flex justify-content-center text-center mx-auto ">
+                        <div className=" col-md-6">
+                          <Button
+                            variant="outline"
+                            className={`${AddStyle.gradient_signup2}  px-5 p-3 m-2 w-60 text-white`}
+                          >
+                            Get Direct Link Code
+                          </Button>{" "}
+                        </div>
+                        <div className=" col-md-6">
+                          <Button
+                            variant="outline"
+                            className={`${AddStyle.gradient_signup2}  px-5 p-3 m-2 w-60  text-white`}
+                          >
+                            Learn More
+                          </Button>{" "}
+                        </div>
                       </div>
-                      <div className=" col-md-6">
-                        <Button
-                          variant="outline"
-                          className={`${AddStyle.gradient_signup2}  px-5 p-3 m-2 w-60  text-white`}
-                        >
-                          Learn More
-                        </Button>{" "}
-                      </div>
-                    </div>
-                  </Link>
-                </div>
-                <div className="d-flex align-tems-end justify-content-end py-2">
-                  <Link
-                    to="/adveriserauthLogin"
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      color: "white",
-                      fontWeight: "500",
-                      textDecoration: "none",
-                    }}
-                    className={`"no-underline hover:no-underline" ${AddStyle.dp_bannerads_sub_heading}`}
-                  ></Link>
+                    </Link>
+                  </div>
+                  <div className="d-flex align-tems-end justify-content-end py-2">
+                    <Link
+                      to="/adveriserauthLogin"
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        color: "white",
+                        fontWeight: "500",
+                        textDecoration: "none",
+                      }}
+                      className={`"no-underline hover:no-underline" ${AddStyle.dp_bannerads_sub_heading}`}
+                    ></Link>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </Container>
 
         {/*8th section*/}
-        <SectionSeperator />
+
         <div className="container-fluid">
           <div className="container p-3">
             <div className="row">
@@ -408,7 +410,7 @@ const InterstitialAd = () => {
                 })}
               </div>
               <div className="col-md-5">
-                <div className="d-flex justify-content-center">
+                <div className="d-flex justify-content-center mt-5">
                   <img
                     src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/1e510e77-05c3-4c9f-549d-7660086f5e00/public"
                     alt=""
@@ -420,7 +422,6 @@ const InterstitialAd = () => {
           </div>
         </div>
 
-        <SectionSeperator />
         {/*---------switch button_________*/}
         <div className="py-5">
           <div
