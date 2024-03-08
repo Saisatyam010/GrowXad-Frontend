@@ -23,9 +23,9 @@ const CardHome = () => {
                     </div>
                 </div>
             </div>
-            <div className={cardHomeStyles.rs_bg_color}>
+            <div className={`${cardHomeStyles.rs_bg_color} rounded-lg `}>
 
-                <div className='container mt-3 p-4 wow animate__animated animate__fadeIn animate__delay-0.5s'>
+                <div className=' container mt-3 p-4 wow animate__animated animate__fadeIn animate__delay-0.5s'>
                     <div className='row mt-4 p-2 '>
                         {CardHomeMenu.map((card, index) => (
                             <div className='col-md-4 col-lg-4 mb-4'

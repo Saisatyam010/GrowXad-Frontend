@@ -346,7 +346,7 @@ const RtbTraffic = () => {
             <Row>
               <Col className="mb-4">
                 <div className={rtbStyles.rk_rtb_work1}>
-                  <div className="d-flex justify-content-center flex-column">
+                  <div className="d-flex justify-content-center align-items-center flex-column">
                     <img
                       className={rtbStyles.rk_rtb_box_4_icon_4}
                       src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/398013e8-36e5-4a66-9078-e685dfb85400/public"
@@ -373,7 +373,7 @@ const RtbTraffic = () => {
                       />
                     </svg>
                   </div>
-                  <div className="d-flex justify-content-center flex-column">
+                  <div className="d-flex justify-content-center align-items-center flex-column">
                     <div>
                       <img
                         className={`${rtbStyles.rk_rtb_box_4_icon_4} P-2`}
@@ -426,7 +426,7 @@ const RtbTraffic = () => {
                 <div
                   className={`${rtbStyles.rk_rtb_work1}   ${rtbStyles.rk_rtb_box_4_arrow_main} ${rtbStyles.rk_rtb_work1} `}
                 >
-                  <div className="d-flex justify-content-center flex-column">
+                  <div className="d-flex justify-content-center align-items-center flex-column">
                     <img
                       className={rtbStyles.rk_rtb_box_4_icon_4}
                       src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/482acd82-09c8-4966-3793-622781531000/public"
@@ -454,7 +454,7 @@ const RtbTraffic = () => {
                       />
                     </svg>
                   </div>
-                  <div className={`px-2 ${rtbStyles.rk_rtb_mview_hidden_cont}`}>
+                  <div className={`px-2 d-flex justify-content-center align-items-center flex-column ${rtbStyles.rk_rtb_mview_hidden_cont}`}>
                     <img
                       className={rtbStyles.rk_rtb_box_4_icon_4}
                       src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/7859eb06-021c-4b25-0264-f2c731e8a700/public"
@@ -480,7 +480,7 @@ const RtbTraffic = () => {
                     </svg>
                   </div>
 
-                  <div className="px-1">
+                  <div className="px-1 d-flex justify-content-center align-items-center flex-column">
                     <div>
                       <img
                         className={rtbStyles.rk_rtb_box_4_icon_4}
@@ -540,7 +540,7 @@ const RtbTraffic = () => {
                   <div
                     className={`${rtbStyles.rk_rtb_box_4_icon21} ${rtbStyles.rk_rtb_work1}`}
                   >
-                    <div className="px-2">
+                    <div className="px-2 d-flex justify-content-center align-items-center flex-column">
                       <img
                         className={` ${rtbStyles.rk_rtb_box_4_icon_4}`}
                         src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/4c992425-7ac7-47ee-4957-cbfa63592500/public"
@@ -552,7 +552,7 @@ const RtbTraffic = () => {
                     </div>
 
                     <div
-                      className={`d-flex align-items-center px-2 ${rtbStyles.rk_rtb_mview_hidden_cont}`}
+                      className={`d-flex justify-content-center align-items-center flex-column px-2 ${rtbStyles.rk_rtb_mview_hidden_cont}`}
                     >
                       <svg
                         width="154"

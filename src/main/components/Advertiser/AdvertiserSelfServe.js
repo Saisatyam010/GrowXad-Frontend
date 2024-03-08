@@ -101,7 +101,7 @@ export default function SelfServe() {
                   <span
                     className={`${AdvertiserSelfServeStyles.dp_SelfService_main_heading}`}
                   >
-                    for your campaign :{" "}
+                    for your campaign   {" "}
                   </span>
                 </div>
               </Col>
@@ -224,7 +224,7 @@ export default function SelfServe() {
                     <span
                       className={`${AdvertiserSelfServeStyles.dp_SelfService_main_heading}`}
                     >
-                      for your campaign :{" "}
+                      for your campaign {" "}
                     </span>
                   </div>
 
