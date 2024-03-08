@@ -255,54 +255,48 @@ const SmartCpm = () => {
               >
                 <div className="row d-flex justify-content-center bg-[rgba(0,0,0,0.5)] rounded-lg">
                   <div className="col-md-12">
-                    <section className={SmartCpmStyle.rs_section_container}>
-                      <section
-                        className={SmartCpmStyle.rs_common_red_square_block}
-                      >
-                        <div
-                          className={`${SmartCpmStyle.rs_col_7} col-lg-8 offset-lg-2`}
+                    <section
+                      className={SmartCpmStyle.rs_common_red_square_block}
+                    >
+                      <div className="col-lg-8 offset-lg-2">
+                        <p className="text-center fw-bold fs-3 text-white">
+                          Why try SmartCPM today?
+                        </p>
+                        <p
+                          className={`${SmartCpmStyle.JoinGrowXAdsSubHeading} text-white`}
                         >
-                          <p
-                            className={`${SmartCpmStyle.AdvertisersContainerHeading} text-center fw-bold fs-3 text-white`}
+                          Our intelligent pricing model solves the problem
+                          <br />
+                          of overpaying for traffic.{" "}
+                          <span className="">
+                            {" "}
+                            It's a powerful tool to save money and increase ROI.
+                            When you enable automated bidding, you only pay the
+                            best price needed to get relevant ad views. The
+                            algorithm will do all the jobs by competing over
+                            traffic 24/7.
+                          </span>
+                        </p>
+                      </div>
+                      <Row className="py-3 px-2">
+                        <Col md={12} className="text-center">
+                          <Link
+                            to="/adveriserauthLogin"
+                            className="no-underline hover:no-underline"
                           >
-                            Why try SmartCPM today?
-                          </p>
-                          <p
-                            className={`${SmartCpmStyle.JoinGrowXAdsSubHeading} text-white`}
-                          >
-                            Our intelligent pricing model solves the problem
-                            <br />
-                            of overpaying for traffic.{" "}
-                            <span className="">
-                              {" "}
-                              It's a powerful tool to save money and increase
-                              ROI. When you enable automated bidding, you only
-                              pay the best price needed to get relevant ad
-                              views. The algorithm will do all the jobs by
-                              competing over traffic 24/7.
-                            </span>
-                          </p>
-                        </div>
-                        <Row className="py-3 px-2">
-                          <Col md={12} className="text-center">
-                            <Link
-                              to="/adveriserauthLogin"
-                              className="no-underline hover:no-underline"
-                            >
-                              <button className={SmartCpmStyle.Enable_btn}>
-                                <div className="p-0 m-0">
-                                  <div className="d-flex align-items-center justify-content-center">
-                                    <span>ENABLE SMARTCPM</span>
-                                    <span className={`ps-3 moreArrrow`}>
-                                      <FaArrowCircleRight />
-                                    </span>
-                                  </div>
+                            <button className={SmartCpmStyle.Enable_btn}>
+                              <div className="p-0 m-0">
+                                <div className="d-flex align-items-center justify-content-center">
+                                  <span>ENABLE SMARTCPM</span>
+                                  <span className={`ps-3 moreArrrow`}>
+                                    <FaArrowCircleRight />
+                                  </span>
                                 </div>
-                              </button>
-                            </Link>
-                          </Col>
-                        </Row>
-                      </section>
+                              </div>
+                            </button>
+                          </Link>
+                        </Col>
+                      </Row>
                     </section>
                   </div>
                 </div>
