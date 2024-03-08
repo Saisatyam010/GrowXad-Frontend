@@ -1,6 +1,7 @@
 .SSA_HOME_section_background {
     background-attachment: fixed;
     background-position: center;
+    
     background-size: cover;
     width: 100%;
     color: #FFFFFF;
@@ -11,14 +12,15 @@
 
 .SSA_HOME_parallax {
     background: linear-gradient(60deg, var(--primary-color), var(--secondary-color), var(--primary-color));
+    background-color: #71065d;
     background-size: 400% 400%;
-    animation: gradientMovement 15s ease infinite;
+    /* animation: gradientMovement 15s ease infinite; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     /* height: 60vh; */
     width: 100%;
-    padding: 40px 30px;
+    
 }
 
 
