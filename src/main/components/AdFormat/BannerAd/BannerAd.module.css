@@ -236,7 +236,7 @@
 .rs_h_card_border {
   border-bottom: 2px solid var(--primary-color);
   width: 150px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .rs_p_text {

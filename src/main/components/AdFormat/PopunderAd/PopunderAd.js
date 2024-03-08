@@ -390,13 +390,13 @@ const PopunderAd = () => {
           </div>
         </div>
 
-        <SectionSeperator />
+        {/* <SectionSeperator /> */}
         {/*---------switch button_________*/}
 
         <div className="row">
           <div className="col-md-12">
             <div className="text-center ">
-              <span className={`${AddStyle.dp_bannerads_main_heading}`}>
+              <span className={`${AddStyle.dp_bannerads_main_heading} `}>
                 Top GrowXad services for{" "}
               </span>
               <span className={`${AddStyle.dp_bannerads_main_heading_color}`}>

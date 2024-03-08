@@ -21,7 +21,7 @@ const InPagePushSwitch = () => {
 
   return (
     <div>
-      <div className="container px-md-5 px-lg-5 px-2 py-5">
+      <div className="container px-md-5 px-lg-5 px-2 mt-3">
         <div className="px-md-5 px-0">
           <div
             class="row mx-md-5 mx-0 justify-content-center"
