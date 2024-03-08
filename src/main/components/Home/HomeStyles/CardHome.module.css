@@ -122,11 +122,11 @@
     background-color: rgb(255, 255, 255);
   } */
 
-  .dp_whychoose_card_txt{
-    font-size: var(--section-content);
-    padding: 20px 0px ;
-  }
+.dp_whychoose_card_txt {
+  font-size: var(--section-content);
+  padding: 20px 0px;
+}
 
-  .webcl_theme{
-    color: var(--primary-color);
-  }
+.webcl_theme {
+  color: var(--primary-color);
+}

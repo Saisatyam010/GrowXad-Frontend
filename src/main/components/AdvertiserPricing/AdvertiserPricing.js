@@ -173,7 +173,7 @@ const AdvertiserPricing = () => {
                               <Col md={6} sm={5} xs={5}>
                                 <div className={PrcingStyle.rk_price_bx_3}>
                                   <p
-                                    className={`${PrcingStyle.dp_advpricing_main_sub_heading} m-0 fw-bold`}
+                                    className={`${PrcingStyle.dp_advpricing_heading} m-0 fw-bold`}
                                   >
                                     TOP AD FORMATS:
                                   </p>

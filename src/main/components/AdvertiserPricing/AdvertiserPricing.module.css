@@ -37,8 +37,8 @@
 }
 
 .dp_advpricing_main_sub_heading_color {
-  font-size: var(--section-heading);
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
   color: var(--primary-color);
 }
 
@@ -46,21 +46,25 @@
   font-size: var(--section-content);
   font-weight: 500;
 }
+
 @media (max-width: 768px) {
   .dp_advpricing_heading {
     font-size: 16px;
   }
 }
+
 @media (max-width: 768px) {
   .dp_advpricing_main_sub_heading_color {
     font-size: 16px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .dp_advpricing_main_sub_heading {
     font-size: 16px;
   }
 }
+
 .dp_advpricing_main_sub_heading {
   font-size: 18px;
 }
