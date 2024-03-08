@@ -1,29 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { AiOutlineRight } from "react-icons/ai";
-
-// import "./RtbTraffic.css";
 import rtbStyles from "./RtbTraffic.module.css";
-import { Link } from "react-router-dom";
 import Layout from "../../Layout/Layout";
 import AdvertiserWelcome from "../AdvertiserWelcome";
+import SmartCpmStyle from "../SmartCpm/SmartCpm.module.css";
+import { Link } from "react-router-dom";
 const RtbTraffic = () => {
-  const [startIndex, setStartIndex] = useState(0);
-  const [iconsPerPage, setIconsPerPage] = useState(5);
-
-  const icons = [
-    "https://cdn-icons-png.flaticon.com/512/732/732171.png",
-    "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/adobe-audition-icon.png",
-    "https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful/2048/5326_-_Amazon-512.png",
-    "https://upload.wikimedia.org/wikipedia/commons/4/49/Krafton_Full_Logo.jpg",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1w2NFNh10mGbPzIwiFe10kodW-180zKUF891p2hZl0GzJBXZhAmYKCkVW8whAar8z1mU&usqp=CAU",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdYot6xdoG3aBcoarux8MoKvJIzpdV4SZkWw&usqp=CAU",
-    "https://cdn-icons-png.flaticon.com/512/732/732171.png",
-    "https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful/2048/5326_-_Amazon-512.png",
-    "https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful/2048/5326_-_Amazon-512.png",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1w2NFNh10mGbPzIwiFe10kodW-180zKUF891p2hZl0GzJBXZhAmYKCkVW8whAar8z1mU&usqp=CAU",
-  ];
-
   const aboutRtbCardData = [
     {
       title: "INTEGRATION",
@@ -89,36 +72,6 @@ const RtbTraffic = () => {
     },
   ];
 
-  const handleNext = () => {
-    setStartIndex(
-      (prevIndex) => (prevIndex + 1) % (icons.length - iconsPerPage + 1)
-    );
-  };
-
-  const handlePrev = () => {
-    setStartIndex((prevIndex) =>
-      prevIndex === 0 ? icons.length - iconsPerPage : prevIndex - 1
-    );
-  };
-  useEffect(() => {
-    const updateIconsPerPage = () => {
-      if (window.innerWidth < 600) {
-        setIconsPerPage(2);
-      } else if (window.innerWidth < 1024 && window.innerWidth > 600) {
-        setIconsPerPage(4);
-      } else {
-        setIconsPerPage(5);
-      }
-    };
-
-    window.addEventListener("resize", updateIconsPerPage);
-
-    updateIconsPerPage();
-    return () => {
-      window.removeEventListener("resize", updateIconsPerPage);
-    };
-  }, []);
-
   // const visibleIcons = icons.slice(startIndex, startIndex + iconsPerPage);
   const data = {
     heading1: "GrowXad for Advertisers.",
@@ -133,12 +86,10 @@ const RtbTraffic = () => {
   return (
     <>
       <Layout>
-        <div>
-          <div className="container-fluid ">
-            <div className="row d-flex justify-content-center pt-5">
-              <div className="col-md-11">
-                <AdvertiserWelcome message={data} />
-              </div>
+        <div className="container">
+          <div className="row d-flex justify-content-center pt-5">
+            <div className="col-md-11">
+              <AdvertiserWelcome message={data} />
             </div>
           </div>
 
@@ -395,12 +346,12 @@ const RtbTraffic = () => {
             <Row>
               <Col className="mb-4">
                 <div className={rtbStyles.rk_rtb_work1}>
-                  <div>
+                  <div className="d-flex justify-content-center flex-column">
                     <img
                       className={rtbStyles.rk_rtb_box_4_icon_4}
                       src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/398013e8-36e5-4a66-9078-e685dfb85400/public"
                     />
-                    <p className="fs-4 text-center ">
+                    <p className="fs-4 text-center fw-bold ">
                       GrowX Ad <br /> Impression
                     </p>
                   </div>
@@ -422,7 +373,7 @@ const RtbTraffic = () => {
                       />
                     </svg>
                   </div>
-                  <div>
+                  <div className="d-flex justify-content-center flex-column">
                     <div>
                       <img
                         className={`${rtbStyles.rk_rtb_box_4_icon_4} P-2`}
@@ -430,7 +381,7 @@ const RtbTraffic = () => {
                       />
                     </div>
                     <div>
-                      <p className="fs-4 text-center ">
+                      <p className="fs-4 text-center fw-bold">
                         Partner <br />
                         RTB bid
                       </p>
@@ -462,12 +413,12 @@ const RtbTraffic = () => {
                 md={12}
                 className={`d-flex justify-content-center ${rtbStyles.rk_rtb_mview_comp}`}
               >
-                <div className="px-2 ">
+                <div className="d-flex justify-content-center align-items-center flex-column">
                   <img
                     className={rtbStyles.rk_rtb_box_4_icon_4}
                     src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/b52623a8-364e-4c19-f9e4-bdf5c7ed4d00/public"
                   />
-                  <p className="fs-4 text-center ">Comparison</p>
+                  <p className="fs-4 text-center fw-bold">Comparison</p>
                 </div>
               </Col>
 
@@ -475,12 +426,12 @@ const RtbTraffic = () => {
                 <div
                   className={`${rtbStyles.rk_rtb_work1}   ${rtbStyles.rk_rtb_box_4_arrow_main} ${rtbStyles.rk_rtb_work1} `}
                 >
-                  <div className="px-1">
+                  <div className="d-flex justify-content-center flex-column">
                     <img
                       className={rtbStyles.rk_rtb_box_4_icon_4}
                       src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/482acd82-09c8-4966-3793-622781531000/public"
                     />
-                    <p className="fs-4 text-center ">
+                    <p className="fs-4 text-center fw-bold ">
                       GrowX
                       <br /> In-house bid
                     </p>
@@ -508,7 +459,7 @@ const RtbTraffic = () => {
                       className={rtbStyles.rk_rtb_box_4_icon_4}
                       src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/7859eb06-021c-4b25-0264-f2c731e8a700/public"
                     />
-                    <p className="fs-4 text-center ">Comparison</p>
+                    <p className="fs-4 text-center fw-bold">Comparison</p>
                   </div>
                   <div
                     className={`d-flex align-items-center ${rtbStyles.rk_rtb_mview_hidden_cont} px-2`}
@@ -537,7 +488,7 @@ const RtbTraffic = () => {
                       />
                     </div>
                     <div>
-                      <p className="fs-4 text-center ">Partner RTB</p>
+                      <p className="fs-4 text-center fw-bold ">Partner RTB</p>
                     </div>
                   </div>
                   <div
@@ -591,10 +542,10 @@ const RtbTraffic = () => {
                   >
                     <div className="px-2">
                       <img
-                        className={rtbStyles.rk_rtb_box_4_icon_4}
+                        className={` ${rtbStyles.rk_rtb_box_4_icon_4}`}
                         src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/4c992425-7ac7-47ee-4957-cbfa63592500/public"
                       />
-                      <p className="fs-4 text-center ">
+                      <p className="fs-4 text-center fw-bold">
                         Wins Partner <br />
                         RTB bid
                       </p>
@@ -626,7 +577,7 @@ const RtbTraffic = () => {
                         />
                       </div>
                       <div>
-                        <p className="fs-4 text-center ">
+                        <p className="fs-4 text-center fw-bold ">
                           We sell ad <br /> impression via RTB
                         </p>
                       </div>
@@ -636,7 +587,7 @@ const RtbTraffic = () => {
               </Col>
             </Row>
           </Container>
-
+          {/* 
           <Container>
             <Row className={`mb-5 ${rtbStyles.rk_rtb_box_6_bg_main} py-3`}>
               <Col className="" md={6} sm={12} xs={12}>
@@ -678,6 +629,70 @@ const RtbTraffic = () => {
                   <span className={`${rtbStyles.dp_RtbTraffic_main_heading}`}>
                     advertising on our blog.
                   </span>
+                </div>
+              </Col>
+            </Row>
+          </Container> */}
+
+          <Container className="mb-5">
+            <Row className="d-flex justify-content-center ">
+              <Col md={12}>
+                <div
+                  className={` container mt-5 rounded-lg ${SmartCpmStyle.rk_adv_bnft_bg}`}
+                >
+                  <div className="row d-flex justify-content-center bg-[rgba(0,0,0,0.5)] rounded-lg">
+                    <div className="col-md-12">
+                      <section className={SmartCpmStyle.rs_section_container}>
+                        <section
+                          className={SmartCpmStyle.rs_common_red_square_block}
+                        >
+                          <div
+                            className={`${SmartCpmStyle.rs_col_7} col-lg-8 offset-lg-2`}
+                          >
+                            <p
+                              className={`${SmartCpmStyle.AdvertisersContainerHeading} text-center fw-bold fs-3 text-white`}
+                            >
+                              Why try SmartCPM today?
+                            </p>
+                            <p
+                              className={`${SmartCpmStyle.JoinGrowXAdsSubHeading} text-white`}
+                            >
+                              Our intelligent pricing model solves the problem
+                              <br />
+                              of overpaying for traffic.{" "}
+                              <span className="">
+                                {" "}
+                                It's a powerful tool to save money and increase
+                                ROI. When you enable automated bidding, you only
+                                pay the best price needed to get relevant ad
+                                views. The algorithm will do all the jobs by
+                                competing over traffic 24/7.
+                              </span>
+                            </p>
+                          </div>
+                          <Row className="py-3 px-2">
+                            <Col md={12} className="text-center">
+                              <Link
+                                to="/adveriserauthLogin"
+                                className="no-underline hover:no-underline"
+                              >
+                                <button className={SmartCpmStyle.Enable_btn}>
+                                  <div className="p-0 m-0">
+                                    <div className="d-flex align-items-center justify-content-center">
+                                      <span>ENABLE SMARTCPM</span>
+                                      <span className={`ps-3 moreArrrow`}>
+                                        {/* <FaArrowCircleRight /> */}
+                                      </span>
+                                    </div>
+                                  </div>
+                                </button>
+                              </Link>
+                            </Col>
+                          </Row>
+                        </section>
+                      </section>
+                    </div>
+                  </div>
                 </div>
               </Col>
             </Row>

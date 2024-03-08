@@ -1,11 +1,12 @@
 .dp_bannerads_main_heading {
-  font-size: var(--section-main-heading);
+  font-size: var(--section-sub-heading);
   color: var(--secondary-color);
   font-weight: 600;
+  /* line-height: 90px; */
 }
 
 .dp_bannerads_main_heading_color {
-  font-size: var(--section-main-heading);
+  font-size: var(--section-sub-heading);
   color: var(--primary-color);
   font-weight: 600;
 }
@@ -23,9 +24,14 @@
 
 .dp_bannerads_content {
   font-size: var(--section-content);
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 17px;
 }
-
+.dp_bannerads_content_1 {
+  font-size: var(--section-content);
+  font-weight: 800;
+  font-size: 17px;
+}
 .sana_DisplayBanner_VoiletText {
   color: var(--primary-color);
 }
@@ -267,29 +273,27 @@
   font-style: normal;
 }
 
-.SSA_Btn_HOME_buytraffic {
+/* .SSA_Btn_HOME_buytraffic {
   border: 1px solid var(--light-color);
   border-radius: 5px;
   font-weight: 600;
   font-size: 17px;
   color: var(--primary-color);
   background-color: var(--light-color);
-}
+} */
 
-.SSA_Btn_HOME_buytraffic:hover {
-  border: 1px solid var(--light-color);
+.SSA_Btn_HOME_buytraffic {
+  color: var(--light-color);
+  background-color: var(--primary-color);
+  padding: 17px 24px !important;
+  background-size: 400% 400%;
   border-radius: 5px;
-  font-weight: 600;
-  color: var(--primary-color);
-  background-color: var(--light-color);
 }
 
 .gradient_signup {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   padding: 17px 24px !important;
-  /* background-color: var(--primary-color) !important; */
-  border: 1px solid black !important;
-  /* background: linear-gradient(45deg, black, purple); */
+  border: 1px solid var(--primary-color) !important;
   background-size: 400% 400%;
   animation: gradientMovement 10s ease infinite;
 }
@@ -299,20 +303,6 @@
   background-color: var(--primary-color);
   border: 1px solid white !important;
 }
-
-/* .gradient_signup2 {
-  color: var(--light-color);
-  padding: 17px 24px !important;
-  border: 1px solid white !important;
-  background-size: 400% 400%;
-  animation: gradientMovement 10s ease infinite;
-}
-
-.gradient_signup2:hover {
-  color: var(--light-color);
-  background-color: var(--primary-color);
-  border: 1px solid white !important;
-} */
 
 /* ---------------------------------"" */
 

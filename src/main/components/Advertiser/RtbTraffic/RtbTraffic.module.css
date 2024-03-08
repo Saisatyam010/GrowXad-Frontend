@@ -32,6 +32,11 @@
   font-size: var(--section-heading);
   font-weight: 400;
 }
+@media screen and (max-width: 768px) {
+  .dp_RtbTraffic_heading {
+    font-size: 16px;
+  }
+}
 
 .dp_rtbtraffic_card {
   background-color: var(--tertiary-color);
@@ -160,9 +165,14 @@
   background: #fff;
   border-radius: 52px;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.11);
-  padding: 10px;
-  height: 100px;
-  width: 100px;
+  padding: 18px;
+  height: 110px;
+  width: 110px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .rk_rktb_box_3_bg_1 {

@@ -1,313 +1,310 @@
 .dp_advbenifits_main_heading {
-    font-size: var(--section-main-heading);
-    color: var(--secondary-color);
-    font-weight: 400;
-    line-height: 40px;
+  font-size: var(--section-main-heading);
+  color: var(--secondary-color);
+  font-weight: 600;
+  line-height: 40px;
+}
+@media screen and (max-width: 768px) {
+  .create_resp_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 
-
 .dp_advbenifits_main_heading_color {
-    font-size: var(--section-main-heading);
-    color: var(--primary-color);
-    font-weight: 400;
-    line-height: 40px;
+  font-size: var(--section-main-heading);
+  color: var(--primary-color);
+  font-weight: 600;
+  line-height: 40px;
 }
 
 .dp_advbenifits_sub_heading {
-    font-size: var(--section-sub-heading);
-    font-weight: 400;
+  font-size: var(--section-sub-heading);
+  font-weight: 600;
 }
 
 .dp_advbenifits_sub_heading_color {
-    font-size: var(--section-sub-heading);
-    font-weight: 600;
-    color: var(--primary-color);
+  font-size: var(--section-sub-heading);
+  font-weight: 600;
+  color: var(--primary-color);
 }
 
 .dp_advbenifits_content {
-    font-size: var(--section-content);
-    font-weight: 400;
+  font-size: var(--section-content);
+  font-weight: 600;
 }
 
 .dp_advbenifits_heading {
-    font-size: 1rem;
-    font-weight: 700;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
-
-
 .dp_switch_container {
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
-    padding: 40px 40px;
-    background-color: rgb(239, 239, 239);
-    border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
+  padding: 40px 40px;
+  background-color: rgb(239, 239, 239);
+  border-radius: 30px;
 }
 
 .dp_switch_points_heading_container {
-    background-color: var(--tertiary-color);
-    border-radius: var(--border-radius-large);
-    text-align: center;
-    padding: 5px 10px;
+  background-color: var(--tertiary-color);
+  border-radius: var(--border-radius-large);
+  text-align: center;
+  padding: 5px 10px;
 }
 
 .dp_switch_points {
-    padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 .dp_advbenifits_switch_heading {
-    font-size: var(--section-heading);
-    font-weight: 400;
+  font-size: var(--section-heading);
+  font-weight: 600;
 }
 
 .dp_advbenifits_switch_heading_color {
-    font-size: var(--section-heading);
-    font-weight: 700;
-    color: var(--primary-color);
+  font-size: var(--section-heading);
+  font-weight: 700;
+  color: var(--primary-color);
 }
 
 .dp_switch_points li {
-    list-style-type: disc;
-    font-size: var(--section-content);
+  list-style-type: disc;
+  font-size: var(--section-content);
 }
 
-
-
-
-
 .dp_advbenifits_3btns {
-    border: 1px solid rgba(128, 128, 128, 0.199);
-    border-radius: var(--border-radius-large);
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  border-radius: var(--border-radius-large);
 }
 
 .RegisterButton {
-    /* margin: 0px 20px; */
-    outline: none;
-    border: none;
-    background-color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    font-size: var(--section-heading);
-    color: var(--tertiary-color);
-    width: 250px;
-    padding: 15px 0px;
+  margin: 0px 20px;
+  outline: none;
+  border: none;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-size: var(--section-heading);
+  color: var(--tertiary-color);
+  width: 250px;
+  padding: 15px 0px;
 }
 
 .RegisterButton:hover {
-    background-color: var(--tertiary-color);
-    border: 1px solid var(--light-color);
-    color: var(--secondary-color);
-    cursor: pointer;
+  background-color: var(--tertiary-color);
+  border: 1px solid var(--light-color);
+  color: var(--secondary-color);
+  cursor: pointer;
 }
 
 .RegisterButton02 {
-    margin: 0px 10px;
-    outline: none;
-    border: none;
-    background-color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    font-size: var(--section-big-content);
-    color: var(--tertiary-color);
-    width: 180px;
-    padding: 10px 0px;
+  margin: 0px 10px;
+  outline: none;
+  border: none;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-size: var(--section-big-content);
+  color: var(--tertiary-color);
+  width: 180px;
+  padding: 10px 0px;
 }
-
 .RegisterButton02:hover {
-    background-color: var(--tertiary-color);
-    border: 1px solid var(--light-color);
-    color: var(--secondary-color);
-    cursor: pointer;
+  background-color: var(--primary-color);
+  border: 1px solid var(--light-color);
+  color: var(--tertiary-color);
+  cursor: pointer;
 }
-
 
 .SSA_BENEFITS_OUTER {
-    height: 70px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+  height: 70px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .SSA_BENEFITS_ICON {
-    padding: 9px 11px;
-    border-radius: var(--border-radius-base);
-    margin-left: 3px;
+  padding: 9px 11px;
+  border-radius: var(--border-radius-base);
+  margin-left: 3px;
 }
 
 .SSA_card1 {
-    display: block;
-    position: relative;
-    height: 220px;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
-    background-color: var(--tertiary-color);
-    padding: 30px;
-    margin: 10px;
-    text-decoration: none;
-    z-index: 0;
-    overflow: hidden;
-
+  display: block;
+  position: relative;
+  height: 220px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
+  background-color: var(--tertiary-color);
+  padding: 30px;
+  margin: 10px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
 }
 
 .rk_adv_card_sbH {
-    font-size: var(--section-sub-heading);
-    font-weight: 500;
+  font-size: var(--section-sub-heading);
+  font-weight: 500;
 }
 
 .rk_MoreButton {
-    border: 1px solid #fff;
-    width: 100%;
-    border-radius: 20px;
-    color: #fff;
-    display: block;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 24px;
-    position: relative;
-    -webkit-text-decoration: none;
-    text-decoration: none;
-    transition: background-color .3s;
-    cursor: pointer;
+  border: 1px solid #fff;
+  width: 100%;
+  border-radius: 20px;
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
 }
-
 
 /* .rs_section_container {
     padding-bottom: 50px;
 } */
 
 .rs_common_red_square_block {
-    /* background-color: var(--secondary-color); */
-    background-size: cover;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    border-radius: 4px;
+  /* background-color: var(--secondary-color); */
+  background-size: cover;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-radius: 4px;
 }
 
 .rk_adv_bnft_bg {
-    background-image: url(https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/892fb500-b550-497b-e58f-f3b793a60400/public);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/892fb500-b550-497b-e58f-f3b793a60400/public);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .rs_col_10 {
-    flex: 0 0 auto;
-    width: 83.33333333%;
+  flex: 0 0 auto;
+  width: 83.33333333%;
 }
 
 .rs_text_h {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .rs_text_p {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    line-height: 30px
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .rs_col-12 {
-    flex: 0 0 auto;
-    width: 100%;
+  flex: 0 0 auto;
+  width: 100%;
 }
 
 .rs_row_button {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -0.75rem;
-    margin-left: calc(var(--bs-gutter-x)*-.5);
-    margin-right: -0.75rem;
-    margin-right: calc(var(--bs-gutter-x)*-.5);
-    margin-top: 0;
-    margin-top: calc(var(--bs-gutter-y)*-1);
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.75rem;
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+  margin-right: -0.75rem;
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-top: 0;
+  margin-top: calc(var(--bs-gutter-y) * -1);
 }
 
 .rs_block_list {
-    border: 1px solid #fff;
-    width: 100%;
-    border-radius: 20px;
-    color: #fff;
-    display: block;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 24px;
-    position: relative;
-    -webkit-text-decoration: none;
-    text-decoration: none;
-    transition: background-color .3s;
-    cursor: pointer;
+  border: 1px solid #fff;
+  width: 100%;
+  border-radius: 20px;
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
 }
 
 .rs_block_list:hover {
-    /* background-color: #ada4a48c; */
-    opacity: 1;
+  /* background-color: #ada4a48c; */
+  opacity: 1;
 }
 
 .rs_block_list:after {
-    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDRMMTAuNTkgNS40MUwxNi4xNyAxMUg0VjEzSDE2LjE3TDEwLjU5IDE4LjU5TDEyIDIwTDIwIDEyTDEyIDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K");
-    border: 1px solid #fff;
-    border-radius: 30px;
-    content: "";
-    height: 40px;
-    position: absolute;
-    right: 16px;
-    top: 16px;
-    transition: rotate .3s;
-    width: 40px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 13px;
-    margin-top: 6px;
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDRMMTAuNTkgNS40MUwxNi4xNyAxMUg0VjEzSDE2LjE3TDEwLjU5IDE4LjU5TDEyIDIwTDIwIDEyTDEyIDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K");
+  border: 1px solid #fff;
+  border-radius: 30px;
+  content: "";
+  height: 40px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  transition: rotate 0.3s;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 13px;
+  margin-top: 6px;
 }
 
 .rs_block_list:hover:after {
-    background-image: url("https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/def2f8b0-a698-4c01-d09d-763116bc5500/public");
-    background-color: #fff;
-    transform: rotate(-45deg);
+  background-image: url("https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/def2f8b0-a698-4c01-d09d-763116bc5500/public");
+  background-color: #fff;
+  transform: rotate(-45deg);
 }
 
 /*  */
 .image_container {
-    width: 400px;
-    /* Set the width of the container */
-    height: 300px;
-    /* Set the height of the container */
-    overflow: hidden;
-    /* Hide the overflow for better positioning */
-    position: relative;
-    /* Position the image relative to the container */
+  width: 400px;
+  /* Set the width of the container */
+  height: 300px;
+  /* Set the height of the container */
+  overflow: hidden;
+  /* Hide the overflow for better positioning */
+  position: relative;
+  /* Position the image relative to the container */
 }
 
 .image {
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease;
-    /* Add a transition effect for smooth hover */
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+  /* Add a transition effect for smooth hover */
 }
 
 .image:hover {
-    transform: scale(1.1);
-    /* Scale the image slightly on hover */
+  transform: scale(1.1);
+  /* Scale the image slightly on hover */
 }
 
 .JoinGrowXAdsSubHeading {
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    padding: 30px;
-    margin: 0px;
-    color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  color: var(--secondary-color);
 }
 
 .rk_switch_img_one {
-    /* width: 100%; */
-    /* aspect-ratio: 2/1.5; */
-    max-height: 15rem
+  /* width: 100%; */
+  /* aspect-ratio: 2/1.5; */
+  max-height: 15rem;
 }
 
-@media screen and (max-width:767px) {
-    .dp_switch_container {
-        box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
-        padding: 20px 20px;
-        background-color: rgb(239, 239, 239);
-        border-radius: 30px;
-    }
+@media screen and (max-width: 767px) {
+  .dp_switch_container {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px -2px;
+    padding: 20px 20px;
+    background-color: rgb(239, 239, 239);
+    border-radius: 30px;
+  }
 }

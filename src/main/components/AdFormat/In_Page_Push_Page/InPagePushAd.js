@@ -11,7 +11,7 @@ import {
   sectionsData,
 } from "./InPagePushMenu";
 
-import { Button, Col, Row } from "react-bootstrap";
+import { Button, Col, Row, Container } from "react-bootstrap";
 import Layout from "../../Layout/Layout";
 import SectionSeperator from "../../Shared/SectionSeperator";
 import TbSeperator from "../../Shared/TbSeperator";
@@ -89,7 +89,6 @@ const InPagePushAd = () => {
             </div>
           </div>
         </div>
-
         {/*2nd section*/}
         <div className="py-md-5 py-2">
           <div className="container py-5">
@@ -103,8 +102,6 @@ const InPagePushAd = () => {
                   solutions
                 </h1>
               </div>
-
-             
 
               {solutionData.map((item, index) => (
                 <div key={index} className="col-md-6 pt-4">
@@ -126,54 +123,33 @@ const InPagePushAd = () => {
             </div>
           </div>
         </div>
-     
         {/*3rd section*/}
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12"></div>
-          </div>
-        </div>
+        <Container>
+          <Row className="d-flex align-items-center">
+            <Col md={6}>
+              <h1 className={`${AddStyle.dp_bannerads_main_heading}`}>
+                Explore diverse GrowXads Popunder options for users.
+              </h1>
+              <p className={`${AddStyle.dp_bannerads_sub_heading} m-0 py-3`}>
+                Traditional yet effective, Popunder advertising stand as the
+                time-tested pillars of online promotion, with proven efficiency.
+                Popunder, whether images or GIFs, find placement on publishers'
+                websites, mobile sites, and blogs. IAB identifies standard and
+                highly clickable Popunder ad formats for both desktop and mobile
+                devices.
+              </p>
+            </Col>
 
-        <div className=" container-fluid">
-          <div className="container py-md-5 p-3 card">
-            <div className="row"></div>
-            <div className="row">
-              <div className="col-md-6 d-flex align-items-center">
-                <div>
-                  <h1 className="text-start font-semibold text-black">
-                    {" "}
-                    Types of GrowXad{" "}
-                    <span style={{ color: "#71065D" }}>
-                      In-Page Push Ads
-                    </span>{" "}
-                    you can get
-                  </h1>
-
-                  <p
-                    className={`${AddStyle.dp_bannerads_sub_heading} m-0 py-3`}
-                  >
-                    In-Page Push Ads advertising is the oldest type of online
-                    advertising with proven efficiency. In-Page Push Ads are
-                    images or GIF files that are to be placed on publishers’
-                    websites, mobile sites, and blogs. According to IAB, there
-                    are typical and most clickable In-Page Push ad formats for
-                    desktop and mobile devices.
-                  </p>
-                </div>
+            <Col md={6}>
+              <div className="d-flex justify-content-center">
+                <img
+                  src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/a39a5652-7919-473c-e64d-84b0ef212e00/public"
+                  alt=""
+                />
               </div>
-              <div className="col-md-6 pt-md-0 pt-lg-0 pt-3">
-                <div className="d-flex justify-content-center">
-                  <img
-                    src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/a39a5652-7919-473c-e64d-84b0ef212e00/public"
-                    alt=""
-                    // className=""
-                    // style={{ width: "80%" }}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
         {/*4th section*/}
         <SectionSeperator />
         <div>
@@ -222,123 +198,115 @@ const InPagePushAd = () => {
             </Row>
           </div>
         </div>
-
         <SectionSeperator />
-        <div className="container-fluid">
-          <div className="container p-3 card">
-            <div className="row">
-              <div className="col-md-6  pt-md-0 pt-lg-0 pt-3">
-                <div className="d-flex justify-content-center p-4">
-                  <img
-                    src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/f99fd012-8759-4f86-c7e9-1532566b5a00/public"
-                    alt=""
-                    className="mx-0"
-                  />
-                </div>
-              </div>
-              <div className="col-md-6">
-                <h1 className=" font-semibold text-black">
-                  What are
-                  <span style={{ color: "#71065D" }}>
-                    {" "}
-                    In-Page Push Ads
-                  </span>{" "}
-                  good for?
-                </h1>
-
-                {BannerAdsGoodReasons.map((item, index) => {
-                  return (
-                    <div className=" ">
-                      <div className="d-flex  align-items-center" key={index}>
-                        <TiTick
-                          className="mb-2 p-1"
-                          size={24}
-                          style={{
-                            backgroundColor: "#73035b",
-                            borderRadius: "50%",
-                          }}
-                          fill="white"
-                        />
-                        <p
-                          className={`${AddStyle.dp_bannerads_content} pb-3 mb-0 ml-2 pt-2`}
-                        >
-                          {item}
-                        </p>
-                      </div>
-                    </div>
-                  );
-                })}
+        <Container>
+          <div className="row">
+            <div className="col-md-6  pt-md-0 pt-lg-0">
+              <div className="d-flex justify-content-center p-4">
+                <img
+                  src="https://imagedelivery.net/f5tF3V4WaB6L98qcq1rX5w/f99fd012-8759-4f86-c7e9-1532566b5a00/public"
+                  alt=""
+                />
               </div>
             </div>
-          </div>
-        </div>
-        {/*6th section*/}
 
+            <div className="col-md-6 ">
+              <div>
+                <span className={`${AddStyle.dp_bannerads_main_heading}`}>
+                  Benefits from{" "}
+                </span>
+                <span className={`${AddStyle.dp_bannerads_main_heading_color}`}>
+                  In Page Push ads{" "}
+                </span>
+                <span className={`${AddStyle.dp_bannerads_main_heading}`}>
+                  good for?
+                </span>
+              </div>
+
+              {BannerAdsGoodReasons.map((item, index) => {
+                return (
+                  <div className="d-flex  align-items-center" key={index}>
+                    <TiTick
+                      className="mb-2 p-1"
+                      size={24}
+                      style={{
+                        backgroundColor: "#73035b",
+                        borderRadius: "50%",
+                      }}
+                      fill="white"
+                    />
+                    <p
+                      className={`${AddStyle.dp_bannerads_content} pb-3 mb-0 ml-2 pt-2`}
+                    >
+                      {item}
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </Container>
+        {/*6th section*/}
         <SectionSeperator />
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="text-center font-semibold text-black">
+              <h2 className="text-center font-semibold text-black m-4">
                 {" "}
                 How to put{" "}
                 <span style={{ color: "#71065D" }}>In-Page Push</span> on a
                 website?
-              </h1>
+              </h2>
             </div>
           </div>
-        </div>
-        <div className="container-fluid">
-          <div className="container  card p-3">
-            <div className="row"></div>
-            <div className="row">
-              <div className="col-md-12  pr-0">
-                <div className="">
-                  <p className={`${AddStyle.dp_bannerads_content} pb-3 m-0`}>
-                    1. Easily place banners anywhere on your webpage—header,
-                    sidebar, footer, etc. Use the GrowX code on your website or
-                    mobile page for seamless ad display and enhanced user
-                    engagement.
-                  </p>
-                  <p className={`${AddStyle.dp_bannerads_content} pb-2 m-0`}>
-                    2. Register as a Publisher and log in <br />
-                    3. Generate code for your preferred banner size (160×300,
-                    160×600, 300×250, 320х50, 728×90, 468×60). Click ADD NEW
-                    WEBSITE, fill out required fields, and await approval.{" "}
-                    <br />
-                    4.Retrieve the code from your account or GrowX email. Copy
-                    and paste it onto any desired page.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6 pl-md-5 pl-lg-5 pl-0">
-                <div></div>
-              </div>
-            </div>
-          </div>
-        </div>
 
+          <div className="row">
+            <div className="col-md-12">
+              <p
+                className={`${AddStyle.dp_bannerads_content} pb-3 m-0 fw-bold`}
+              >
+                1. Seamlessly integrate Popunder ads anywhere on your
+                webpage—header, sidebar, footer, and more. Implement the GrowX
+                code/script on your website or mobile page for effortless
+                showcasing of advertisements and enhanced user engagement.
+                Maximize visibility with strategic Popunder placements.
+              </p>
+              <p
+                className={`${AddStyle.dp_bannerads_content} pb-2 m-0 fw-bold`}
+              >
+                2. First, register as a Publisher and log in. <br /> <br />
+                3. Generate code for the needed banner size (160×300, 160×600,
+                300×250, 320х50, 728×90, 468×60), use ADD NEW WEBSITE button and
+                fill out the required fields. Now all you have to do is wait for
+                approval. <br /> <br />
+                4. Afterward, get the code from your account or the GrowX email,
+                then copy the code and paste it to any page you like.
+              </p>
+            </div>
+          </div>
+        </div>{" "}
         {/*7th section*/}
         <div className={`py-5`}>
           <div className="container bg-black p-3 rounded">
             <div className="row ">
               <div className="col-md-12 ">
                 <p
-                  className={`${AddStyle.dp_bannerads_main_heading} text-light m-0 text-center text-white`}
+                  className={`${AddStyle.dp_bannerads_main_heading} text-light text-center text-white`}
                 >
                   Best <span style={{ color: "#fff" }}>opportunities</span>
                 </p>
                 <hr />
 
                 <p
-                  className={`${AddStyle.dp_bannerads_sub_heading} py-4 text-light m-0 text-center text-white`}
+                  className={`${AddStyle.dp_bannerads_sub_heading} text-light m-0 text-center text-white`}
                 >
                   Leveraging partnerships with 28K+ direct publishers and 13K+
-                  advertisers, GrowX employs AI algorithms to consistently
-                  assess traffic quality, ensuring optimal traffic-to-offer
-                  matches.
+                  advertisers, GrowX employs AI algorithms to <br />{" "}
+                  consistently assess traffic quality, ensuring optimal
+                  traffic-to-offer matches.
                 </p>
 
-                <div className="d-flex align-items-center justify-content-center">
+                <div className=" mt-4 d-flex align-items-center justify-content-center">
                   <Link
                     to="/adveriserauthLogin"
                     className="no-underline hover:no-underline"
@@ -380,11 +348,10 @@ const InPagePushAd = () => {
             </div>
           </div>
         </div>
-
         {/*8th section*/}
         <SectionSeperator />
         <div className="container-fluid">
-          <div className="container card p-3">
+          <div className="container p-3">
             <div className="row">
               <div className="col-md-7">
                 <h2 className="text-start font-semibold text-black">
@@ -417,7 +384,6 @@ const InPagePushAd = () => {
             </div>
           </div>
         </div>
-
         <SectionSeperator />
         {/*---------switch button_________*/}
         <div className="py-5">

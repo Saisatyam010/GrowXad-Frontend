@@ -104,7 +104,6 @@ const NativeAd = () => {
                 </h1>
               </div>
 
-            
               {solutionData.map((item, index) => (
                 <div key={index} className="col-md-6 pt-4">
                   <div className={AddStyle.sana_Solution_New_Cards_Box}>
@@ -127,19 +126,13 @@ const NativeAd = () => {
         </div>
 
         {/*3rd section*/}
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12"></div>
-          </div>
-        </div>
 
         <div className=" container-fluid">
-          <div className="container py-md-5 p-3 card">
-            <div className="row"></div>
+          <div className="container py-md-5 p-3">
             <div className="row">
               <div className="col-md-6 d-flex align-items-center">
                 <div>
-                  <h1 className="text-center font-semibold text-black">
+                  <h1 className="text-start font-semibold text-black">
                     {" "}
                     Types of GrowXad{" "}
                     <span style={{ color: "#71065D" }}>Native ads</span> you can
@@ -157,16 +150,6 @@ const NativeAd = () => {
                     desktop and mobile devices.
                   </p>
                 </div>
-                {/* <Link
-                to="/adveriserauthLogin"
-                className="no-underline hover:no-underline"
-              >
-                <button
-                  className={`${AddStyle.sana_Add_formate_btns} px-5 py-3 `}
-                >
-                  THE BANNER CODE
-                </button>
-              </Link> */}
               </div>
               <div className="col-md-6 pt-md-0 pt-lg-0 pt-3">
                 <div className="d-flex justify-content-center">
@@ -232,7 +215,7 @@ const NativeAd = () => {
 
         <SectionSeperator />
         <div className="container-fluid">
-          <div className="container p-3 card">
+          <div className="container p-3">
             <div className="row">
               <div className="col-md-6  pt-md-0 pt-lg-0 pt-3">
                 <div className="d-flex justify-content-center p-4">
@@ -244,11 +227,10 @@ const NativeAd = () => {
                 </div>
               </div>
               <div className="col-md-6">
-                <h1 className="text-center font-semibold text-black">
+                <h1 className=" fs-2 font-semibold text-black mb-3">
                   What are<span style={{ color: "#71065D" }}> Native Ads</span>{" "}
                   good for?
                 </h1>
-
                 {BannerAdsGoodReasons.map((item, index) => {
                   return (
                     <div className=" ">
@@ -290,19 +272,18 @@ const NativeAd = () => {
           </div>
         </div>
         <div className="container-fluid">
-          <div className="container  card p-3">
-            <div className="row"></div>
+          <div className="container  p-3">
             <div className="row">
               <div className="col-md-12  pr-0">
                 <div className="">
-                  <p className={`${AddStyle.dp_bannerads_content} pb-3 m-0`}>
+                  <p className={`${AddStyle.dp_bannerads_content_1}  pb-3 m-0`}>
                     1. Embed Native strategically across your webpage, including
                     the header, sidebar, footer, and more. Utilize the GrowX
                     code/script for seamless integration of popunder ads,
                     enhancing visibility and engaging users on your web or
                     mobile page. Boost Native with effective advertisements.
                   </p>
-                  <p className={`${AddStyle.dp_bannerads_content} pb-2 m-0`}>
+                  <p className={`${AddStyle.dp_bannerads_content_1} pb-2 m-0`}>
                     2. First, register as a Publisher and log in. <br /> <br />
                     3. Generate code for the needed banner size (160×300,
                     160×600, 300×250, 320х50, 728×90, 468×60), use ADD NEW
@@ -326,22 +307,22 @@ const NativeAd = () => {
             <div className="row ">
               <div className="col-md-12 ">
                 <p
-                  className={`${AddStyle.dp_bannerads_main_heading} text-light m-0 text-center text-white`}
+                  className={`${AddStyle.dp_bannerads_main_heading} text-light text-center text-white`}
                 >
                   Best <span style={{ color: "#fff" }}>opportunities</span>
                 </p>
                 <hr />
 
                 <p
-                  className={`${AddStyle.dp_bannerads_sub_heading} py-4 text-light m-0 text-center text-white`}
+                  className={`${AddStyle.dp_bannerads_sub_heading} text-light text-center text-white`}
                 >
                   Leveraging partnerships with 28K+ direct publishers and 13K+
-                  advertisers, GrowX employs AI algorithms to consistently
-                  assess traffic quality, ensuring optimal traffic-to-offer
-                  matches.
+                  advertisers, GrowX employs AI algorithms to <br />{" "}
+                  consistently assess traffic quality, ensuring optimal
+                  traffic-to-offer matches.
                 </p>
 
-                <div className="d-flex align-items-center justify-content-center">
+                <div className=" mt-4 d-flex align-items-center justify-content-center">
                   <Link
                     to="/adveriserauthLogin"
                     className="no-underline hover:no-underline"
@@ -387,7 +368,7 @@ const NativeAd = () => {
         {/*8th section*/}
         <SectionSeperator />
         <div className="container-fluid">
-          <div className="container card p-3">
+          <div className="container p-3">
             <div className="row">
               <div className="col-md-7">
                 <h2 className="text-start font-semibold text-black">

@@ -289,7 +289,7 @@ const SmartCpm = () => {
                               to="/adveriserauthLogin"
                               className="no-underline hover:no-underline"
                             >
-                              <Button className={SmartCpmStyle.Enable_btn}>
+                              <button className={SmartCpmStyle.Enable_btn}>
                                 <div className="p-0 m-0">
                                   <div className="d-flex align-items-center justify-content-center">
                                     <span>ENABLE SMARTCPM</span>
@@ -298,7 +298,7 @@ const SmartCpm = () => {
                                     </span>
                                   </div>
                                 </div>
-                              </Button>
+                              </button>
                             </Link>
                           </Col>
                         </Row>

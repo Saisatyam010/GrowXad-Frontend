@@ -201,7 +201,7 @@ const BannerAd = () => {
 
         {/*5th section*/}
 
-        <SectionSeperator />
+        <SectionSeperator /> 
         <div className="row">
           <div className="col-md-6  pt-md-0 pt-lg-0">
             <div className="d-flex justify-content-center p-4">
@@ -305,12 +305,12 @@ const BannerAd = () => {
                   className={`${AddStyle.dp_bannerads_sub_heading} py-4 text-light m-0 text-center text-white`}
                 >
                   Leveraging partnerships with 28K+ direct publishers and 13K+
-                  advertisers, GrowX employs AI algorithms to consistently
-                  assess traffic quality, ensuring optimal traffic-to-offer
-                  matches.
+                  advertisers, GrowX employs AI algorithms to <br />{" "}
+                  consistently assess traffic quality, ensuring optimal
+                  traffic-to-offer matches.
                 </p>
 
-                <div className="d-flex align-items-center justify-content-center">
+                <div className=" mt-4 d-flex align-items-center justify-content-center">
                   <Link
                     to="/adveriserauthLogin"
                     className="no-underline hover:no-underline"
