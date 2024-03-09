@@ -112,12 +112,10 @@
 }
 
 @media screen and (min-width: 770px) and (max-width: 990px) {
-  /* Your styles for this range */
   .sana_Solution_New_Cards_Box {
     flex: 1;
     flex-basis: 100px;
     height: 250px;
-    /* padding: 10px; */
   }
 }
 
@@ -155,21 +153,6 @@
 
 .sana_Solution_Cards .sana_BannerDisplay_Card_desc p {
   font-size: 15px;
-}
-
-.sana_hover_color_bubble {
-  /* position: absolute;
-  background: rgb(54 81 207 / 15%);
-  width: 100rem;
-  height: 100rem;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  top: 16rem;
-  border-radius: 50%;
-  transform: rotate(-36deg);
-  left: -18rem;
-  transition: 0.7s; */
 }
 
 .sana_Solution_New_Cards_Box
