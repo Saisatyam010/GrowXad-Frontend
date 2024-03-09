@@ -2,7 +2,6 @@
   font-size: var(--section-sub-heading);
   color: var(--secondary-color);
   font-weight: 600;
-  /* line-height: 90px; */
 }
 
 .dp_bannerads_main_heading_color {
@@ -14,7 +13,6 @@
 .dp_bannerads_sub_heading {
   font-size: 18px;
   font-weight: 500;
-  /* padding: 10px; */
 }
 @media screen and (max-width: 768px) {
   .dp_bannerads_sub_heading {
@@ -36,9 +34,6 @@
   color: var(--primary-color);
 }
 
-/* .sana_DisplayBAnner_bgBlack {
-  background-color: #333 !important;
-} */
 .sana_DisplayBanner_font_3rem {
   font-size: var(--section-main-heading);
   font-weight: 300;
